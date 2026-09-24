@@ -1,0 +1,60 @@
+{
+  "phase": 4,
+  "branch": "C_DATA_LIMITED_NO_TRANSACTION_DATA_RECOVERED",
+  "identification_level": "D \u2014 UNIDENTIFIED",
+  "audit": {
+    "audited_roots": [
+      "E:\\reverse -traid",
+      "C:\\Users\\ayush\\AppData\\Roaming",
+      "C:\\Users\\ayush\\AppData\\Local",
+      "C:\\Users\\ayush\\AppData\\Local\\VirtualStore",
+      "C:\\Program Files",
+      "C:\\Program Files (x86)",
+      "C:\\Users\\ayush\\Documents",
+      "C:\\Users\\ayush\\OneDrive\\Documents",
+      "C:\\Users\\ayush\\Downloads",
+      "C:\\Users\\ayush\\OneDrive\\Downloads"
+    ],
+    "expected_platform_paths": {
+      "C:\\Users\\ayush\\AppData\\Roaming\\MetaQuotes": false,
+      "C:\\Users\\ayush\\AppData\\Local\\MetaQuotes": false,
+      "C:\\Users\\ayush\\AppData\\Local\\VirtualStore\\MetaQuotes": false,
+      "C:\\Program Files\\MetaTrader 4": false,
+      "C:\\Program Files\\MetaTrader 5": false,
+      "C:\\Program Files (x86)\\MetaTrader 4": false,
+      "C:\\Program Files (x86)\\MetaTrader 5": false
+    },
+    "platform_tree_recovered": false,
+    "tick_bid_ask_spread_recovered": false,
+    "order_deal_position_lifecycle_recovered": false,
+    "terminal_logs_recovered": false,
+    "archive_checked": "C:\\Users\\ayush\\OneDrive\\Documents\\Downloads\\crypto_trade.zip",
+    "archive_has_export_data": false
+  },
+  "available_data": {
+    "trade_rows": 423,
+    "trade_open_range": [
+      "2025-09-25T19:32:56",
+      "2026-09-18T06:25:04"
+    ],
+    "trade_quality_sha256": "3B22B24C5F7BEB2118FFEC613640A9AB1472C3D04E4503229D00771277E4B6BD",
+    "market_source": "Dukascopy historical bid prices",
+    "market_granularity": "M1",
+    "market_header_classification": "ohlc_bar_only",
+    "market_range": [
+      "2025-08-01 03:00:00",
+      "2026-09-18 23:59:00"
+    ]
+  },
+  "modeling_decision": "Stopped after recovery audit; no unsupported Phase 4 indicator/rule search was performed.",
+  "not_identifiable": [
+    "seconds_or_tick_entry_trigger",
+    "bid_ask_spread_gate",
+    "order_deal_position_lifecycle",
+    "true_opportunity_set",
+    "direction_rule",
+    "exit_mechanism",
+    "sizing_mechanism",
+    "hidden_state_machine"
+  ]
+}

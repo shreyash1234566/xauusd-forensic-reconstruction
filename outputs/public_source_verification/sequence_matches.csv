@@ -1,0 +1,5 @@
+sequence_id,sequence_location,canonical_tickets,sequence_length,candidate_source,matched_consecutive_trades,match_percentage,rejection_verdict
+SEQ_EARLY_01,"Early (Trades 1-5, Sep 2025)","36094988, 36095791, 36148327, 36168589, 36168590",5,MQL5_Signals / Myfxbook / FX_Blue / SignalStart,0,0.0,REJECTED (0/5 matched in public databases)
+SEQ_MID_01,"Middle (Trades 201-205, Mar 2026)","90192607, 90194077, 90297337, 90303019, 90367910",5,MQL5_Signals / Myfxbook / FX_Blue / SignalStart,0,0.0,REJECTED (0/5 matched in public databases)
+SEQ_LATE_01,"Late (Trades 419-423, Sep 2026)","100453335, 100653865, 100675478, 100829495, 00983845",5,MQL5_Signals / Myfxbook / FX_Blue / SignalStart,0,0.0,REJECTED (0/5 matched in public databases)
+SEQ_UNUSUAL_VOL_01,"Unusual Lots (0.03 & 0.02 Lots, Sep-Oct 2025)","36227388, 36508294, 36508993, 36561296, 36640713",5,MQL5_Signals / Myfxbook / FX_Blue / SignalStart,0,0.0,REJECTED (0/5 matched in public databases)

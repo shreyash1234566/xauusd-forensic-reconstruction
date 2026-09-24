@@ -1,0 +1,629 @@
+{
+  "analysis_version": "0.1.0",
+  "random_seed": 20260919,
+  "input": {
+    "path": "E:\\reverse -traid\\data\\raw\\trades_raw.tsv",
+    "sha256": "3B22B24C5F7BEB2118FFEC613640A9AB1472C3D04E4503229D00771277E4B6BD"
+  },
+  "data_quality": {
+    "sha256": "3B22B24C5F7BEB2118FFEC613640A9AB1472C3D04E4503229D00771277E4B6BD",
+    "physical_rows": 423,
+    "columns": 8,
+    "empty_cells": 0,
+    "duplicate_full_rows": 0,
+    "duplicate_ticket_values": 0,
+    "leading_zero_ticket_count": 1,
+    "non_positive_duration_count": 0,
+    "reverse_chronological_open_time_inversions": 2,
+    "reverse_chronological_close_time_inversions": 0,
+    "input_is_strictly_close_time_descending": true,
+    "duplicate_open_timestamps": 0,
+    "duplicate_close_timestamps": 0,
+    "same_calendar_day_open_close_count": 423,
+    "weekend_open_count": 0,
+    "price_display_decimal_counts": {
+      "0": 5,
+      "1": 35,
+      "2": 382,
+      "3": 1
+    },
+    "pnl_display_decimal_counts": {
+      "0": 8,
+      "1": 53,
+      "2": 362
+    },
+    "maximum_concurrency": 2,
+    "leading_zero_ticket_review": {
+      "observed": [
+        "00983845"
+      ],
+      "warning": "Do not coerce or repair. The leading-zero value is a ticket-format anomaly requiring the original statement."
+    }
+  },
+  "summary": {
+    "observations": 423,
+    "symbols": {
+      "XAUUSD.f": 423
+    },
+    "start_open": "2025-09-25T19:32:56",
+    "end_open": "2026-09-18T06:25:04",
+    "calendar_span_days_inclusive": 359,
+    "distinct_open_dates": 236,
+    "mean_trades_per_active_date": 1.7923728813559323,
+    "active_date_trade_count_distribution": {
+      "1": 108,
+      "2": 83,
+      "3": 35,
+      "4": 7,
+      "5": 2,
+      "6": 1
+    },
+    "positive_active_dates": 231,
+    "negative_active_dates": 5,
+    "zero_active_dates": 0,
+    "buy_count": 214,
+    "sell_count": 209,
+    "positive_count": 367,
+    "negative_count": 56,
+    "zero_count": 0,
+    "win_rate": 0.8676122931442081,
+    "win_rate_ci_95": [
+      0.8319825930978466,
+      0.8966251688080644
+    ],
+    "win_rate_day_cluster_bootstrap_ci_95": [
+      0.8403750663626995,
+      0.8956336561910458
+    ],
+    "total_pnl": 1451.2199999999998,
+    "mean_pnl": 3.430780141843971,
+    "mean_pnl_ci_95": [
+      3.099904255319149,
+      3.7605709219858157
+    ],
+    "mean_pnl_day_cluster_bootstrap_ci_95": [
+      3.11011090887271,
+      3.776230852417303
+    ],
+    "median_pnl": 3.71,
+    "median_duration_minutes": 7.616666666666666,
+    "mean_duration_minutes": 15.003861308116626,
+    "maximum_duration_minutes": 205.78333333333333,
+    "lot_size_counts": {
+      "0.01": 401,
+      "0.02": 21,
+      "0.03": 1
+    },
+    "gross_profit": 1595.55,
+    "gross_loss": -144.32999999999998,
+    "profit_factor": 11.054874246518397,
+    "maximum_concurrency": 2,
+    "entries_while_active": 3,
+    "terminal_pnl": 1451.219999999999,
+    "maximum_closed_trade_drawdown": 5.430000000000007,
+    "drawdown_peak_trade_index": 60,
+    "drawdown_trough_trade_index": 61
+  },
+  "direction": {
+    "buy_proportion": 0.5059101654846335,
+    "buy_proportion_ci_95": [
+      0.45842680039708694,
+      0.5532871507589566
+    ],
+    "binomial_vs_50_50_p_value": 0.8458238088653331,
+    "transition_counts": {
+      "Buy": {
+        "Buy": 105,
+        "Sell": 108
+      },
+      "Sell": {
+        "Buy": 108,
+        "Sell": 101
+      }
+    },
+    "transition_probabilities": {
+      "Buy": {
+        "Buy": 0.49295774647887325,
+        "Sell": 0.5070422535211268
+      },
+      "Sell": {
+        "Buy": 0.5167464114832536,
+        "Sell": 0.48325358851674644
+      }
+    },
+    "same_direction_rate": 0.4881516587677725,
+    "same_direction_permutation": {
+      "observed": 0.4881516587677725,
+      "null_mean": 0.49874644549763036,
+      "null_sd": 0.024153807524976798,
+      "p_value": 0.7030296970302969
+    },
+    "runs_test": {
+      "runs": 217.0,
+      "expected": 212.47044917257682,
+      "z": 0.4410531772849323,
+      "p_value": 0.6591744997067743
+    },
+    "entropy_bits": 0.9998992108155764,
+    "autocorrelation_lags_1_to_10": {
+      "1": -0.023788665004380486,
+      "2": 0.0592497291440953,
+      "3": -0.023949108183685355,
+      "4": 0.040491272885323205,
+      "5": -0.009615714831041868,
+      "6": -0.03126437842639429,
+      "7": -0.05779010633379573,
+      "8": 0.06015980681024673,
+      "9": 0.004738009102578973,
+      "10": -0.07031286653450289
+    },
+    "iid_log_likelihood": -292.489152566444,
+    "first_order_log_likelihood": -292.36973593041444,
+    "second_order_log_likelihood": -290.61540465604173,
+    "iid_vs_first_order_lr": 0.23883327205908245,
+    "iid_vs_first_order_p_value": 0.62505005991329,
+    "first_vs_second_order_lr": 2.1457549014471624,
+    "first_vs_second_order_p_value": 0.3420229459587424,
+    "model_selection": {
+      "iid": {
+        "parameters": 1,
+        "aic": 586.978305132888,
+        "bic": 591.0233104469239
+      },
+      "markov_order_1": {
+        "parameters": 2,
+        "aic": 588.7394718608289,
+        "bic": 596.8294824889009
+      },
+      "markov_order_2": {
+        "parameters": 4,
+        "aic": 589.2308093120835,
+        "bic": 605.401340646813
+      }
+    }
+  },
+  "profit": {
+    "mean": 3.430780141843971,
+    "median": 3.71,
+    "standard_deviation": 3.45085292106567,
+    "variance": 11.908385882827469,
+    "skewness": 0.1156208152880418,
+    "excess_kurtosis": 1.1701976671951329,
+    "minimum": -5.43,
+    "maximum": 17.67,
+    "quantiles": {
+      "0.01": -4.853400000000001,
+      "0.05": -2.9290000000000003,
+      "0.1": -1.53,
+      "0.25": 1.565,
+      "0.5": 3.71,
+      "0.75": 5.385,
+      "0.9": 7.4,
+      "0.95": 8.767,
+      "0.99": 12.08
+    },
+    "most_frequent_exact_values": {
+      "3.9": 4,
+      "5.5": 3,
+      "4.74": 3,
+      "5.04": 3,
+      "2.84": 3,
+      "5.46": 3,
+      "6.64": 3,
+      "5.6": 3,
+      "4.38": 3,
+      "3.94": 3
+    },
+    "largest_exact_value_count": 4,
+    "average_winner": 4.347547683923706,
+    "average_loser": -2.577321428571428,
+    "payoff_ratio": 1.686847296471472,
+    "profit_factor": 11.054874246518397,
+    "longest_win_streak": 19,
+    "longest_loss_streak": 2,
+    "buy": {
+      "n": 214,
+      "mean_pnl": 3.426775700934579,
+      "median_pnl": 3.71,
+      "win_rate": 0.8691588785046729,
+      "win_rate_ci_95": [
+        0.8173967791294434,
+        0.9079013383884447
+      ]
+    },
+    "sell": {
+      "n": 209,
+      "mean_pnl": 3.4348803827751198,
+      "median_pnl": 3.71,
+      "win_rate": 0.8660287081339713,
+      "win_rate_ci_95": [
+        0.813187428623969,
+        0.9056574846167972
+      ]
+    },
+    "buy_sell_mean_permutation": {
+      "difference": -0.008104681840540806,
+      "p_value": 0.9809019098090191
+    },
+    "buy_sell_median_permutation": {
+      "difference": 0.0,
+      "p_value": 1.0
+    },
+    "buy_sell_mann_whitney": {
+      "u": 22669.0,
+      "p_value": 0.8079904579638445
+    },
+    "buy_sell_welch_t": {
+      "t": -0.024110127514824806,
+      "p_value": 0.9807762345192299
+    },
+    "side_win_chi_square": {
+      "chi_square": 0.00901949636789349,
+      "p_value": 0.9243378383155046
+    },
+    "pnl_mean_ci_95": [
+      3.099904255319149,
+      3.7605709219858157
+    ],
+    "pnl_median_ci_95": [
+      3.18,
+      3.9
+    ],
+    "normalized_to_0_01_lot": {
+      "mean": 3.2370764381402677,
+      "median": 3.35,
+      "minimum": -5.43,
+      "maximum": 17.67,
+      "buy_mean": 3.2387850467289714,
+      "sell_mean": 3.2353269537480065,
+      "buy_sell_mean_permutation": {
+        "difference": 0.0034580929809648886,
+        "p_value": 0.9893010698930107
+      }
+    },
+    "outcome_transition_counts": {
+      "Loss": {
+        "Loss": 3,
+        "Win": 53
+      },
+      "Win": {
+        "Loss": 53,
+        "Win": 313
+      }
+    },
+    "win_after_loss": 0.9464285714285714,
+    "win_after_win": 0.855191256830601,
+    "win_after_loss_minus_after_win": 0.09123731459797035,
+    "outcome_transition_permutation_p_value": 0.0751462426878656
+  },
+  "duration": {
+    "mean_minutes": 15.003861308116626,
+    "median_minutes": 7.616666666666666,
+    "standard_deviation_minutes": 24.11331051256547,
+    "minimum_minutes": 0.06666666666666667,
+    "maximum_minutes": 205.78333333333333,
+    "quantiles_minutes": {
+      "0.01": 0.30366666666666664,
+      "0.05": 0.8033333333333335,
+      "0.1": 1.5533333333333335,
+      "0.25": 3.1166666666666667,
+      "0.5": 7.616666666666666,
+      "0.75": 15.458333333333334,
+      "0.9": 35.433333333333344,
+      "0.95": 60.45333333333323,
+      "0.99": 126.11033333333238
+    },
+    "share_closed_within_minutes": {
+      "1": 0.061465721040189124,
+      "2": 0.17494089834515367,
+      "5": 0.39952718676122934,
+      "10": 0.5981087470449172,
+      "15": 0.7470449172576832,
+      "30": 0.8770685579196218,
+      "60": 0.9479905437352246
+    },
+    "rounded_minute_modes": {
+      "2": 49,
+      "3": 34,
+      "4": 31,
+      "8": 25,
+      "5": 25,
+      "6": 21,
+      "1": 20,
+      "11": 18,
+      "10": 16,
+      "7": 14
+    },
+    "mean_ci_95": [
+      12.81784377462569,
+      17.391034278959808
+    ],
+    "median_ci_95": [
+      6.5,
+      8.5
+    ],
+    "buy_mean_minutes": 13.842912772585668,
+    "sell_mean_minutes": 16.192583732057415,
+    "buy_median_minutes": 7.233333333333333,
+    "sell_median_minutes": 7.8,
+    "buy_sell_mean_permutation": {
+      "difference": -2.349670959471746,
+      "p_value": 0.31766823317668236
+    },
+    "buy_sell_median_permutation": {
+      "difference": -0.5666666666666664,
+      "p_value": 0.6632336766323368
+    },
+    "buy_sell_mann_whitney_p_value": 0.8996655630475943,
+    "duration_pnl_spearman_rho": 0.4397832919442404,
+    "duration_pnl_spearman_p_value": 1.961628040682731e-21,
+    "duration_normalized_pnl_spearman_rho": 0.45047361558137133,
+    "duration_normalized_pnl_spearman_p_value": 1.5752068734468878e-22,
+    "candidate_distribution_by_bic": [
+      {
+        "distribution": "lognormal",
+        "log_likelihood": -1524.1003018095785,
+        "parameters": "[1.2765957908315635, 0.0, 6.95832280964783]",
+        "aic": 3052.200603619157,
+        "bic": 3060.2953479772495
+      },
+      {
+        "distribution": "weibull",
+        "log_likelihood": -1548.3422717976357,
+        "parameters": "[0.8113912497165947, 0.0, 13.069228546524013]",
+        "aic": 3100.6845435952714,
+        "bic": 3108.779287953364
+      },
+      {
+        "distribution": "gamma",
+        "log_likelihood": -1558.7047087178235,
+        "parameters": "[0.7755869731960015, 0.0, 19.34516930614427]",
+        "aic": 3121.409417435647,
+        "bic": 3129.5041617937395
+      },
+      {
+        "distribution": "exponential",
+        "log_likelihood": -1568.61410994241,
+        "parameters": "[0.0, 15.003861308116626]",
+        "aic": 3139.22821988482,
+        "bic": 3143.2755920638665
+      }
+    ],
+    "winner_mean_minutes": 16.358446866485014,
+    "loser_mean_minutes": 6.126488095238095,
+    "winner_median_minutes": 8.266666666666667,
+    "loser_median_minutes": 2.9333333333333336,
+    "winner_loser_log_duration_permutation": {
+      "difference": 1.0057324049086889,
+      "p_value": 4.999750012499375e-05
+    },
+    "winner_loser_geometric_mean_ratio": 2.733908868022227,
+    "winner_loser_median_permutation": {
+      "difference": 5.333333333333334,
+      "p_value": 0.0015999200039998
+    },
+    "winner_loser_mann_whitney_p_value": 8.16327130245609e-08,
+    "open_second_uniformity": {
+      "chi_square": 63.666666666666664,
+      "monte_carlo_p_value": 0.3159342032898355
+    },
+    "close_second_uniformity": {
+      "chi_square": 57.42553191489361,
+      "monte_carlo_p_value": 0.536023198840058
+    },
+    "whole_minute_duration_count": 7,
+    "whole_minute_duration_expected": 7.05,
+    "whole_minute_duration_binomial_p_value": 1.0,
+    "most_frequent_exact_duration_seconds": {
+      "100": 5,
+      "94": 5,
+      "92": 5,
+      "98": 4,
+      "170": 3,
+      "275": 3,
+      "97": 3,
+      "390": 3,
+      "207": 3,
+      "87": 3
+    },
+    "largest_exact_duration_count": 5
+  },
+  "temporal": {
+    "busiest_raw_hour": 8,
+    "busiest_raw_hour_trades": 63,
+    "busiest_weekday": "Tuesday",
+    "busiest_weekday_trades": 90,
+    "five_minute_counts": {
+      "0": 55,
+      "5": 34,
+      "10": 36,
+      "15": 39,
+      "20": 33,
+      "25": 25,
+      "30": 43,
+      "35": 43,
+      "40": 40,
+      "45": 29,
+      "50": 28,
+      "55": 18
+    },
+    "raw_clock_bucket_counts": {
+      "00:00-07:59": 52,
+      "08:00-12:59": 211,
+      "13:00-16:59": 106,
+      "17:00-21:59": 49,
+      "22:00-23:59": 5
+    },
+    "uniform_hour_chi_square": 411.2127659574468,
+    "uniform_hour_p_value": 8.715400733686828e-73,
+    "uniform_minute_bin_chi_square": 29.73758865248227,
+    "uniform_minute_bin_p_value": 0.0017420515333239994,
+    "uniform_weekday_chi_square": 1.574468085106383,
+    "uniform_weekday_p_value": 0.8133735161996122,
+    "side_clock_bucket_cramer_v": 0.11499968264543323,
+    "side_clock_bucket_chi_square_p_value": 0.23157724196989746,
+    "side_clock_bucket_permutation_p_value": 0.2419516096780644,
+    "timezone_warning": "Timestamps are naive broker/export clock values. Clock buckets are not named market sessions.",
+    "exposure_warning": "Counts estimate P(time | observed trade), not P(trade | time), because no-trade opportunities are absent."
+  },
+  "sizing": {
+    "base_lot": 0.01,
+    "size_counts": {
+      "0.01": 401,
+      "0.02": 21,
+      "0.03": 1
+    },
+    "above_base_count": 22,
+    "above_base_share": 0.05200945626477541,
+    "first_above_base_time": "2025-09-30T11:20:57",
+    "last_above_base_time": "2026-08-28T08:18:43",
+    "side_size_fisher_odds_ratio": 1.0252525252525253,
+    "side_size_fisher_p_value": 1.0,
+    "size_time_spearman_rho": -0.17584381862920861,
+    "size_time_spearman_p_value": 0.0002788137756192599,
+    "size_price_spearman_rho": -0.1638842539889487,
+    "size_price_spearman_p_value": 0.0007156002094450633,
+    "previous_pnl_large_minus_base_permutation": {
+      "difference": -0.05540681818181836,
+      "p_value": 0.9421057894210579
+    },
+    "previous_five_trade_pnl_large_minus_base_permutation": {
+      "difference": 1.7998795454545515,
+      "p_value": 0.35196480351964804
+    },
+    "normalized_pnl_large_minus_base_permutation": {
+      "difference": 0.40553011410866757,
+      "p_value": 0.5737713114344283
+    },
+    "above_base_win_count": 22,
+    "all_above_base_win_hypergeometric_probability": 0.04032735089008292,
+    "equity_limitation": "Account balance/equity is absent, so equity-based sizing cannot be tested directly."
+  },
+  "clustering": {
+    "maximum_concurrency": 2,
+    "entries_while_active": 3,
+    "same_direction_overlap_pairs": 3,
+    "opposite_direction_overlap_pairs": 0,
+    "median_non_overlap_gap_minutes": 856.7666666666667,
+    "gap_quantiles_minutes": {
+      "0.05": 14.980000000000002,
+      "0.25": 247.93333333333334,
+      "0.5": 856.7666666666667,
+      "0.75": 1408.625,
+      "0.9": 3938.993333333333,
+      "0.95": 4267.958333333333
+    },
+    "reentry_after_previous_close": {
+      "1": {
+        "count": 3,
+        "same_direction_count": 2,
+        "same_direction_rate": 0.6666666666666666
+      },
+      "5": {
+        "count": 11,
+        "same_direction_count": 6,
+        "same_direction_rate": 0.5454545454545454
+      },
+      "15": {
+        "count": 21,
+        "same_direction_count": 10,
+        "same_direction_rate": 0.47619047619047616
+      },
+      "30": {
+        "count": 28,
+        "same_direction_count": 15,
+        "same_direction_rate": 0.5357142857142857
+      },
+      "60": {
+        "count": 38,
+        "same_direction_count": 17,
+        "same_direction_rate": 0.4473684210526316
+      },
+      "240": {
+        "count": 103,
+        "same_direction_count": 48,
+        "same_direction_rate": 0.46601941747572817
+      }
+    },
+    "same_day_gaps_le_30_minutes": 29,
+    "empirical_clock_iid_null_mean": 21.3486,
+    "empirical_clock_iid_null_p_value": 0.05418916216756649,
+    "null_warning": "The null preserves daily trade counts and the global raw-clock distribution but still lacks true market opportunity exposure."
+  },
+  "latent_models": {
+    "feature_names": [
+      "hour_sin",
+      "hour_cos",
+      "log_duration",
+      "size_normalized_pnl",
+      "log_entry_gap"
+    ],
+    "gmm_best_components_by_bic": 6,
+    "gmm_bic_improvement_over_one_component": 1343.701525522093,
+    "gmm_seed_stability_adjusted_rand_mean": 0.8795390405993079,
+    "gmm_seed_stability_adjusted_rand_min": 0.7413578596492788,
+    "gmm_best_at_search_boundary": true,
+    "hmm_best_states_by_bic": 5,
+    "hmm_best_at_search_boundary": false,
+    "interpretation_warning": "Components/states are statistical summaries of observed trade attributes, not proof of separate source algorithms or market regimes."
+  },
+  "change_points": {
+    "pelt_penalty": 48.37897743237022,
+    "pelt_break_indices": [],
+    "pelt_break_times": [],
+    "pelt_penalty_sensitivity": {
+      "0.5": [],
+      "1.0": [],
+      "2.0": [],
+      "4.0": []
+    },
+    "univariate_fdr_significant_features": [
+      "lot_size",
+      "raw_hour_sine",
+      "raw_hour_cosine"
+    ],
+    "warning": "Trade-derived change points show behavioral shifts, not their market cause and not automatically separate algorithms."
+  },
+  "holding_regimes": {
+    "primary_boundary_indices": [
+      51,
+      116,
+      230,
+      347
+    ],
+    "primary_boundary_times": [
+      "2025-11-06T12:42:44",
+      "2026-01-28T09:01:54",
+      "2026-04-10T08:30:33",
+      "2026-07-07T11:45:26"
+    ],
+    "primary_phase_count": 5,
+    "log_duration_rss_reduction": 0.3627392838067841,
+    "single_mean_bic": 218.68540353535673,
+    "segmented_mean_bic": 76.47055549476684,
+    "segmented_minus_single_bic": -142.21484804058989,
+    "winner_longer_in_every_primary_phase": true,
+    "warning": "Recursive p-values are exploratory and not fully family-wise corrected. Market-volatility changes can create the same holding-time phases under one fixed rule."
+  },
+  "walk_forward_behavior": {
+    "folds": 10,
+    "mean_absolute_buy_rate_error": 0.0770599032206604,
+    "mean_absolute_win_rate_error": 0.045731771561838344,
+    "mean_absolute_mean_pnl_error": 0.8302459956996732,
+    "mean_absolute_median_duration_error": 5.809166666666667,
+    "scope_warning": "This is expanding-window stability of observed behavior, not strategy replay or out-of-sample entry/exit reconstruction."
+  },
+  "market_data": {
+    "status": "not_run",
+    "reason": "No synchronized broker-specific market-data file was supplied.",
+    "required_schema": [
+      "timestamp",
+      "open",
+      "high",
+      "low",
+      "close",
+      "volume (optional)"
+    ]
+  },
+  "identification_ceiling": "Level 1 behavioral fingerprint; cautious trade-derived subgroup evidence only. Entry/exit rule reconstruction is not identified."
+}

@@ -1,0 +1,84 @@
+{
+  "workbook": "reverse_trade_analysis.xlsx",
+  "sheets": [
+    "Summary",
+    "Fingerprint",
+    "Experiments",
+    "Evidence",
+    "Trades",
+    "Sources"
+  ],
+  "sourceRows": 423,
+  "formulaErrorCount": 0,
+  "summaryValues": [
+    [
+      "Rows",
+      423
+    ],
+    [
+      "Buy rows",
+      214
+    ],
+    [
+      "Positive reported-result rows",
+      367
+    ],
+    [
+      "Positive-result share",
+      0.8676122931442081
+    ],
+    [
+      "Reported-result total",
+      1451.22
+    ],
+    [
+      "Reported profit factor",
+      11.054874246518397
+    ],
+    [
+      "Median holding minutes",
+      7.616666665999219
+    ],
+    [
+      "Maximum concurrent intervals",
+      2
+    ],
+    [
+      "0.01 lot rows",
+      401
+    ],
+    [
+      "Observed interval start",
+      45925.81453703704
+    ],
+    [
+      "Observed interval end",
+      46283.26740740741
+    ]
+  ],
+  "formulaInspection": {
+    "recordCount": 11,
+    "truncated": false,
+    "metadata": {
+      "revision": "9lyxpj",
+      "target": {
+        "id": "wb/vbzmtl",
+        "beforeLines": 0,
+        "afterLines": 0
+      },
+      "kind": {
+        "requested": "formula",
+        "tokens": [
+          "formula"
+        ]
+      },
+      "include": {
+        "tokens": []
+      },
+      "exclude": {
+        "tokens": []
+      },
+      "notices": []
+    }
+  }
+}

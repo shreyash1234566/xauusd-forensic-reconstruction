@@ -1,0 +1,26 @@
+{
+  "status": "CANONICAL_LOCKED",
+  "canonical_trade_ledger": {
+    "path": "data/raw/trades_raw.tsv",
+    "rows": 423,
+    "sha256": "3B22B24C5F7BEB2118FFEC613640A9AB1472C3D04E4503229D00771277E4B6BD"
+  },
+  "canonical_trade_to_market_alignment": {
+    "path": "outputs/market_reconstruction/phase7c_trade_reconciliation.csv",
+    "rows": 423,
+    "source_type": "genuine historical raw XAUUSD tick stream",
+    "required_columns_present": true
+  },
+  "raw_tick_source": {
+    "path": "data/market/raw_ticks",
+    "file_glob": "xauusd_ticks_<ISO>.json",
+    "file_count": 2032,
+    "first_file": "xauusd_ticks_2025-09-25T11-00-00-000Z.json",
+    "last_file": "xauusd_ticks_2026-09-18T11-00-00-000Z.json"
+  },
+  "forbidden_substitutions": [
+    "M1 interpolated feed",
+    "synthetic/modelled feed",
+    "Dukascopy bid-only M1 proxy as canonical alignment"
+  ]
+}

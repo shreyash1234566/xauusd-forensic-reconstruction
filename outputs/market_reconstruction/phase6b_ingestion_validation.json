@@ -1,0 +1,20 @@
+{
+  "phase": "6B",
+  "run_utc": "2026-09-20T03:57:02.142057+00:00",
+  "status": "WAITING_FOR_NATIVE_ARTIFACTS",
+  "baseline_lock_required": true,
+  "phase6_baseline_sha256": "3B22B24C5F7BEB2118FFEC613640A9AB1472C3D04E4503229D00771277E4B6BD",
+  "incoming_path": "E:\\reverse -traid\\data\\native\\incoming",
+  "artifacts_discovered": 0,
+  "artifacts": [],
+  "raw_artifacts_mutated": false,
+  "phase6c_started": false,
+  "gates": {
+    "A_provenance": "WAITING",
+    "B_symbol": "WAITING",
+    "C_coverage": "WAITING",
+    "D_alignment": "WAITING",
+    "E_bid_ask_reachability": "WAITING",
+    "F_lifecycle_linkage": "WAITING"
+  }
+}

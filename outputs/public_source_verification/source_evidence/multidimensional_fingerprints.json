@@ -1,0 +1,787 @@
+{
+  "CLUSTER_EARLY_01": {
+    "cluster_name": "Early Onset Sequence (Sep 2025)",
+    "description": "First 5 canonical trades establishing initial broker session and price regime (3736.13 - 3805.93)",
+    "trade_count": 5,
+    "trades": [
+      {
+        "canonical_ticket": "36094988",
+        "side": "Buy",
+        "volume": 0.01,
+        "close_price": 3736.13,
+        "pnl": 0.97,
+        "duration_seconds": 599,
+        "timezone_variants": {
+          "UTC+3_Broker": {
+            "open_time": "2025-09-25T19:32:56",
+            "close_time": "2025-09-25T19:42:55"
+          },
+          "UTC+0_GMT": {
+            "open_time": "2025-09-25T16:32:56",
+            "close_time": "2025-09-25T16:42:55"
+          },
+          "UTC+2_EET": {
+            "open_time": "2025-09-25T18:32:56",
+            "close_time": "2025-09-25T18:42:55"
+          },
+          "UTC-5_EST": {
+            "open_time": "2025-09-25T11:32:56",
+            "close_time": "2025-09-25T11:42:55"
+          },
+          "UTC+8_SGT": {
+            "open_time": "2025-09-26T00:32:56",
+            "close_time": "2025-09-26T00:42:55"
+          }
+        }
+      },
+      {
+        "canonical_ticket": "36095791",
+        "side": "Sell",
+        "volume": 0.01,
+        "close_price": 3736.72,
+        "pnl": 2.52,
+        "duration_seconds": 105,
+        "timezone_variants": {
+          "UTC+3_Broker": {
+            "open_time": "2025-09-25T19:43:46",
+            "close_time": "2025-09-25T19:45:31"
+          },
+          "UTC+0_GMT": {
+            "open_time": "2025-09-25T16:43:46",
+            "close_time": "2025-09-25T16:45:31"
+          },
+          "UTC+2_EET": {
+            "open_time": "2025-09-25T18:43:46",
+            "close_time": "2025-09-25T18:45:31"
+          },
+          "UTC-5_EST": {
+            "open_time": "2025-09-25T11:43:46",
+            "close_time": "2025-09-25T11:45:31"
+          },
+          "UTC+8_SGT": {
+            "open_time": "2025-09-26T00:43:46",
+            "close_time": "2025-09-26T00:45:31"
+          }
+        }
+      },
+      {
+        "canonical_ticket": "36148327",
+        "side": "Buy",
+        "volume": 0.01,
+        "close_price": 3779.39,
+        "pnl": 0.82,
+        "duration_seconds": 390,
+        "timezone_variants": {
+          "UTC+3_Broker": {
+            "open_time": "2025-09-26T18:47:57",
+            "close_time": "2025-09-26T18:54:27"
+          },
+          "UTC+0_GMT": {
+            "open_time": "2025-09-26T15:47:57",
+            "close_time": "2025-09-26T15:54:27"
+          },
+          "UTC+2_EET": {
+            "open_time": "2025-09-26T17:47:57",
+            "close_time": "2025-09-26T17:54:27"
+          },
+          "UTC-5_EST": {
+            "open_time": "2025-09-26T10:47:57",
+            "close_time": "2025-09-26T10:54:27"
+          },
+          "UTC+8_SGT": {
+            "open_time": "2025-09-26T23:47:57",
+            "close_time": "2025-09-26T23:54:27"
+          }
+        }
+      },
+      {
+        "canonical_ticket": "36168589",
+        "side": "Buy",
+        "volume": 0.01,
+        "close_price": 3805.93,
+        "pnl": 3.9,
+        "duration_seconds": 376,
+        "timezone_variants": {
+          "UTC+3_Broker": {
+            "open_time": "2025-09-29T08:46:42",
+            "close_time": "2025-09-29T08:52:58"
+          },
+          "UTC+0_GMT": {
+            "open_time": "2025-09-29T05:46:42",
+            "close_time": "2025-09-29T05:52:58"
+          },
+          "UTC+2_EET": {
+            "open_time": "2025-09-29T07:46:42",
+            "close_time": "2025-09-29T07:52:58"
+          },
+          "UTC-5_EST": {
+            "open_time": "2025-09-29T00:46:42",
+            "close_time": "2025-09-29T00:52:58"
+          },
+          "UTC+8_SGT": {
+            "open_time": "2025-09-29T13:46:42",
+            "close_time": "2025-09-29T13:52:58"
+          }
+        }
+      },
+      {
+        "canonical_ticket": "36168590",
+        "side": "Buy",
+        "volume": 0.01,
+        "close_price": 3805.93,
+        "pnl": 3.52,
+        "duration_seconds": 368,
+        "timezone_variants": {
+          "UTC+3_Broker": {
+            "open_time": "2025-09-29T08:46:47",
+            "close_time": "2025-09-29T08:52:55"
+          },
+          "UTC+0_GMT": {
+            "open_time": "2025-09-29T05:46:47",
+            "close_time": "2025-09-29T05:52:55"
+          },
+          "UTC+2_EET": {
+            "open_time": "2025-09-29T07:46:47",
+            "close_time": "2025-09-29T07:52:55"
+          },
+          "UTC-5_EST": {
+            "open_time": "2025-09-29T00:46:47",
+            "close_time": "2025-09-29T00:52:55"
+          },
+          "UTC+8_SGT": {
+            "open_time": "2025-09-29T13:46:47",
+            "close_time": "2025-09-29T13:52:55"
+          }
+        }
+      }
+    ]
+  },
+  "CLUSTER_VOL_ANOMALY_02": {
+    "cluster_name": "Volume Sizing Inversions (0.02 & 0.03 Lots)",
+    "description": "Distinctive non-standard lot allocations deviating from the 0.01 baseline (Sep-Oct 2025)",
+    "trade_count": 5,
+    "trades": [
+      {
+        "canonical_ticket": "36227388",
+        "side": "Sell",
+        "volume": 0.03,
+        "close_price": 3833.24,
+        "pnl": 6.79,
+        "duration_seconds": 143,
+        "timezone_variants": {
+          "UTC+3_Broker": {
+            "open_time": "2025-09-30T11:20:57",
+            "close_time": "2025-09-30T11:23:20"
+          },
+          "UTC+0_GMT": {
+            "open_time": "2025-09-30T08:20:57",
+            "close_time": "2025-09-30T08:23:20"
+          },
+          "UTC+2_EET": {
+            "open_time": "2025-09-30T10:20:57",
+            "close_time": "2025-09-30T10:23:20"
+          },
+          "UTC-5_EST": {
+            "open_time": "2025-09-30T03:20:57",
+            "close_time": "2025-09-30T03:23:20"
+          },
+          "UTC+8_SGT": {
+            "open_time": "2025-09-30T16:20:57",
+            "close_time": "2025-09-30T16:23:20"
+          }
+        }
+      },
+      {
+        "canonical_ticket": "36508294",
+        "side": "Sell",
+        "volume": 0.02,
+        "close_price": 4036.35,
+        "pnl": 4.98,
+        "duration_seconds": 790,
+        "timezone_variants": {
+          "UTC+3_Broker": {
+            "open_time": "2025-10-08T12:19:47",
+            "close_time": "2025-10-08T12:32:57"
+          },
+          "UTC+0_GMT": {
+            "open_time": "2025-10-08T09:19:47",
+            "close_time": "2025-10-08T09:32:57"
+          },
+          "UTC+2_EET": {
+            "open_time": "2025-10-08T11:19:47",
+            "close_time": "2025-10-08T11:32:57"
+          },
+          "UTC-5_EST": {
+            "open_time": "2025-10-08T04:19:47",
+            "close_time": "2025-10-08T04:32:57"
+          },
+          "UTC+8_SGT": {
+            "open_time": "2025-10-08T17:19:47",
+            "close_time": "2025-10-08T17:32:57"
+          }
+        }
+      },
+      {
+        "canonical_ticket": "36508993",
+        "side": "Buy",
+        "volume": 0.02,
+        "close_price": 4039.03,
+        "pnl": 5.04,
+        "duration_seconds": 218,
+        "timezone_variants": {
+          "UTC+3_Broker": {
+            "open_time": "2025-10-08T12:42:32",
+            "close_time": "2025-10-08T12:46:10"
+          },
+          "UTC+0_GMT": {
+            "open_time": "2025-10-08T09:42:32",
+            "close_time": "2025-10-08T09:46:10"
+          },
+          "UTC+2_EET": {
+            "open_time": "2025-10-08T11:42:32",
+            "close_time": "2025-10-08T11:46:10"
+          },
+          "UTC-5_EST": {
+            "open_time": "2025-10-08T04:42:32",
+            "close_time": "2025-10-08T04:46:10"
+          },
+          "UTC+8_SGT": {
+            "open_time": "2025-10-08T17:42:32",
+            "close_time": "2025-10-08T17:46:10"
+          }
+        }
+      },
+      {
+        "canonical_ticket": "36561296",
+        "side": "Sell",
+        "volume": 0.02,
+        "close_price": 4039.78,
+        "pnl": 2.84,
+        "duration_seconds": 505,
+        "timezone_variants": {
+          "UTC+3_Broker": {
+            "open_time": "2025-10-09T14:04:35",
+            "close_time": "2025-10-09T14:13:00"
+          },
+          "UTC+0_GMT": {
+            "open_time": "2025-10-09T11:04:35",
+            "close_time": "2025-10-09T11:13:00"
+          },
+          "UTC+2_EET": {
+            "open_time": "2025-10-09T13:04:35",
+            "close_time": "2025-10-09T13:13:00"
+          },
+          "UTC-5_EST": {
+            "open_time": "2025-10-09T06:04:35",
+            "close_time": "2025-10-09T06:13:00"
+          },
+          "UTC+8_SGT": {
+            "open_time": "2025-10-09T19:04:35",
+            "close_time": "2025-10-09T19:13:00"
+          }
+        }
+      },
+      {
+        "canonical_ticket": "36640713",
+        "side": "Buy",
+        "volume": 0.02,
+        "close_price": 3989.25,
+        "pnl": 4.56,
+        "duration_seconds": 286,
+        "timezone_variants": {
+          "UTC+3_Broker": {
+            "open_time": "2025-10-10T19:29:10",
+            "close_time": "2025-10-10T19:33:56"
+          },
+          "UTC+0_GMT": {
+            "open_time": "2025-10-10T16:29:10",
+            "close_time": "2025-10-10T16:33:56"
+          },
+          "UTC+2_EET": {
+            "open_time": "2025-10-10T18:29:10",
+            "close_time": "2025-10-10T18:33:56"
+          },
+          "UTC-5_EST": {
+            "open_time": "2025-10-10T11:29:10",
+            "close_time": "2025-10-10T11:33:56"
+          },
+          "UTC+8_SGT": {
+            "open_time": "2025-10-11T00:29:10",
+            "close_time": "2025-10-11T00:33:56"
+          }
+        }
+      }
+    ]
+  },
+  "CLUSTER_HIGH_PRICE_03": {
+    "cluster_name": "Peak Valuation Regime (> $4,550/oz)",
+    "description": "High-price trades during historic gold price expansion (Jan 2026)",
+    "trade_count": 5,
+    "trades": [
+      {
+        "canonical_ticket": "82241706",
+        "side": "Buy",
+        "volume": 0.01,
+        "close_price": 4571.8,
+        "pnl": 4.38,
+        "duration_seconds": 633,
+        "timezone_variants": {
+          "UTC+3_Broker": {
+            "open_time": "2026-01-12T07:30:37",
+            "close_time": "2026-01-12T07:41:10"
+          },
+          "UTC+0_GMT": {
+            "open_time": "2026-01-12T04:30:37",
+            "close_time": "2026-01-12T04:41:10"
+          },
+          "UTC+2_EET": {
+            "open_time": "2026-01-12T06:30:37",
+            "close_time": "2026-01-12T06:41:10"
+          },
+          "UTC-5_EST": {
+            "open_time": "2026-01-11T23:30:37",
+            "close_time": "2026-01-11T23:41:10"
+          },
+          "UTC+8_SGT": {
+            "open_time": "2026-01-12T12:30:37",
+            "close_time": "2026-01-12T12:41:10"
+          }
+        }
+      },
+      {
+        "canonical_ticket": "82462486",
+        "side": "Buy",
+        "volume": 0.01,
+        "close_price": 4598.3,
+        "pnl": -2.24,
+        "duration_seconds": 344,
+        "timezone_variants": {
+          "UTC+3_Broker": {
+            "open_time": "2026-01-12T11:25:57",
+            "close_time": "2026-01-12T11:31:41"
+          },
+          "UTC+0_GMT": {
+            "open_time": "2026-01-12T08:25:57",
+            "close_time": "2026-01-12T08:31:41"
+          },
+          "UTC+2_EET": {
+            "open_time": "2026-01-12T10:25:57",
+            "close_time": "2026-01-12T10:31:41"
+          },
+          "UTC-5_EST": {
+            "open_time": "2026-01-12T03:25:57",
+            "close_time": "2026-01-12T03:31:41"
+          },
+          "UTC+8_SGT": {
+            "open_time": "2026-01-12T16:25:57",
+            "close_time": "2026-01-12T16:31:41"
+          }
+        }
+      },
+      {
+        "canonical_ticket": "82465593",
+        "side": "Sell",
+        "volume": 0.01,
+        "close_price": 4585.01,
+        "pnl": 1.82,
+        "duration_seconds": 875,
+        "timezone_variants": {
+          "UTC+3_Broker": {
+            "open_time": "2026-01-12T14:11:18",
+            "close_time": "2026-01-12T14:25:53"
+          },
+          "UTC+0_GMT": {
+            "open_time": "2026-01-12T11:11:18",
+            "close_time": "2026-01-12T11:25:53"
+          },
+          "UTC+2_EET": {
+            "open_time": "2026-01-12T13:11:18",
+            "close_time": "2026-01-12T13:25:53"
+          },
+          "UTC-5_EST": {
+            "open_time": "2026-01-12T06:11:18",
+            "close_time": "2026-01-12T06:25:53"
+          },
+          "UTC+8_SGT": {
+            "open_time": "2026-01-12T19:11:18",
+            "close_time": "2026-01-12T19:25:53"
+          }
+        }
+      },
+      {
+        "canonical_ticket": "82494965",
+        "side": "Sell",
+        "volume": 0.01,
+        "close_price": 4587.85,
+        "pnl": 1.89,
+        "duration_seconds": 472,
+        "timezone_variants": {
+          "UTC+3_Broker": {
+            "open_time": "2026-01-13T12:44:06",
+            "close_time": "2026-01-13T12:51:58"
+          },
+          "UTC+0_GMT": {
+            "open_time": "2026-01-13T09:44:06",
+            "close_time": "2026-01-13T09:51:58"
+          },
+          "UTC+2_EET": {
+            "open_time": "2026-01-13T11:44:06",
+            "close_time": "2026-01-13T11:51:58"
+          },
+          "UTC-5_EST": {
+            "open_time": "2026-01-13T04:44:06",
+            "close_time": "2026-01-13T04:51:58"
+          },
+          "UTC+8_SGT": {
+            "open_time": "2026-01-13T17:44:06",
+            "close_time": "2026-01-13T17:51:58"
+          }
+        }
+      },
+      {
+        "canonical_ticket": "82523311",
+        "side": "Buy",
+        "volume": 0.01,
+        "close_price": 4625.78,
+        "pnl": 3.35,
+        "duration_seconds": 521,
+        "timezone_variants": {
+          "UTC+3_Broker": {
+            "open_time": "2026-01-14T06:29:14",
+            "close_time": "2026-01-14T06:37:55"
+          },
+          "UTC+0_GMT": {
+            "open_time": "2026-01-14T03:29:14",
+            "close_time": "2026-01-14T03:37:55"
+          },
+          "UTC+2_EET": {
+            "open_time": "2026-01-14T05:29:14",
+            "close_time": "2026-01-14T05:37:55"
+          },
+          "UTC-5_EST": {
+            "open_time": "2026-01-13T22:29:14",
+            "close_time": "2026-01-13T22:37:55"
+          },
+          "UTC+8_SGT": {
+            "open_time": "2026-01-14T11:29:14",
+            "close_time": "2026-01-14T11:37:55"
+          }
+        }
+      }
+    ]
+  },
+  "CLUSTER_ASYMMETRIC_LOSS_04": {
+    "cluster_name": "Asymmetric Tail Risk / Maximum Loss Events",
+    "description": "Largest negative P&L events (-$5.43 to -$4.83) showing exit boundary enforcement (Nov-Dec 2025)",
+    "trade_count": 5,
+    "trades": [
+      {
+        "canonical_ticket": "37542995",
+        "side": "Buy",
+        "volume": 0.01,
+        "close_price": 4082.44,
+        "pnl": -5.33,
+        "duration_seconds": 291,
+        "timezone_variants": {
+          "UTC+3_Broker": {
+            "open_time": "2025-11-10T11:00:16",
+            "close_time": "2025-11-10T11:05:07"
+          },
+          "UTC+0_GMT": {
+            "open_time": "2025-11-10T08:00:16",
+            "close_time": "2025-11-10T08:05:07"
+          },
+          "UTC+2_EET": {
+            "open_time": "2025-11-10T10:00:16",
+            "close_time": "2025-11-10T10:05:07"
+          },
+          "UTC-5_EST": {
+            "open_time": "2025-11-10T03:00:16",
+            "close_time": "2025-11-10T03:05:07"
+          },
+          "UTC+8_SGT": {
+            "open_time": "2025-11-10T16:00:16",
+            "close_time": "2025-11-10T16:05:07"
+          }
+        }
+      },
+      {
+        "canonical_ticket": "37836776",
+        "side": "Sell",
+        "volume": 0.01,
+        "close_price": 4110.56,
+        "pnl": -5.43,
+        "duration_seconds": 300,
+        "timezone_variants": {
+          "UTC+3_Broker": {
+            "open_time": "2025-11-19T12:12:16",
+            "close_time": "2025-11-19T12:17:16"
+          },
+          "UTC+0_GMT": {
+            "open_time": "2025-11-19T09:12:16",
+            "close_time": "2025-11-19T09:17:16"
+          },
+          "UTC+2_EET": {
+            "open_time": "2025-11-19T11:12:16",
+            "close_time": "2025-11-19T11:17:16"
+          },
+          "UTC-5_EST": {
+            "open_time": "2025-11-19T04:12:16",
+            "close_time": "2025-11-19T04:17:16"
+          },
+          "UTC+8_SGT": {
+            "open_time": "2025-11-19T17:12:16",
+            "close_time": "2025-11-19T17:17:16"
+          }
+        }
+      },
+      {
+        "canonical_ticket": "38119105",
+        "side": "Sell",
+        "volume": 0.01,
+        "close_price": 4150.92,
+        "pnl": -4.83,
+        "duration_seconds": 845,
+        "timezone_variants": {
+          "UTC+3_Broker": {
+            "open_time": "2025-11-27T08:09:07",
+            "close_time": "2025-11-27T08:23:12"
+          },
+          "UTC+0_GMT": {
+            "open_time": "2025-11-27T05:09:07",
+            "close_time": "2025-11-27T05:23:12"
+          },
+          "UTC+2_EET": {
+            "open_time": "2025-11-27T07:09:07",
+            "close_time": "2025-11-27T07:23:12"
+          },
+          "UTC-5_EST": {
+            "open_time": "2025-11-27T00:09:07",
+            "close_time": "2025-11-27T00:23:12"
+          },
+          "UTC+8_SGT": {
+            "open_time": "2025-11-27T13:09:07",
+            "close_time": "2025-11-27T13:23:12"
+          }
+        }
+      },
+      {
+        "canonical_ticket": "38448404",
+        "side": "Buy",
+        "volume": 0.01,
+        "close_price": 4204.15,
+        "pnl": -4.86,
+        "duration_seconds": 528,
+        "timezone_variants": {
+          "UTC+3_Broker": {
+            "open_time": "2025-12-10T16:17:48",
+            "close_time": "2025-12-10T16:26:36"
+          },
+          "UTC+0_GMT": {
+            "open_time": "2025-12-10T13:17:48",
+            "close_time": "2025-12-10T13:26:36"
+          },
+          "UTC+2_EET": {
+            "open_time": "2025-12-10T15:17:48",
+            "close_time": "2025-12-10T15:26:36"
+          },
+          "UTC-5_EST": {
+            "open_time": "2025-12-10T08:17:48",
+            "close_time": "2025-12-10T08:26:36"
+          },
+          "UTC+8_SGT": {
+            "open_time": "2025-12-10T21:17:48",
+            "close_time": "2025-12-10T21:26:36"
+          }
+        }
+      },
+      {
+        "canonical_ticket": "38492680",
+        "side": "Buy",
+        "volume": 0.01,
+        "close_price": 4217.4,
+        "pnl": -4.86,
+        "duration_seconds": 3657,
+        "timezone_variants": {
+          "UTC+3_Broker": {
+            "open_time": "2025-12-11T13:09:27",
+            "close_time": "2025-12-11T14:10:24"
+          },
+          "UTC+0_GMT": {
+            "open_time": "2025-12-11T10:09:27",
+            "close_time": "2025-12-11T11:10:24"
+          },
+          "UTC+2_EET": {
+            "open_time": "2025-12-11T12:09:27",
+            "close_time": "2025-12-11T13:10:24"
+          },
+          "UTC-5_EST": {
+            "open_time": "2025-12-11T05:09:27",
+            "close_time": "2025-12-11T06:10:24"
+          },
+          "UTC+8_SGT": {
+            "open_time": "2025-12-11T18:09:27",
+            "close_time": "2025-12-11T19:10:24"
+          }
+        }
+      }
+    ]
+  },
+  "CLUSTER_TERMINAL_05": {
+    "cluster_name": "Terminal Horizon Execution Sequence (Sep 2026)",
+    "description": "Final 5 canonical trades including ticket rollover to 00983845 (Sep 2026)",
+    "trade_count": 5,
+    "trades": [
+      {
+        "canonical_ticket": "100453335",
+        "side": "Buy",
+        "volume": 0.01,
+        "close_price": 4325.5,
+        "pnl": 6.74,
+        "duration_seconds": 1405,
+        "timezone_variants": {
+          "UTC+3_Broker": {
+            "open_time": "2026-09-16T09:36:42",
+            "close_time": "2026-09-16T10:00:07"
+          },
+          "UTC+0_GMT": {
+            "open_time": "2026-09-16T06:36:42",
+            "close_time": "2026-09-16T07:00:07"
+          },
+          "UTC+2_EET": {
+            "open_time": "2026-09-16T08:36:42",
+            "close_time": "2026-09-16T09:00:07"
+          },
+          "UTC-5_EST": {
+            "open_time": "2026-09-16T01:36:42",
+            "close_time": "2026-09-16T02:00:07"
+          },
+          "UTC+8_SGT": {
+            "open_time": "2026-09-16T14:36:42",
+            "close_time": "2026-09-16T15:00:07"
+          }
+        }
+      },
+      {
+        "canonical_ticket": "100653865",
+        "side": "Buy",
+        "volume": 0.01,
+        "close_price": 4279.11,
+        "pnl": 5.2,
+        "duration_seconds": 1262,
+        "timezone_variants": {
+          "UTC+3_Broker": {
+            "open_time": "2026-09-17T06:00:33",
+            "close_time": "2026-09-17T06:21:35"
+          },
+          "UTC+0_GMT": {
+            "open_time": "2026-09-17T03:00:33",
+            "close_time": "2026-09-17T03:21:35"
+          },
+          "UTC+2_EET": {
+            "open_time": "2026-09-17T05:00:33",
+            "close_time": "2026-09-17T05:21:35"
+          },
+          "UTC-5_EST": {
+            "open_time": "2026-09-16T22:00:33",
+            "close_time": "2026-09-16T22:21:35"
+          },
+          "UTC+8_SGT": {
+            "open_time": "2026-09-17T11:00:33",
+            "close_time": "2026-09-17T11:21:35"
+          }
+        }
+      },
+      {
+        "canonical_ticket": "100675478",
+        "side": "Sell",
+        "volume": 0.01,
+        "close_price": 4306.96,
+        "pnl": -1.44,
+        "duration_seconds": 137,
+        "timezone_variants": {
+          "UTC+3_Broker": {
+            "open_time": "2026-09-17T09:20:36",
+            "close_time": "2026-09-17T09:22:53"
+          },
+          "UTC+0_GMT": {
+            "open_time": "2026-09-17T06:20:36",
+            "close_time": "2026-09-17T06:22:53"
+          },
+          "UTC+2_EET": {
+            "open_time": "2026-09-17T08:20:36",
+            "close_time": "2026-09-17T08:22:53"
+          },
+          "UTC-5_EST": {
+            "open_time": "2026-09-17T01:20:36",
+            "close_time": "2026-09-17T01:22:53"
+          },
+          "UTC+8_SGT": {
+            "open_time": "2026-09-17T14:20:36",
+            "close_time": "2026-09-17T14:22:53"
+          }
+        }
+      },
+      {
+        "canonical_ticket": "100829495",
+        "side": "Sell",
+        "volume": 0.01,
+        "close_price": 4373.27,
+        "pnl": 6.53,
+        "duration_seconds": 503,
+        "timezone_variants": {
+          "UTC+3_Broker": {
+            "open_time": "2026-09-17T16:21:20",
+            "close_time": "2026-09-17T16:29:43"
+          },
+          "UTC+0_GMT": {
+            "open_time": "2026-09-17T13:21:20",
+            "close_time": "2026-09-17T13:29:43"
+          },
+          "UTC+2_EET": {
+            "open_time": "2026-09-17T15:21:20",
+            "close_time": "2026-09-17T15:29:43"
+          },
+          "UTC-5_EST": {
+            "open_time": "2026-09-17T08:21:20",
+            "close_time": "2026-09-17T08:29:43"
+          },
+          "UTC+8_SGT": {
+            "open_time": "2026-09-17T21:21:20",
+            "close_time": "2026-09-17T21:29:43"
+          }
+        }
+      },
+      {
+        "canonical_ticket": "00983845",
+        "side": "Buy",
+        "volume": 0.01,
+        "close_price": 4336.1,
+        "pnl": 8.26,
+        "duration_seconds": 490,
+        "timezone_variants": {
+          "UTC+3_Broker": {
+            "open_time": "2026-09-18T06:25:04",
+            "close_time": "2026-09-18T06:33:14"
+          },
+          "UTC+0_GMT": {
+            "open_time": "2026-09-18T03:25:04",
+            "close_time": "2026-09-18T03:33:14"
+          },
+          "UTC+2_EET": {
+            "open_time": "2026-09-18T05:25:04",
+            "close_time": "2026-09-18T05:33:14"
+          },
+          "UTC-5_EST": {
+            "open_time": "2026-09-17T22:25:04",
+            "close_time": "2026-09-17T22:33:14"
+          },
+          "UTC+8_SGT": {
+            "open_time": "2026-09-18T11:25:04",
+            "close_time": "2026-09-18T11:33:14"
+          }
+        }
+      }
+    ]
+  }
+}

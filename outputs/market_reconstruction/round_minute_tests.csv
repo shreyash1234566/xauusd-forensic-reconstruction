@@ -1,0 +1,5 @@
+boundary_minutes,observed_count,sample_size,observed_share,null_mean_count_same_day_hour,effect_observed_minus_null_share,permutation_p,null,limitations,bh_q
+5,100,423,0.2364066193853428,84.6576,0.036270449172576824,0.03839232153569286,entry minute exchangeable with eligible M1 bars from same date and raw hour,raw timezone; M1 eligibility proxy; within-hour intensity not fully modeled,0.03839232153569286
+15,47,423,0.1111111111111111,28.1958,0.04445437352245863,0.0005998800239952009,entry minute exchangeable with eligible M1 bars from same date and raw hour,raw timezone; M1 eligibility proxy; within-hour intensity not fully modeled,0.0007998400319936012
+30,36,423,0.0851063829787234,14.0228,0.05195555555555555,0.0001999600079984003,entry minute exchangeable with eligible M1 bars from same date and raw hour,raw timezone; M1 eligibility proxy; within-hour intensity not fully modeled,0.0003999200159968006
+60,20,423,0.04728132387706856,7.0302,0.030661465721040188,0.0001999600079984003,entry minute exchangeable with eligible M1 bars from same date and raw hour,raw timezone; M1 eligibility proxy; within-hour intensity not fully modeled,0.0003999200159968006

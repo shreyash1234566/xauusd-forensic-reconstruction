@@ -1,0 +1,17 @@
+{
+  "trade_rows": 423,
+  "buy": 214,
+  "sell": 209,
+  "profitable": 367,
+  "losing": 56,
+  "total_pnl": 1451.22,
+  "lot_counts": {
+    "0.01": 401,
+    "0.02": 21,
+    "0.03": 1
+  },
+  "overlapping_entries": 3,
+  "source_sha256": "3B22B24C5F7BEB2118FFEC613640A9AB1472C3D04E4503229D00771277E4B6BD",
+  "distinct_entry_minutes": 420,
+  "raw_base_rate": 0.00105119023064058
+}

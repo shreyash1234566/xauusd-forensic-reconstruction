@@ -1,0 +1,53 @@
+Section,Requirement,Status
+0,Mission,Partially completed; current-data ceiling documented
+1,Data forensics,Completed or completed within trade-only scope
+2,Dataset facts,Completed or completed within trade-only scope
+3,Instrument,Completed with explicit contract/data limitations
+4,Temporal structure,Completed or completed within trade-only scope
+5,One versus multiple,Completed or completed within trade-only scope
+6,Directional sequence,Completed or completed within trade-only scope
+7,Profit distribution,Completed or completed within trade-only scope
+8,Holding time,Completed or completed within trade-only scope
+9,Position sizing,Completed or completed within trade-only scope
+10,Trade clustering,Completed or completed within trade-only scope
+11,Market data,Blocked by missing synchronized market/broker data
+12,Market state,Blocked by missing synchronized market/broker data
+13,Entry decision,Blocked by missing synchronized market/broker data
+14,Research and candidate search,Completed with explicit contract/data limitations
+15,Candidate families,Blocked by missing synchronized market/broker data
+16,Incremental indicator power,Blocked by missing synchronized market/broker data
+17,Supervised classification,Blocked by missing synchronized market/broker data
+18,Symbolic rule discovery,Blocked by missing synchronized market/broker data
+19,MDL/model selection,Completed with explicit contract/data limitations
+20,Hidden states,Completed or completed within trade-only scope
+21,Change points,Completed or completed within trade-only scope
+22,Exit algorithm,Blocked by missing synchronized market/broker data
+23,MFE/MAE,Blocked by missing synchronized market/broker data
+24,SL/TP,Blocked by missing synchronized market/broker data
+25,Market regimes,Blocked by missing synchronized market/broker data
+26,Selection bias,Completed or completed within trade-only scope
+27,No-trade dataset,Blocked by missing synchronized market/broker data
+28,Reproduction,Blocked by missing synchronized market/broker data
+29,Walk-forward,Completed or completed within trade-only scope
+30,OOS score,Blocked by missing synchronized market/broker data
+31,Null models,Completed or completed within trade-only scope
+32,Bootstrap,Completed or completed within trade-only scope
+33,Multiple testing,Completed or completed within trade-only scope
+34,Overfitting defense,Completed or completed within trade-only scope
+35,Exact reconstruction,Blocked by missing synchronized market/broker data
+36,Parameter estimation,Blocked by missing synchronized market/broker data
+37,Sensitivity,Blocked by missing synchronized market/broker data
+38,Feed mismatch,Blocked by missing synchronized market/broker data
+39,Execution separation,Completed or completed within trade-only scope
+40,Human-intervention anomalies,Completed or completed within trade-only scope
+41,Fingerprint,Completed or completed within trade-only scope
+42,Candidate ranking,Completed or completed within trade-only scope
+43,Identification level,Completed or completed within trade-only scope
+44,Identifiability,Completed or completed within trade-only scope
+45,Research requirement,Completed with explicit contract/data limitations
+46,Similar projects,Completed with explicit contract/data limitations
+47,Experiment tracker,Completed or completed within trade-only scope
+48,Proof log,Completed or completed within trade-only scope
+49,Final report A-T,Completed or completed within trade-only scope
+50,Additional data,Completed or completed within trade-only scope
+51,Final principle,Completed or completed within trade-only scope

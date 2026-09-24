@@ -1,0 +1,2 @@
+artifact,status,reason
+phase6_tick_coverage.csv,DATA_UNAVAILABLE,"No native MT4/MT5 terminal, same-account connection, tick history, or transaction export was accessible in Phase 6A."

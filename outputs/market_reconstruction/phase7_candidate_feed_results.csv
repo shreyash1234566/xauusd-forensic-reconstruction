@@ -1,0 +1,8 @@
+candidate_id,feed_name,underlying_market,pricing_model,strict_matched_count,strict_coverage_pct,median_open_error,p95_open_error,median_close_error,p95_close_error,reconstructed_total_pnl,pnl_error_vs_1451,median_pnl_residual,evaluation_verdict
+FEED_02_DUKASCOPY_MIDPOINT_M1,Dukascopy XAUUSD Midpoint M1,XAU/USD Spot Gold,Bid + $0.15/oz Midpoint Proxy,346,81.8,0.965,8.455,0.815,11.099,1197.51,-253.71,1.24,STRONG_UNDERLYING_MATCH
+FEED_04_OANDA_SPOT_M1,OANDA / MetaQuotes Retail Spot Gold M1,XAU/USD Retail Floating Spot,Dynamic Floating Spread $0.30/oz,344,81.32,1.005,8.575,0.735,11.168,1063.71,-387.51,1.3,STRONG_UNDERLYING_MATCH
+FEED_01_DUKASCOPY_BID_M1,Dukascopy XAUUSD Bid M1 (Direct),XAU/USD Spot Gold,Direct Dukascopy Bid OHLC,343,81.09,0.965,8.305,0.875,11.249,1197.51,-253.71,1.24,STRONG_UNDERLYING_MATCH
+FEED_03_ROBOFOREX_PROFIX_SYNTHETIC_M1,RoboForex / Tickmill Pro-Fix XAUUSD.f M1,XAU/USD Fixed-Spread Retail CFD,Fixed Spread $0.35/oz (Instant Exec),343,81.09,1.005,8.611,0.725,11.163,1041.41,-409.81,1.31,OPTIMAL_EXACT_SPECIFICATION
+FEED_05_COMEX_GC_FUTURES_CONTINUOUS,COMEX Gold Futures (GC Continuous),COMEX Gold Futures Contract,Spot + Contango Term Basis (+$18.50/oz),0,0.0,18.265,22.617,18.105,21.668,1197.51,-253.71,1.24,REJECTED
+FEED_06_XAGUSD_SILVER_SPOT,XAGUSD Silver Spot (Negative Control),Silver Spot ($30-$45/oz),Silver Spot Scaling (x0.008),0,0.0,4414.497,5139.867,4415.419,5139.506,9.58,-1441.64,3.779,REJECTED
+FEED_07_EURUSD_FOREX_SPOT,EURUSD Forex Spot (Negative Control),EUR/USD FX Rate (1.05-1.15),Forex Exchange Rate,0,0.0,4448.995,5180.136,4449.776,5179.743,0.12,-1451.1,3.81,REJECTED

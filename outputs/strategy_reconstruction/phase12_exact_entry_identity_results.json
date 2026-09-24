@@ -1,0 +1,63 @@
+{
+  "identity_verdict": "FAIL",
+  "N_E": 420,
+  "N_F": 205646,
+  "N_U": 206066,
+  "disjoint_intersection_E_F": 0,
+  "R1_threshold_tau": 1.5335635298608963,
+  "R1_threshold_provenance": "discovery_controls_99th_percentile (tau_disc = 1.533564 from N=115,134 discovery controls)",
+  "is_discovery_frozen": true,
+  "causality_verified": true,
+  "look_ahead_detected": "NO",
+  "target_leakage_detected": "NO",
+  "results_by_partition": {
+    "discovery": {
+      "TP": 31,
+      "FN": 286,
+      "FP": 403,
+      "TN": 153947,
+      "precision": 0.07142857142857142,
+      "recall": 0.09779179810725552,
+      "f1": 0.08255659121171771,
+      "total_points": 154667,
+      "cases": 317,
+      "controls": 154350
+    },
+    "buffer": {
+      "TP": 0,
+      "FN": 1,
+      "FP": 5,
+      "TN": 1426,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "total_points": 1432,
+      "cases": 1,
+      "controls": 1431
+    },
+    "lockbox": {
+      "TP": 19,
+      "FN": 83,
+      "FP": 77,
+      "TN": 49788,
+      "precision": 0.19791666666666666,
+      "recall": 0.18627450980392157,
+      "f1": 0.19191919191919193,
+      "total_points": 49967,
+      "cases": 102,
+      "controls": 49865
+    },
+    "COMPLETE_LEDGER": {
+      "TP": 50,
+      "FN": 370,
+      "FP": 485,
+      "TN": 205161,
+      "precision": 0.09345794392523364,
+      "recall": 0.11904761904761904,
+      "f1": 0.10471204188481675,
+      "total_points": 206066,
+      "cases": 420,
+      "controls": 205646
+    }
+  }
+}

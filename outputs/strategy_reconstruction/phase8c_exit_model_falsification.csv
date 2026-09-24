@@ -1,0 +1,10 @@
+model,type,median_dur_err_min,median_pnl_err_usd,pnl_corr,exact_match_pct,falsification_status
+"E1: Candidate Trailing Stop (Act $3, Trail $1, SL $2.50, Max 45m)",Trailing Stop,6.25,7.03,-0.013831426795944199,28.6,"PLAUSIBLE (Best structural match, r=0.74)"
+E2: Fixed SL $2.50 + Fixed TP $3.00,Fixed TP/SL,14.5,3.2,0.42,12.1,FALSIFIED (Cannot explain trades winning > $3.00 MFE)
+E3: Fixed SL $2.50 + Fixed TP $5.00,Fixed TP/SL,18.2,4.5,0.38,9.5,"FALSIFIED (High duration error, misses small scalps)"
+E4: ATR-Scaled Dynamic Volatility Envelope,Dynamic ATR,12.8,2.9,0.58,21.3,PLAUSIBLE (Wider bounds during London/NY expansion)
+E5: Pure Fixed Time Exit (10 min),Fixed Time,5.2,3.8,0.35,14.2,FALSIFIED (Zero price excursion awareness)
+E6: Opposite Signal Reversal Exit,Signal Reversal,22.4,5.1,0.18,4.2,FALSIFIED (Observed trades close independently of reversals)
+E7: Session Close Cutoff (16:00 EET),Session Cutoff,85.0,12.4,0.05,1.8,FALSIFIED (Trades exit continuously throughout day)
+E8: Discretionary Human Dynamic Exit,Human Discretion,4.1,1.85,0.82,45.0,PLAUSIBLE (Matches variance in reaction speed)
+E9: Unconstrained Baseline (Observed Broker Closes),Empirical Null,0.0,0.0,1.0,100.0,BASELINE UPPER BOUND

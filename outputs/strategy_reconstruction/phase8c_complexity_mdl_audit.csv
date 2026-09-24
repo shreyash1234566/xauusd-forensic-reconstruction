@@ -1,0 +1,15 @@
+parameter_name,component,proposed_value,degrees_of_freedom
+Session Window Start Hour,Clock Filter,07:00 EET,1
+Session Window End Hour,Clock Filter,16:00 EET,1
+H1 ATR Lookback Period,Volatility Filter,14 periods,1
+H1 ATR Threshold,Volatility Filter,0.25%,1
+M1 Impulse Threshold,Momentum Filter,$0.30 USD/oz,1
+M1 Impulse Lookback,Momentum Filter,1 bar (30s-60s),1
+Directional Return Horizon,Direction Rule,30 seconds,1
+Fixed Stop Loss Distance,Risk Management,$2.50 USD/oz,1
+Trailing Stop Activation,Exit Policy,+$3.00 USD/oz,1
+Trailing Stop Distance,Exit Policy,$1.00 USD/oz,1
+Maximum Holding Time,Time Decay,45 minutes,1
+Base Position Volume,Sizing Rule,0.01 lot,1
+Scaled Position Volume,Sizing Rule,0.02 lot,1
+Single Position Gating Flag,Execution State,True (Single Pos),1

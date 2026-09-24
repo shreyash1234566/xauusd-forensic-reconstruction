@@ -1,0 +1,43 @@
+{
+  "metadata_version": "1.0",
+  "phase": "7C",
+  "investigation_title": "Real Raw-Tick Validation of 423 XAUUSD.f Trades",
+  "source_specification": {
+    "provider": "Dukascopy Bank SA (Geneva, Switzerland)",
+    "endpoint": "https://jetta.dukascopy.com/v1/ticks/XAU-USD/",
+    "feed_type": "GENUINE_RAW_PHYSICAL_TICKS",
+    "is_m1_interpolation": false,
+    "is_synthetic_model": false,
+    "quote_structure": "Dual Asynchronous Bid and Ask Quote Stream",
+    "depth_volume_available": true,
+    "timestamp_resolution_ms": 1,
+    "date_range_covered": {
+      "start": "2025-09-25T16:00:00Z",
+      "end": "2026-09-18T07:00:00Z"
+    },
+    "total_raw_ticks_analyzed": 7118404,
+    "unique_hourly_blocks": 2032
+  },
+  "canonical_trade_dataset": {
+    "file_path": "data\\raw\\trades_raw.tsv",
+    "sha256": "3B22B24C5F7BEB2118FFEC613640A9AB1472C3D04E4503229D00771277E4B6BD",
+    "hash_verified": true,
+    "trade_count": 423,
+    "instrument": "XAUUSD.f",
+    "recorded_pnl_sum": 1451.22
+  },
+  "execution_model": {
+    "long_trades": "Entry at Ask, Exit at Bid",
+    "short_trades": "Entry at Bid, Exit at Ask",
+    "contract_multiplier_C": 100.0,
+    "stored_price_role": "H_ENTRY",
+    "timezone": "DST-Aware EET/EEST"
+  },
+  "validation_invariants": {
+    "matches_le_1_00": 260,
+    "matches_le_3_00": 366,
+    "median_entry_price_error": 0.735,
+    "gross_reconstructed_pnl_mid": 1456.505,
+    "gross_pnl_error_usd": 5.285
+  }
+}

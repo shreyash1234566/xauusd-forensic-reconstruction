@@ -1,0 +1,2 @@
+artifact,analysis_status,supported_data,scope,reason
+phase4_replication_results.csv,NOT_IDENTIFIABLE,"No recovered synchronized tick, Bid/Ask, spread, order, deal, position, modification, rejection, or terminal-log record",chronological replication,No transaction-level rule candidate exists to replicate.

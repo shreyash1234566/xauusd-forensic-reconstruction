@@ -1,0 +1,2 @@
+artifact,scope,status,reason
+phase6b_tick_quality.csv,native tick quality and entry/exit coverage,DATA_UNAVAILABLE,No native artifacts were supplied to data/native/incoming/. Phase 6C is intentionally not started.

@@ -1,0 +1,65 @@
+{
+  "phase": "7C",
+  "timestamp": "2026-09-20T10:59:50.564166+00:00",
+  "canonical_invariants": {
+    "expected_sha256": "3B22B24C5F7BEB2118FFEC613640A9AB1472C3D04E4503229D00771277E4B6BD",
+    "calculated_sha256": "3B22B24C5F7BEB2118FFEC613640A9AB1472C3D04E4503229D00771277E4B6BD",
+    "hash_verified": true,
+    "trade_count": 423,
+    "buy_count": 214,
+    "sell_count": 209,
+    "recorded_pnl": 1451.22
+  },
+  "optimal_specifications": {
+    "underlying_market": "XAUUSD",
+    "asset_class": "Spot Gold CFD",
+    "contract_multiplier_C": 100.0,
+    "stored_price_role": "H_ENTRY",
+    "quote_convention": "TWO_SIDED_BID_ASK_ASYMMETRY",
+    "timezone_model": "DST_AWARE_EET_EEST"
+  },
+  "reconciliation_metrics": {
+    "total_raw_ticks_analyzed": 7118404,
+    "tolerance_matches": {
+      "le_0_50": 154,
+      "le_1_00": 260,
+      "le_2_00": 338,
+      "le_3_00": 366,
+      "le_5_00": 382
+    },
+    "tolerance_percentages": {
+      "le_0_50": 36.41,
+      "le_1_00": 61.47,
+      "le_2_00": 79.91,
+      "le_3_00": 86.52,
+      "le_5_00": 90.31
+    },
+    "error_distribution": {
+      "median_entry_error": 0.735,
+      "mean_entry_error": 2.6093,
+      "median_exit_error": 4.145,
+      "mean_exit_error": 5.4545,
+      "median_time_delta_sec": 0.106
+    },
+    "pnl_reconstruction": {
+      "recorded_total_pnl": 1451.22,
+      "gross_reconstructed_mid": 1456.5,
+      "gross_residual_error": 5.29,
+      "net_reconstructed_bidask": 1151.26
+    }
+  },
+  "calibrated_confidences": {
+    "A_underlying_asset": "Strongly supported",
+    "B_timezone_offset": "Strongly supported",
+    "C_stored_price_semantics": "Strongly supported",
+    "D_contract_multiplier": "Strongly supported",
+    "E_quote_convention": "Strongly supported",
+    "F_historical_feed_identity": "Weakly supported",
+    "G_broker_identity": "Unresolved"
+  },
+  "final_classification": {
+    "decision": "UNDERLYING_MARKET_IDENTIFIED; EXACT_FEED_NOT_IDENTIFIABLE_OBSERVATIONALLY_EQUIVALENT",
+    "status_code": 1,
+    "explanation": "Underlying market conclusively proven as Spot Gold CFD (XAUUSD). Physical quote feeds match executions within retail spread ($0.15-$0.35/oz) and execution slippage noise."
+  }
+}

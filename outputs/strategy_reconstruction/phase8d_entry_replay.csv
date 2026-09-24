@@ -1,0 +1,2 @@
+total_m1_bars,candidate_signals_generated,executed_trades_single_pos,real_trades_matched,total_real_trades,execution_precision_pct,execution_recall_pct,false_positive_count,concurrency_lockout_rate_pct
+402151,140382,17174,319,423,1.857458949574939,75.41371158392435,16855,87.7662378367597

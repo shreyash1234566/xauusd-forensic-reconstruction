@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "graph:init": "codegraph init --yes",
+    "graph:sync": "codegraph sync",
+    "graph:status": "codegraph status",
+    "graph:query": "codegraph query"
+  },
+  "dependencies": {
+    "dukascopy-node": "^1.50.0"
+  },
+  "devDependencies": {
+    "@colbymchenry/codegraph": "^1.6.0"
+  }
+}

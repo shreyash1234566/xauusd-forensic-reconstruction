@@ -1,0 +1,2 @@
+artifact,scope,status,reason
+phase6b_strategy_opportunity_table.csv,non-executed strategy opportunities,DATA_UNAVAILABLE,No native artifacts were supplied to data/native/incoming/. Phase 6C is intentionally not started.

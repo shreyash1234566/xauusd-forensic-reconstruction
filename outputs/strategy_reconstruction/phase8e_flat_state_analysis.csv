@@ -1,0 +1,10 @@
+analysis_type,universe_name,description,bars_count,bars_pct_of_total,real_trades_captured,real_trades_pct,base_rate_pct,one_in_n_bars,executed_trades,execution_precision_pct,concurrency_lockout_pct
+Eligibility Gate Decomposition,Level 0: Total Market Universe,All 1-minute historical bars,402151,100.0,420,99.29078014184397,0.10443838259758152,957,420,100.0,0.0
+Eligibility Gate Decomposition,Level 1: Conditional-on-Flat Universe,PositionsTotal() == 0 (Strict single-position rule),395815,98.42447239967078,415,98.10874704491725,0.10484696133294595,953,415,100.0,0.0
+Eligibility Gate Decomposition,Level 2: Flat + Active Session,05:00 - 16:00 UTC (Institutional liquidity window),205640,51.13502142230158,351,82.97872340425532,0.1706866368410815,585,351,100.0,0.0
+Eligibility Gate Decomposition,Level 3: Flat + Session + Weekend Filter,Excludes Friday post-20:00 UTC,205640,51.13502142230158,351,82.97872340425532,0.1706866368410815,585,351,100.0,0.0
+Eligibility Gate Decomposition,Level 4: Flat + Session + Cooldown Filter,Inter-trade lockout >= 2 minutes post-close,204910,50.95349756683435,347,82.03309692671394,0.16934263823141865,590,347,100.0,0.0
+Eligibility Gate Decomposition,Level 5: Flat + Session + Volatility Filter,H1 ATR >= 0.25% minimum expansion threshold,180688,44.9303868447424,331,78.25059101654847,0.18318870096519968,545,331,100.0,0.0
+Position Lockout Causal Test,Scenario A: Raw Unconstrained Signals,No position lockout (multi-position permitted),169206,42.07524039477708,346,81.7966903073286,0.20448447454581986,489,169206,0.20448447454581986,0.0
+Position Lockout Causal Test,Scenario B: Single-Position Lockout,"PositionsTotal() == 0 (Strict single position, ~8m hold)",169206,42.07524039477708,345,81.56028368794325,1.6756520472096752,59,20589,1.6756520472096752,87.83199177334137
+Position Lockout Causal Test,Scenario C: Single-Position + 2m Cooldown,PositionsTotal() == 0 + 2-minute post-close cooldown,169206,42.07524039477708,342,80.85106382978722,2.024387356457914,49,16894,2.024387356457914,90.0157204827252

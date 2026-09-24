@@ -1,0 +1,34 @@
+{
+  "source": "Dukascopy historical bid prices",
+  "instrument": "XAUUSD",
+  "price_type": "bid",
+  "timeframe": "M1",
+  "raw_timezone": "UTC",
+  "normalized_timezone": "UTC+3 (broker time / EET)",
+  "utc_offset_hours": 3,
+  "raw_file": "E:\\reverse -traid\\data\\market\\raw\\xauusd_m1_utc_raw.csv",
+  "normalized_file": "E:\\reverse -traid\\data\\market\\normalized\\xauusd_m1.csv",
+  "raw_row_count": 402401,
+  "normalized_row_count": 402401,
+  "date_from": "2025-08-01 03:00:00",
+  "date_to": "2026-09-18 23:59:00",
+  "ohlc_integrity": {
+    "bad_high_lt_low": 0,
+    "bad_open_gt_high": 0,
+    "bad_open_lt_low": 0,
+    "bad_close_gt_high": 0,
+    "bad_close_lt_low": 0
+  },
+  "gap_count_gt5min": 296,
+  "anchor_verification": {
+    "trade_timestamp": "2025-09-25 19:32:56",
+    "trade_price": 3736.13,
+    "bar_timestamp": "2025-09-25 19:32:00",
+    "bar_open": 3735.448,
+    "bar_high": 3736.458,
+    "bar_low": 3735.328,
+    "bar_close": 3736.345,
+    "price_in_bar_range": true,
+    "price_minus_bar_close": -0.21499999999969077
+  }
+}

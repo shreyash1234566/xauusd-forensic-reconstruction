@@ -1,0 +1,15 @@
+{
+  "status": "ok",
+  "required_artifacts": 10,
+  "row_counts": {
+    "candidate_event_rows": 346696,
+    "entry_match_rows": 423,
+    "exit_match_rows": 423,
+    "near_miss_rows": 1260,
+    "walk_forward_rows": 45,
+    "candidate_model_rows": 9
+  },
+  "lagged_m1_close_rows_checked": 346696,
+  "lagged_m1_close_ok": true,
+  "identification_level": "D \u2014 UNIDENTIFIED"
+}

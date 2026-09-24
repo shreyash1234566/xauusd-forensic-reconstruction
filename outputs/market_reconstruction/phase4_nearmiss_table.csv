@@ -1,0 +1,2 @@
+artifact,analysis_status,supported_data,scope,reason
+phase4_nearmiss_table.csv,NOT_IDENTIFIABLE,"No recovered synchronized tick, Bid/Ask, spread, order, deal, position, modification, rejection, or terminal-log record",transaction-grounded near misses,No actual non-filled order events were recovered.

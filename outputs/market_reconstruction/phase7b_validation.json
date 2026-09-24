@@ -1,0 +1,51 @@
+{
+  "phase": "7B",
+  "timestamp_utc": "2026-09-20T10:35:05.764572+00:00",
+  "canonical_invariants": {
+    "expected_sha256": "3B22B24C5F7BEB2118FFEC613640A9AB1472C3D04E4503229D00771277E4B6BD",
+    "calculated_sha256": "3B22B24C5F7BEB2118FFEC613640A9AB1472C3D04E4503229D00771277E4B6BD",
+    "hash_verified": true,
+    "trade_count": 423,
+    "buy_count": 214,
+    "sell_count": 209,
+    "win_count": 367,
+    "loss_count": 56,
+    "recorded_total_pnl": 1451.22
+  },
+  "optimal_specifications": {
+    "underlying_market": "XAUUSD",
+    "market_type": "Spot Gold / Retail Gold CFD",
+    "timezone_transformation": "dst_eet",
+    "contract_multiplier_C": 100.0,
+    "stored_price_role": "H_ENTRY",
+    "optimal_spread_model": "Fixed Spread $0.35/oz (RoboForex Pro-Fix Synthetic)"
+  },
+  "reconciliation_metrics": {
+    "median_entry_error": 0.92,
+    "p95_entry_error": 8.739899999999986,
+    "median_exit_error": 0.583,
+    "p95_exit_error": 11.256899999999998,
+    "tolerance_matches": {
+      "le_0_01": 2,
+      "le_0_05": 18,
+      "le_0_10": 30,
+      "le_0_25": 68,
+      "le_0_50": 128,
+      "le_1_00": 228,
+      "le_3_00": 366
+    },
+    "pnl_reconstruction": {
+      "recorded_total_pnl": 1451.22,
+      "reconstructed_total_pnl_spread": 1287.05,
+      "reconstructed_total_pnl_zero_spread": 1443.15,
+      "pnl_delta_zero_spread": -8.069999999999936,
+      "median_residual": -0.12,
+      "mean_residual": 0.38810874704491727,
+      "p95_abs_residual": 6.009999999999997
+    }
+  },
+  "final_classification": {
+    "decision": "UNDERLYING_MARKET_IDENTIFIED__EXACT_FEED_NOT_IDENTIFIABLE",
+    "justification": "XAU/USD Gold Spot CFD uniquely identified with C=100 and EET/EEST timezone; multiple spot feeds remain observationally equivalent within retail spread/slippage tolerances."
+  }
+}

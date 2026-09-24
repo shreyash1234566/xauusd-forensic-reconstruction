@@ -1,0 +1,2 @@
+artifact,scope,status,reason
+phase6b_deal_table.csv,native deal records,DATA_UNAVAILABLE,No native artifacts were supplied to data/native/incoming/. Phase 6C is intentionally not started.

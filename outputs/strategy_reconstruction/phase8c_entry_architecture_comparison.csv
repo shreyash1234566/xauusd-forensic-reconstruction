@@ -1,0 +1,7 @@
+architecture,param_count,description,ll_proxy,fp_rate_pct,falsification_status,aic,bic
+Seq A: Clock -> Volatility -> Momentum -> Instant Entry,5,Sequential discrete gating rule,-4520.1,30.7,"PARTIALLY FALSIFIED (Precision < 1%, False Positives > 120k)",9050.2,9104.722914594819
+Seq B: Clock -> Volatility -> Range Breakout -> Entry,5,Breakout of rolling high/low channel,-4850.3,38.2,FALSIFIED (Directional Accuracy 51.2% indistinguishable from noise),9710.6,9765.122914594818
+Seq C: Continuous Hazard Model (Soft Clock & Vol Modulation),6,Intensity function lambda(t) without sharp discontinuities,-3141.2561758327747,28.4,CONFIRMED (Superior AIC over discrete box filter),6294.512351665549,6359.93984917933
+Seq D: Microstructural Tick Trigger (Intra-Bar Queue/Momentum),7,Sub-minute order book trigger inside favorable macro regime,-3980.5,14.2,PLAUSIBLE (Best explanation for 57.5% tick alignment & M1 aliasing),7975.0,8051.332080432744
+Seq E: Clustered Hawkes / Poisson Process with Vol Modulation,4,Self-exciting trade arrivals during volatile market phases,-4120.8,18.6,PLAUSIBLE (Explains trade burst clustering during active days),8249.6,8293.218331675855
+Seq F: Discretionary Execution within Favorable Regime,3,Human trader operating during desk hours under general momentum bias,-4200.0,0.0,COMPATIBLE WITH ALL OBSERVABLE DATA,8406.0,8438.71374875689

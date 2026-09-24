@@ -1,0 +1,22 @@
+{
+  "platform": "MQL5 Signals / MetaQuotes Community",
+  "audit_timestamp": "2026-09-20T12:00:00Z",
+  "searches_performed": [
+    {
+      "query": "site:mql5.com/en/signals \"36094988\" OR \"36095791\"",
+      "results_count": 0,
+      "status": "NO_MATCH"
+    },
+    {
+      "query": "site:mql5.com/en/signals \"1451.22\" \"XAUUSD\"",
+      "results_count": 0,
+      "status": "NO_MATCH"
+    },
+    {
+      "query": "site:mql5.com \"XAUUSD.f\"",
+      "results_count": 12,
+      "status": "METADATA_ONLY_NO_LEDGER_MATCH"
+    }
+  ],
+  "verdict": "REJECTED (No public MQL5 signal matches canonical ledger)"
+}

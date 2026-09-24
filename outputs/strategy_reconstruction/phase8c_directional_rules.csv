@@ -1,0 +1,7 @@
+rule,directional_accuracy_pct,p_value,significant_005
+D1: 30s Tick Return Sign,55.847255369928405,0.0189221720718845,True
+D2: 10s Tick Return Sign,55.131264916467785,0.04005821860485474,True
+D3: 5s Tick Return Sign,52.50596658711218,0.3285421658101713,False
+D4: M1 Bar Direction (Close - Open),50.0,1.0,False
+D5: 5-Bar Range Breakout,0.0,0.125,False
+D6: Random / Coin-Flip Baseline,50.0,1.0,False

@@ -1,0 +1,11 @@
+group_category,subgroup,trade_count,mean_pnl_residual_bidask,median_pnl_residual_bidask,std_pnl_residual_bidask,mean_pnl_residual_mid,median_pnl_residual_mid,median_entry_price_error,median_exit_price_error
+Overall,All 423 Trades,423,0.709,0.146,3.325,-0.012,-0.56,0.735,4.145
+Trade Side,Side == Buy,214,0.95,0.269,3.17,0.217,-0.455,0.785,4.26
+Trade Side,Side == Sell,209,0.462,0.01,3.467,-0.248,-0.656,0.705,4.065
+Lot Size,Volume == 0.01 lots,401,0.783,0.146,3.291,0.094,-0.541,0.772,4.155
+Lot Size,Volume == 0.02 lots,21,0.103,0.26,1.331,-1.172,-1.417,0.235,3.375
+Lot Size,Volume == 0.03 lots,1,-16.31,-16.31,,-18.2,-18.2,1.005,8.705
+Holding Duration Quartile,Q1 (0-3m),106,1.322,0.233,5.02,0.539,-0.524,1.085,2.92
+Holding Duration Quartile,Q2 (3-8m),106,1.031,0.403,3.317,0.32,-0.23,0.8,3.48
+Holding Duration Quartile,Q3 (8-16m),105,0.064,-0.15,1.531,-0.631,-0.801,0.465,4.245
+Holding Duration Quartile,Q4 (16m+),106,0.413,0.17,2.22,-0.284,-0.524,0.66,5.035

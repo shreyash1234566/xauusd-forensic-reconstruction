@@ -1,0 +1,60 @@
+{
+  "phase": 7,
+  "phase_name": "Full 423-Trade Market / Chart Identification",
+  "timestamp_utc": "2026-09-20T05:14:20.409923+00:00",
+  "canonical_invariants": {
+    "file_sha256": "3B22B24C5F7BEB2118FFEC613640A9AB1472C3D04E4503229D00771277E4B6BD",
+    "expected_sha256": "3B22B24C5F7BEB2118FFEC613640A9AB1472C3D04E4503229D00771277E4B6BD",
+    "hash_verified": true,
+    "trade_count": 423,
+    "buy_count": 214,
+    "sell_count": 209,
+    "net_pnl_recorded": 1451.22
+  },
+  "market_identification": {
+    "underlying_market": "XAUUSD",
+    "market_description": "Gold Spot / Fixed-Spread Retail CFD",
+    "decision_classification": "STRONG_UNDERLYING_MARKET_MATCH",
+    "observational_equivalence_confirmed": true
+  },
+  "optimal_specifications": {
+    "timezone_transformation": "DST_EET_EEST",
+    "timezone_description": "Eastern European Time (UTC+3 Summer / UTC+2 Winter)",
+    "stored_price_role": "H_ENTRY",
+    "contract_multiplier": 100.0,
+    "contract_unit": "troy_ounces_per_lot",
+    "spread_model_usd_oz": 0.35
+  },
+  "ledger_matching_performance": {
+    "matched_trades_count": 385,
+    "total_trades": 423,
+    "coverage_percentage": 91.02,
+    "both_sides_within_1usd_pct": 34.75,
+    "both_sides_within_3usd_pct": 81.09,
+    "open_in_bar_range_pct": 85.34,
+    "close_in_bar_range_pct": 74.23,
+    "median_open_price_error_usd": 1.005,
+    "p95_open_price_error_usd": 8.61099999999999,
+    "median_close_price_error_usd": 0.725,
+    "p95_close_price_error_usd": 11.163299999999994
+  },
+  "pnl_reconstruction_performance": {
+    "recorded_total_pnl": 1451.22,
+    "reconstructed_total_pnl": 1041.39,
+    "reconstruction_pnl_delta": -409.83,
+    "median_per_trade_pnl_residual": 1.31,
+    "p95_per_trade_pnl_residual": 6.255999999999995
+  },
+  "deliverables_inventory": [
+    "outputs/market_reconstruction/phase7_status.md",
+    "outputs/market_reconstruction/phase7_methodology.md",
+    "outputs/market_reconstruction/phase7_candidate_feed_results.csv",
+    "outputs/market_reconstruction/phase7_trade_feed_match.csv",
+    "outputs/market_reconstruction/phase7_timezone_results.csv",
+    "outputs/market_reconstruction/phase7_price_role_results.csv",
+    "outputs/market_reconstruction/phase7_contract_multiplier_results.csv",
+    "outputs/market_reconstruction/phase7_pnl_reconstruction.csv",
+    "outputs/market_reconstruction/phase7_visual_validation/",
+    "outputs/market_reconstruction/phase7_validation.json"
+  ]
+}

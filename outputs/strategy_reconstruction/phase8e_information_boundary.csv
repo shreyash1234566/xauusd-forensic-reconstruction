@@ -1,0 +1,5 @@
+model_id,architecture,features_included,logistic_regression_auc,decision_tree_auc,knn_auc,causal_status
+Model A,Pure Microstructure Market,"9 Microstructure Features (5s/10s returns, momentum, accel, spread)",0.6200168782030862,0.6589736711209474,0.7533826266284392,Causal Valid (No account state)
+Model B,Market + Macro/Session/Spread,"13 Features (Model A + 60s vol, 60s spread, hour, ATR)",0.6241553912445719,0.6550139999664671,0.7767829697813099,Causal Valid (No account state)
+Model C,Market + Legitimate Causal Account State,"17 Features (Model B + causal prior win, PnL, gap, streak)",0.6247561882087309,0.6550139999664671,0.7613299129822444,Causal Valid (+0.0006 Delta AUC)
+Model D,Market + Leaked Phase 8D Ticket State,16 Features (Model B + flawed ticket mapping & fillna defaults),0.9979936175801576,1.0,0.9918934325905806,FATAL LEAKAGE (Ticket artifact)

@@ -1,0 +1,17 @@
+{
+  "platform": "FX Blue Live Portfolios",
+  "audit_timestamp": "2026-09-20T12:00:00Z",
+  "searches_performed": [
+    {
+      "query": "site:fxblue.com/users \"XAUUSD.f\"",
+      "results_count": 4,
+      "status": "DISCORDANT_DATES_AND_PRICES"
+    },
+    {
+      "query": "site:fxblue.com \"36094988\"",
+      "results_count": 0,
+      "status": "NO_MATCH"
+    }
+  ],
+  "verdict": "REJECTED (No public FX Blue portfolio matches canonical ledger)"
+}

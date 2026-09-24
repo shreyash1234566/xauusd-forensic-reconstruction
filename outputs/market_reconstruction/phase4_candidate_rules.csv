@@ -1,0 +1,2 @@
+artifact,analysis_status,supported_data,scope,reason
+phase4_candidate_rules.csv,NOT_IDENTIFIABLE,"No recovered synchronized tick, Bid/Ask, spread, order, deal, position, modification, rejection, or terminal-log record",candidate rule reconstruction,Phase 4 correctly stopped before unsupported rule mining.

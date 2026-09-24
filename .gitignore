@@ -1,0 +1,76 @@
+# ==============================================================================
+# XAUUSD Forensic Reverse Engineering - Git Exclusion Matrix
+# ==============================================================================
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python Bytecode & Caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+htmlcov/
+*.egg-info/
+dist/
+build/
+
+# IDE, Editor, & Tooling Caches
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.codegraph/
+.codegraphignore
+.ignore
+.superpowers/
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Secrets, Credentials, & Private Environment
+.env
+.env.*
+*.pem
+*.key
+*.secret
+credentials.json
+*.token
+
+# Local Scratchpad & Temporary Fix Scripts
+*.bak
+to_replace.txt
+chronological_patch.py
+evaluate_lockbox.py
+fix_mess*.py
+fix_newlines*.py
+fix_phase10_11_*.py
+patch_tickstore.py
+rewrite_print.py
+scripts/inspect_repo_files.py
+
+# Local Archive Backups, Web Staging & Scratch Downloads
+claude_handoff/
+claude_web_handoff/
+download/
+data/market/raw_ticks.zip
+data/market/raw_ticks/
+
+# Preview and temporary rendering output
+outputs/*/preview/
+
+# Oversized intermediate outputs (>100MB GitHub limit)
+# Note: Reproducible via scripts/phase10_11_main.py
+outputs/strategy_reconstruction/phase10_11_risk_sets.json
+outputs/strategy_reconstruction/phase10_11_tick_features.parquet
+outputs/market_reconstruction/phase5_feature_table.csv.gz

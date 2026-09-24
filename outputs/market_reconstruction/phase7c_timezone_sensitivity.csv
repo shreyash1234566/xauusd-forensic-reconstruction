@@ -1,0 +1,7 @@
+timezone_mode,timezone_name,description,matches_le_1_00,matches_le_3_00,coverage_pct_3_00,median_entry_error,mean_entry_error,verdict
+dst_eet,DST-Aware EET/EEST (UTC+2 Winter / UTC+3 Summer),European DST calendar rules,260,366,86.52,0.735,2.609,OPTIMAL
+utc+3,Static UTC+3 (Moscow / EEST Fixed),Static offset without winter shift,220,307,72.58,0.955,3.386,SUBOPTIMAL
+utc+2,Static UTC+2 (EET Fixed / Cairo / Jerusalem),Static offset without summer shift,92,170,40.19,4.665,8.373,SUBOPTIMAL
+utc+0,Static UTC+0 (London GMT / Universal Time),Zero offset,12,52,12.29,12.715,47.49,SUBOPTIMAL
+utc-5,Static UTC-5 (New York EST),US Eastern Standard Time,14,31,7.33,26.875,132.849,SUBOPTIMAL
+utc+8,Static UTC+8 (Singapore / Hong Kong / Perth),Asian Financial Centers,5,44,10.4,18.905,59.7,SUBOPTIMAL

@@ -1,0 +1,5 @@
+tolerance_band,matched_trades,recall_pct,unmatched_trades,total_generated_trades,false_positives,precision_pct
+"Band 1 (Strict: <=1m, Price <=$0.50, Dur <=20%, Same Side)",0,0.0,423,40876,40876,0.0
+"Band 2 (Moderate: <=5m, Price <=$1.50, Dur <=50%, Same Side)",2,0.4728132387706856,421,40876,40874,0.004892846658185733
+"Band 3 (Relaxed: <=15m, Price <=$3.00, Same Side)",103,24.349881796690305,320,40876,40773,0.25198160289656524
+"Band 4 (Direction-Only: <=60m, Same Side)",359,84.86997635933807,64,40876,40524,0.8611410118406888

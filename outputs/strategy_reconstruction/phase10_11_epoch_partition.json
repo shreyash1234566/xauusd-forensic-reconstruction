@@ -1,0 +1,19 @@
+{
+  "records": {
+    "total": 423,
+    "discovery": 320,
+    "buffer": 1,
+    "lockbox": 102
+  },
+  "epochs": {
+    "total": 420,
+    "discovery": 317,
+    "buffer": 1,
+    "lockbox": 102
+  },
+  "record_boundary": {
+    "discovery_stop_exclusive": 320,
+    "lockbox_start": 321
+  },
+  "cross_partition_epochs": []
+}

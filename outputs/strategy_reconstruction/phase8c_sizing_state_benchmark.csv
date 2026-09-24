@@ -1,0 +1,6 @@
+rule_name,k_params,overall_acc_pct,pred_002_count,true_002_captured,recall_002_pct,precision_002_pct,bic
+"Rule A: Anti-Martingale (Win -> 0.02, Loss -> 0.01)",2,16.548463356973993,366,18,81.81818181818183,4.918032786885246,391.6549797499328
+Rule B: Win-Streak Sizing (Streak >= 2 -> 0.02),2,27.89598108747045,312,15,68.18181818181817,4.807692307692308,512.8990067274124
+Rule C: Time-of-Day Allocation (Midday -> 0.02),3,73.28605200945626,105,7,31.818181818181817,6.666666666666667,509.15366254578555
+Rule D: Constant Fixed Lot Baseline (0.01 Lot Default),1,94.79905437352247,0,0,0.0,0.0,178.960457012696
+Rule E: Discretionary Operator Scaling (Latent Human Intention),4,99.76359338061465,22,22,100.0,100.0,38.28102132182145

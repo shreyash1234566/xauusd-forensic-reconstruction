@@ -1,0 +1,376 @@
+model,fold,rule_type,rule_or_feature,coefficient,threshold,oos_f1,oos_precision
+E1 completed-bar events,1,L1 logistic feature,event_cross_prior_high_10,-0.9717258882128668,0.5647813097831624,0.004081632653061225,0.0020768431983385254
+E1 completed-bar events,1,L1 logistic feature,event_cross_prior_low_10,0.05594296109851965,0.5647813097831624,0.004081632653061225,0.0020768431983385254
+E1 completed-bar events,1,L1 logistic feature,event_cross_prior_high_20,0.29988307947938947,0.5647813097831624,0.004081632653061225,0.0020768431983385254
+E1 completed-bar events,1,L1 logistic feature,event_cross_prior_low_20,-0.15485750558734412,0.5647813097831624,0.004081632653061225,0.0020768431983385254
+E1 completed-bar events,1,L1 logistic feature,event_cross_session_high,-0.656911933044339,0.5647813097831624,0.004081632653061225,0.0020768431983385254
+E1 completed-bar events,1,L1 logistic feature,event_cross_session_low,-0.40872011497882216,0.5647813097831624,0.004081632653061225,0.0020768431983385254
+E1 completed-bar events,1,L1 logistic feature,event_cross_vwap,-0.09579575487455576,0.5647813097831624,0.004081632653061225,0.0020768431983385254
+E1 completed-bar events,1,L1 logistic feature,event_cross_ema20,-0.0724645114901309,0.5647813097831624,0.004081632653061225,0.0020768431983385254
+E1 completed-bar events,1,L1 logistic feature,event_large_body_expansion,0.0809381810351629,0.5647813097831624,0.004081632653061225,0.0020768431983385254
+E1 completed-bar events,1,L1 logistic feature,event_compression_to_expansion,0.058886063854187785,0.5647813097831624,0.004081632653061225,0.0020768431983385254
+E1 completed-bar events,1,L1 logistic feature,event_higher_low_break,0.670894119040034,0.5647813097831624,0.004081632653061225,0.0020768431983385254
+E1 completed-bar events,1,L1 logistic feature,event_false_break_high,-0.01209156301068475,0.5647813097831624,0.004081632653061225,0.0020768431983385254
+E1 completed-bar events,1,L1 logistic feature,event_false_break_low,-0.047372430494526725,0.5647813097831624,0.004081632653061225,0.0020768431983385254
+E1 completed-bar events,1,L1 logistic feature,event_impulse_pullback_cont_up,-0.2380432631394343,0.5647813097831624,0.004081632653061225,0.0020768431983385254
+E1 completed-bar events,1,L1 logistic feature,event_impulse_pullback_cont_down,0.050681578328752565,0.5647813097831624,0.004081632653061225,0.0020768431983385254
+E1 completed-bar events,1,L1 logistic feature,event_immediate_reversal,-0.300710866574686,0.5647813097831624,0.004081632653061225,0.0020768431983385254
+E1 completed-bar events,1,L1 logistic feature,event_range_expansion_strength,0.13657604521225603,0.5647813097831624,0.004081632653061225,0.0020768431983385254
+E1 completed-bar events,1,L1 logistic feature,event_body_ratio,-0.07119377105472921,0.5647813097831624,0.004081632653061225,0.0020768431983385254
+E1 completed-bar events,1,L1 logistic feature,event_bar_direction,-0.05792944433193238,0.5647813097831624,0.004081632653061225,0.0020768431983385254
+E1 completed-bar events,2,L1 logistic feature,event_cross_prior_high_10,-0.9434364691438066,0.6550717472466225,0.0020597322348094747,0.0011198208286674132
+E1 completed-bar events,2,L1 logistic feature,event_cross_prior_high_20,0.01777956125570259,0.6550717472466225,0.0020597322348094747,0.0011198208286674132
+E1 completed-bar events,2,L1 logistic feature,event_cross_prior_low_20,-0.014272247559017893,0.6550717472466225,0.0020597322348094747,0.0011198208286674132
+E1 completed-bar events,2,L1 logistic feature,event_cross_session_high,-0.2143434055318071,0.6550717472466225,0.0020597322348094747,0.0011198208286674132
+E1 completed-bar events,2,L1 logistic feature,event_cross_session_low,-0.39868704245448544,0.6550717472466225,0.0020597322348094747,0.0011198208286674132
+E1 completed-bar events,2,L1 logistic feature,event_cross_vwap,-0.05159598379935267,0.6550717472466225,0.0020597322348094747,0.0011198208286674132
+E1 completed-bar events,2,L1 logistic feature,event_cross_ema20,-0.030529138851063654,0.6550717472466225,0.0020597322348094747,0.0011198208286674132
+E1 completed-bar events,2,L1 logistic feature,event_large_body_expansion,-0.027638506913564228,0.6550717472466225,0.0020597322348094747,0.0011198208286674132
+E1 completed-bar events,2,L1 logistic feature,event_compression_to_expansion,0.02152432034937961,0.6550717472466225,0.0020597322348094747,0.0011198208286674132
+E1 completed-bar events,2,L1 logistic feature,event_higher_low_break,0.9567355605523986,0.6550717472466225,0.0020597322348094747,0.0011198208286674132
+E1 completed-bar events,2,L1 logistic feature,event_lower_high_break,0.08411424240580363,0.6550717472466225,0.0020597322348094747,0.0011198208286674132
+E1 completed-bar events,2,L1 logistic feature,event_false_break_high,0.002118304085472314,0.6550717472466225,0.0020597322348094747,0.0011198208286674132
+E1 completed-bar events,2,L1 logistic feature,event_false_break_low,-0.044269153739239724,0.6550717472466225,0.0020597322348094747,0.0011198208286674132
+E1 completed-bar events,2,L1 logistic feature,event_impulse_pullback_cont_up,-0.25858257586402494,0.6550717472466225,0.0020597322348094747,0.0011198208286674132
+E1 completed-bar events,2,L1 logistic feature,event_impulse_pullback_cont_down,0.030345134044470968,0.6550717472466225,0.0020597322348094747,0.0011198208286674132
+E1 completed-bar events,2,L1 logistic feature,event_immediate_reversal,-0.34573677759957006,0.6550717472466225,0.0020597322348094747,0.0011198208286674132
+E1 completed-bar events,2,L1 logistic feature,event_range_expansion_strength,0.2568373669985832,0.6550717472466225,0.0020597322348094747,0.0011198208286674132
+E1 completed-bar events,2,L1 logistic feature,event_body_ratio,-0.1077213231022769,0.6550717472466225,0.0020597322348094747,0.0011198208286674132
+E1 completed-bar events,2,L1 logistic feature,event_bar_direction,0.021665448633159036,0.6550717472466225,0.0020597322348094747,0.0011198208286674132
+E1 completed-bar events,3,L1 logistic feature,event_cross_prior_high_10,-0.24425350717059494,0.5690052711297107,0.002452483139178418,0.0012424932698281218
+E1 completed-bar events,3,L1 logistic feature,event_cross_prior_low_10,-0.06557006915405848,0.5690052711297107,0.002452483139178418,0.0012424932698281218
+E1 completed-bar events,3,L1 logistic feature,event_cross_prior_high_20,0.032274829412581724,0.5690052711297107,0.002452483139178418,0.0012424932698281218
+E1 completed-bar events,3,L1 logistic feature,event_cross_prior_low_20,-0.03851115374574419,0.5690052711297107,0.002452483139178418,0.0012424932698281218
+E1 completed-bar events,3,L1 logistic feature,event_cross_session_high,-0.10017121166061646,0.5690052711297107,0.002452483139178418,0.0012424932698281218
+E1 completed-bar events,3,L1 logistic feature,event_cross_session_low,-0.08524167625277432,0.5690052711297107,0.002452483139178418,0.0012424932698281218
+E1 completed-bar events,3,L1 logistic feature,event_cross_vwap,0.04070475461034279,0.5690052711297107,0.002452483139178418,0.0012424932698281218
+E1 completed-bar events,3,L1 logistic feature,event_cross_ema20,0.020525451902902968,0.5690052711297107,0.002452483139178418,0.0012424932698281218
+E1 completed-bar events,3,L1 logistic feature,event_large_body_expansion,0.02518049135178652,0.5690052711297107,0.002452483139178418,0.0012424932698281218
+E1 completed-bar events,3,L1 logistic feature,event_compression_to_expansion,0.022409804598046115,0.5690052711297107,0.002452483139178418,0.0012424932698281218
+E1 completed-bar events,3,L1 logistic feature,event_higher_low_break,0.3430686657887171,0.5690052711297107,0.002452483139178418,0.0012424932698281218
+E1 completed-bar events,3,L1 logistic feature,event_lower_high_break,0.21964401941701608,0.5690052711297107,0.002452483139178418,0.0012424932698281218
+E1 completed-bar events,3,L1 logistic feature,event_false_break_low,0.02669497948946813,0.5690052711297107,0.002452483139178418,0.0012424932698281218
+E1 completed-bar events,3,L1 logistic feature,event_impulse_pullback_cont_up,0.03453986644194311,0.5690052711297107,0.002452483139178418,0.0012424932698281218
+E1 completed-bar events,3,L1 logistic feature,event_impulse_pullback_cont_down,0.013888503675606368,0.5690052711297107,0.002452483139178418,0.0012424932698281218
+E1 completed-bar events,3,L1 logistic feature,event_immediate_reversal,-0.3094549913076517,0.5690052711297107,0.002452483139178418,0.0012424932698281218
+E1 completed-bar events,3,L1 logistic feature,event_range_expansion_strength,0.05569964750598079,0.5690052711297107,0.002452483139178418,0.0012424932698281218
+E1 completed-bar events,3,L1 logistic feature,event_body_ratio,-0.1029904892490843,0.5690052711297107,0.002452483139178418,0.0012424932698281218
+E1 completed-bar events,3,L1 logistic feature,event_bar_direction,0.036723118897801436,0.5690052711297107,0.002452483139178418,0.0012424932698281218
+E1 completed-bar events,4,L1 logistic feature,event_cross_prior_high_10,-0.30256672811239965,0.6063649513194204,0.002036659877800407,0.0010454783063251437
+E1 completed-bar events,4,L1 logistic feature,event_cross_prior_low_10,-0.17795426297427308,0.6063649513194204,0.002036659877800407,0.0010454783063251437
+E1 completed-bar events,4,L1 logistic feature,event_cross_prior_high_20,0.0504225431892734,0.6063649513194204,0.002036659877800407,0.0010454783063251437
+E1 completed-bar events,4,L1 logistic feature,event_cross_prior_low_20,0.01432035334126658,0.6063649513194204,0.002036659877800407,0.0010454783063251437
+E1 completed-bar events,4,L1 logistic feature,event_cross_session_high,-0.1217516044015088,0.6063649513194204,0.002036659877800407,0.0010454783063251437
+E1 completed-bar events,4,L1 logistic feature,event_cross_session_low,-0.06100485268130378,0.6063649513194204,0.002036659877800407,0.0010454783063251437
+E1 completed-bar events,4,L1 logistic feature,event_cross_vwap,0.00095750669960639,0.6063649513194204,0.002036659877800407,0.0010454783063251437
+E1 completed-bar events,4,L1 logistic feature,event_cross_ema20,0.03472025550965874,0.6063649513194204,0.002036659877800407,0.0010454783063251437
+E1 completed-bar events,4,L1 logistic feature,event_large_body_expansion,0.045162128423633666,0.6063649513194204,0.002036659877800407,0.0010454783063251437
+E1 completed-bar events,4,L1 logistic feature,event_compression_to_expansion,-0.004000519017629237,0.6063649513194204,0.002036659877800407,0.0010454783063251437
+E1 completed-bar events,4,L1 logistic feature,event_higher_low_break,0.37759921745317315,0.6063649513194204,0.002036659877800407,0.0010454783063251437
+E1 completed-bar events,4,L1 logistic feature,event_lower_high_break,0.3021428114771459,0.6063649513194204,0.002036659877800407,0.0010454783063251437
+E1 completed-bar events,4,L1 logistic feature,event_false_break_high,-0.003118727300349617,0.6063649513194204,0.002036659877800407,0.0010454783063251437
+E1 completed-bar events,4,L1 logistic feature,event_false_break_low,0.07204861647520296,0.6063649513194204,0.002036659877800407,0.0010454783063251437
+E1 completed-bar events,4,L1 logistic feature,event_impulse_pullback_cont_up,0.03284489498690249,0.6063649513194204,0.002036659877800407,0.0010454783063251437
+E1 completed-bar events,4,L1 logistic feature,event_impulse_pullback_cont_down,0.010504350168481847,0.6063649513194204,0.002036659877800407,0.0010454783063251437
+E1 completed-bar events,4,L1 logistic feature,event_immediate_reversal,-0.3270831970863892,0.6063649513194204,0.002036659877800407,0.0010454783063251437
+E1 completed-bar events,4,L1 logistic feature,event_range_expansion_strength,0.019534310065965444,0.6063649513194204,0.002036659877800407,0.0010454783063251437
+E1 completed-bar events,4,L1 logistic feature,event_body_ratio,-0.1277622436052518,0.6063649513194204,0.002036659877800407,0.0010454783063251437
+E1 completed-bar events,4,L1 logistic feature,event_bar_direction,0.012839863747057216,0.6063649513194204,0.002036659877800407,0.0010454783063251437
+E1 completed-bar events,5,L1 logistic feature,event_cross_prior_high_10,-0.31068099323212295,0.5533512412910051,0.002287166454891995,0.0011501597444089457
+E1 completed-bar events,5,L1 logistic feature,event_cross_prior_low_10,-0.2009058001405319,0.5533512412910051,0.002287166454891995,0.0011501597444089457
+E1 completed-bar events,5,L1 logistic feature,event_cross_prior_high_20,0.034892453203135075,0.5533512412910051,0.002287166454891995,0.0011501597444089457
+E1 completed-bar events,5,L1 logistic feature,event_cross_session_high,-0.08260627856935224,0.5533512412910051,0.002287166454891995,0.0011501597444089457
+E1 completed-bar events,5,L1 logistic feature,event_cross_session_low,-0.0862556609921072,0.5533512412910051,0.002287166454891995,0.0011501597444089457
+E1 completed-bar events,5,L1 logistic feature,event_cross_vwap,0.0015367447890731866,0.5533512412910051,0.002287166454891995,0.0011501597444089457
+E1 completed-bar events,5,L1 logistic feature,event_cross_ema20,0.010540943194915943,0.5533512412910051,0.002287166454891995,0.0011501597444089457
+E1 completed-bar events,5,L1 logistic feature,event_large_body_expansion,0.03295088738892315,0.5533512412910051,0.002287166454891995,0.0011501597444089457
+E1 completed-bar events,5,L1 logistic feature,event_compression_to_expansion,-0.02695111200597695,0.5533512412910051,0.002287166454891995,0.0011501597444089457
+E1 completed-bar events,5,L1 logistic feature,event_higher_low_break,0.3895223859353301,0.5533512412910051,0.002287166454891995,0.0011501597444089457
+E1 completed-bar events,5,L1 logistic feature,event_lower_high_break,0.32348602232501333,0.5533512412910051,0.002287166454891995,0.0011501597444089457
+E1 completed-bar events,5,L1 logistic feature,event_false_break_high,0.00030896308378703324,0.5533512412910051,0.002287166454891995,0.0011501597444089457
+E1 completed-bar events,5,L1 logistic feature,event_false_break_low,0.06050594666881388,0.5533512412910051,0.002287166454891995,0.0011501597444089457
+E1 completed-bar events,5,L1 logistic feature,event_impulse_pullback_cont_up,0.016849426778331116,0.5533512412910051,0.002287166454891995,0.0011501597444089457
+E1 completed-bar events,5,L1 logistic feature,event_impulse_pullback_cont_down,-0.011679534332329081,0.5533512412910051,0.002287166454891995,0.0011501597444089457
+E1 completed-bar events,5,L1 logistic feature,event_immediate_reversal,-0.35135988802164975,0.5533512412910051,0.002287166454891995,0.0011501597444089457
+E1 completed-bar events,5,L1 logistic feature,event_count,0.02208864889424322,0.5533512412910051,0.002287166454891995,0.0011501597444089457
+E1 completed-bar events,5,L1 logistic feature,event_range_expansion_strength,0.03189152945276736,0.5533512412910051,0.002287166454891995,0.0011501597444089457
+E1 completed-bar events,5,L1 logistic feature,event_body_ratio,-0.09400690292292219,0.5533512412910051,0.002287166454891995,0.0011501597444089457
+E1 completed-bar events,5,L1 logistic feature,event_bar_direction,-0.009214610168280095,0.5533512412910051,0.002287166454891995,0.0011501597444089457
+E2 events + eligibility state,1,L1 logistic feature,event_cross_prior_high_10,-0.8217440190634182,0.9580037494565491,0.024,0.016483516483516484
+E2 events + eligibility state,1,L1 logistic feature,event_cross_prior_low_10,0.04207768660715418,0.9580037494565491,0.024,0.016483516483516484
+E2 events + eligibility state,1,L1 logistic feature,event_cross_prior_high_20,0.2718765681301775,0.9580037494565491,0.024,0.016483516483516484
+E2 events + eligibility state,1,L1 logistic feature,event_cross_prior_low_20,-0.017215666777666883,0.9580037494565491,0.024,0.016483516483516484
+E2 events + eligibility state,1,L1 logistic feature,event_cross_session_high,-0.5574717098401284,0.9580037494565491,0.024,0.016483516483516484
+E2 events + eligibility state,1,L1 logistic feature,event_cross_session_low,-0.2928879275885712,0.9580037494565491,0.024,0.016483516483516484
+E2 events + eligibility state,1,L1 logistic feature,event_cross_vwap,-0.014870196839501852,0.9580037494565491,0.024,0.016483516483516484
+E2 events + eligibility state,1,L1 logistic feature,event_cross_ema20,-0.06211845851769899,0.9580037494565491,0.024,0.016483516483516484
+E2 events + eligibility state,1,L1 logistic feature,event_large_body_expansion,0.037656084113718014,0.9580037494565491,0.024,0.016483516483516484
+E2 events + eligibility state,1,L1 logistic feature,event_compression_to_expansion,0.05133725328363541,0.9580037494565491,0.024,0.016483516483516484
+E2 events + eligibility state,1,L1 logistic feature,event_higher_low_break,0.5317200920328484,0.9580037494565491,0.024,0.016483516483516484
+E2 events + eligibility state,1,L1 logistic feature,event_lower_high_break,-0.031585296636994054,0.9580037494565491,0.024,0.016483516483516484
+E2 events + eligibility state,1,L1 logistic feature,event_false_break_high,-0.007311128129323851,0.9580037494565491,0.024,0.016483516483516484
+E2 events + eligibility state,1,L1 logistic feature,event_false_break_low,-0.02757541418062786,0.9580037494565491,0.024,0.016483516483516484
+E2 events + eligibility state,1,L1 logistic feature,event_impulse_pullback_cont_up,-0.23820074736927896,0.9580037494565491,0.024,0.016483516483516484
+E2 events + eligibility state,1,L1 logistic feature,event_impulse_pullback_cont_down,-0.015755913884657566,0.9580037494565491,0.024,0.016483516483516484
+E2 events + eligibility state,1,L1 logistic feature,event_immediate_reversal,-0.2538077263461848,0.9580037494565491,0.024,0.016483516483516484
+E2 events + eligibility state,1,L1 logistic feature,event_range_expansion_strength,0.09035775475470868,0.9580037494565491,0.024,0.016483516483516484
+E2 events + eligibility state,1,L1 logistic feature,event_body_ratio,-0.13069984008121363,0.9580037494565491,0.024,0.016483516483516484
+E2 events + eligibility state,1,L1 logistic feature,event_bar_direction,-0.08126004629347193,0.9580037494565491,0.024,0.016483516483516484
+E2 events + eligibility state,1,L1 logistic feature,cooldown_log_seconds,-0.31222177871237083,0.9580037494565491,0.024,0.016483516483516484
+E2 events + eligibility state,1,L1 logistic feature,seconds_since_last_entry,0.8310175415128013,0.9580037494565491,0.024,0.016483516483516484
+E2 events + eligibility state,1,L1 logistic feature,prior_win_code,-0.24495536898611261,0.9580037494565491,0.024,0.016483516483516484
+E2 events + eligibility state,1,L1 logistic feature,prior_direction_code,-0.17558735940125955,0.9580037494565491,0.024,0.016483516483516484
+E2 events + eligibility state,1,L1 logistic feature,prior_large_code,-0.04841097788977418,0.9580037494565491,0.024,0.016483516483516484
+E2 events + eligibility state,1,L1 logistic feature,boundary_5,-0.03690263811892977,0.9580037494565491,0.024,0.016483516483516484
+E2 events + eligibility state,1,L1 logistic feature,boundary_15,-0.06041025879019014,0.9580037494565491,0.024,0.016483516483516484
+E2 events + eligibility state,1,L1 logistic feature,boundary_30,0.12756967566026162,0.9580037494565491,0.024,0.016483516483516484
+E2 events + eligibility state,1,L1 logistic feature,boundary_60,0.052922158188533054,0.9580037494565491,0.024,0.016483516483516484
+E2 events + eligibility state,1,L1 logistic feature,hour_sin,-0.16859433733485985,0.9580037494565491,0.024,0.016483516483516484
+E2 events + eligibility state,1,L1 logistic feature,hour_cos,-1.5543770149114047,0.9580037494565491,0.024,0.016483516483516484
+E2 events + eligibility state,1,L1 logistic feature,dow_sin,0.25539492033440586,0.9580037494565491,0.024,0.016483516483516484
+E2 events + eligibility state,1,L1 logistic feature,dow_cos,-0.33358601199826715,0.9580037494565491,0.024,0.016483516483516484
+E2 events + eligibility state,2,L1 logistic feature,event_cross_prior_high_10,-0.8017361842183865,0.9684894394266095,0.0,0.0
+E2 events + eligibility state,2,L1 logistic feature,event_cross_prior_high_20,-0.060219744229493194,0.9684894394266095,0.0,0.0
+E2 events + eligibility state,2,L1 logistic feature,event_cross_prior_low_20,0.03754653895475011,0.9684894394266095,0.0,0.0
+E2 events + eligibility state,2,L1 logistic feature,event_cross_session_high,-0.15668111301371807,0.9684894394266095,0.0,0.0
+E2 events + eligibility state,2,L1 logistic feature,event_cross_session_low,-0.36254054592139134,0.9684894394266095,0.0,0.0
+E2 events + eligibility state,2,L1 logistic feature,event_cross_vwap,-0.04571098596057323,0.9684894394266095,0.0,0.0
+E2 events + eligibility state,2,L1 logistic feature,event_cross_ema20,0.002542532917877712,0.9684894394266095,0.0,0.0
+E2 events + eligibility state,2,L1 logistic feature,event_large_body_expansion,-0.04046671653581947,0.9684894394266095,0.0,0.0
+E2 events + eligibility state,2,L1 logistic feature,event_compression_to_expansion,0.026976875311943777,0.9684894394266095,0.0,0.0
+E2 events + eligibility state,2,L1 logistic feature,event_higher_low_break,0.8623885101624258,0.9684894394266095,0.0,0.0
+E2 events + eligibility state,2,L1 logistic feature,event_lower_high_break,0.07305575197190438,0.9684894394266095,0.0,0.0
+E2 events + eligibility state,2,L1 logistic feature,event_false_break_high,-0.004944295671064773,0.9684894394266095,0.0,0.0
+E2 events + eligibility state,2,L1 logistic feature,event_false_break_low,-0.07223661367186561,0.9684894394266095,0.0,0.0
+E2 events + eligibility state,2,L1 logistic feature,event_impulse_pullback_cont_up,-0.2620756670278869,0.9684894394266095,0.0,0.0
+E2 events + eligibility state,2,L1 logistic feature,event_impulse_pullback_cont_down,-0.017720214194795726,0.9684894394266095,0.0,0.0
+E2 events + eligibility state,2,L1 logistic feature,event_immediate_reversal,-0.30707229194055563,0.9684894394266095,0.0,0.0
+E2 events + eligibility state,2,L1 logistic feature,event_range_expansion_strength,0.2241894946659048,0.9684894394266095,0.0,0.0
+E2 events + eligibility state,2,L1 logistic feature,event_body_ratio,-0.18621174208815144,0.9684894394266095,0.0,0.0
+E2 events + eligibility state,2,L1 logistic feature,cooldown_log_seconds,-0.25034810861039736,0.9684894394266095,0.0,0.0
+E2 events + eligibility state,2,L1 logistic feature,seconds_since_last_entry,0.6161630650597189,0.9684894394266095,0.0,0.0
+E2 events + eligibility state,2,L1 logistic feature,prior_win_code,-0.24853006581099502,0.9684894394266095,0.0,0.0
+E2 events + eligibility state,2,L1 logistic feature,prior_direction_code,-0.09835571952065388,0.9684894394266095,0.0,0.0
+E2 events + eligibility state,2,L1 logistic feature,prior_large_code,-0.11888691702771176,0.9684894394266095,0.0,0.0
+E2 events + eligibility state,2,L1 logistic feature,boundary_5,-0.010231227746132655,0.9684894394266095,0.0,0.0
+E2 events + eligibility state,2,L1 logistic feature,boundary_15,-0.011462906381698007,0.9684894394266095,0.0,0.0
+E2 events + eligibility state,2,L1 logistic feature,boundary_30,0.14731782036939287,0.9684894394266095,0.0,0.0
+E2 events + eligibility state,2,L1 logistic feature,boundary_60,-0.01628667622976724,0.9684894394266095,0.0,0.0
+E2 events + eligibility state,2,L1 logistic feature,hour_sin,-0.08192416508979589,0.9684894394266095,0.0,0.0
+E2 events + eligibility state,2,L1 logistic feature,hour_cos,-1.3417232482748815,0.9684894394266095,0.0,0.0
+E2 events + eligibility state,2,L1 logistic feature,dow_sin,0.07603805889449343,0.9684894394266095,0.0,0.0
+E2 events + eligibility state,2,L1 logistic feature,dow_cos,-0.32286025765288084,0.9684894394266095,0.0,0.0
+E2 events + eligibility state,3,L1 logistic feature,event_cross_prior_high_10,-0.19515766516717756,0.9045308185069504,0.012195121951219513,0.01
+E2 events + eligibility state,3,L1 logistic feature,event_cross_prior_low_10,0.0033950455345014502,0.9045308185069504,0.012195121951219513,0.01
+E2 events + eligibility state,3,L1 logistic feature,event_cross_prior_high_20,-0.02904950399371739,0.9045308185069504,0.012195121951219513,0.01
+E2 events + eligibility state,3,L1 logistic feature,event_cross_prior_low_20,-0.09251098525769615,0.9045308185069504,0.012195121951219513,0.01
+E2 events + eligibility state,3,L1 logistic feature,event_cross_session_high,-0.06638116440900979,0.9045308185069504,0.012195121951219513,0.01
+E2 events + eligibility state,3,L1 logistic feature,event_cross_session_low,-0.042941360183643015,0.9045308185069504,0.012195121951219513,0.01
+E2 events + eligibility state,3,L1 logistic feature,event_cross_vwap,0.07321960746814597,0.9045308185069504,0.012195121951219513,0.01
+E2 events + eligibility state,3,L1 logistic feature,event_cross_ema20,-0.004685565042676967,0.9045308185069504,0.012195121951219513,0.01
+E2 events + eligibility state,3,L1 logistic feature,event_large_body_expansion,0.002023889167156351,0.9045308185069504,0.012195121951219513,0.01
+E2 events + eligibility state,3,L1 logistic feature,event_compression_to_expansion,0.02219483808890209,0.9045308185069504,0.012195121951219513,0.01
+E2 events + eligibility state,3,L1 logistic feature,event_higher_low_break,0.3594986843548877,0.9045308185069504,0.012195121951219513,0.01
+E2 events + eligibility state,3,L1 logistic feature,event_lower_high_break,0.1931891073205714,0.9045308185069504,0.012195121951219513,0.01
+E2 events + eligibility state,3,L1 logistic feature,event_false_break_high,-0.037216350404117485,0.9045308185069504,0.012195121951219513,0.01
+E2 events + eligibility state,3,L1 logistic feature,event_false_break_low,-0.02482302005669672,0.9045308185069504,0.012195121951219513,0.01
+E2 events + eligibility state,3,L1 logistic feature,event_impulse_pullback_cont_up,0.0415494555121792,0.9045308185069504,0.012195121951219513,0.01
+E2 events + eligibility state,3,L1 logistic feature,event_impulse_pullback_cont_down,-0.0504661551145972,0.9045308185069504,0.012195121951219513,0.01
+E2 events + eligibility state,3,L1 logistic feature,event_immediate_reversal,-0.2956416733300435,0.9045308185069504,0.012195121951219513,0.01
+E2 events + eligibility state,3,L1 logistic feature,event_range_expansion_strength,0.01615839511294938,0.9045308185069504,0.012195121951219513,0.01
+E2 events + eligibility state,3,L1 logistic feature,event_body_ratio,-0.10412182281736,0.9045308185069504,0.012195121951219513,0.01
+E2 events + eligibility state,3,L1 logistic feature,event_bar_direction,0.003249269902368077,0.9045308185069504,0.012195121951219513,0.01
+E2 events + eligibility state,3,L1 logistic feature,cooldown_log_seconds,-0.03866180400206379,0.9045308185069504,0.012195121951219513,0.01
+E2 events + eligibility state,3,L1 logistic feature,seconds_since_last_entry,0.34718198946347556,0.9045308185069504,0.012195121951219513,0.01
+E2 events + eligibility state,3,L1 logistic feature,prior_win_code,-0.2664368929956244,0.9045308185069504,0.012195121951219513,0.01
+E2 events + eligibility state,3,L1 logistic feature,prior_direction_code,-0.01437282624900542,0.9045308185069504,0.012195121951219513,0.01
+E2 events + eligibility state,3,L1 logistic feature,prior_large_code,-0.1261205745627189,0.9045308185069504,0.012195121951219513,0.01
+E2 events + eligibility state,3,L1 logistic feature,boundary_5,0.04199355723784969,0.9045308185069504,0.012195121951219513,0.01
+E2 events + eligibility state,3,L1 logistic feature,boundary_15,-0.15861352108614593,0.9045308185069504,0.012195121951219513,0.01
+E2 events + eligibility state,3,L1 logistic feature,boundary_30,0.2714068257040608,0.9045308185069504,0.012195121951219513,0.01
+E2 events + eligibility state,3,L1 logistic feature,boundary_60,0.007665658440723786,0.9045308185069504,0.012195121951219513,0.01
+E2 events + eligibility state,3,L1 logistic feature,hour_sin,-0.1852271864458082,0.9045308185069504,0.012195121951219513,0.01
+E2 events + eligibility state,3,L1 logistic feature,hour_cos,-1.3000006031461762,0.9045308185069504,0.012195121951219513,0.01
+E2 events + eligibility state,3,L1 logistic feature,dow_sin,0.07213602768710285,0.9045308185069504,0.012195121951219513,0.01
+E2 events + eligibility state,3,L1 logistic feature,dow_cos,-0.14175665761742173,0.9045308185069504,0.012195121951219513,0.01
+E2 events + eligibility state,4,L1 logistic feature,event_cross_prior_high_10,-0.28241961574303037,0.9200288878015485,0.0,0.0
+E2 events + eligibility state,4,L1 logistic feature,event_cross_prior_low_10,-0.10844966113973539,0.9200288878015485,0.0,0.0
+E2 events + eligibility state,4,L1 logistic feature,event_cross_prior_high_20,0.015375287635552971,0.9200288878015485,0.0,0.0
+E2 events + eligibility state,4,L1 logistic feature,event_cross_prior_low_20,-0.021462272402134983,0.9200288878015485,0.0,0.0
+E2 events + eligibility state,4,L1 logistic feature,event_cross_session_high,-0.08614429707839752,0.9200288878015485,0.0,0.0
+E2 events + eligibility state,4,L1 logistic feature,event_cross_session_low,-0.04122646252026694,0.9200288878015485,0.0,0.0
+E2 events + eligibility state,4,L1 logistic feature,event_cross_vwap,0.026878853570859215,0.9200288878015485,0.0,0.0
+E2 events + eligibility state,4,L1 logistic feature,event_cross_ema20,0.024030403803607492,0.9200288878015485,0.0,0.0
+E2 events + eligibility state,4,L1 logistic feature,event_large_body_expansion,0.0010683015682911364,0.9200288878015485,0.0,0.0
+E2 events + eligibility state,4,L1 logistic feature,event_compression_to_expansion,-0.008328568863563148,0.9200288878015485,0.0,0.0
+E2 events + eligibility state,4,L1 logistic feature,event_higher_low_break,0.4117389018139943,0.9200288878015485,0.0,0.0
+E2 events + eligibility state,4,L1 logistic feature,event_lower_high_break,0.2686897848816748,0.9200288878015485,0.0,0.0
+E2 events + eligibility state,4,L1 logistic feature,event_false_break_high,-0.032395360922371774,0.9200288878015485,0.0,0.0
+E2 events + eligibility state,4,L1 logistic feature,event_false_break_low,0.016161989206397435,0.9200288878015485,0.0,0.0
+E2 events + eligibility state,4,L1 logistic feature,event_impulse_pullback_cont_up,0.048017268975702194,0.9200288878015485,0.0,0.0
+E2 events + eligibility state,4,L1 logistic feature,event_impulse_pullback_cont_down,-0.049353397038654004,0.9200288878015485,0.0,0.0
+E2 events + eligibility state,4,L1 logistic feature,event_immediate_reversal,-0.3280971694605207,0.9200288878015485,0.0,0.0
+E2 events + eligibility state,4,L1 logistic feature,event_range_expansion_strength,-0.0278463414260255,0.9200288878015485,0.0,0.0
+E2 events + eligibility state,4,L1 logistic feature,event_body_ratio,-0.1362932361292769,0.9200288878015485,0.0,0.0
+E2 events + eligibility state,4,L1 logistic feature,event_bar_direction,-0.025563203787237268,0.9200288878015485,0.0,0.0
+E2 events + eligibility state,4,L1 logistic feature,cooldown_log_seconds,0.07460423120929492,0.9200288878015485,0.0,0.0
+E2 events + eligibility state,4,L1 logistic feature,seconds_since_last_entry,0.3008932411530732,0.9200288878015485,0.0,0.0
+E2 events + eligibility state,4,L1 logistic feature,prior_win_code,-0.2923960694551198,0.9200288878015485,0.0,0.0
+E2 events + eligibility state,4,L1 logistic feature,prior_direction_code,-0.05399328431450518,0.9200288878015485,0.0,0.0
+E2 events + eligibility state,4,L1 logistic feature,prior_large_code,-0.12033791569468023,0.9200288878015485,0.0,0.0
+E2 events + eligibility state,4,L1 logistic feature,boundary_5,0.022082052705336436,0.9200288878015485,0.0,0.0
+E2 events + eligibility state,4,L1 logistic feature,boundary_15,-0.11800063046537973,0.9200288878015485,0.0,0.0
+E2 events + eligibility state,4,L1 logistic feature,boundary_30,0.29106264000890664,0.9200288878015485,0.0,0.0
+E2 events + eligibility state,4,L1 logistic feature,boundary_60,-0.03904337546878369,0.9200288878015485,0.0,0.0
+E2 events + eligibility state,4,L1 logistic feature,hour_sin,-0.23273895792076285,0.9200288878015485,0.0,0.0
+E2 events + eligibility state,4,L1 logistic feature,hour_cos,-1.271659427958352,0.9200288878015485,0.0,0.0
+E2 events + eligibility state,4,L1 logistic feature,dow_sin,0.07464609401331682,0.9200288878015485,0.0,0.0
+E2 events + eligibility state,4,L1 logistic feature,dow_cos,-0.11046651843427434,0.9200288878015485,0.0,0.0
+E2 events + eligibility state,5,L1 logistic feature,event_cross_prior_high_10,-0.3076611344370541,0.8048782213469519,0.006335797254487857,0.003244997295835587
+E2 events + eligibility state,5,L1 logistic feature,event_cross_prior_low_10,-0.1546682290882352,0.8048782213469519,0.006335797254487857,0.003244997295835587
+E2 events + eligibility state,5,L1 logistic feature,event_cross_prior_high_20,0.016751337258501132,0.8048782213469519,0.006335797254487857,0.003244997295835587
+E2 events + eligibility state,5,L1 logistic feature,event_cross_prior_low_20,0.00033956908329916315,0.8048782213469519,0.006335797254487857,0.003244997295835587
+E2 events + eligibility state,5,L1 logistic feature,event_cross_session_high,-0.05282846037521319,0.8048782213469519,0.006335797254487857,0.003244997295835587
+E2 events + eligibility state,5,L1 logistic feature,event_cross_session_low,-0.07392386248350372,0.8048782213469519,0.006335797254487857,0.003244997295835587
+E2 events + eligibility state,5,L1 logistic feature,event_cross_vwap,0.03199818130883526,0.8048782213469519,0.006335797254487857,0.003244997295835587
+E2 events + eligibility state,5,L1 logistic feature,event_cross_ema20,-0.01871896580585618,0.8048782213469519,0.006335797254487857,0.003244997295835587
+E2 events + eligibility state,5,L1 logistic feature,event_large_body_expansion,0.012398753553011154,0.8048782213469519,0.006335797254487857,0.003244997295835587
+E2 events + eligibility state,5,L1 logistic feature,event_compression_to_expansion,-0.020637115057708457,0.8048782213469519,0.006335797254487857,0.003244997295835587
+E2 events + eligibility state,5,L1 logistic feature,event_higher_low_break,0.4296316388543199,0.8048782213469519,0.006335797254487857,0.003244997295835587
+E2 events + eligibility state,5,L1 logistic feature,event_lower_high_break,0.30648385811361767,0.8048782213469519,0.006335797254487857,0.003244997295835587
+E2 events + eligibility state,5,L1 logistic feature,event_false_break_high,-0.024183532512890144,0.8048782213469519,0.006335797254487857,0.003244997295835587
+E2 events + eligibility state,5,L1 logistic feature,event_false_break_low,0.026471617962634336,0.8048782213469519,0.006335797254487857,0.003244997295835587
+E2 events + eligibility state,5,L1 logistic feature,event_impulse_pullback_cont_up,0.0367668234768435,0.8048782213469519,0.006335797254487857,0.003244997295835587
+E2 events + eligibility state,5,L1 logistic feature,event_impulse_pullback_cont_down,-0.07147370169857219,0.8048782213469519,0.006335797254487857,0.003244997295835587
+E2 events + eligibility state,5,L1 logistic feature,event_immediate_reversal,-0.31158501823055307,0.8048782213469519,0.006335797254487857,0.003244997295835587
+E2 events + eligibility state,5,L1 logistic feature,event_range_expansion_strength,0.0013528170258660579,0.8048782213469519,0.006335797254487857,0.003244997295835587
+E2 events + eligibility state,5,L1 logistic feature,event_body_ratio,-0.10486131958019085,0.8048782213469519,0.006335797254487857,0.003244997295835587
+E2 events + eligibility state,5,L1 logistic feature,event_bar_direction,-0.03809716392188687,0.8048782213469519,0.006335797254487857,0.003244997295835587
+E2 events + eligibility state,5,L1 logistic feature,cooldown_log_seconds,0.1449979531223067,0.8048782213469519,0.006335797254487857,0.003244997295835587
+E2 events + eligibility state,5,L1 logistic feature,seconds_since_last_entry,0.22978273414658168,0.8048782213469519,0.006335797254487857,0.003244997295835587
+E2 events + eligibility state,5,L1 logistic feature,prior_win_code,-0.2913656001247073,0.8048782213469519,0.006335797254487857,0.003244997295835587
+E2 events + eligibility state,5,L1 logistic feature,prior_direction_code,-0.012065016552270193,0.8048782213469519,0.006335797254487857,0.003244997295835587
+E2 events + eligibility state,5,L1 logistic feature,prior_large_code,-0.105068695680842,0.8048782213469519,0.006335797254487857,0.003244997295835587
+E2 events + eligibility state,5,L1 logistic feature,boundary_5,-0.011266619115428379,0.8048782213469519,0.006335797254487857,0.003244997295835587
+E2 events + eligibility state,5,L1 logistic feature,boundary_15,-0.025537322158943304,0.8048782213469519,0.006335797254487857,0.003244997295835587
+E2 events + eligibility state,5,L1 logistic feature,boundary_30,0.22492359304807036,0.8048782213469519,0.006335797254487857,0.003244997295835587
+E2 events + eligibility state,5,L1 logistic feature,boundary_60,-0.02474345398149474,0.8048782213469519,0.006335797254487857,0.003244997295835587
+E2 events + eligibility state,5,L1 logistic feature,hour_sin,-0.16594860398498532,0.8048782213469519,0.006335797254487857,0.003244997295835587
+E2 events + eligibility state,5,L1 logistic feature,hour_cos,-1.1863300986378655,0.8048782213469519,0.006335797254487857,0.003244997295835587
+E2 events + eligibility state,5,L1 logistic feature,dow_sin,0.07848364526890268,0.8048782213469519,0.006335797254487857,0.003244997295835587
+E2 events + eligibility state,5,L1 logistic feature,dow_cos,-0.08501477724094857,0.8048782213469519,0.006335797254487857,0.003244997295835587
+E3 constrained event tree,1,depth-3 tree,"|--- hour_cos <= -0.38
+|   |--- seconds_since_last_entry <= 55803.00
+|   |   |--- seconds_since_last_entry <= 1397.00
+|   |   |   |--- class: 1
+|   |   |--- seconds_since_last_entry >  1397.00
+|   |   |   |--- class: 0
+|   |--- seconds_since_last_entry >  55803.00
+|   |   |--- hour_sin <= 0.86
+|   |   |   |--- class: 1
+|   |   |--- hour_sin >  0.86
+|   |   |   |--- class: 0
+|--- hour_cos >  -0.38
+|   |--- hour_sin <= -0.90
+|   |   |--- seconds_since_last_entry <= 46064.50
+|   |   |   |--- class: 0
+|   |   |--- seconds_since_last_entry >  46064.50
+|   |   |   |--- class: 1
+|   |--- hour_sin >  -0.90
+|   |   |--- hour_cos <= -0.05
+|   |   |   |--- class: 0
+|   |   |--- hour_cos >  -0.05
+|   |   |   |--- class: 0
+",,0.8728859792689595,0.004901960784313725,0.0025951557093425604
+E3 constrained event tree,2,depth-3 tree,"|--- hour_cos <= -0.08
+|   |--- hour_cos <= -0.48
+|   |   |--- hour_sin <= -0.38
+|   |   |   |--- class: 1
+|   |   |--- hour_sin >  -0.38
+|   |   |   |--- class: 1
+|   |--- hour_cos >  -0.48
+|   |   |--- prior_win_code <= 0.50
+|   |   |   |--- class: 1
+|   |   |--- prior_win_code >  0.50
+|   |   |   |--- class: 0
+|--- hour_cos >  -0.08
+|   |--- seconds_since_last_entry <= 315906.00
+|   |   |--- event_body_ratio <= 0.45
+|   |   |   |--- class: 0
+|   |   |--- event_body_ratio >  0.45
+|   |   |   |--- class: 0
+|   |--- seconds_since_last_entry >  315906.00
+|   |   |--- event_count <= 0.50
+|   |   |   |--- class: 1
+|   |   |--- event_count >  0.50
+|   |   |   |--- class: 0
+",,0.8196721311475408,0.012121212121212121,0.007936507936507936
+E3 constrained event tree,3,depth-3 tree,"|--- hour_cos <= -0.25
+|   |--- prior_win_code <= 0.50
+|   |   |--- m1_vwap_dist <= 15.92
+|   |   |   |--- class: 1
+|   |   |--- m1_vwap_dist >  15.92
+|   |   |   |--- class: 0
+|   |--- prior_win_code >  0.50
+|   |   |--- hour_cos <= -0.48
+|   |   |   |--- class: 1
+|   |   |--- hour_cos >  -0.48
+|   |   |   |--- class: 0
+|--- hour_cos >  -0.25
+|   |--- hour_sin <= -0.64
+|   |   |--- cooldown_log_seconds <= 7.29
+|   |   |   |--- class: 1
+|   |   |--- cooldown_log_seconds >  7.29
+|   |   |   |--- class: 0
+|   |--- hour_sin >  -0.64
+|   |   |--- hour_cos <= 0.13
+|   |   |   |--- class: 0
+|   |   |--- hour_cos >  0.13
+|   |   |   |--- class: 0
+",,0.8333333333333338,0.008802816901408451,0.0046641791044776115
+E3 constrained event tree,4,depth-3 tree,"|--- hour_cos <= -0.08
+|   |--- seconds_since_last_entry <= 44541.50
+|   |   |--- prior_win_code <= 0.50
+|   |   |   |--- class: 1
+|   |   |--- prior_win_code >  0.50
+|   |   |   |--- class: 1
+|   |--- seconds_since_last_entry >  44541.50
+|   |   |--- hour_cos <= -0.48
+|   |   |   |--- class: 1
+|   |   |--- hour_cos >  -0.48
+|   |   |   |--- class: 0
+|--- hour_cos >  -0.08
+|   |--- hour_sin <= -0.64
+|   |   |--- cooldown_log_seconds <= 10.45
+|   |   |   |--- class: 0
+|   |   |--- cooldown_log_seconds >  10.45
+|   |   |   |--- class: 1
+|   |--- hour_sin >  -0.64
+|   |   |--- hour_cos <= 0.13
+|   |   |   |--- class: 0
+|   |   |--- hour_cos >  0.13
+|   |   |   |--- class: 0
+",,0.8672086720867227,0.0,0.0
+E3 constrained event tree,5,depth-3 tree,"|--- hour_cos <= -0.14
+|   |--- seconds_since_last_entry <= 44580.50
+|   |   |--- prior_win_code <= 0.50
+|   |   |   |--- class: 1
+|   |   |--- prior_win_code >  0.50
+|   |   |   |--- class: 1
+|   |--- seconds_since_last_entry >  44580.50
+|   |   |--- hour_cos <= -0.52
+|   |   |   |--- class: 1
+|   |   |--- hour_cos >  -0.52
+|   |   |   |--- class: 1
+|--- hour_cos >  -0.14
+|   |--- hour_sin <= -0.69
+|   |   |--- cooldown_log_seconds <= 10.45
+|   |   |   |--- class: 0
+|   |   |--- cooldown_log_seconds >  10.45
+|   |   |   |--- class: 1
+|   |--- hour_sin >  -0.69
+|   |   |--- hour_sin <= 0.99
+|   |   |   |--- class: 0
+|   |   |--- hour_sin >  0.99
+|   |   |   |--- class: 0
+",,0.8589511754068736,0.0,0.0

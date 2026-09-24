@@ -1,0 +1,11 @@
+ID,Hypothesis,Evidence,Method,Result,p_value,OOS_Result,Status
+H01,Direction sequence is IID,Ordered Buy/Sell sequence,"Runs, LR and permutation tests",See DIR-02 to DIR-05,0.62505005991329,Expanding-month direction stability only,Supported
+H02,Buy and Sell outcomes differ,"P&L, win rate and duration by side","Permutation, Mann-Whitney, chi-square",See PNL/DUR tests,0.9809019098090191,No market-state OOS test,Evidence-dependent
+H03,Timing is non-uniform in raw clock,Open timestamps,Chi-square reference tests,See TIME-01 to TIME-03,8.715400733686828e-73,Timezone and exposure unavailable,Descriptive support
+H04,Direction varies by raw-clock bucket,Side and timestamp,Permutation Cramer's V,See TIME-04,0.2419516096780644,No session mapping without timezone,Evidence-dependent
+H05,Large sizes follow recent performance,Lot and prior P&L,Label permutation,See SIZE-04 and SIZE-05,0.35196480351964804,Equity unavailable,Evidence-dependent
+H06,Trades form short-gap bursts,Within-day entry gaps,Empirical-clock IID simulation,See CLUST-01,0.05418916216756649,Exact opportunity window unavailable,Evidence-dependent
+H07,Multiple observed trade-attribute components exist,Side/time/duration/P&L/lot/gap,GMM BIC and seed stability,Best GMM components: 6,,No market-state labels,Exploratory
+H08,Behavior has structural change points,Ordered trade features,PELT and permutation scans with FDR,PELT breaks: 0,,Penalty sensitivity reported,Evidence-dependent
+H09,Entries are indicator/rule driven,Requires synchronized OHLC/ticks and no-trade rows,Time-aware classification and rule discovery,Not testable from TSV,,Blocked,Unsupported with current data
+H10,Exits use fixed/trailing/volatility rules,Requires exit price and within-trade path,"MFE/MAE, exit-distance clusters, replay",Not testable from TSV,,Blocked,Unsupported with current data

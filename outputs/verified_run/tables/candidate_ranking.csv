@@ -1,0 +1,9 @@
+Candidate,In_sample_fit,Out_of_sample_fit,Complexity,Stability,Evidence
+"Short-horizon, mostly fixed-size trading process",High descriptive fit to duration/size,Behavioral stability only,Low,Report sensitivity tables,"Supported as behavior, not entry family"
+Raw-clock/session filter,Timing concentration can be measured,Cannot map to sessions without timezone,Low,Clock bucket stability,Plausible only
+One adaptive strategy,Compare BIC/HMM/changepoints,No market-state replication,Moderate,Mixture seed and penalty sensitivity,Unresolved
+Multiple independent strategies,Compare BIC/HMM/changepoints,No source labels or market replay,Moderate,Mixture seed and penalty sensitivity,Unresolved
+Trend or momentum entry,No direct fit possible,Blocked,Unknown,Requires OHLC/ticks,Unsupported
+Mean-reversion entry,No direct fit possible,Blocked,Unknown,Requires OHLC/ticks,Unsupported
+Breakout/price-action entry,No direct fit possible,Blocked,Unknown,Requires OHLC/ticks,Unsupported
+"Fixed TP/SL, trailing, signal or volatility exit",No direct fit possible,Blocked,Unknown,Requires exit price and path,Unsupported

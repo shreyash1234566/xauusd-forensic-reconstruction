@@ -1,0 +1,40 @@
+|--- return_1 <= 0.00
+|   |--- candle_body_ratio <= 0.63
+|   |   |--- ema_9_20_diff <= -0.05
+|   |   |   |--- return_3 <= 0.00
+|   |   |   |   |--- class: 1
+|   |   |   |--- return_3 >  0.00
+|   |   |   |   |--- class: 0
+|   |   |--- ema_9_20_diff >  -0.05
+|   |   |   |--- distance_ema_200 <= 0.00
+|   |   |   |   |--- class: 0
+|   |   |   |--- distance_ema_200 >  0.00
+|   |   |   |   |--- class: 1
+|   |--- candle_body_ratio >  0.63
+|   |   |--- sma_200 <= 4916.28
+|   |   |   |--- candle_body <= 0.56
+|   |   |   |   |--- class: 0
+|   |   |   |--- candle_body >  0.56
+|   |   |   |   |--- class: 1
+|   |   |--- sma_200 >  4916.28
+|   |   |   |--- ema_9_20_diff <= 0.44
+|   |   |   |   |--- class: 1
+|   |   |   |--- ema_9_20_diff >  0.44
+|   |   |   |   |--- class: 0
+|--- return_1 >  0.00
+|   |--- vwap_session <= 5150.38
+|   |   |--- distance_low_10 <= 0.00
+|   |   |   |--- distance_vwap <= -0.01
+|   |   |   |   |--- class: 0
+|   |   |   |--- distance_vwap >  -0.01
+|   |   |   |   |--- class: 1
+|   |   |--- distance_low_10 >  0.00
+|   |   |   |--- bollinger_z_20 <= 2.82
+|   |   |   |   |--- class: 1
+|   |   |   |--- bollinger_z_20 >  2.82
+|   |   |   |   |--- class: 0
+|   |--- vwap_session >  5150.38
+|   |   |--- distance_high_20 <= -0.00
+|   |   |   |--- class: 0
+|   |   |--- distance_high_20 >  -0.00
+|   |   |   |--- class: 0

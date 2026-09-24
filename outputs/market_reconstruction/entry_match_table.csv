@@ -1,0 +1,424 @@
+ticket,evaluation_scope,observed_entry_time,observed_direction,observed_price,observed_close_time,observed_pnl,candidate_entry_time,candidate_direction,entry_error_seconds,entry_match_within_60s,direction_match,model,entry_match_within_1s,entry_match_within_5s,entry_match_within_15s,entry_match_within_30s,entry_match_within_one_m1_bar
+36094988,initial training period,2025-09-25 19:32:56,Buy,3736.13,2025-09-25 19:42:55,0.97,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+36095791,initial training period,2025-09-25 19:43:46,Sell,3736.72,2025-09-25 19:45:31,2.52,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+36148327,initial training period,2025-09-26 18:47:57,Buy,3779.39,2025-09-26 18:54:27,0.82,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+36168589,initial training period,2025-09-29 08:46:42,Buy,3805.93,2025-09-29 08:52:58,3.9,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+36168590,initial training period,2025-09-29 08:46:47,Buy,3805.93,2025-09-29 08:52:55,3.52,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+36227385,initial training period,2025-09-30 11:20:52,Sell,3833.38,2025-09-30 11:22:05,6.03,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+36227388,initial training period,2025-09-30 11:20:57,Sell,3833.24,2025-09-30 11:23:20,6.79,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+36228676,initial training period,2025-09-30 11:25:56,Sell,3830.54,2025-09-30 11:30:17,12.91,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+36274877,initial training period,2025-10-01 09:25:14,Buy,3858.64,2025-10-01 09:29:01,2.01,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+36283671,initial training period,2025-10-01 11:28:02,Sell,3893.34,2025-10-01 11:34:32,6.25,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+36322976,initial training period,2025-10-02 08:13:35,Buy,3868.72,2025-10-02 09:05:06,1.21,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+36334931,initial training period,2025-10-02 15:17:55,Buy,3881.12,2025-10-02 15:20:28,1.43,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+36335183,initial training period,2025-10-02 15:23:08,Buy,3882.36,2025-10-02 15:31:38,1.32,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+36335196,initial training period,2025-10-02 15:23:37,Buy,3882.34,2025-10-02 15:31:34,1.22,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+36337657,initial training period,2025-10-02 16:13:13,Sell,3890.78,2025-10-02 16:16:03,1.81,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+36368405,initial training period,2025-10-03 10:17:25,Buy,3860.35,2025-10-03 10:23:08,1.2,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+36383087,initial training period,2025-10-03 18:18:08,Buy,3878.35,2025-10-03 18:22:57,7.8,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+36414174,initial training period,2025-10-06 12:14:39,Sell,3943.07,2025-10-06 12:40:39,2.46,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+36416362,initial training period,2025-10-06 14:10:55,Sell,3938.03,2025-10-06 14:16:33,3.02,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+36450406,initial training period,2025-10-07 08:47:44,Sell,3962.08,2025-10-07 08:53:06,-1.71,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+36450588,initial training period,2025-10-07 08:53:49,Sell,3964.19,2025-10-07 09:05:30,3.62,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+36451248,initial training period,2025-10-07 09:17:36,Buy,3963.3,2025-10-07 09:22:00,1.43,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+36508294,initial training period,2025-10-08 12:19:47,Sell,4036.35,2025-10-08 12:32:57,4.98,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+36508676,initial training period,2025-10-08 12:36:16,Buy,4035.65,2025-10-08 12:39:56,2.27,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+36508993,initial training period,2025-10-08 12:42:32,Buy,4039.03,2025-10-08 12:46:10,5.04,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+36561296,initial training period,2025-10-09 14:04:35,Sell,4039.78,2025-10-09 14:13:00,2.84,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+36562289,initial training period,2025-10-09 14:19:30,Buy,4035.78,2025-10-09 14:33:44,4.04,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+36562770,initial training period,2025-10-09 14:42:13,Buy,4042.07,2025-10-09 14:47:42,2.88,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+36640713,initial training period,2025-10-10 19:29:10,Buy,3989.25,2025-10-10 19:33:56,4.56,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+36682106,initial training period,2025-10-13 15:38:45,Sell,4078.64,2025-10-13 15:44:45,0.71,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+36725889,initial training period,2025-10-14 10:42:54,Sell,4122.81,2025-10-14 10:45:12,4.94,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+36726171,initial training period,2025-10-14 10:52:46,Sell,4126.17,2025-10-14 10:57:04,5.0,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+36768836,initial training period,2025-10-15 09:35:08,Buy,4189.58,2025-10-15 09:43:05,7.8,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+36829765,initial training period,2025-10-16 13:15:47,Sell,4240.78,2025-10-16 13:19:10,0.45,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+36829878,initial training period,2025-10-16 13:23:12,Buy,4239.37,2025-10-16 13:26:10,-2.92,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+36829995,initial training period,2025-10-16 13:29:09,Buy,4238.15,2025-10-16 13:45:40,3.94,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+36893509,initial training period,2025-10-17 13:15:10,Buy,4338.39,2025-10-17 13:25:57,1.94,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+36902372,initial training period,2025-10-17 15:37:18,Sell,4310.55,2025-10-17 15:38:45,2.84,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+36954767,initial training period,2025-10-20 11:47:26,Sell,4258.23,2025-10-20 11:50:17,3.94,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+36997575,initial training period,2025-10-21 10:23:43,Buy,4329.16,2025-10-21 10:27:18,-1.96,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+36998918,initial training period,2025-10-21 10:42:21,Buy,4301.15,2025-10-21 10:50:26,4.74,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+37005647,initial training period,2025-10-21 13:56:35,Sell,4258.12,2025-10-21 14:00:23,3.73,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+37045628,initial training period,2025-10-22 10:02:29,Sell,4152.22,2025-10-22 10:03:56,6.5,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+37082195,initial training period,2025-10-23 08:30:44,Buy,4092.12,2025-10-23 08:32:34,9.36,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+37145681,initial training period,2025-10-24 19:34:45,Sell,4133.72,2025-10-24 19:39:41,4.13,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+37162697,initial training period,2025-10-27 08:13:05,Buy,4073.84,2025-10-27 08:22:54,4.38,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+37217619,initial training period,2025-10-28 12:52:18,Sell,3907.0,2025-10-28 12:55:35,5.94,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+37296835,initial training period,2025-10-30 09:44:53,Buy,3965.57,2025-10-30 09:56:44,4.42,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+37386001,initial training period,2025-11-03 18:38:37,Buy,3998.58,2025-11-03 18:49:46,9.65,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+37400976,initial training period,2025-11-04 10:09:22,Sell,3998.11,2025-11-04 10:17:55,3.88,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+37442389,initial training period,2025-11-05 09:55:47,Buy,3969.56,2025-11-05 10:02:35,5.37,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+37477144,initial training period,2025-11-06 12:42:44,Buy,4006.89,2025-11-06 14:18:29,7.23,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+37507379,initial training period,2025-11-07 11:18:04,Sell,4013.03,2025-11-07 12:42:21,7.19,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+37542639,initial training period,2025-11-10 10:42:17,Sell,4082.62,2025-11-10 10:58:53,0.64,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+37542995,initial training period,2025-11-10 11:00:16,Buy,4082.44,2025-11-10 11:05:07,-5.33,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+37543683,initial training period,2025-11-10 11:22:51,Buy,4076.89,2025-11-10 11:35:47,11.96,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+37610153,initial training period,2025-11-12 10:19:02,Buy,4121.1,2025-11-12 11:06:47,9.18,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+37701576,initial training period,2025-11-14 11:12:06,Sell,4180.12,2025-11-14 12:22:58,11.72,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+37748984,initial training period,2025-11-17 09:17:27,Buy,4074.19,2025-11-17 09:42:30,7.16,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+37791981,initial training period,2025-11-18 08:48:04,Sell,4014.84,2025-11-18 09:11:45,8.85,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+37836776,initial training period,2025-11-19 12:12:16,Sell,4110.56,2025-11-19 12:17:16,-5.43,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+37874673,initial training period,2025-11-20 08:09:10,Sell,4076.1,2025-11-20 08:39:54,14.9,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+37928869,initial training period,2025-11-21 13:14:11,Sell,4041.78,2025-11-21 13:50:20,7.85,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+37964561,initial training period,2025-11-24 13:01:04,Buy,4063.89,2025-11-24 13:45:39,6.3,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+38045554,initial training period,2025-11-26 09:36:48,Buy,4153.89,2025-11-26 10:38:07,11.02,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+38119105,initial training period,2025-11-27 08:09:07,Sell,4150.92,2025-11-27 08:23:12,-4.83,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+38122859,initial training period,2025-11-27 11:02:26,Sell,4160.74,2025-11-27 11:27:19,7.41,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+38185142,initial training period,2025-12-01 12:14:10,Sell,4260.23,2025-12-01 12:50:55,12.08,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+38220734,initial training period,2025-12-02 11:32:10,Sell,4192.78,2025-12-02 12:33:12,6.06,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+38258178,initial training period,2025-12-03 09:33:51,Buy,4201.92,2025-12-03 10:10:41,5.08,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+38293895,initial training period,2025-12-04 13:18:01,Sell,4202.96,2025-12-04 14:08:08,9.8,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+38327555,initial training period,2025-12-05 15:06:32,Buy,4221.93,2025-12-05 15:24:10,12.08,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+38381092,initial training period,2025-12-08 16:57:55,Sell,4205.31,2025-12-08 20:23:42,16.3,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+38394143,initial training period,2025-12-09 10:35:42,Buy,4185.67,2025-12-09 10:55:45,4.76,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+38422656,initial training period,2025-12-09 20:33:05,Buy,4204.34,2025-12-09 21:05:09,6.64,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+38441014,initial training period,2025-12-10 12:33:15,Buy,4189.26,2025-12-10 13:38:15,7.08,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+38443239,initial training period,2025-12-10 14:17:30,Sell,4200.58,2025-12-10 14:40:38,3.25,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+38448404,initial training period,2025-12-10 16:17:48,Buy,4204.15,2025-12-10 16:26:36,-4.86,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+38449900,initial training period,2025-12-10 16:31:07,Sell,4198.23,2025-12-10 16:38:36,2.91,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+38487563,initial training period,2025-12-11 09:32:30,Buy,4211.49,2025-12-11 09:46:12,5.6,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+38492680,initial training period,2025-12-11 13:09:27,Buy,4217.4,2025-12-11 14:10:24,-4.86,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+38528027,initial training period,2025-12-12 11:25:01,Sell,4317.51,2025-12-12 11:41:40,6.41,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+38568721,initial training period,2025-12-15 12:29:18,Sell,4347.89,2025-12-15 13:48:59,4.8,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+38570537,initial training period,2025-12-15 15:00:14,Sell,4345.38,2025-12-15 15:09:11,5.46,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+38612361,initial training period,2025-12-16 08:41:45,Sell,4291.03,2025-12-16 11:42:27,9.02,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+38648802,initial training period,2025-12-17 08:21:41,Buy,4333.67,2025-12-17 08:46:28,-3.99,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+38650723,initial training period,2025-12-17 09:38:06,Sell,4322.06,2025-12-17 10:30:10,5.6,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+38683859,initial training period,2025-12-18 08:05:45,Buy,4330.83,2025-12-18 08:17:14,3.31,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+38686016,initial training period,2025-12-18 10:02:33,Sell,4330.21,2025-12-18 11:36:35,5.46,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+38720385,initial training period,2025-12-19 10:43:53,Buy,4329.57,2025-12-19 11:18:47,-3.16,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+38723027,initial training period,2025-12-19 14:42:44,Sell,4328.49,2025-12-19 14:53:14,4.65,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+38755615,initial training period,2025-12-22 08:17:51,Buy,4404.62,2025-12-22 08:31:29,-3.47,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+38759834,initial training period,2025-12-22 12:07:54,Sell,4415.72,2025-12-22 14:41:53,6.72,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+38786971,initial training period,2025-12-23 11:53:01,Buy,4479.23,2025-12-23 13:23:15,8.66,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+38800885,initial training period,2025-12-23 17:38:24,Buy,4450.12,2025-12-23 17:53:02,5.21,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+81950224,initial training period,2025-12-29 06:11:17,Buy,4509.78,2025-12-29 06:51:10,4.94,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+81979298,initial training period,2025-12-30 07:20:44,Sell,4365.43,2025-12-30 07:22:21,-4.41,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+81983513,initial training period,2025-12-30 12:12:46,Buy,4373.1,2025-12-30 12:19:35,5.33,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+82028698,initial training period,2026-01-02 09:31:50,Buy,4372.8,2026-01-02 09:47:23,4.05,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+82061725,initial training period,2026-01-05 11:12:23,Buy,4427.34,2026-01-05 11:37:56,3.7,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+82095097,initial training period,2026-01-06 08:52:50,Buy,4463.54,2026-01-06 09:16:50,5.09,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+82147110,initial training period,2026-01-07 16:04:17,Sell,4453.3,2026-01-07 16:18:50,2.51,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+82169230,initial training period,2026-01-08 09:05:21,Buy,4432.78,2026-01-08 09:11:57,4.61,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+82199073,initial training period,2026-01-09 09:03:58,Sell,4475.16,2026-01-09 09:57:41,3.82,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+82241706,initial training period,2026-01-12 07:30:37,Buy,4571.8,2026-01-12 07:41:10,4.38,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+82462486,initial training period,2026-01-12 11:25:57,Buy,4598.3,2026-01-12 11:31:41,-2.24,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+82465593,initial training period,2026-01-12 14:11:18,Sell,4585.01,2026-01-12 14:25:53,1.82,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+82494965,initial training period,2026-01-13 12:44:06,Sell,4587.85,2026-01-13 12:51:58,1.89,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+82523311,initial training period,2026-01-14 06:29:14,Buy,4625.78,2026-01-14 06:37:55,3.35,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+82564751,initial training period,2026-01-15 09:19:50,Sell,4613.11,2026-01-15 09:35:26,4.51,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+82596177,initial training period,2026-01-16 09:03:56,Buy,4599.92,2026-01-16 10:13:13,6.46,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+82600157,initial training period,2026-01-16 14:48:59,Sell,4605.35,2026-01-16 14:52:41,4.52,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+82667342,initial training period,2026-01-20 09:00:31,Buy,4713.8,2026-01-20 10:32:19,6.68,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+82775023,initial training period,2026-01-22 09:25:06,Buy,4831.387,2026-01-22 09:31:36,5.73,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+82824133,initial training period,2026-01-23 09:00:21,Buy,4953.2,2026-01-23 09:07:55,3.4,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+82913535,initial training period,2026-01-26 11:00:40,Buy,5085.8,2026-01-26 11:25:21,4.8,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+83084849,initial training period,2026-01-28 09:01:54,Buy,5262.98,2026-01-28 09:05:33,4.38,,,,False,False,MODEL 0 time/session,False,False,False,False,False
+83314376,OOS,2026-01-30 06:37:54,Buy,5220.23,2026-01-30 06:39:34,4.47,,,1326.0,False,False,MODEL 0 time/session,False,False,False,False,False
+83511633,OOS,2026-02-02 22:25:35,Buy,4661.87,2026-02-02 22:29:09,2.43,,,15935.0,False,False,MODEL 0 time/session,False,False,False,False,False
+83541051,OOS,2026-02-03 14:00:26,Buy,4919.67,2026-02-03 14:09:59,9.98,2026-02-03 14:00:00,Buy,26.0,True,True,MODEL 0 time/session,False,False,False,True,True
+83699779,OOS,2026-02-04 19:42:53,Sell,4910.32,2026-02-04 19:53:51,7.05,,,6173.0,False,False,MODEL 0 time/session,False,False,False,False,False
+83821484,OOS,2026-02-05 17:27:12,Buy,4823.0,2026-02-05 17:30:17,-4.17,2026-02-05 17:27:00,Buy,12.0,True,True,MODEL 0 time/session,False,False,True,True,True
+83897665,OOS,2026-02-06 07:30:33,Sell,4846.36,2026-02-06 07:32:07,7.43,2026-02-06 07:31:00,Buy,27.0,True,False,MODEL 0 time/session,False,False,False,True,True
+83915642,OOS,2026-02-06 09:16:42,Sell,4848.32,2026-02-06 09:21:17,1.17,2026-02-06 09:17:00,Buy,18.0,True,False,MODEL 0 time/session,False,False,False,True,True
+83923769,OOS,2026-02-06 15:34:06,Sell,4925.29,2026-02-06 15:35:48,2.07,2026-02-06 15:34:00,Buy,6.0,True,False,MODEL 0 time/session,False,False,True,True,True
+83980760,OOS,2026-02-09 12:04:32,Buy,5006.26,2026-02-09 12:15:37,7.87,2026-02-09 12:05:00,Sell,28.0,True,False,MODEL 0 time/session,False,False,False,True,True
+84397864,OOS,2026-02-11 17:40:50,Buy,5044.28,2026-02-11 17:44:06,2.61,,,770.0,False,False,MODEL 0 time/session,False,False,False,False,False
+84448544,OOS,2026-02-12 07:06:33,Buy,5072.67,2026-02-12 07:10:04,4.53,,,267.0,False,False,MODEL 0 time/session,False,False,False,False,False
+84480811,OOS,2026-02-12 11:04:59,Sell,5071.89,2026-02-12 11:14:41,-2.98,2026-02-12 11:05:00,Sell,1.0,True,True,MODEL 0 time/session,True,True,True,True,True
+84496990,OOS,2026-02-12 13:12:51,Buy,5063.48,2026-02-12 13:17:31,0.7,2026-02-12 13:13:00,Sell,9.0,True,False,MODEL 0 time/session,False,False,True,True,True
+84665776,OOS,2026-02-13 09:18:26,Buy,4969.37,2026-02-13 09:21:14,0.7,2026-02-13 09:18:00,Buy,26.0,True,True,MODEL 0 time/session,False,False,False,True,True
+84675020,OOS,2026-02-13 13:12:08,Sell,4951.87,2026-02-13 13:19:45,2.67,2026-02-13 13:12:00,Sell,8.0,True,True,MODEL 0 time/session,False,False,True,True,True
+84803733,OOS,2026-02-17 12:21:33,Sell,4935.63,2026-02-17 14:00:38,5.63,2026-02-17 12:22:00,Sell,27.0,True,True,MODEL 0 time/session,False,False,False,True,True
+84858142,OOS,2026-02-18 05:30:40,Sell,4920.56,2026-02-18 05:36:17,1.77,,,1760.0,False,False,MODEL 0 time/session,False,False,False,False,False
+84960053,OOS,2026-02-19 22:18:35,Buy,4990.98,2026-02-19 22:25:13,3.06,,,15515.0,False,False,MODEL 0 time/session,False,False,False,False,False
+84971230,OOS,2026-02-20 05:54:53,Sell,4993.25,2026-02-20 05:59:23,3.1,,,307.0,False,False,MODEL 0 time/session,False,False,False,False,False
+85066329,OOS,2026-02-23 09:30:45,Sell,5136.32,2026-02-23 09:32:44,1.41,2026-02-23 09:31:00,Buy,15.0,True,False,MODEL 0 time/session,False,False,True,True,True
+85084978,OOS,2026-02-23 11:21:20,Buy,5145.47,2026-02-23 11:33:06,1.34,2026-02-23 11:21:00,Sell,20.0,True,False,MODEL 0 time/session,False,False,False,True,True
+85182793,OOS,2026-02-23 15:02:41,Sell,5161.69,2026-02-23 15:06:18,2.2,2026-02-23 15:03:00,Sell,19.0,True,True,MODEL 0 time/session,False,False,False,True,True
+85342738,OOS,2026-02-24 10:04:42,Buy,5175.12,2026-02-24 10:05:16,-0.66,2026-02-24 10:05:00,Sell,18.0,True,False,MODEL 0 time/session,False,False,False,True,True
+85385479,OOS,2026-02-24 15:11:40,Sell,5160.14,2026-02-24 15:14:21,0.21,2026-02-24 15:12:00,Sell,20.0,True,True,MODEL 0 time/session,False,False,False,True,True
+85396743,OOS,2026-02-24 15:21:50,Buy,5153.03,2026-02-24 15:25:30,3.86,2026-02-24 15:22:00,Sell,10.0,True,False,MODEL 0 time/session,False,False,True,True,True
+85640223,OOS,2026-02-25 07:59:03,Sell,5201.11,2026-02-25 08:01:42,2.24,2026-02-25 07:59:00,Buy,3.0,True,False,MODEL 0 time/session,False,True,True,True,True
+85668110,OOS,2026-02-25 11:35:37,Sell,5189.86,2026-02-25 11:49:18,-1.2,2026-02-25 11:36:00,Buy,23.0,True,False,MODEL 0 time/session,False,False,False,True,True
+85668988,OOS,2026-02-25 12:03:39,Buy,5190.62,2026-02-25 12:05:22,-2.1,2026-02-25 12:04:00,Sell,21.0,True,False,MODEL 0 time/session,False,False,False,True,True
+85704475,OOS,2026-02-25 16:23:24,Sell,5183.13,2026-02-25 16:23:59,2.27,2026-02-25 16:23:00,Buy,24.0,True,False,MODEL 0 time/session,False,False,False,True,True
+85787460,OOS,2026-02-26 08:05:35,Buy,5194.35,2026-02-26 08:14:22,2.87,2026-02-26 08:06:00,Buy,25.0,True,True,MODEL 0 time/session,False,False,False,True,True
+85827276,OOS,2026-02-26 11:31:35,Buy,5181.39,2026-02-26 11:34:15,1.06,2026-02-26 11:32:00,Buy,25.0,True,True,MODEL 0 time/session,False,False,False,True,True
+85833216,OOS,2026-02-26 13:27:11,Buy,5173.27,2026-02-26 13:30:05,-1.73,2026-02-26 13:27:00,Buy,11.0,True,True,MODEL 0 time/session,False,False,True,True,True
+85865765,OOS,2026-02-26 15:59:18,Sell,5166.12,2026-02-26 16:00:58,2.23,2026-02-26 15:59:00,Sell,18.0,True,True,MODEL 0 time/session,False,False,False,True,True
+85935017,OOS,2026-02-27 06:54:59,Sell,5184.0,2026-02-27 07:00:29,1.84,,,301.0,False,False,MODEL 0 time/session,False,False,False,False,False
+85942844,OOS,2026-02-27 09:56:14,Sell,5180.05,2026-02-27 09:57:04,-0.9,2026-02-27 09:56:00,Sell,14.0,True,True,MODEL 0 time/session,False,False,True,True,True
+85948772,OOS,2026-02-27 12:46:26,Buy,5176.14,2026-02-27 12:53:01,0.91,2026-02-27 12:46:00,Sell,26.0,True,False,MODEL 0 time/session,False,False,False,True,True
+86000608,OOS,2026-02-27 17:00:40,Sell,5227.62,2026-02-27 17:07:46,-3.08,2026-02-27 17:00:00,Buy,40.0,True,False,MODEL 0 time/session,False,False,False,False,True
+86011644,OOS,2026-02-27 17:18:57,Sell,5226.94,2026-02-27 17:20:29,1.46,2026-02-27 17:19:00,Buy,3.0,True,False,MODEL 0 time/session,False,True,True,True,True
+86014472,OOS,2026-02-27 17:27:11,Buy,5225.25,2026-02-27 17:27:21,0.58,2026-02-27 17:27:00,Buy,11.0,True,True,MODEL 0 time/session,False,False,True,True,True
+86155613,OOS,2026-03-02 09:32:11,Buy,5408.63,2026-03-02 09:33:24,0.3,2026-03-02 09:32:00,Buy,11.0,True,True,MODEL 0 time/session,False,False,True,True,True
+86161488,OOS,2026-03-02 10:37:17,Sell,5412.01,2026-03-02 10:38:44,1.62,2026-03-02 10:37:00,Sell,17.0,True,True,MODEL 0 time/session,False,False,False,True,True
+86192606,OOS,2026-03-02 14:46:12,Sell,5396.47,2026-03-02 14:50:44,2.82,2026-03-02 14:46:00,Sell,12.0,True,True,MODEL 0 time/session,False,False,True,True,True
+86558318,OOS,2026-03-03 07:57:14,Buy,5313.09,2026-03-03 07:58:46,3.34,,,166.0,False,False,MODEL 0 time/session,False,False,False,False,False
+86624724,OOS,2026-03-03 12:45:26,Buy,5257.55,2026-03-03 12:46:57,-2.93,2026-03-03 12:45:00,Sell,26.0,True,False,MODEL 0 time/session,False,False,False,True,True
+86716303,OOS,2026-03-03 16:46:45,Buy,5065.94,2026-03-03 16:46:49,3.74,,,465.0,False,False,MODEL 0 time/session,False,False,False,False,False
+86773790,OOS,2026-03-04 09:45:10,Buy,5170.2,2026-03-04 09:46:43,2.28,2026-03-04 09:46:00,Buy,50.0,True,True,MODEL 0 time/session,False,False,False,False,True
+86784552,OOS,2026-03-04 13:12:36,Buy,5193.8,2026-03-04 13:15:03,1.39,2026-03-04 13:13:00,Sell,24.0,True,False,MODEL 0 time/session,False,False,False,True,True
+86894280,OOS,2026-03-05 09:02:29,Sell,5171.81,2026-03-05 09:04:54,0.31,2026-03-05 09:02:00,Sell,29.0,True,True,MODEL 0 time/session,False,False,False,True,True
+87000308,OOS,2026-03-05 21:20:01,Sell,5069.24,2026-03-05 21:22:51,1.09,,,12001.0,False,False,MODEL 0 time/session,False,False,False,False,False
+87025580,OOS,2026-03-06 07:23:56,Buy,5124.63,2026-03-06 07:27:34,2.78,2026-03-06 07:24:00,Buy,4.0,True,True,MODEL 0 time/session,False,True,True,True,True
+87031092,OOS,2026-03-06 10:19:20,Buy,5113.18,2026-03-06 10:20:51,0.38,2026-03-06 10:19:00,Buy,20.0,True,True,MODEL 0 time/session,False,False,False,True,True
+87193343,OOS,2026-03-09 09:09:59,Buy,5126.92,2026-03-09 09:23:35,0.59,2026-03-09 09:10:00,Sell,1.0,True,False,MODEL 0 time/session,True,True,True,True,True
+87220510,OOS,2026-03-09 10:55:33,Buy,5095.55,2026-03-09 11:00:04,4.36,2026-03-09 10:56:00,Sell,27.0,True,False,MODEL 0 time/session,False,False,False,True,True
+87303856,OOS,2026-03-09 14:32:49,Buy,5085.0,2026-03-09 14:34:35,-0.47,2026-03-09 14:33:00,Sell,11.0,True,False,MODEL 0 time/session,False,False,True,True,True
+87433721,OOS,2026-03-10 09:45:41,Sell,5177.12,2026-03-10 09:47:05,2.13,2026-03-10 09:46:00,Sell,19.0,True,True,MODEL 0 time/session,False,False,False,True,True
+87436917,OOS,2026-03-10 10:43:46,Sell,5175.96,2026-03-10 10:45:25,-2.6,2026-03-10 10:44:00,Sell,14.0,True,True,MODEL 0 time/session,False,False,True,True,True
+87455839,OOS,2026-03-10 11:14:56,Sell,5181.42,2026-03-10 11:25:53,1.58,2026-03-10 11:15:00,Sell,4.0,True,True,MODEL 0 time/session,False,True,True,True,True
+87634841,OOS,2026-03-11 10:08:12,Sell,5199.84,2026-03-11 10:27:49,2.84,2026-03-11 10:08:00,Sell,12.0,True,True,MODEL 0 time/session,False,False,True,True,True
+87640068,OOS,2026-03-11 12:39:31,Buy,5194.32,2026-03-11 12:39:50,1.11,2026-03-11 12:40:00,Sell,29.0,True,False,MODEL 0 time/session,False,False,False,True,True
+87715345,OOS,2026-03-12 09:41:54,Buy,5166.74,2026-03-12 09:42:17,1.86,2026-03-12 09:42:00,Buy,6.0,True,True,MODEL 0 time/session,False,False,True,True,True
+87725200,OOS,2026-03-12 11:02:44,Buy,5184.43,2026-03-12 11:03:14,-1.27,2026-03-12 11:03:00,Sell,16.0,True,False,MODEL 0 time/session,False,False,False,True,True
+87728679,OOS,2026-03-12 13:51:53,Buy,5180.83,2026-03-12 13:53:27,-1.53,2026-03-12 13:52:00,Sell,7.0,True,False,MODEL 0 time/session,False,False,True,True,True
+87728889,OOS,2026-03-12 13:54:26,Buy,5179.35,2026-03-12 14:11:23,1.79,2026-03-12 13:54:00,Sell,26.0,True,False,MODEL 0 time/session,False,False,False,True,True
+87764166,OOS,2026-03-12 18:26:23,Buy,5128.93,2026-03-12 18:27:14,0.76,,,1583.0,False,False,MODEL 0 time/session,False,False,False,False,False
+87966615,OOS,2026-03-13 08:37:52,Sell,5108.89,2026-03-13 08:39:29,1.02,2026-03-13 08:38:00,Buy,8.0,True,False,MODEL 0 time/session,False,False,True,True,True
+88014898,OOS,2026-03-13 13:14:10,Buy,5092.79,2026-03-13 13:15:48,1.37,2026-03-13 13:14:00,Sell,10.0,True,False,MODEL 0 time/session,False,False,True,True,True
+88015942,OOS,2026-03-13 13:36:51,Sell,5084.43,2026-03-13 13:37:20,-0.69,2026-03-13 13:37:00,Sell,9.0,True,True,MODEL 0 time/session,False,False,True,True,True
+88144292,OOS,2026-03-16 07:46:16,Sell,5016.02,2026-03-16 07:54:51,0.35,,,436.0,False,False,MODEL 0 time/session,False,False,False,False,False
+88154082,OOS,2026-03-16 11:07:53,Sell,4996.64,2026-03-16 11:09:35,0.99,,,473.0,False,False,MODEL 0 time/session,False,False,False,False,False
+88163179,OOS,2026-03-16 14:10:40,Sell,5002.98,2026-03-16 14:11:07,-2.0,,,640.0,False,False,MODEL 0 time/session,False,False,False,False,False
+88172039,OOS,2026-03-16 14:42:45,Sell,5018.75,2026-03-16 14:45:20,1.64,,,765.0,False,False,MODEL 0 time/session,False,False,False,False,False
+88320644,OOS,2026-03-17 11:20:44,Buy,5027.35,2026-03-17 11:21:56,0.72,2026-03-17 11:21:00,Buy,16.0,True,True,MODEL 0 time/session,False,False,False,True,True
+88335699,OOS,2026-03-17 16:10:39,Buy,5012.85,2026-03-17 16:12:13,3.73,,,4239.0,False,False,MODEL 0 time/session,False,False,False,False,False
+88511817,OOS,2026-03-18 12:31:31,Buy,4992.63,2026-03-18 12:36:05,1.42,2026-03-18 12:32:00,Buy,29.0,True,True,MODEL 0 time/session,False,False,False,True,True
+88577933,OOS,2026-03-18 16:30:56,Sell,4858.4,2026-03-18 16:31:29,1.81,,,3656.0,False,False,MODEL 0 time/session,False,False,False,False,False
+89517529,OOS,2026-03-23 08:13:59,Sell,4375.13,2026-03-23 08:15:37,3.22,,,4561.0,False,False,MODEL 0 time/session,False,False,False,False,False
+89770716,OOS,2026-03-23 10:06:57,Buy,4150.69,2026-03-23 10:07:35,1.55,,,417.0,False,False,MODEL 0 time/session,False,False,False,False,False
+89797106,OOS,2026-03-23 16:23:44,Sell,4428.76,2026-03-23 16:24:32,9.16,,,5024.0,False,False,MODEL 0 time/session,False,False,False,False,False
+90052400,OOS,2026-03-24 11:47:16,Buy,4406.14,2026-03-24 11:50:01,3.09,,,764.0,False,False,MODEL 0 time/session,False,False,False,False,False
+90054432,OOS,2026-03-24 12:52:17,Sell,4414.38,2026-03-24 12:52:32,0.31,,,463.0,False,False,MODEL 0 time/session,False,False,False,False,False
+90080406,OOS,2026-03-24 15:58:26,Buy,4379.38,2026-03-24 15:59:58,-0.32,,,3506.0,False,False,MODEL 0 time/session,False,False,False,False,False
+90081363,OOS,2026-03-24 16:11:15,Buy,4373.05,2026-03-24 16:12:55,4.79,,,4275.0,False,False,MODEL 0 time/session,False,False,False,False,False
+90188256,OOS,2026-03-25 08:35:47,Buy,4554.47,2026-03-25 08:40:21,3.9,,,1453.0,False,False,MODEL 0 time/session,False,False,False,False,False
+90192607,OOS,2026-03-25 11:00:18,Sell,4538.29,2026-03-25 11:00:31,-1.31,2026-03-25 11:00:00,Buy,18.0,True,False,MODEL 0 time/session,False,False,False,True,True
+90194077,OOS,2026-03-25 11:38:04,Buy,4562.31,2026-03-25 11:44:39,3.0,,,64.0,False,False,MODEL 0 time/session,False,False,False,False,True
+90297337,OOS,2026-03-26 10:48:11,Buy,4454.88,2026-03-26 10:48:39,2.62,,,671.0,False,False,MODEL 0 time/session,False,False,False,False,False
+90303019,OOS,2026-03-26 13:49:34,Buy,4436.97,2026-03-26 13:50:38,9.85,,,626.0,False,False,MODEL 0 time/session,False,False,False,False,False
+90367910,OOS,2026-03-27 10:43:56,Buy,4447.18,2026-03-27 10:48:54,3.72,,,296.0,False,False,MODEL 0 time/session,False,False,False,False,False
+90383944,OOS,2026-03-27 17:23:51,Buy,4457.82,2026-03-27 17:25:23,6.24,,,6831.0,False,False,MODEL 0 time/session,False,False,False,False,False
+90446737,OOS,2026-03-30 10:30:21,Sell,4525.59,2026-03-30 10:46:25,4.07,2026-03-30 10:30:00,Sell,21.0,True,True,MODEL 0 time/session,False,False,False,True,True
+90450144,OOS,2026-03-30 14:14:39,Buy,4540.05,2026-03-30 14:15:03,-2.03,,,879.0,False,False,MODEL 0 time/session,False,False,False,False,False
+90468624,OOS,2026-03-30 14:52:48,Sell,4578.01,2026-03-30 14:54:29,5.27,,,432.0,False,False,MODEL 0 time/session,False,False,False,False,False
+90670870,OOS,2026-03-31 08:16:35,Buy,4555.83,2026-03-31 08:23:15,4.39,,,2605.0,False,False,MODEL 0 time/session,False,False,False,False,False
+90689174,OOS,2026-03-31 15:00:37,Buy,4582.99,2026-03-31 15:03:21,1.47,2026-03-31 15:00:00,Buy,37.0,True,True,MODEL 0 time/session,False,False,False,False,True
+90724112,OOS,2026-03-31 20:13:28,Buy,4640.88,2026-03-31 20:17:12,1.53,,,18808.0,False,False,MODEL 0 time/session,False,False,False,False,False
+90765592,OOS,2026-04-01 07:08:40,Sell,4676.78,2026-04-01 07:16:11,3.67,,,6680.0,False,False,MODEL 0 time/session,False,False,False,False,False
+90783770,OOS,2026-04-01 13:01:41,Sell,4722.02,2026-04-01 13:12:15,3.32,,,101.0,False,False,MODEL 0 time/session,False,False,False,False,True
+90900649,OOS,2026-04-02 14:51:54,Sell,4609.23,2026-04-02 14:55:50,7.5,,,486.0,False,False,MODEL 0 time/session,False,False,False,False,False
+90927563,OOS,2026-04-02 20:40:31,Sell,4656.39,2026-04-02 20:40:49,-1.09,,,18631.0,False,False,MODEL 0 time/session,False,False,False,False,False
+90928037,OOS,2026-04-02 21:05:43,Sell,4658.23,2026-04-02 21:09:10,1.74,,,20143.0,False,False,MODEL 0 time/session,False,False,False,False,False
+90964953,OOS,2026-04-06 09:32:16,Sell,4658.67,2026-04-06 09:43:01,2.34,,,136.0,False,False,MODEL 0 time/session,False,False,False,False,False
+90967915,OOS,2026-04-06 13:38:30,Sell,4690.94,2026-04-06 13:39:26,-0.77,,,510.0,False,False,MODEL 0 time/session,False,False,False,False,False
+90970712,OOS,2026-04-06 15:20:14,Sell,4668.5,2026-04-06 15:24:49,3.9,,,1214.0,False,False,MODEL 0 time/session,False,False,False,False,False
+91022147,OOS,2026-04-07 09:04:07,Buy,4642.04,2026-04-07 09:04:55,1.88,,,247.0,False,False,MODEL 0 time/session,False,False,False,False,False
+91024794,OOS,2026-04-07 11:02:14,Sell,4657.11,2026-04-07 11:04:48,4.19,,,134.0,False,False,MODEL 0 time/session,False,False,False,False,False
+91045329,OOS,2026-04-07 16:21:19,Buy,4652.83,2026-04-07 16:31:22,1.86,,,4879.0,False,False,MODEL 0 time/session,False,False,False,False,False
+91124606,OOS,2026-04-08 08:51:27,Buy,4832.95,2026-04-08 08:53:05,8.9,,,513.0,False,False,MODEL 0 time/session,False,False,False,False,False
+91162669,OOS,2026-04-08 18:32:24,Buy,4754.91,2026-04-08 18:37:00,5.42,,,10944.0,False,False,MODEL 0 time/session,False,False,False,False,False
+91200522,OOS,2026-04-09 08:36:36,Buy,4716.78,2026-04-09 08:49:12,0.06,,,396.0,False,False,MODEL 0 time/session,False,False,False,False,False
+91202282,OOS,2026-04-09 09:07:52,Sell,4722.92,2026-04-09 09:31:20,2.25,,,472.0,False,False,MODEL 0 time/session,False,False,False,False,False
+91206718,OOS,2026-04-09 11:06:30,Buy,4720.48,2026-04-09 11:15:00,2.93,,,270.0,False,False,MODEL 0 time/session,False,False,False,False,False
+91227583,OOS,2026-04-09 16:53:03,Buy,4762.11,2026-04-09 16:53:35,2.31,,,4983.0,False,False,MODEL 0 time/session,False,False,False,False,False
+91267065,OOS,2026-04-10 08:14:46,Buy,4760.4,2026-04-10 08:15:19,-1.88,,,914.0,False,False,MODEL 0 time/session,False,False,False,False,False
+91267485,OOS,2026-04-10 08:30:33,Buy,4760.62,2026-04-10 08:47:06,4.78,2026-04-10 08:30:00,Sell,33.0,True,False,MODEL 0 time/session,False,False,False,False,True
+91276550,OOS,2026-04-10 14:42:46,Buy,4761.93,2026-04-10 15:00:36,5.46,,,766.0,False,False,MODEL 0 time/session,False,False,False,False,False
+91352434,OOS,2026-04-13 09:00:33,Buy,4728.93,2026-04-13 09:31:12,3.06,,,1767.0,False,False,MODEL 0 time/session,False,False,False,False,False
+91356501,OOS,2026-04-13 11:14:05,Sell,4734.02,2026-04-13 11:15:39,2.56,,,415.0,False,False,MODEL 0 time/session,False,False,False,False,False
+91397685,OOS,2026-04-13 18:37:59,Buy,4713.36,2026-04-13 18:39:33,2.98,,,13079.0,False,False,MODEL 0 time/session,False,False,False,False,False
+91431248,OOS,2026-04-14 09:44:43,Buy,4768.65,2026-04-14 09:47:16,4.42,,,883.0,False,False,MODEL 0 time/session,False,False,False,False,False
+91448019,OOS,2026-04-14 15:20:42,Sell,4768.7,2026-04-14 15:23:34,1.1,,,1242.0,False,False,MODEL 0 time/session,False,False,False,False,False
+91488864,OOS,2026-04-14 20:38:32,Buy,4834.27,2026-04-14 20:52:28,3.37,,,20312.0,False,False,MODEL 0 time/session,False,False,False,False,False
+91515698,OOS,2026-04-15 09:13:14,Sell,4819.15,2026-04-15 09:29:49,4.27,,,794.0,False,False,MODEL 0 time/session,False,False,False,False,False
+91531357,OOS,2026-04-15 16:00:14,Sell,4815.58,2026-04-15 16:19:54,2.0,,,1814.0,False,False,MODEL 0 time/session,False,False,False,False,False
+91585973,OOS,2026-04-16 09:43:59,Buy,4819.6,2026-04-16 09:46:43,3.38,,,839.0,False,False,MODEL 0 time/session,False,False,False,False,False
+91596159,OOS,2026-04-16 15:36:23,Sell,4819.54,2026-04-16 15:50:58,2.19,,,383.0,False,False,MODEL 0 time/session,False,False,False,False,False
+91645065,OOS,2026-04-17 08:14:54,Sell,4805.2,2026-04-17 08:40:27,4.0,,,906.0,False,False,MODEL 0 time/session,False,False,False,False,False
+91655142,OOS,2026-04-17 13:51:42,Buy,4783.65,2026-04-17 14:12:17,3.8,,,498.0,False,False,MODEL 0 time/session,False,False,False,False,False
+91740834,OOS,2026-04-20 08:41:45,Sell,4786.71,2026-04-20 08:45:12,4.4,,,2895.0,False,False,MODEL 0 time/session,False,False,False,False,False
+91776198,OOS,2026-04-20 18:25:31,Sell,4804.88,2026-04-20 18:29:06,-1.53,,,12331.0,False,False,MODEL 0 time/session,False,False,False,False,False
+91797166,OOS,2026-04-21 07:24:24,Buy,4791.72,2026-04-21 07:28:52,0.82,,,5736.0,False,False,MODEL 0 time/session,False,False,False,False,False
+91806444,OOS,2026-04-21 10:42:50,Buy,4783.67,2026-04-21 10:56:42,5.19,,,770.0,False,False,MODEL 0 time/session,False,False,False,False,False
+91824729,OOS,2026-04-21 17:01:47,Buy,4777.82,2026-04-21 17:09:31,3.78,,,7307.0,False,False,MODEL 0 time/session,False,False,False,False,False
+91863976,OOS,2026-04-22 08:22:08,Sell,4770.12,2026-04-22 08:41:48,3.89,,,2272.0,False,False,MODEL 0 time/session,False,False,False,False,False
+91873683,OOS,2026-04-22 15:29:56,Sell,4755.12,2026-04-22 15:41:37,7.53,2026-04-22 15:30:00,Sell,4.0,True,True,MODEL 0 time/session,False,True,True,True,True
+91919177,OOS,2026-04-23 08:30:37,Buy,4698.9,2026-04-23 08:40:07,2.69,2026-04-23 08:30:00,Sell,37.0,True,False,MODEL 0 time/session,False,False,False,False,True
+91954421,OOS,2026-04-23 20:58:13,Buy,4708.33,2026-04-23 21:08:22,2.91,,,19693.0,False,False,MODEL 0 time/session,False,False,False,False,False
+91973017,OOS,2026-04-24 11:25:06,Sell,4690.11,2026-04-24 11:31:35,3.17,2026-04-24 11:25:00,Buy,6.0,True,False,MODEL 0 time/session,False,False,True,True,True
+91984519,OOS,2026-04-24 16:32:20,Buy,4691.77,2026-04-24 16:38:46,5.78,,,3740.0,False,False,MODEL 0 time/session,False,False,False,False,False
+92024986,OOS,2026-04-27 06:37:58,Buy,4722.65,2026-04-27 07:23:16,3.9,,,10322.0,False,False,MODEL 0 time/session,False,False,False,False,False
+92029007,OOS,2026-04-27 11:51:00,Sell,4709.01,2026-04-27 12:12:14,4.28,,,540.0,False,False,MODEL 0 time/session,False,False,False,False,False
+92067522,OOS,2026-04-28 09:04:14,Buy,4631.5,2026-04-28 09:14:44,7.36,,,254.0,False,False,MODEL 0 time/session,False,False,False,False,False
+92099847,OOS,2026-04-28 19:35:59,Buy,4582.29,2026-04-28 19:38:28,2.23,,,16559.0,False,False,MODEL 0 time/session,False,False,False,False,False
+92117158,OOS,2026-04-29 09:00:38,Buy,4593.37,2026-04-29 09:04:05,2.98,2026-04-29 09:00:00,Buy,38.0,True,True,MODEL 0 time/session,False,False,False,False,True
+92125361,OOS,2026-04-29 13:38:23,Sell,4571.93,2026-04-29 13:43:56,3.82,,,383.0,False,False,MODEL 0 time/session,False,False,False,False,False
+92181621,OOS,2026-04-30 13:58:53,Buy,4634.47,2026-04-30 14:03:51,5.54,,,67.0,False,False,MODEL 0 time/session,False,False,False,False,True
+92218142,OOS,2026-05-01 09:16:51,Sell,4600.22,2026-05-01 10:12:50,4.15,,,789.0,False,False,MODEL 0 time/session,False,False,False,False,False
+92274667,OOS,2026-05-04 08:18:10,Buy,4603.12,2026-05-04 08:19:50,8.74,,,4310.0,False,False,MODEL 0 time/session,False,False,False,False,False
+92286476,OOS,2026-05-04 13:52:28,Sell,4564.23,2026-05-04 13:54:59,1.77,,,452.0,False,False,MODEL 0 time/session,False,False,False,False,False
+92319804,OOS,2026-05-04 20:24:33,Buy,4527.89,2026-05-04 20:26:06,-2.54,,,17673.0,False,False,MODEL 0 time/session,False,False,False,False,False
+92331897,OOS,2026-05-05 06:17:31,Sell,4541.33,2026-05-05 06:33:02,3.38,,,11549.0,False,False,MODEL 0 time/session,False,False,False,False,False
+92342438,OOS,2026-05-05 13:41:28,Sell,4548.47,2026-05-05 13:51:12,4.84,,,688.0,False,False,MODEL 0 time/session,False,False,False,False,False
+92396538,OOS,2026-05-06 08:30:50,Sell,4649.56,2026-05-06 08:33:02,1.28,,,1750.0,False,False,MODEL 0 time/session,False,False,False,False,False
+92408965,OOS,2026-05-06 12:41:15,Sell,4699.99,2026-05-06 12:46:00,3.79,,,675.0,False,False,MODEL 0 time/session,False,False,False,False,False
+92461110,OOS,2026-05-07 07:56:52,Buy,4694.78,2026-05-07 08:07:54,3.81,,,3788.0,False,False,MODEL 0 time/session,False,False,False,False,False
+92535886,OOS,2026-05-07 19:37:09,Sell,4716.22,2026-05-07 19:45:45,4.16,,,14829.0,False,False,MODEL 0 time/session,False,False,False,False,False
+92561346,OOS,2026-05-08 09:30:27,Sell,4732.98,2026-05-08 09:39:06,5.57,2026-05-08 09:30:00,Sell,27.0,True,True,MODEL 0 time/session,False,False,False,True,True
+92611594,OOS,2026-05-11 07:03:52,Buy,4674.86,2026-05-11 07:10:26,2.56,,,8768.0,False,False,MODEL 0 time/session,False,False,False,False,False
+92626347,OOS,2026-05-11 15:38:02,Sell,4696.5,2026-05-11 15:45:50,1.66,,,482.0,False,False,MODEL 0 time/session,False,False,False,False,False
+92649888,OOS,2026-05-12 05:30:04,Buy,4722.52,2026-05-12 06:18:08,4.27,,,14396.0,False,False,MODEL 0 time/session,False,False,False,False,False
+92660254,OOS,2026-05-12 13:41:21,Buy,4688.79,2026-05-12 14:01:20,2.73,,,681.0,False,False,MODEL 0 time/session,False,False,False,False,False
+92699406,OOS,2026-05-13 08:32:18,Buy,4696.22,2026-05-13 08:38:05,3.18,,,1662.0,False,False,MODEL 0 time/session,False,False,False,False,False
+92704162,OOS,2026-05-13 13:32:46,Sell,4698.28,2026-05-13 13:46:28,2.59,,,166.0,False,False,MODEL 0 time/session,False,False,False,False,False
+92707912,OOS,2026-05-13 16:16:14,Buy,4688.92,2026-05-13 16:17:46,-2.09,,,2774.0,False,False,MODEL 0 time/session,False,False,False,False,False
+92708453,OOS,2026-05-13 16:27:45,Sell,4692.21,2026-05-13 16:29:24,1.18,,,3465.0,False,False,MODEL 0 time/session,False,False,False,False,False
+92749649,OOS,2026-05-14 07:37:00,Sell,4709.23,2026-05-14 07:54:42,2.85,,,4980.0,False,False,MODEL 0 time/session,False,False,False,False,False
+92755985,OOS,2026-05-14 14:27:21,Buy,4691.09,2026-05-14 14:35:08,2.64,,,159.0,False,False,MODEL 0 time/session,False,False,False,False,False
+92794484,OOS,2026-05-15 06:52:48,Sell,4615.85,2026-05-15 06:56:18,4.14,,,7632.0,False,False,MODEL 0 time/session,False,False,False,False,False
+92816284,OOS,2026-05-15 14:15:09,Sell,4567.8,2026-05-15 14:32:57,7.18,,,891.0,False,False,MODEL 0 time/session,False,False,False,False,False
+92863125,OOS,2026-05-18 09:44:22,Buy,4538.98,2026-05-18 09:55:57,7.45,,,862.0,False,False,MODEL 0 time/session,False,False,False,False,False
+92873305,OOS,2026-05-18 16:08:58,Buy,4566.67,2026-05-18 16:10:38,-2.38,,,2338.0,False,False,MODEL 0 time/session,False,False,False,False,False
+92878258,OOS,2026-05-18 17:35:04,Sell,4550.25,2026-05-18 17:36:02,4.72,,,7504.0,False,False,MODEL 0 time/session,False,False,False,False,False
+92901499,OOS,2026-05-19 06:40:39,Sell,4551.85,2026-05-19 06:48:46,2.9,,,10161.0,False,False,MODEL 0 time/session,False,False,False,False,False
+92905766,OOS,2026-05-19 10:09:51,Sell,4551.78,2026-05-19 10:30:50,4.06,,,591.0,False,False,MODEL 0 time/session,False,False,False,False,False
+92943988,OOS,2026-05-20 09:00:09,Buy,4471.76,2026-05-20 09:01:47,3.4,2026-05-20 09:00:00,Buy,9.0,True,True,MODEL 0 time/session,False,False,True,True,True
+92991008,OOS,2026-05-21 09:39:49,Sell,4528.46,2026-05-21 09:54:47,5.53,,,589.0,False,False,MODEL 0 time/session,False,False,False,False,False
+93028917,OOS,2026-05-22 07:41:02,Sell,4526.58,2026-05-22 07:45:37,-2.66,,,4738.0,False,False,MODEL 0 time/session,False,False,False,False,False
+93029514,OOS,2026-05-22 08:36:56,Buy,4530.06,2026-05-22 08:40:30,3.09,,,1384.0,False,False,MODEL 0 time/session,False,False,False,False,False
+93037747,OOS,2026-05-22 15:30:46,Sell,4522.59,2026-05-22 15:33:14,4.0,2026-05-22 15:30:00,Sell,46.0,True,True,MODEL 0 time/session,False,False,False,False,True
+93064584,OOS,2026-05-25 09:09:03,Buy,4551.65,2026-05-25 09:28:09,6.5,,,1257.0,False,False,MODEL 0 time/session,False,False,False,False,False
+93070782,OOS,2026-05-25 15:59:41,Sell,4568.44,2026-05-25 16:02:57,5.24,,,1781.0,False,False,MODEL 0 time/session,False,False,False,False,False
+93086094,OOS,2026-05-26 08:40:30,Sell,4532.04,2026-05-26 08:57:17,4.61,,,2970.0,False,False,MODEL 0 time/session,False,False,False,False,False
+93091481,OOS,2026-05-26 13:48:28,Sell,4535.78,2026-05-26 13:51:18,-2.57,,,692.0,False,False,MODEL 0 time/session,False,False,False,False,False
+93095183,OOS,2026-05-26 15:35:27,Sell,4509.03,2026-05-26 15:40:56,4.17,,,327.0,False,False,MODEL 0 time/session,False,False,False,False,False
+93121138,OOS,2026-05-27 09:21:22,Sell,4489.13,2026-05-27 09:43:57,3.87,,,518.0,False,False,MODEL 0 time/session,False,False,False,False,False
+93131167,OOS,2026-05-27 14:50:40,Sell,4438.17,2026-05-27 15:01:34,3.75,,,560.0,False,False,MODEL 0 time/session,False,False,False,False,False
+93169426,OOS,2026-05-28 07:11:24,Sell,4378.3,2026-05-28 07:23:55,6.17,,,6516.0,False,False,MODEL 0 time/session,False,False,False,False,False
+93184362,OOS,2026-05-28 17:04:21,Sell,4424.02,2026-05-28 17:06:49,-2.98,,,5661.0,False,False,MODEL 0 time/session,False,False,False,False,False
+93199497,OOS,2026-05-28 20:45:24,Buy,4508.61,2026-05-28 21:06:30,4.58,,,18924.0,False,False,MODEL 0 time/session,False,False,False,False,False
+93210316,OOS,2026-05-29 09:09:04,Sell,4515.02,2026-05-29 09:13:41,2.66,,,544.0,False,False,MODEL 0 time/session,False,False,False,False,False
+93235333,OOS,2026-05-29 21:01:51,Buy,4553.24,2026-05-29 21:42:51,6.35,,,19911.0,False,False,MODEL 0 time/session,False,False,False,False,False
+93252299,OOS,2026-06-01 11:07:05,Sell,4498.93,2026-06-01 11:28:55,3.84,,,425.0,False,False,MODEL 0 time/session,False,False,False,False,False
+93277546,OOS,2026-06-01 16:40:02,Sell,4472.54,2026-06-01 16:41:39,5.5,,,4202.0,False,False,MODEL 0 time/session,False,False,False,False,False
+93309253,OOS,2026-06-02 16:27:01,Sell,4515.09,2026-06-02 16:30:32,5.05,,,3421.0,False,False,MODEL 0 time/session,False,False,False,False,False
+93345132,OOS,2026-06-03 07:31:17,Sell,4476.49,2026-06-03 07:50:55,4.54,,,5323.0,False,False,MODEL 0 time/session,False,False,False,False,False
+93360769,OOS,2026-06-03 18:19:30,Sell,4446.07,2026-06-03 18:46:02,5.42,,,10170.0,False,False,MODEL 0 time/session,False,False,False,False,False
+93376580,OOS,2026-06-04 09:02:48,Sell,4472.1,2026-06-04 09:03:13,-3.03,,,168.0,False,False,MODEL 0 time/session,False,False,False,False,False
+93377409,OOS,2026-06-04 10:05:50,Sell,4469.47,2026-06-04 10:13:26,5.21,,,350.0,False,False,MODEL 0 time/session,False,False,False,False,False
+93404708,OOS,2026-06-05 07:16:51,Sell,4442.42,2026-06-05 07:19:28,2.41,,,6189.0,False,False,MODEL 0 time/session,False,False,False,False,False
+93411173,OOS,2026-06-05 14:55:49,Sell,4470.45,2026-06-05 15:07:21,2.26,,,251.0,False,False,MODEL 0 time/session,False,False,False,False,False
+93443489,OOS,2026-06-08 08:38:58,Buy,4279.91,2026-06-08 08:42:07,2.95,,,3062.0,False,False,MODEL 0 time/session,False,False,False,False,False
+93461391,OOS,2026-06-08 18:18:03,Buy,4324.16,2026-06-08 18:22:58,8.15,,,10083.0,False,False,MODEL 0 time/session,False,False,False,False,False
+93474519,OOS,2026-06-09 10:32:19,Sell,4326.45,2026-06-09 10:40:24,0.01,,,139.0,False,False,MODEL 0 time/session,False,False,False,False,False
+93510992,OOS,2026-06-10 08:02:18,Sell,4177.67,2026-06-10 08:06:00,1.99,,,3462.0,False,False,MODEL 0 time/session,False,False,False,False,False
+93557927,OOS,2026-06-11 09:36:08,Buy,4086.19,2026-06-11 09:57:10,8.09,,,368.0,False,False,MODEL 0 time/session,False,False,False,False,False
+93598278,OOS,2026-06-12 08:17:41,Sell,4185.65,2026-06-12 08:27:33,-2.4,,,2539.0,False,False,MODEL 0 time/session,False,False,False,False,False
+93609754,OOS,2026-06-12 17:23:16,Buy,4184.03,2026-06-12 17:29:50,5.87,,,6796.0,False,False,MODEL 0 time/session,False,False,False,False,False
+93631282,OOS,2026-06-15 08:44:57,Sell,4312.83,2026-06-15 08:45:22,2.51,,,2703.0,False,False,MODEL 0 time/session,False,False,False,False,False
+93650934,OOS,2026-06-15 16:30:46,Buy,4355.08,2026-06-15 16:41:37,10.07,,,3646.0,False,False,MODEL 0 time/session,False,False,False,False,False
+93681010,OOS,2026-06-16 13:18:40,Sell,4344.69,2026-06-16 13:22:06,-1.7,,,680.0,False,False,MODEL 0 time/session,False,False,False,False,False
+93682742,OOS,2026-06-16 15:06:09,Buy,4339.92,2026-06-16 15:11:57,3.27,,,369.0,False,False,MODEL 0 time/session,False,False,False,False,False
+93700747,OOS,2026-06-17 08:49:19,Sell,4332.93,2026-06-17 08:58:07,6.92,,,1159.0,False,False,MODEL 0 time/session,False,False,False,False,False
+93757800,OOS,2026-06-18 18:09:38,Sell,4253.6,2026-06-18 18:17:36,7.6,,,9578.0,False,False,MODEL 0 time/session,False,False,False,False,False
+93776205,OOS,2026-06-19 08:32:37,Sell,4137.68,2026-06-19 08:41:30,5.04,,,157.0,False,False,MODEL 0 time/session,False,False,False,False,False
+93798546,OOS,2026-06-22 08:28:11,Buy,4189.21,2026-06-22 08:39:30,6.82,,,109.0,False,False,MODEL 0 time/session,False,False,False,False,True
+93832434,OOS,2026-06-23 06:39:04,Buy,4135.04,2026-06-23 06:48:57,3.98,,,6656.0,False,False,MODEL 0 time/session,False,False,False,False,False
+93873774,OOS,2026-06-23 21:06:17,Sell,4127.31,2026-06-23 21:32:06,4.54,,,20177.0,False,False,MODEL 0 time/session,False,False,False,False,False
+93909211,OOS,2026-06-24 10:08:33,Buy,4088.7,2026-06-24 10:15:20,-3.38,,,1287.0,False,False,MODEL 0 time/session,False,False,False,False,False
+93935706,OOS,2026-06-24 16:41:19,Buy,4007.36,2026-06-24 16:46:25,2.37,,,4279.0,False,False,MODEL 0 time/session,False,False,False,False,False
+93990129,OOS,2026-06-25 07:19:16,Buy,3990.0,2026-06-25 07:30:21,4.22,,,4244.0,False,False,MODEL 0 time/session,False,False,False,False,False
+94051620,OOS,2026-06-25 19:46:01,Buy,4025.8,2026-06-25 20:27:18,8.77,,,15361.0,False,False,MODEL 0 time/session,False,False,False,False,False
+94074059,OOS,2026-06-26 14:36:53,Sell,4051.97,2026-06-26 14:49:42,4.55,,,413.0,False,False,MODEL 0 time/session,False,False,False,False,False
+94116926,OOS,2026-06-29 14:55:16,Buy,4037.87,2026-06-29 15:08:30,8.67,,,1516.0,False,False,MODEL 0 time/session,False,False,False,False,False
+94147775,OOS,2026-06-30 07:15:05,Buy,3972.5,2026-06-30 07:25:58,5.19,,,4495.0,False,False,MODEL 0 time/session,False,False,False,False,False
+94199359,OOS,2026-07-01 17:01:51,Sell,4093.49,2026-07-01 17:03:41,8.63,,,5511.0,False,False,MODEL 0 time/session,False,False,False,False,False
+94223505,OOS,2026-07-02 16:13:42,Buy,4124.15,2026-07-02 16:15:41,-3.29,,,2622.0,False,False,MODEL 0 time/session,False,False,False,False,False
+94240579,OOS,2026-07-03 06:32:03,Buy,4179.46,2026-07-03 06:35:00,1.95,,,7077.0,False,False,MODEL 0 time/session,False,False,False,False,False
+94241160,OOS,2026-07-03 08:08:26,Sell,4180.61,2026-07-03 08:22:23,4.8,,,1294.0,False,False,MODEL 0 time/session,False,False,False,False,False
+94258974,OOS,2026-07-06 06:37:10,Sell,4167.97,2026-07-06 07:23:13,5.12,,,6770.0,False,False,MODEL 0 time/session,False,False,False,False,False
+94289139,OOS,2026-07-07 08:30:02,Sell,4127.24,2026-07-07 08:33:52,5.04,2026-07-07 08:30:00,Sell,2.0,True,True,MODEL 0 time/session,False,True,True,True,True
+94291110,OOS,2026-07-07 10:41:18,Sell,4128.54,2026-07-07 10:43:52,-2.74,,,678.0,False,False,MODEL 0 time/session,False,False,False,False,False
+94292496,OOS,2026-07-07 11:45:26,Sell,4130.41,2026-07-07 11:57:37,3.51,,,874.0,False,False,MODEL 0 time/session,False,False,False,False,False
+94339039,OOS,2026-07-08 08:08:25,Sell,4131.49,2026-07-08 08:25:20,6.64,,,1295.0,False,False,MODEL 0 time/session,False,False,False,False,False
+94351863,OOS,2026-07-08 14:04:59,Sell,4053.41,2026-07-08 14:34:03,5.72,,,299.0,False,False,MODEL 0 time/session,False,False,False,False,False
+94375434,OOS,2026-07-09 07:39:07,Sell,4063.53,2026-07-09 07:43:07,3.94,,,3053.0,False,False,MODEL 0 time/session,False,False,False,False,False
+94382823,OOS,2026-07-09 10:15:32,Buy,4101.86,2026-07-09 10:37:26,6.34,,,868.0,False,False,MODEL 0 time/session,False,False,False,False,False
+94425120,OOS,2026-07-10 08:49:00,Buy,4111.13,2026-07-10 09:08:48,5.39,,,1140.0,False,False,MODEL 0 time/session,False,False,False,False,False
+94467306,OOS,2026-07-13 08:16:27,Sell,4066.64,2026-07-13 08:29:25,8.19,,,813.0,False,False,MODEL 0 time/session,False,False,False,False,False
+94482317,OOS,2026-07-13 15:43:27,Sell,4063.5,2026-07-13 15:49:24,-3.54,,,807.0,False,False,MODEL 0 time/session,False,False,False,False,False
+94517647,OOS,2026-07-14 07:51:04,Sell,4017.7,2026-07-14 07:55:55,-1.69,,,2336.0,False,False,MODEL 0 time/session,False,False,False,False,False
+94518850,OOS,2026-07-14 08:30:53,Buy,4024.24,2026-07-14 09:08:09,7.08,2026-07-14 08:30:00,Sell,53.0,True,False,MODEL 0 time/session,False,False,False,False,True
+94571902,OOS,2026-07-15 08:31:12,Buy,4025.35,2026-07-15 08:41:16,7.2,,,72.0,False,False,MODEL 0 time/session,False,False,False,False,True
+94588522,OOS,2026-07-15 15:13:35,Buy,4036.97,2026-07-15 15:24:38,1.36,,,985.0,False,False,MODEL 0 time/session,False,False,False,False,False
+94627775,OOS,2026-07-16 08:45:23,Sell,4032.12,2026-07-16 08:57:20,2.64,,,923.0,False,False,MODEL 0 time/session,False,False,False,False,False
+94694698,OOS,2026-07-17 09:35:22,Sell,4003.55,2026-07-17 10:48:29,5.33,,,322.0,False,False,MODEL 0 time/session,False,False,False,False,False
+94754184,OOS,2026-07-20 11:10:48,Buy,4020.21,2026-07-20 11:19:04,5.38,,,648.0,False,False,MODEL 0 time/session,False,False,False,False,False
+94775324,OOS,2026-07-20 17:51:46,Sell,4010.12,2026-07-20 17:59:42,3.71,,,8506.0,False,False,MODEL 0 time/session,False,False,False,False,False
+94810342,OOS,2026-07-21 09:41:33,Buy,4075.28,2026-07-21 09:54:41,4.74,,,693.0,False,False,MODEL 0 time/session,False,False,False,False,False
+94842197,OOS,2026-07-21 19:41:05,Sell,4074.65,2026-07-21 19:44:14,2.32,,,15065.0,False,False,MODEL 0 time/session,False,False,False,False,False
+94864297,OOS,2026-07-22 07:00:59,Sell,4130.33,2026-07-22 08:02:01,2.1,,,5341.0,False,False,MODEL 0 time/session,False,False,False,False,False
+94908427,OOS,2026-07-22 22:54:35,Buy,4129.52,2026-07-22 23:03:30,1.14,,,26675.0,False,False,MODEL 0 time/session,False,False,False,False,False
+94927689,OOS,2026-07-23 07:48:08,Buy,4123.62,2026-07-23 08:07:30,-2.1,,,2512.0,False,False,MODEL 0 time/session,False,False,False,False,False
+94942223,OOS,2026-07-23 12:20:23,Sell,4096.12,2026-07-23 13:30:45,2.96,,,577.0,False,False,MODEL 0 time/session,False,False,False,False,False
+94986774,OOS,2026-07-24 08:50:08,Sell,4028.48,2026-07-24 09:00:10,4.29,,,1208.0,False,False,MODEL 0 time/session,False,False,False,False,False
+94991858,OOS,2026-07-24 10:35:14,Sell,4052.29,2026-07-24 11:26:33,3.78,,,314.0,False,False,MODEL 0 time/session,False,False,False,False,False
+95047920,OOS,2026-07-27 07:18:11,Buy,4087.56,2026-07-27 08:11:22,5.58,,,4309.0,False,False,MODEL 0 time/session,False,False,False,False,False
+95072289,OOS,2026-07-27 16:33:09,Buy,4078.44,2026-07-27 16:45:17,9.29,,,3789.0,False,False,MODEL 0 time/session,False,False,False,False,False
+95107372,OOS,2026-07-28 07:47:22,Sell,4046.03,2026-07-28 08:28:37,4.07,,,2558.0,False,False,MODEL 0 time/session,False,False,False,False,False
+95168933,OOS,2026-07-29 07:20:48,Buy,4022.45,2026-07-29 07:53:59,2.85,,,4152.0,False,False,MODEL 0 time/session,False,False,False,False,False
+95248660,OOS,2026-07-29 23:00:54,Buy,4047.81,2026-07-29 23:08:41,3.87,,,27054.0,False,False,MODEL 0 time/session,False,False,False,False,False
+95298275,OOS,2026-07-30 12:32:41,Buy,4062.11,2026-07-30 12:36:57,5.28,,,161.0,False,False,MODEL 0 time/session,False,False,False,False,False
+95369124,OOS,2026-07-31 07:51:51,Buy,4076.89,2026-07-31 08:24:09,4.76,,,2289.0,False,False,MODEL 0 time/session,False,False,False,False,False
+95443868,OOS,2026-08-03 08:03:06,Sell,4063.33,2026-08-03 08:16:22,5.5,,,1614.0,False,False,MODEL 0 time/session,False,False,False,False,False
+95511070,OOS,2026-08-04 08:06:17,Sell,4061.67,2026-08-04 08:17:10,2.66,,,1423.0,False,False,MODEL 0 time/session,False,False,False,False,False
+95576013,OOS,2026-08-04 21:47:35,Sell,4076.22,2026-08-04 21:59:40,-4.0,,,22655.0,False,False,MODEL 0 time/session,False,False,False,False,False
+95598021,OOS,2026-08-05 07:50:18,Buy,4133.53,2026-08-05 08:20:38,4.04,,,2382.0,False,False,MODEL 0 time/session,False,False,False,False,False
+95612645,OOS,2026-08-05 11:44:22,Sell,4165.21,2026-08-05 11:52:17,3.23,,,862.0,False,False,MODEL 0 time/session,False,False,False,False,False
+95709969,OOS,2026-08-06 07:35:50,Buy,4258.33,2026-08-06 08:04:52,1.1,,,3250.0,False,False,MODEL 0 time/session,False,False,False,False,False
+95773198,OOS,2026-08-06 20:23:51,Buy,4239.76,2026-08-06 20:55:52,5.6,,,17631.0,False,False,MODEL 0 time/session,False,False,False,False,False
+95800620,OOS,2026-08-07 08:08:00,Buy,4263.68,2026-08-07 08:17:20,4.74,,,1320.0,False,False,MODEL 0 time/session,False,False,False,False,False
+95918631,OOS,2026-08-10 07:10:04,Buy,4328.99,2026-08-10 07:22:20,7.46,,,4796.0,False,False,MODEL 0 time/session,False,False,False,False,False
+96004348,OOS,2026-08-11 07:58:04,Sell,4405.96,2026-08-11 07:59:58,-3.58,,,1916.0,False,False,MODEL 0 time/session,False,False,False,False,False
+96024216,OOS,2026-08-11 11:51:13,Sell,4375.16,2026-08-11 12:01:18,6.7,,,527.0,False,False,MODEL 0 time/session,False,False,False,False,False
+96113042,OOS,2026-08-12 15:00:05,Sell,4412.26,2026-08-12 15:07:11,3.54,2026-08-12 15:00:00,Buy,5.0,True,False,MODEL 0 time/session,False,True,True,True,True
+96202433,OOS,2026-08-13 08:13:29,Buy,4402.6,2026-08-13 08:15:27,2.24,,,991.0,False,False,MODEL 0 time/session,False,False,False,False,False
+96325914,OOS,2026-08-14 08:00:52,Sell,4324.79,2026-08-14 08:19:37,6.04,,,1748.0,False,False,MODEL 0 time/session,False,False,False,False,False
+96332229,OOS,2026-08-14 08:50:02,Buy,4326.97,2026-08-14 10:10:43,6.7,,,598.0,False,False,MODEL 0 time/session,False,False,False,False,False
+96391293,OOS,2026-08-17 07:49:26,Sell,4395.88,2026-08-17 08:04:50,2.43,,,2434.0,False,False,MODEL 0 time/session,False,False,False,False,False
+96484066,OOS,2026-08-18 06:00:51,Sell,4399.36,2026-08-18 08:14:35,6.92,,,8949.0,False,False,MODEL 0 time/session,False,False,False,False,False
+96566692,OOS,2026-08-19 08:06:43,Sell,4343.53,2026-08-19 08:14:58,8.0,,,1397.0,False,False,MODEL 0 time/session,False,False,False,False,False
+96653069,OOS,2026-08-20 08:03:17,Sell,4490.48,2026-08-20 08:27:21,4.65,,,1603.0,False,False,MODEL 0 time/session,False,False,False,False,False
+96756936,OOS,2026-08-21 08:11:26,Buy,4536.82,2026-08-21 08:15:14,1.02,,,1114.0,False,False,MODEL 0 time/session,False,False,False,False,False
+96882975,OOS,2026-08-24 07:34:43,Buy,4635.03,2026-08-24 08:07:05,6.72,,,3317.0,False,False,MODEL 0 time/session,False,False,False,False,False
+97042659,OOS,2026-08-25 08:04:19,Buy,4629.55,2026-08-25 08:10:16,5.93,,,1541.0,False,False,MODEL 0 time/session,False,False,False,False,False
+97143853,OOS,2026-08-25 20:27:24,Buy,4640.95,2026-08-25 20:35:19,-1.09,,,17844.0,False,False,MODEL 0 time/session,False,False,False,False,False
+97182841,OOS,2026-08-26 07:57:51,Buy,4640.61,2026-08-26 08:09:09,5.06,,,1929.0,False,False,MODEL 0 time/session,False,False,False,False,False
+97352852,OOS,2026-08-27 11:17:10,Sell,4604.68,2026-08-27 11:30:12,5.32,,,770.0,False,False,MODEL 0 time/session,False,False,False,False,False
+97451919,OOS,2026-08-28 08:18:43,Buy,4580.67,2026-08-28 08:25:37,5.5,,,677.0,False,False,MODEL 0 time/session,False,False,False,False,False
+97638884,OOS,2026-08-31 08:03:50,Sell,4425.37,2026-08-31 08:09:37,5.49,,,1570.0,False,False,MODEL 0 time/session,False,False,False,False,False
+97800092,OOS,2026-09-01 09:00:02,Sell,4440.12,2026-09-01 09:05:54,1.9,2026-09-01 09:00:00,Buy,2.0,True,False,MODEL 0 time/session,False,True,True,True,True
+97982386,OOS,2026-09-02 09:04:25,Buy,4319.11,2026-09-02 11:50:28,1.28,,,265.0,False,False,MODEL 0 time/session,False,False,False,False,False
+98070555,OOS,2026-09-02 18:21:55,Buy,4366.67,2026-09-02 18:25:56,2.5,,,10315.0,False,False,MODEL 0 time/session,False,False,False,False,False
+98161217,OOS,2026-09-03 08:48:56,Sell,4434.66,2026-09-03 08:52:15,-3.75,,,664.0,False,False,MODEL 0 time/session,False,False,False,False,False
+98188192,OOS,2026-09-03 12:36:09,Sell,4434.76,2026-09-03 12:57:10,7.19,,,369.0,False,False,MODEL 0 time/session,False,False,False,False,False
+98366050,OOS,2026-09-04 15:43:11,Sell,4401.75,2026-09-04 15:48:05,17.67,,,791.0,False,False,MODEL 0 time/session,False,False,False,False,False
+98440487,OOS,2026-09-07 10:01:54,Buy,4394.74,2026-09-07 10:05:53,4.39,,,114.0,False,False,MODEL 0 time/session,False,False,False,False,True
+99000862,OOS,2026-09-08 20:07:06,Sell,4399.59,2026-09-08 20:29:05,4.28,,,16626.0,False,False,MODEL 0 time/session,False,False,False,False,False
+99208828,OOS,2026-09-09 16:01:58,Buy,4404.63,2026-09-09 16:15:54,7.78,,,1918.0,False,False,MODEL 0 time/session,False,False,False,False,False
+99615317,OOS,2026-09-10 22:27:09,Sell,4329.05,2026-09-10 23:02:43,5.71,,,25029.0,False,False,MODEL 0 time/session,False,False,False,False,False
+99738973,OOS,2026-09-11 07:57:55,Buy,4333.59,2026-09-11 08:02:21,-4.97,,,1925.0,False,False,MODEL 0 time/session,False,False,False,False,False
+99754992,OOS,2026-09-11 18:20:15,Buy,4363.75,2026-09-11 18:30:18,6.64,,,10215.0,False,False,MODEL 0 time/session,False,False,False,False,False
+100126875,OOS,2026-09-15 08:52:49,Sell,4298.08,2026-09-15 08:58:55,5.8,,,431.0,False,False,MODEL 0 time/session,False,False,False,False,False
+100453335,OOS,2026-09-16 09:36:42,Buy,4325.5,2026-09-16 10:00:07,6.74,,,402.0,False,False,MODEL 0 time/session,False,False,False,False,False
+100653865,OOS,2026-09-17 06:00:33,Buy,4279.11,2026-09-17 06:21:35,5.2,,,8967.0,False,False,MODEL 0 time/session,False,False,False,False,False
+100675478,OOS,2026-09-17 09:20:36,Sell,4306.96,2026-09-17 09:22:53,-1.44,,,564.0,False,False,MODEL 0 time/session,False,False,False,False,False
+100829495,OOS,2026-09-17 16:21:20,Sell,4373.27,2026-09-17 16:29:43,6.53,,,3080.0,False,False,MODEL 0 time/session,False,False,False,False,False
+983845,OOS,2026-09-18 06:25:04,Buy,4336.1,2026-09-18 06:33:14,8.26,,,53704.0,False,False,MODEL 0 time/session,False,False,False,False,False

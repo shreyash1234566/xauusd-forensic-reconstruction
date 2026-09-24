@@ -1,0 +1,7 @@
+timezone,description,hour_offset,sample_trade_1_open,sample_trade_1_close,sample_trade_423_open,sample_trade_423_close,mql5_matches,myfxbook_matches,fxblue_matches,global_index_matches,verdict
+UTC+3,Eastern European Summer Time (Broker Native - RoboForex/Tickmill),0,2025-09-25 19:32:56,2025-09-25 19:42:55,2026-09-18 06:25:04,2026-09-18 06:33:14,0,0,0,0,NO_MATCH
+UTC+2,Eastern European Time (Winter Broker Time),-1,2025-09-25 18:32:56,2025-09-25 18:42:55,2026-09-18 05:25:04,2026-09-18 05:33:14,0,0,0,0,NO_MATCH
+UTC+0,Greenwich Mean Time / Universal Coordinated Time (Myfxbook/FX Blue Default),-3,2025-09-25 16:32:56,2025-09-25 16:42:55,2026-09-18 03:25:04,2026-09-18 03:33:14,0,0,0,0,NO_MATCH
+UTC-5,Eastern Standard Time (New York / Wall Street),-8,2025-09-25 11:32:56,2025-09-25 11:42:55,2026-09-17 22:25:04,2026-09-17 22:33:14,0,0,0,0,NO_MATCH
+UTC-4,Eastern Daylight Time (New York Summer),-7,2025-09-25 12:32:56,2025-09-25 12:42:55,2026-09-17 23:25:04,2026-09-17 23:33:14,0,0,0,0,NO_MATCH
+UTC+8,Singapore / Hong Kong / Beijing Standard Time,5,2025-09-26 00:32:56,2025-09-26 00:42:55,2026-09-18 11:25:04,2026-09-18 11:33:14,0,0,0,0,NO_MATCH

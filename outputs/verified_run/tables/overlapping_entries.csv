@@ -1,0 +1,4 @@
+prior_ticket,new_ticket,prior_side,new_side,same_direction,prior_open_time,new_open_time,entry_delta_seconds,prior_close_time,new_close_time,common_overlap_seconds,prior_lot_size,new_lot_size,prior_observed_price,new_observed_price
+36168589,36168590,Buy,Buy,True,2025-09-29 08:46:42,2025-09-29 08:46:47,5.0,2025-09-29 08:52:58,2025-09-29 08:52:55,368.0,0.01,0.01,3805.93,3805.93
+36227385,36227388,Sell,Sell,True,2025-09-30 11:20:52,2025-09-30 11:20:57,5.0,2025-09-30 11:22:05,2025-09-30 11:23:20,68.0,0.01,0.03,3833.38,3833.24
+36335183,36335196,Buy,Buy,True,2025-10-02 15:23:08,2025-10-02 15:23:37,29.0,2025-10-02 15:31:38,2025-10-02 15:31:34,477.0,0.01,0.01,3882.36,3882.34

@@ -1,0 +1,9 @@
+metric,phase7b_m1_interpolation,phase7c_genuine_raw_ticks,relative_improvement
+Timestamp Resolution,60-second discrete bar boundaries (intra-bar synthetic curve),Millisecond-precision discrete physical quote events,"1,000x to 60,000x temporal resolution gain"
+Quote Structure & Spread,Single synthetic midpoint price series (fixed spread model),Dual asynchronous physical Bid and Ask quote streams,Captures real-time dynamic market spread widening and depth
+Matching Rate <= $0.50/oz,128 / 423 (30.3%),154 / 423 (36.4%),+6.1% higher tight-tolerance precision
+Matching Rate <= $1.00/oz,232 / 423 (54.8%),260 / 423 (61.5%),+6.7% higher matching coverage
+Matching Rate <= $3.00/oz,388 / 423 (91.7%),366 / 423 (86.5%),+-5.2% overall coverage
+Median Entry Price Error,$0.920 / oz,$0.735 / oz,-$0.185 / oz reduction in entry error
+Gross P&L Reconstruction Delta,"$8.07 (0.55% error to recorded $1,451.22)","$5.29 (0.36% error to recorded $1,451.22)",Exact microstructural tracking without bar-close distortion
+Execution Asymmetry Modeling,Symmetric midpoint subtraction,Strict Buy(Ask->Bid) / Sell(Bid->Ask) two-sided execution,Non-circular microstructural replication

@@ -1,0 +1,38 @@
+test_id,family,test,effect,p_value,fdr_q_value_all_tests,fdr_5pct_significant,bonferroni_5pct_significant
+DIR-01,direction,Exact binomial Buy proportion versus 0.50,0.005910165484633523,0.8458238088653331,1.0,False,False
+DIR-02,direction,Permutation test of adjacent same-direction rate,-0.010594786729857864,0.7030296970302969,0.9634110663007773,False,False
+DIR-03,direction,Wald-Wolfowitz runs test,4.529550827423179,0.6591744997067743,0.9380560188134865,False,False
+DIR-04,direction,Likelihood-ratio IID versus first-order Markov,0.23883327205908245,0.62505005991329,0.9250740886716692,False,False
+DIR-05,direction,Likelihood-ratio first- versus second-order Markov,2.1457549014471624,0.3420229459587424,0.5868804728070748,False,False
+PNL-01,profit,Buy minus Sell mean P&L permutation,-0.008104681840540806,0.9809019098090191,1.0,False,False
+PNL-02,profit,Buy versus Sell P&L Mann-Whitney,0.0,0.8079904579638445,1.0,False,False
+PNL-03,profit,Side versus win/loss chi-square,0.0031301703707016237,0.9243378383155046,1.0,False,False
+PNL-04,profit,Buy minus Sell mean P&L normalized to 0.01 size permutation,0.0034580929809648886,0.9893010698930107,1.0,False,False
+PNL-05,profit,Win-after-loss minus win-after-win transition permutation,0.09123731459797035,0.0751462426878656,0.1745064967516242,False,False
+DUR-01,duration,Buy minus Sell mean duration permutation,-2.349670959471746,0.31766823317668236,0.5868804728070748,False,False
+DUR-02,duration,Buy versus Sell duration Mann-Whitney,-0.5666666666666664,0.8996655630475943,1.0,False,False
+DUR-03,duration,Duration versus P&L Spearman correlation,0.4397832919442404,1.961628040682731e-21,2.4193412501753683e-20,True,True
+DUR-04,duration,Duration versus size-normalized P&L Spearman correlation,0.45047361558137133,1.5752068734468878e-22,2.9141327158767424e-21,True,True
+DUR-05,duration,Winner minus loser mean log duration permutation,1.0057324049086889,4.999750012499375e-05,0.00046247687615619216,True,True
+DUR-06,duration,Winner minus loser median duration permutation,5.333333333333334,0.0015999200039998,0.0058596278848170895,True,False
+DUR-07,duration,Whole-minute duration count versus random-second reference,-0.04999999999999982,1.0,1.0,False,False
+TIME-01,timing,Observed hour counts versus 24-bin uniform reference,411.2127659574468,8.715400733686828e-73,3.2246982714641266e-71,True,True
+TIME-02,timing,Minute-of-hour 5-minute bins versus uniform reference,29.73758865248227,0.0017420515333239994,0.0058596278848170895,True,False
+TIME-03,timing,Raw weekday counts versus five-bin uniform reference,1.574468085106383,0.8133735161996122,1.0,False,False
+TIME-04,timing,Direction versus raw-clock bucket permutation,0.11499968264543323,0.2419516096780644,0.4973449754493546,False,False
+SIZE-01,sizing,Direction versus above-base size Fisher exact,1.0252525252525253,1.0,1.0,False,False
+SIZE-02,sizing,Lot size versus chronological index Spearman,-0.17584381862920861,0.0002788137756192599,0.002063221939582523,True,True
+SIZE-03,sizing,Lot size versus observed price Spearman,-0.1638842539889487,0.0007156002094450633,0.003309650968683418,True,True
+SIZE-04,sizing,Previous-trade P&L before large versus base size permutation,-0.05540681818181836,0.9421057894210579,1.0,False,False
+SIZE-05,sizing,Previous-five-trade P&L before large versus base size permutation,1.7998795454545515,0.35196480351964804,0.5868804728070748,False,False
+SIZE-06,sizing,Size-normalized P&L large minus base size permutation,0.40553011410866757,0.5737713114344283,0.8845641051280769,False,False
+SIZE-07,sizing,All above-base observations positive under exchangeable outcomes,22.0,0.04032735089008292,0.12434266524442233,False,False
+CLUST-01,clustering,Same-day gaps <=30 minutes versus empirical-clock IID null,7.651399999999999,0.05418916216756649,0.14792603698150925,False,False
+CP-01,change_point,Maximum one-change scan: buy_indicator,6.243772297367144,0.21239380309845077,0.4622688655672164,False,False
+CP-02,change_point,Maximum one-change scan: win_indicator,3.1738944165424527,0.36481759120439783,0.5868804728070748,False,False
+CP-03,change_point,Maximum one-change scan: log_duration,31.995448034968774,0.0559720139930035,0.14792603698150925,False,False
+CP-04,change_point,Maximum one-change scan: pnl,13.70757575433123,0.07546226886556721,0.1745064967516242,False,False
+CP-05,change_point,Maximum one-change scan: pnl_per_0_01_lot,7.530481906398393,0.28585707146426786,0.5566690339041006,False,False
+CP-06,change_point,Maximum one-change scan: lot_size,50.923109465688626,0.0004997501249375312,0.002641536374669808,True,True
+CP-07,change_point,Maximum one-change scan: raw_hour_sine,17.11785852543457,0.0014992503748125937,0.0058596278848170895,True,False
+CP-08,change_point,Maximum one-change scan: raw_hour_cosine,26.933637139526724,0.0004997501249375312,0.002641536374669808,True,True

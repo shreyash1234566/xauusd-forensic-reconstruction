@@ -1,0 +1,22 @@
+{
+  "platform": "Myfxbook Public Systems",
+  "audit_timestamp": "2026-09-20T12:00:00Z",
+  "searches_performed": [
+    {
+      "query": "site:myfxbook.com \"36094988\" OR \"100829495\"",
+      "results_count": 0,
+      "status": "NO_MATCH"
+    },
+    {
+      "query": "site:myfxbook.com \"XAUUSD.f\" \"1451.22\"",
+      "results_count": 0,
+      "status": "NO_MATCH"
+    },
+    {
+      "query": "site:myfxbook.com \"423 trades\" \"XAUUSD\"",
+      "results_count": 0,
+      "status": "NO_MATCH"
+    }
+  ],
+  "verdict": "REJECTED (No public Myfxbook system matches canonical ledger)"
+}

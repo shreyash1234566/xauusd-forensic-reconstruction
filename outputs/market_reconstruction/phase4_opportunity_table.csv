@@ -1,0 +1,2 @@
+artifact,analysis_status,supported_data,scope,reason
+phase4_opportunity_table.csv,NOT_IDENTIFIABLE,"No recovered synchronized tick, Bid/Ask, spread, order, deal, position, modification, rejection, or terminal-log record",true opportunity set,No pending/rejected/cancelled order data or quote-level threshold evidence.

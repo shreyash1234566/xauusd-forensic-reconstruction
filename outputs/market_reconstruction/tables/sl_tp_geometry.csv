@@ -1,0 +1,10 @@
+metric,value
+loss_mae_pip_mean,44.1925925925924
+loss_mae_pip_median,32.900000000004184
+loss_mae_pip_p75,49.59999999999923
+loss_mae_pip_p90,80.32999999999814
+win_mfe_pip_mean,63.909554317548746
+win_mfe_pip_median,62.849999999998545
+win_mfe_pip_p75,86.39999999999873
+win_mfe_pip_p90,114.36999999999713
+implied_rr_median,1.9103343465042721

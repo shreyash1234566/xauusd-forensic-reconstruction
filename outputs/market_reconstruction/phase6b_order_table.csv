@@ -1,0 +1,2 @@
+artifact,scope,status,reason
+phase6b_order_table.csv,native order records,DATA_UNAVAILABLE,No native artifacts were supplied to data/native/incoming/. Phase 6C is intentionally not started.

@@ -1,0 +1,9 @@
+Position,Working_name,Observed_structure,Certainty,Limitation
+1,ticket,Text identifier,Observed,Order/deal/position/ticket semantics unknown; preserve leading zero.
+2,side,Buy or Sell,Observed,Direction label.
+3,open_time,Interval start / apparent open,Structurally inferred,Naive second-resolution timestamp; timezone unknown.
+4,close_time,Interval end / apparent close,Structurally inferred,Always later than field 3; timezone unknown.
+5,symbol,XAUUSD.f,Observed,Exact broker contract and suffix semantics unknown.
+6,lot_size,Size-like decimal,Apparent,Likely lots; broker unit/contract value unknown.
+7,observed_price,Price-like decimal,Unknown semantics,"Could be entry, exit, average, or another price."
+8,pnl,Signed result,Apparent,Currency and inclusion of commission/swap/fees unknown.

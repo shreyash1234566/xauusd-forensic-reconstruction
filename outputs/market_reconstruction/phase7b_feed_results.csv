@@ -1,0 +1,8 @@
+candidate_id,feed_name,underlying_market,spread_model,match_exact_1tick,match_le_1_00,match_le_3_00,coverage_pct_3_00,median_entry_error,p95_entry_error,median_exit_error,p95_exit_error,reconstructed_total_pnl,pnl_delta_vs_1451,median_pnl_residual,evaluation_verdict
+FEED_01_DUKASCOPY_TICK_BIDASK,Dukascopy XAUUSD Intra-Bar Tick Stream,XAU/USD Spot Gold ECN,Empirical Spread $0.18/oz,2,229,364,86.05,0.89,8.587,0.667,11.266,1362.96,-88.26,1.109,STRONG_UNDERLYING_MATCH
+FEED_02_DUKASCOPY_TICK_MIDPOINT,Dukascopy XAUUSD Midpoint Tick Stream,XAU/USD Spot Gold Midpoint,Zero Spread (Midpoint),2,230,361,85.34,0.907,8.425,0.759,11.395,1443.24,-7.98,1.138,STRONG_UNDERLYING_MATCH
+FEED_04_OANDA_RETAIL_SPOT_TICK,OANDA Retail Floating Spot Tick Stream,XAU/USD Retail Floating CFD,Floating Spread $0.30/oz,5,226,366,86.52,0.909,8.695,0.607,11.257,1309.44,-141.78,1.065,STRONG_UNDERLYING_MATCH
+FEED_03_ROBOFOREX_PROFIX_TICK_SYNTHETIC,RoboForex Pro-Fix XAUUSD.f Tick M1-Spline,XAU/USD Retail Gold CFD,Fixed Spread $0.35/oz,2,228,366,86.52,0.92,8.74,0.583,11.257,1287.14,-164.08,1.052,OPTIMAL_RETAIL_SPECIFICATION
+FEED_05_COMEX_GC_FUTURES_TICK,COMEX Gold Futures Continuous Tick Stream,COMEX Gold Futures (GC),Futures Basis Contango (+$18.50/oz),0,0,1,0.24,18.332,22.879,18.25,20.919,1354.04,-97.18,1.111,REJECTED
+FEED_06_XAGUSD_SILVER_TICK,XAGUSD Silver Spot Tick Stream,Silver Spot ($30-$45/oz),Silver Spot Scaling (x0.008),0,0,0,0.0,4414.502,5139.863,4415.418,5139.481,2.63,-1448.59,3.796,REJECTED
+FEED_07_EURUSD_FOREX_TICK,EURUSD Forex Spot Tick Stream,EUR/USD FX Rate (1.05-1.15),Forex Exchange Rate,0,0,0,0.0,4449.007,5180.039,4449.791,5179.646,0.29,-1450.93,3.809,REJECTED

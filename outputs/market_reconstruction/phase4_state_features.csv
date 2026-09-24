@@ -1,0 +1,2 @@
+artifact,analysis_status,supported_data,scope,reason
+phase4_state_features.csv,NOT_IDENTIFIABLE,"No recovered synchronized tick, Bid/Ask, spread, order, deal, position, modification, rejection, or terminal-log record",hidden-state features,Only the prior closed-trade ledger is observable; no hidden platform/account state is available.

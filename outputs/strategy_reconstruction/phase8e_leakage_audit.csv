@@ -1,0 +1,8 @@
+feature_name,classification,leakage_status,mechanism,remedy
+ticket,C / G (Target Leakage),FATAL LEAKAGE,Direct mapping key used to join latent state. Controls had ticket=NaN/CTRL_xxx which failed join.,Remove ticket-based joins entirely. Evaluate account state causally on timestamp t.
+inter_trade_min,A (when causal) / G (as implemented in 8D),FATAL LEAKAGE IN 8D,Trades had true historical interval (mean 1201m); Controls received constant fillna(60.0).,Calculate elapsed minutes from previous closed trade as of timestamp t for all events.
+daily_trade_seq,A (when causal) / G (as implemented in 8D),FATAL LEAKAGE IN 8D,Trades had daily sequence (1 to 7); Controls received constant fillna(1.0).,Count closed trades on calendar day before timestamp t for all events.
+prior_win,A (when causal) / G (as implemented in 8D),MODERATE LEAKAGE IN 8D,Trades had 0 or 1 win label; Controls received constant fillna(1.0).,Extract win status of last closed trade before timestamp t for all events.
+prior_pnl,A (Causal historical state),CLEAN (when causal),P&L of trade closed prior to t.,Available causally before t.
+win_streak,A (Causal historical state),CLEAN (when causal),Consecutive wins/losses prior to t.,Available causally before t.
+is_flat (concurrency),F (Observed position status),ELIGIBILITY GATE (Not entry trigger),Checks if an open position exists at t.,Separate Model A (Account Eligibility) from Model B (Market Trigger).

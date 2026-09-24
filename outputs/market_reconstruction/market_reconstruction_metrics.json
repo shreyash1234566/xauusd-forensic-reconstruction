@@ -1,0 +1,16 @@
+{
+  "data_source": "Dukascopy bid (M1, UTC+3 shifted)",
+  "market_bars": 402401,
+  "trades": 423,
+  "entry_match_rate": 1.0,
+  "median_lag_seconds": 30.0,
+  "panel_rows": 402401,
+  "entry_rate_pct": 0.10462200640654472,
+  "mfe_mean_pips": 57.10515738498791,
+  "mae_mean_pips": -14.398983050847312,
+  "implied_rr_median": 1.9103343465042721,
+  "wf_mean_precision": 0.0,
+  "wf_mean_auc": 0.510838355440821,
+  "wf_mean_lift": 0.0,
+  "null_precision": 0.0010462200640654472
+}

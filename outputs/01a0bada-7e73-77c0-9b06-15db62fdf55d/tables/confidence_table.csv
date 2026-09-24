@@ -1,0 +1,9 @@
+Component,Reconstruction,Confidence
+Direction logic,Near-balanced observed Buy/Sell sequence; exact rule unknown,Weak
+Entry,Not reconstructable without synchronized market/no-trade data,Unsupported
+Exit,Short observed holds; exit mechanism unknown,Weak
+Position size,0.01 base with 22 larger observations; causal rule unknown,Moderate descriptively
+Session filter,Raw-clock concentration only; timezone unknown,Weak
+Risk control,"Trade-level P&L visible; equity, SL/TP and account risk absent",Unsupported
+Re-entry,Can quantify close-to-next-open gaps and direction,Moderate descriptively
+One versus multiple systems,Trade-attribute mixture/state evidence only,Weak

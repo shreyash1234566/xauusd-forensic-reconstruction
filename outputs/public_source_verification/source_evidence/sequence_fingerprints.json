@@ -1,0 +1,190 @@
+{
+  "early_subsequence": [
+    {
+      "open_time": "2025-09-25T19:32:56",
+      "close_time": "2025-09-25T19:42:55",
+      "side": "Buy",
+      "volume": 0.01,
+      "close_price": 3736.13,
+      "pnl": 0.97,
+      "ticket": 36094988
+    },
+    {
+      "open_time": "2025-09-25T19:43:46",
+      "close_time": "2025-09-25T19:45:31",
+      "side": "Sell",
+      "volume": 0.01,
+      "close_price": 3736.72,
+      "pnl": 2.52,
+      "ticket": 36095791
+    },
+    {
+      "open_time": "2025-09-26T18:47:57",
+      "close_time": "2025-09-26T18:54:27",
+      "side": "Buy",
+      "volume": 0.01,
+      "close_price": 3779.39,
+      "pnl": 0.82,
+      "ticket": 36148327
+    },
+    {
+      "open_time": "2025-09-29T08:46:42",
+      "close_time": "2025-09-29T08:52:58",
+      "side": "Buy",
+      "volume": 0.01,
+      "close_price": 3805.93,
+      "pnl": 3.9,
+      "ticket": 36168589
+    },
+    {
+      "open_time": "2025-09-29T08:46:47",
+      "close_time": "2025-09-29T08:52:55",
+      "side": "Buy",
+      "volume": 0.01,
+      "close_price": 3805.93,
+      "pnl": 3.52,
+      "ticket": 36168590
+    }
+  ],
+  "middle_subsequence": [
+    {
+      "open_time": "2026-03-25T11:00:18",
+      "close_time": "2026-03-25T11:00:31",
+      "side": "Sell",
+      "volume": 0.01,
+      "close_price": 4538.29,
+      "pnl": -1.31,
+      "ticket": 90192607
+    },
+    {
+      "open_time": "2026-03-25T11:38:04",
+      "close_time": "2026-03-25T11:44:39",
+      "side": "Buy",
+      "volume": 0.01,
+      "close_price": 4562.31,
+      "pnl": 3.0,
+      "ticket": 90194077
+    },
+    {
+      "open_time": "2026-03-26T10:48:11",
+      "close_time": "2026-03-26T10:48:39",
+      "side": "Buy",
+      "volume": 0.01,
+      "close_price": 4454.88,
+      "pnl": 2.62,
+      "ticket": 90297337
+    },
+    {
+      "open_time": "2026-03-26T13:49:34",
+      "close_time": "2026-03-26T13:50:38",
+      "side": "Buy",
+      "volume": 0.01,
+      "close_price": 4436.97,
+      "pnl": 9.85,
+      "ticket": 90303019
+    },
+    {
+      "open_time": "2026-03-27T10:43:56",
+      "close_time": "2026-03-27T10:48:54",
+      "side": "Buy",
+      "volume": 0.01,
+      "close_price": 4447.18,
+      "pnl": 3.72,
+      "ticket": 90367910
+    }
+  ],
+  "late_subsequence": [
+    {
+      "open_time": "2026-09-16T09:36:42",
+      "close_time": "2026-09-16T10:00:07",
+      "side": "Buy",
+      "volume": 0.01,
+      "close_price": 4325.5,
+      "pnl": 6.74,
+      "ticket": 100453335
+    },
+    {
+      "open_time": "2026-09-17T06:00:33",
+      "close_time": "2026-09-17T06:21:35",
+      "side": "Buy",
+      "volume": 0.01,
+      "close_price": 4279.11,
+      "pnl": 5.2,
+      "ticket": 100653865
+    },
+    {
+      "open_time": "2026-09-17T09:20:36",
+      "close_time": "2026-09-17T09:22:53",
+      "side": "Sell",
+      "volume": 0.01,
+      "close_price": 4306.96,
+      "pnl": -1.44,
+      "ticket": 100675478
+    },
+    {
+      "open_time": "2026-09-17T16:21:20",
+      "close_time": "2026-09-17T16:29:43",
+      "side": "Sell",
+      "volume": 0.01,
+      "close_price": 4373.27,
+      "pnl": 6.53,
+      "ticket": 100829495
+    },
+    {
+      "open_time": "2026-09-18T06:25:04",
+      "close_time": "2026-09-18T06:33:14",
+      "side": "Buy",
+      "volume": 0.01,
+      "close_price": 4336.1,
+      "pnl": 8.26,
+      "ticket": 983845
+    }
+  ],
+  "unusual_volume_subsequence": [
+    {
+      "open_time": "2025-09-30T11:20:57",
+      "close_time": "2025-09-30T11:23:20",
+      "side": "Sell",
+      "volume": 0.03,
+      "close_price": 3833.24,
+      "pnl": 6.79,
+      "ticket": 36227388
+    },
+    {
+      "open_time": "2025-10-08T12:19:47",
+      "close_time": "2025-10-08T12:32:57",
+      "side": "Sell",
+      "volume": 0.02,
+      "close_price": 4036.35,
+      "pnl": 4.98,
+      "ticket": 36508294
+    },
+    {
+      "open_time": "2025-10-08T12:42:32",
+      "close_time": "2025-10-08T12:46:10",
+      "side": "Buy",
+      "volume": 0.02,
+      "close_price": 4039.03,
+      "pnl": 5.04,
+      "ticket": 36508993
+    },
+    {
+      "open_time": "2025-10-09T14:04:35",
+      "close_time": "2025-10-09T14:13:00",
+      "side": "Sell",
+      "volume": 0.02,
+      "close_price": 4039.78,
+      "pnl": 2.84,
+      "ticket": 36561296
+    },
+    {
+      "open_time": "2025-10-10T19:29:10",
+      "close_time": "2025-10-10T19:33:56",
+      "side": "Buy",
+      "volume": 0.02,
+      "close_price": 3989.25,
+      "pnl": 4.56,
+      "ticket": 36640713
+    }
+  ]
+}

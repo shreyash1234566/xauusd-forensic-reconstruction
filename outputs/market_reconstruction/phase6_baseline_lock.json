@@ -1,0 +1,20 @@
+{
+  "acquired_utc": "2026-09-20T03:51:44.481797+00:00",
+  "canonical": {
+    "trade_rows": 423,
+    "buy": 214,
+    "sell": 209,
+    "wins": 367,
+    "losses": 56,
+    "net_pnl": 1451.22,
+    "lot_counts": {
+      "0.01": 401,
+      "0.02": 21,
+      "0.03": 1
+    },
+    "strict_overlap_entries": 3,
+    "raw_sha256": "3B22B24C5F7BEB2118FFEC613640A9AB1472C3D04E4503229D00771277E4B6BD"
+  },
+  "phase5_identification_level": "D \u2014 UNIDENTIFIED",
+  "phase5_validation_hash": "1FA335A87A0BD79E0754D8776C887F7E02E24F3BDD69D8E412FAF58EDC8AD226"
+}

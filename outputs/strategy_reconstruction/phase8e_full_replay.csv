@@ -1,0 +1,2 @@
+model_name,total_m1_bars,total_simulated_trades,total_real_trades,matched_real_trades,recall_pct,precision_pct,tp_dollars,sl_dollars,max_duration_min,cooldown_min,session_window
+Two-Model Flat-State Forensic Replayer,402151,7121,423,141,33.33333333333333,1.9800589804802697,1.8,2.5,12,2,05:00 - 16:00 UTC

@@ -1,0 +1,10 @@
+timezone_mode,description,median_entry_error,p95_entry_error,median_exit_error,p95_exit_error,median_total_error,entry_in_bar_pct,exit_in_bar_pct,both_in_bar_pct,reconstructed_total_pnl,pnl_delta_vs_1451,verdict
+dst_eet,DST-Aware EEST/EET (UTC+3 Summer / UTC+2 Winter),0.92,8.74,0.583,11.257,1.491,88.89,84.4,75.02,1287.14,-164.08,OPTIMAL
+fixed_3,Fixed UTC+3 (Moscow / MSK / Static Summer EET),1.182,14.911,0.808,14.194,2.041,72.34,68.56,49.6,1142.89,-308.33,NEAR_OPTIMAL_SUBSET
+fixed_2,Fixed UTC+2 (Standard EET / Winter),4.73,29.388,4.594,28.91,9.563,34.75,35.22,12.24,178.71,-1272.51,NEAR_OPTIMAL_SUBSET
+fixed_2.5,Fixed UTC+2:30 (Sub-hour Sensitivity Offset),5.203,22.744,5.118,23.619,9.909,13.24,17.97,2.38,-82.0,-1533.22,REJECTED
+fixed_3.5,Fixed UTC+3:30 (Sub-hour Sensitivity Offset),5.555,29.359,5.264,25.009,10.749,15.84,16.08,2.55,-141.85,-1593.07,REJECTED
+fixed_4,Fixed UTC+4 (Gulf Standard Time / GST),7.105,33.563,6.938,34.352,13.572,12.53,13.71,1.72,-67.93,-1519.15,REJECTED
+fixed_1,Fixed UTC+1 (Central European Time / CET),8.892,37.841,9.991,39.554,18.534,10.17,8.75,0.89,-165.92,-1617.14,REJECTED
+fixed_0,Fixed UTC+0 (Greenwich Mean Time / GMT),11.748,49.56,11.937,53.292,23.609,5.91,6.86,0.41,-76.41,-1527.63,REJECTED
+dst_us_eastern,DST-Aware US Eastern Time (EDT/EST),19.381,88.249,21.156,85.473,40.068,4.73,4.49,0.21,-238.03,-1689.25,REJECTED

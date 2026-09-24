@@ -1,0 +1,237 @@
+hypothesis,fold,rule_type,rule_or_feature,coefficient,threshold
+P3 sparse clock+state eligibility,1,L1 logistic feature,clock_m30_post120,0.024527821994825158,0.7825957539859468
+P3 sparse clock+state eligibility,1,L1 logistic feature,clock_h1_post120,0.07728657508538175,0.7825957539859468
+P3 sparse clock+state eligibility,1,L1 logistic feature,clock_m30_x_cooldown,0.033946860245596414,0.7825957539859468
+P3 sparse clock+state eligibility,1,L1 logistic feature,clock_m30_x_event,-0.07275617558548474,0.7825957539859468
+P3 sparse clock+state eligibility,1,L1 logistic feature,clock_h1_x_location,0.022574386614313244,0.7825957539859468
+P3 sparse clock+state eligibility,1,L1 logistic feature,event_count,-0.10315112615976227,0.7825957539859468
+P3 sparse clock+state eligibility,1,L1 logistic feature,event_range_expansion_strength,-0.12508914950425493,0.7825957539859468
+P3 sparse clock+state eligibility,1,L1 logistic feature,event_body_ratio,-0.04694775501457311,0.7825957539859468
+P3 sparse clock+state eligibility,1,L1 logistic feature,event_bar_direction,-0.133818806377191,0.7825957539859468
+P3 sparse clock+state eligibility,1,L1 logistic feature,cooldown_log_seconds,-0.3467925987448355,0.7825957539859468
+P3 sparse clock+state eligibility,1,L1 logistic feature,seconds_since_last_entry,0.36591870975212115,0.7825957539859468
+P3 sparse clock+state eligibility,1,L1 logistic feature,trades_today_before,-1.007006251157926,0.7825957539859468
+P3 sparse clock+state eligibility,1,L1 logistic feature,trades_prev_hour,0.35435967677383434,0.7825957539859468
+P3 sparse clock+state eligibility,1,L1 logistic feature,trades_session_before,0.12349175933884637,0.7825957539859468
+P3 sparse clock+state eligibility,1,L1 logistic feature,active_positions_before_candidate,-0.1938192965422767,0.7825957539859468
+P3 sparse clock+state eligibility,1,L1 logistic feature,prior_win_code,-0.2859093146767798,0.7825957539859468
+P3 sparse clock+state eligibility,1,L1 logistic feature,prior_direction_code,-0.10884460050475096,0.7825957539859468
+P3 sparse clock+state eligibility,1,L1 logistic feature,prior_large_code,-0.0739281315991225,0.7825957539859468
+P3 sparse clock+state eligibility,1,L1 logistic feature,recent_completed_events_30,0.1345098477597774,0.7825957539859468
+P3 sparse clock+state eligibility,1,L1 logistic feature,recent_m30_boundaries_120,-0.04036295631720848,0.7825957539859468
+P3 sparse clock+state eligibility,1,L1 logistic feature,m1_ema20_dist,0.0006533799885760221,0.7825957539859468
+P3 sparse clock+state eligibility,1,L1 logistic feature,m1_vwap_dist,0.23884436044468094,0.7825957539859468
+P3 sparse clock+state eligibility,1,L1 logistic feature,m1_range_percentile_240,0.3122514187424328,0.7825957539859468
+P3 sparse clock+state eligibility,1,L1 logistic feature,m15_price_ema20,-0.15506047839857526,0.7825957539859468
+P3 sparse clock+state eligibility,2,L1 logistic feature,clock_m30_post120,0.044796748811595496,0.9345207037184082
+P3 sparse clock+state eligibility,2,L1 logistic feature,clock_h1_post120,0.03932626477346898,0.9345207037184082
+P3 sparse clock+state eligibility,2,L1 logistic feature,clock_m30_x_cooldown,0.033417311326901455,0.9345207037184082
+P3 sparse clock+state eligibility,2,L1 logistic feature,clock_m30_x_event,0.028978124823401827,0.9345207037184082
+P3 sparse clock+state eligibility,2,L1 logistic feature,clock_h1_x_location,0.026024393245703253,0.9345207037184082
+P3 sparse clock+state eligibility,2,L1 logistic feature,event_count,-0.015918527854944145,0.9345207037184082
+P3 sparse clock+state eligibility,2,L1 logistic feature,event_range_expansion_strength,0.06075586299168534,0.9345207037184082
+P3 sparse clock+state eligibility,2,L1 logistic feature,event_body_ratio,-0.13488549308427145,0.9345207037184082
+P3 sparse clock+state eligibility,2,L1 logistic feature,event_bar_direction,0.006266751161632323,0.9345207037184082
+P3 sparse clock+state eligibility,2,L1 logistic feature,cooldown_log_seconds,-0.3369608806362011,0.9345207037184082
+P3 sparse clock+state eligibility,2,L1 logistic feature,seconds_since_last_entry,0.3486529203610185,0.9345207037184082
+P3 sparse clock+state eligibility,2,L1 logistic feature,trades_today_before,-0.5011795517937734,0.9345207037184082
+P3 sparse clock+state eligibility,2,L1 logistic feature,trades_prev_hour,0.18025864885332843,0.9345207037184082
+P3 sparse clock+state eligibility,2,L1 logistic feature,trades_session_before,0.12172696099576705,0.9345207037184082
+P3 sparse clock+state eligibility,2,L1 logistic feature,active_positions_before_candidate,-0.1941604847708242,0.9345207037184082
+P3 sparse clock+state eligibility,2,L1 logistic feature,prior_win_code,-0.2833018868150003,0.9345207037184082
+P3 sparse clock+state eligibility,2,L1 logistic feature,prior_direction_code,-0.039779942696636386,0.9345207037184082
+P3 sparse clock+state eligibility,2,L1 logistic feature,prior_large_code,-0.0741650698760167,0.9345207037184082
+P3 sparse clock+state eligibility,2,L1 logistic feature,recent_completed_events_30,0.08592648078989136,0.9345207037184082
+P3 sparse clock+state eligibility,2,L1 logistic feature,recent_m30_boundaries_120,-0.04138123709114917,0.9345207037184082
+P3 sparse clock+state eligibility,2,L1 logistic feature,m1_ema20_dist,-0.0861874935871171,0.9345207037184082
+P3 sparse clock+state eligibility,2,L1 logistic feature,m1_vwap_dist,0.18719391091000376,0.9345207037184082
+P3 sparse clock+state eligibility,2,L1 logistic feature,m1_range_percentile_240,0.18172773078711393,0.9345207037184082
+P3 sparse clock+state eligibility,2,L1 logistic feature,m15_price_ema20,-0.11583316642761808,0.9345207037184082
+P3 sparse clock+state eligibility,2,L1 logistic feature,h1_price_ema20,-0.05505190639552956,0.9345207037184082
+P3 sparse clock+state eligibility,3,L1 logistic feature,clock_m30_post120,-0.03099807387687543,0.9416919465128406
+P3 sparse clock+state eligibility,3,L1 logistic feature,clock_h1_post120,0.03653716489277946,0.9416919465128406
+P3 sparse clock+state eligibility,3,L1 logistic feature,clock_m30_x_cooldown,0.1975172879729661,0.9416919465128406
+P3 sparse clock+state eligibility,3,L1 logistic feature,clock_m30_x_event,-0.04728071147430687,0.9416919465128406
+P3 sparse clock+state eligibility,3,L1 logistic feature,clock_h1_x_location,-0.016562242451962667,0.9416919465128406
+P3 sparse clock+state eligibility,3,L1 logistic feature,event_count,0.13602094727917546,0.9416919465128406
+P3 sparse clock+state eligibility,3,L1 logistic feature,event_range_expansion_strength,-0.11361809625768973,0.9416919465128406
+P3 sparse clock+state eligibility,3,L1 logistic feature,event_body_ratio,-0.08015903951497737,0.9416919465128406
+P3 sparse clock+state eligibility,3,L1 logistic feature,event_bar_direction,0.015525031969775241,0.9416919465128406
+P3 sparse clock+state eligibility,3,L1 logistic feature,cooldown_log_seconds,-0.29330319935743926,0.9416919465128406
+P3 sparse clock+state eligibility,3,L1 logistic feature,seconds_since_last_entry,0.2444226507215826,0.9416919465128406
+P3 sparse clock+state eligibility,3,L1 logistic feature,trades_today_before,-0.4293416568297376,0.9416919465128406
+P3 sparse clock+state eligibility,3,L1 logistic feature,trades_prev_hour,0.1625850837623778,0.9416919465128406
+P3 sparse clock+state eligibility,3,L1 logistic feature,trades_session_before,-0.004940504237618583,0.9416919465128406
+P3 sparse clock+state eligibility,3,L1 logistic feature,active_positions_before_candidate,-0.09779559715207355,0.9416919465128406
+P3 sparse clock+state eligibility,3,L1 logistic feature,prior_win_code,-0.25479684750632847,0.9416919465128406
+P3 sparse clock+state eligibility,3,L1 logistic feature,prior_direction_code,-0.01040495947759368,0.9416919465128406
+P3 sparse clock+state eligibility,3,L1 logistic feature,prior_large_code,-0.1438797480441804,0.9416919465128406
+P3 sparse clock+state eligibility,3,L1 logistic feature,recent_completed_events_30,0.022620907304811366,0.9416919465128406
+P3 sparse clock+state eligibility,3,L1 logistic feature,recent_m30_boundaries_120,-0.03786998637814499,0.9416919465128406
+P3 sparse clock+state eligibility,3,L1 logistic feature,m1_ema20_dist,-0.04824995975403837,0.9416919465128406
+P3 sparse clock+state eligibility,3,L1 logistic feature,m1_vwap_dist,0.21049738021172484,0.9416919465128406
+P3 sparse clock+state eligibility,3,L1 logistic feature,m1_range_percentile_240,0.19573176775963883,0.9416919465128406
+P3 sparse clock+state eligibility,3,L1 logistic feature,m15_price_ema20,-0.1074355380550392,0.9416919465128406
+P3 sparse clock+state eligibility,3,L1 logistic feature,h1_price_ema20,-0.07835041065209024,0.9416919465128406
+P3 sparse clock+state eligibility,4,L1 logistic feature,clock_m30_post120,0.004865855112920019,0.7632321100982067
+P3 sparse clock+state eligibility,4,L1 logistic feature,clock_h1_post120,-0.005552479402444532,0.7632321100982067
+P3 sparse clock+state eligibility,4,L1 logistic feature,clock_m30_x_cooldown,0.1870148639145138,0.7632321100982067
+P3 sparse clock+state eligibility,4,L1 logistic feature,clock_m30_x_event,-0.004791951150141964,0.7632321100982067
+P3 sparse clock+state eligibility,4,L1 logistic feature,clock_h1_x_location,0.002984072162340619,0.7632321100982067
+P3 sparse clock+state eligibility,4,L1 logistic feature,event_count,0.12725555795346188,0.7632321100982067
+P3 sparse clock+state eligibility,4,L1 logistic feature,event_range_expansion_strength,-0.18719791561389604,0.7632321100982067
+P3 sparse clock+state eligibility,4,L1 logistic feature,event_body_ratio,-0.09684077268907886,0.7632321100982067
+P3 sparse clock+state eligibility,4,L1 logistic feature,event_bar_direction,0.006563272738538109,0.7632321100982067
+P3 sparse clock+state eligibility,4,L1 logistic feature,cooldown_log_seconds,-0.15310759168837082,0.7632321100982067
+P3 sparse clock+state eligibility,4,L1 logistic feature,seconds_since_last_entry,0.1619072437960474,0.7632321100982067
+P3 sparse clock+state eligibility,4,L1 logistic feature,trades_today_before,-0.38924112895397117,0.7632321100982067
+P3 sparse clock+state eligibility,4,L1 logistic feature,trades_prev_hour,0.19067663459487044,0.7632321100982067
+P3 sparse clock+state eligibility,4,L1 logistic feature,trades_session_before,-0.04670199959496324,0.7632321100982067
+P3 sparse clock+state eligibility,4,L1 logistic feature,active_positions_before_candidate,-0.0940522367476394,0.7632321100982067
+P3 sparse clock+state eligibility,4,L1 logistic feature,prior_win_code,-0.2802747462827027,0.7632321100982067
+P3 sparse clock+state eligibility,4,L1 logistic feature,prior_direction_code,-0.02091168197566382,0.7632321100982067
+P3 sparse clock+state eligibility,4,L1 logistic feature,prior_large_code,-0.09474907695638622,0.7632321100982067
+P3 sparse clock+state eligibility,4,L1 logistic feature,recent_completed_events_30,0.0030628271285562093,0.7632321100982067
+P3 sparse clock+state eligibility,4,L1 logistic feature,recent_m30_boundaries_120,-0.031739417200233704,0.7632321100982067
+P3 sparse clock+state eligibility,4,L1 logistic feature,m1_ema20_dist,-0.06933827015015118,0.7632321100982067
+P3 sparse clock+state eligibility,4,L1 logistic feature,m1_vwap_dist,0.20338401237908446,0.7632321100982067
+P3 sparse clock+state eligibility,4,L1 logistic feature,m1_range_percentile_240,0.20866655876729326,0.7632321100982067
+P3 sparse clock+state eligibility,4,L1 logistic feature,m15_price_ema20,-0.13342526470966476,0.7632321100982067
+P3 sparse clock+state eligibility,4,L1 logistic feature,h1_price_ema20,-0.07729086200012136,0.7632321100982067
+P3 sparse clock+state eligibility,5,L1 logistic feature,clock_m30_post120,-0.05498495959291704,0.9070864664131281
+P3 sparse clock+state eligibility,5,L1 logistic feature,clock_h1_post120,-0.0021050299351060633,0.9070864664131281
+P3 sparse clock+state eligibility,5,L1 logistic feature,clock_m30_x_cooldown,0.23254107221845413,0.9070864664131281
+P3 sparse clock+state eligibility,5,L1 logistic feature,clock_m30_x_event,0.017650894080075363,0.9070864664131281
+P3 sparse clock+state eligibility,5,L1 logistic feature,clock_h1_x_location,-0.018068410801647547,0.9070864664131281
+P3 sparse clock+state eligibility,5,L1 logistic feature,event_count,0.13192792357753474,0.9070864664131281
+P3 sparse clock+state eligibility,5,L1 logistic feature,event_range_expansion_strength,-0.1434933712349039,0.9070864664131281
+P3 sparse clock+state eligibility,5,L1 logistic feature,event_body_ratio,-0.08532596556043084,0.9070864664131281
+P3 sparse clock+state eligibility,5,L1 logistic feature,event_bar_direction,-0.021505719090686083,0.9070864664131281
+P3 sparse clock+state eligibility,5,L1 logistic feature,cooldown_log_seconds,-0.10099256472487346,0.9070864664131281
+P3 sparse clock+state eligibility,5,L1 logistic feature,seconds_since_last_entry,0.15940393444695175,0.9070864664131281
+P3 sparse clock+state eligibility,5,L1 logistic feature,trades_today_before,-0.3977918682157195,0.9070864664131281
+P3 sparse clock+state eligibility,5,L1 logistic feature,trades_prev_hour,0.1832638741406497,0.9070864664131281
+P3 sparse clock+state eligibility,5,L1 logistic feature,trades_session_before,-0.013721593304018445,0.9070864664131281
+P3 sparse clock+state eligibility,5,L1 logistic feature,active_positions_before_candidate,-0.08107551880293462,0.9070864664131281
+P3 sparse clock+state eligibility,5,L1 logistic feature,prior_win_code,-0.28392013102482533,0.9070864664131281
+P3 sparse clock+state eligibility,5,L1 logistic feature,prior_direction_code,-0.026783113423711435,0.9070864664131281
+P3 sparse clock+state eligibility,5,L1 logistic feature,prior_large_code,-0.06812902579174399,0.9070864664131281
+P3 sparse clock+state eligibility,5,L1 logistic feature,recent_completed_events_30,0.019581427915908098,0.9070864664131281
+P3 sparse clock+state eligibility,5,L1 logistic feature,recent_m30_boundaries_120,-0.03699990042917638,0.9070864664131281
+P3 sparse clock+state eligibility,5,L1 logistic feature,m1_ema20_dist,-0.05247826093031497,0.9070864664131281
+P3 sparse clock+state eligibility,5,L1 logistic feature,m1_vwap_dist,0.18188264514482766,0.9070864664131281
+P3 sparse clock+state eligibility,5,L1 logistic feature,m1_range_percentile_240,0.16551199017312793,0.9070864664131281
+P3 sparse clock+state eligibility,5,L1 logistic feature,m15_price_ema20,-0.09887831578158443,0.9070864664131281
+P3 sparse clock+state eligibility,5,L1 logistic feature,h1_price_ema20,-0.06347007692912478,0.9070864664131281
+P3 constrained clock+state tree,1,depth-3 tree,"|--- seconds_since_last_entry <= 79105.50
+|   |--- cooldown_log_seconds <= 6.92
+|   |   |--- seconds_since_last_entry <= 1450.50
+|   |   |   |--- class: 1
+|   |   |--- seconds_since_last_entry >  1450.50
+|   |   |   |--- class: 0
+|   |--- cooldown_log_seconds >  6.92
+|   |   |--- prior_win_code <= 0.50
+|   |   |   |--- class: 1
+|   |   |--- prior_win_code >  0.50
+|   |   |   |--- class: 0
+|--- seconds_since_last_entry >  79105.50
+|   |--- seconds_since_last_entry <= 104702.00
+|   |   |--- recent_completed_events_30 <= 12.50
+|   |   |   |--- class: 1
+|   |   |--- recent_completed_events_30 >  12.50
+|   |   |   |--- class: 1
+|   |--- seconds_since_last_entry >  104702.00
+|   |   |--- m1_vwap_dist <= 8.80
+|   |   |   |--- class: 0
+|   |   |--- m1_vwap_dist >  8.80
+|   |   |   |--- class: 1
+",,0.7857142857142869
+P3 constrained clock+state tree,2,depth-3 tree,"|--- cooldown_log_seconds <= 6.92
+|   |--- seconds_since_last_entry <= 1657.00
+|   |   |--- h1_price_ema20 <= -0.65
+|   |   |   |--- class: 0
+|   |   |--- h1_price_ema20 >  -0.65
+|   |   |   |--- class: 1
+|   |--- seconds_since_last_entry >  1657.00
+|   |   |--- class: 0
+|--- cooldown_log_seconds >  6.92
+|   |--- seconds_since_last_entry <= 61092.00
+|   |   |--- cooldown_log_seconds <= 9.82
+|   |   |   |--- class: 1
+|   |   |--- cooldown_log_seconds >  9.82
+|   |   |   |--- class: 0
+|   |--- seconds_since_last_entry >  61092.00
+|   |   |--- prior_direction_code <= 0.00
+|   |   |   |--- class: 1
+|   |   |--- prior_direction_code >  0.00
+|   |   |   |--- class: 1
+",,0.9410288582183194
+P3 constrained clock+state tree,3,depth-3 tree,"|--- prior_win_code <= 0.50
+|   |--- cooldown_log_seconds <= 7.72
+|   |   |--- m15_price_ema20 <= -0.25
+|   |   |   |--- class: 1
+|   |   |--- m15_price_ema20 >  -0.25
+|   |   |   |--- class: 1
+|   |--- cooldown_log_seconds >  7.72
+|   |   |--- seconds_since_last_entry <= 4577.50
+|   |   |   |--- class: 0
+|   |   |--- seconds_since_last_entry >  4577.50
+|   |   |   |--- class: 1
+|--- prior_win_code >  0.50
+|   |--- seconds_since_last_entry <= 55211.50
+|   |   |--- cooldown_log_seconds <= 10.10
+|   |   |   |--- class: 1
+|   |   |--- cooldown_log_seconds >  10.10
+|   |   |   |--- class: 0
+|   |--- seconds_since_last_entry >  55211.50
+|   |   |--- m1_vwap_dist <= 8.76
+|   |   |   |--- class: 1
+|   |   |--- m1_vwap_dist >  8.76
+|   |   |   |--- class: 1
+",,0.7149666348903747
+P3 constrained clock+state tree,4,depth-3 tree,"|--- prior_win_code <= 0.50
+|   |--- cooldown_log_seconds <= 9.82
+|   |   |--- active_positions_before_candidate <= 0.50
+|   |   |   |--- class: 1
+|   |   |--- active_positions_before_candidate >  0.50
+|   |   |   |--- class: 0
+|   |--- cooldown_log_seconds >  9.82
+|   |   |--- seconds_since_last_entry <= 32633.00
+|   |   |   |--- class: 0
+|   |   |--- seconds_since_last_entry >  32633.00
+|   |   |   |--- class: 1
+|--- prior_win_code >  0.50
+|   |--- seconds_since_last_entry <= 54237.00
+|   |   |--- cooldown_log_seconds <= 6.21
+|   |   |   |--- class: 1
+|   |   |--- cooldown_log_seconds >  6.21
+|   |   |   |--- class: 0
+|   |--- seconds_since_last_entry >  54237.00
+|   |   |--- m1_vwap_dist <= 8.76
+|   |   |   |--- class: 1
+|   |   |--- m1_vwap_dist >  8.76
+|   |   |   |--- class: 1
+",,0.7929315813321274
+P3 constrained clock+state tree,5,depth-3 tree,"|--- seconds_since_last_entry <= 54236.00
+|   |--- prior_win_code <= 0.50
+|   |   |--- cooldown_log_seconds <= 8.23
+|   |   |   |--- class: 1
+|   |   |--- cooldown_log_seconds >  8.23
+|   |   |   |--- class: 1
+|   |--- prior_win_code >  0.50
+|   |   |--- cooldown_log_seconds <= 6.22
+|   |   |   |--- class: 1
+|   |   |--- cooldown_log_seconds >  6.22
+|   |   |   |--- class: 0
+|--- seconds_since_last_entry >  54236.00
+|   |--- m1_vwap_dist <= 8.63
+|   |   |--- m15_price_ema20 <= 1.84
+|   |   |   |--- class: 1
+|   |   |--- m15_price_ema20 >  1.84
+|   |   |   |--- class: 0
+|   |--- m1_vwap_dist >  8.63
+|   |   |--- clock_m30_x_cooldown <= 11.70
+|   |   |   |--- class: 1
+|   |   |--- clock_m30_x_cooldown >  11.70
+|   |   |   |--- class: 1
+",,0.6994328922495308

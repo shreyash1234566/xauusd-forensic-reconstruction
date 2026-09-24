@@ -1,0 +1,39 @@
+{
+  "phase": 6,
+  "run_utc": "2026-09-20T03:51:44.481797+00:00",
+  "canonical": {
+    "trade_rows": 423,
+    "buy": 214,
+    "sell": 209,
+    "wins": 367,
+    "losses": 56,
+    "net_pnl": 1451.22,
+    "lot_counts": {
+      "0.01": 401,
+      "0.02": 21,
+      "0.03": 1
+    },
+    "strict_overlap_entries": 3,
+    "raw_sha256": "3B22B24C5F7BEB2118FFEC613640A9AB1472C3D04E4503229D00771277E4B6BD"
+  },
+  "baseline_locked": true,
+  "phase6a_decision": "A4_NO_NATIVE_ACCOUNT_OR_TERMINAL_EVIDENCE",
+  "stop_condition": "STOP_A",
+  "native_account_status": "NATIVE_ACCOUNT_NOT_ACCESSIBLE",
+  "native_ticks_status": "DATA_UNAVAILABLE",
+  "native_transaction_status": "DATA_UNAVAILABLE",
+  "expected_terminal_paths": {
+    "C:\\Users\\ayush\\AppData\\Roaming\\MetaQuotes\\Terminal": false,
+    "C:\\Users\\ayush\\AppData\\Local\\MetaQuotes\\Terminal": false,
+    "C:\\Users\\ayush\\AppData\\Local\\VirtualStore\\MetaQuotes\\Terminal": false,
+    "C:\\Program Files\\MetaTrader 5": false,
+    "C:\\Program Files\\MetaTrader 4": false,
+    "C:\\Program Files (x86)\\MetaTrader 5": false,
+    "C:\\Program Files (x86)\\MetaTrader 4": false
+  },
+  "registered_terminal_count": 0,
+  "metatrader5_python_package": false,
+  "identification_level": "D \u2014 UNIDENTIFIED",
+  "phase6b_6c_run": false,
+  "external_m1_not_native": true
+}

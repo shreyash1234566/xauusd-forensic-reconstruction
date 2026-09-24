@@ -1,0 +1,5 @@
+model,log_lik,aic,params
+Gamma (Memory-Dependent),-1679.1852111148087,3362.3704222296174,"shape=0.742, scale=27.392"
+Weibull (Decaying Hazard),-1680.8311900186395,3365.662380037279,"k=0.833, lambda=18.539"
+Exponential (Homogeneous Poisson Null),-1693.0859602991918,3388.1719205983836,lambda=0.049
+Lognormal (Heavy-Tailed Clustered),-1742.5770889979342,3489.1541779958684,"shape=1.659, scale=9.064"

@@ -1,0 +1,13 @@
+mechanism_name,mechanism_type,parameter_val,generated_events,reduction_pct,matched_real_trades,recall_pct,precision_pct
+No Debounce (Raw Edge),Baseline,None,15060,0.0,203,47.99054373522459,1.3479415670650732
+Time Debounce (1m Lockout),Temporal Lockout,1 minutes,15060,0.0,203,47.99054373522459,1.3479415670650732
+Time Debounce (2m Lockout),Temporal Lockout,2 minutes,15060,0.0,203,47.99054373522459,1.3479415670650732
+Time Debounce (3m Lockout),Temporal Lockout,3 minutes,13801,8.359893758300133,200,47.28132387706856,1.4491703499746396
+Time Debounce (5m Lockout),Temporal Lockout,5 minutes,11847,21.334661354581673,195,46.09929078014184,1.645986325652064
+Time Debounce (8m Lockout),Temporal Lockout,8 minutes,9791,34.9867197875166,179,42.31678486997636,1.8282095802267389
+Time Debounce (10m Lockout),Temporal Lockout,10 minutes,8854,41.20849933598937,177,41.843971631205676,1.9990964535803026
+Time Debounce (15m Lockout),Temporal Lockout,15 minutes,7121,52.71580345285525,141,33.33333333333333,1.9800589804802697
+Time Debounce (20m Lockout),Temporal Lockout,20 minutes,5991,60.21912350597609,114,26.95035460992908,1.9028542814221332
+Time Debounce (30m Lockout),Temporal Lockout,30 minutes,4529,69.9269588313413,90,21.27659574468085,1.987193640980349
+Directional Flip Reset,State Transition,Sign Alternation,7598,49.54847277556441,135,31.914893617021278,1.7767833640431694
+Oscillator Neutral Reset (RSI 45-55),Oscillator Reset,"RSI in [45, 55]",2826,81.23505976095618,51,12.056737588652481,1.8046709129511678

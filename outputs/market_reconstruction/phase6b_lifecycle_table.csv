@@ -1,0 +1,2 @@
+artifact,scope,status,reason
+phase6b_lifecycle_table.csv,order-to-deal-to-position linkage,DATA_UNAVAILABLE,No native artifacts were supplied to data/native/incoming/. Phase 6C is intentionally not started.
