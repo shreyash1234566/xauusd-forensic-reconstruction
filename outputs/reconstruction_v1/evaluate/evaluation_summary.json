@@ -1,0 +1,11 @@
+{
+  "candidates_evaluated": 40,
+  "equivalence_classes": 5,
+  "placebo_statistically_significant": true,
+  "status": "evaluated",
+  "top_candidate_f1": 0.004750593824228029,
+  "top_candidate_id": "cand_0000",
+  "top_candidate_loss": 0.9976190476190476,
+  "total_canonical_epochs": 420,
+  "verdict": "tested_family_failure"
+}

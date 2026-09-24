@@ -1,0 +1,27 @@
+{
+  "complexity": 5,
+  "condition": {
+    "feature": "hour_utc",
+    "operator": ">",
+    "threshold": 2.9,
+    "type": "threshold"
+  },
+  "cooldown_seconds": 0.0,
+  "entry": {
+    "feature": "hour_utc",
+    "operator": ">",
+    "threshold": 2.9,
+    "type": "threshold"
+  },
+  "exit_rule": null,
+  "metadata": {
+    "feature": "hour_utc",
+    "operator": ">",
+    "threshold": 2.9,
+    "tier": "T0"
+  },
+  "name": "t0_hour_utc_>_2.9",
+  "side": "open_buy",
+  "state_transitions": {},
+  "volume": 0.01
+}

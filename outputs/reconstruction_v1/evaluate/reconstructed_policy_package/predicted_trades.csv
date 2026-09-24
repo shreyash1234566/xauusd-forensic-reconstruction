@@ -1,0 +1,2 @@
+trade_id,side,volume,open_time_utc,open_price,close_time_utc,close_price,close_reason
+0,Buy,0.01,2025-09-25 16:32:56+00:00,2050.2,,,

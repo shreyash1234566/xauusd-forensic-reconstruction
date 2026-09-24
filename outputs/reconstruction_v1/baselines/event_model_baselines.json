@@ -1,0 +1,9 @@
+{
+  "best_model": "B2_completed_bar",
+  "best_test_bits_per_event": 0.30100965577832517,
+  "exposure_hours": 8616.0,
+  "models_evaluated": 6,
+  "test_events": 112,
+  "total_events": 420,
+  "train_events": 308
+}

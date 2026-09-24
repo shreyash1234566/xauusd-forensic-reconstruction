@@ -1,0 +1,7207 @@
+{
+  "candidate_count": 192,
+  "candidates": [
+    {
+      "complexity": 5,
+      "condition": {
+        "feature": "ret5",
+        "operator": ">",
+        "threshold": -0.0005,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "feature": "ret5",
+        "operator": ">",
+        "threshold": -0.0005,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "ret5",
+        "operator": ">",
+        "threshold": -0.0005,
+        "tier": "T0"
+      },
+      "name": "t0_ret5_>_-0.0005",
+      "side": "open_buy",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 6,
+      "condition": {
+        "feature": "ret5",
+        "operator": ">",
+        "threshold": -0.0005,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 30.0,
+      "entry": {
+        "feature": "ret5",
+        "operator": ">",
+        "threshold": -0.0005,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "ret5",
+        "operator": ">",
+        "threshold": -0.0005,
+        "tier": "T0"
+      },
+      "name": "t0_ret5_>_-0.0005",
+      "side": "open_buy",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 6,
+      "condition": {
+        "feature": "ret5",
+        "operator": ">",
+        "threshold": -0.0005,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 60.0,
+      "entry": {
+        "feature": "ret5",
+        "operator": ">",
+        "threshold": -0.0005,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "ret5",
+        "operator": ">",
+        "threshold": -0.0005,
+        "tier": "T0"
+      },
+      "name": "t0_ret5_>_-0.0005",
+      "side": "open_buy",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 5,
+      "condition": {
+        "feature": "ret5",
+        "operator": ">",
+        "threshold": -0.0005,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "feature": "ret5",
+        "operator": ">",
+        "threshold": -0.0005,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "ret5",
+        "operator": ">",
+        "threshold": -0.0005,
+        "tier": "T0"
+      },
+      "name": "t0_ret5_>_-0.0005",
+      "side": "open_sell",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 6,
+      "condition": {
+        "feature": "ret5",
+        "operator": ">",
+        "threshold": -0.0005,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 30.0,
+      "entry": {
+        "feature": "ret5",
+        "operator": ">",
+        "threshold": -0.0005,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "ret5",
+        "operator": ">",
+        "threshold": -0.0005,
+        "tier": "T0"
+      },
+      "name": "t0_ret5_>_-0.0005",
+      "side": "open_sell",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 6,
+      "condition": {
+        "feature": "ret5",
+        "operator": ">",
+        "threshold": -0.0005,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 60.0,
+      "entry": {
+        "feature": "ret5",
+        "operator": ">",
+        "threshold": -0.0005,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "ret5",
+        "operator": ">",
+        "threshold": -0.0005,
+        "tier": "T0"
+      },
+      "name": "t0_ret5_>_-0.0005",
+      "side": "open_sell",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 5,
+      "condition": {
+        "feature": "ret5",
+        "operator": ">",
+        "threshold": 0.0005,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "feature": "ret5",
+        "operator": ">",
+        "threshold": 0.0005,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "ret5",
+        "operator": ">",
+        "threshold": 0.0005,
+        "tier": "T0"
+      },
+      "name": "t0_ret5_>_0.0005",
+      "side": "open_buy",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 6,
+      "condition": {
+        "feature": "ret5",
+        "operator": ">",
+        "threshold": 0.0005,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 30.0,
+      "entry": {
+        "feature": "ret5",
+        "operator": ">",
+        "threshold": 0.0005,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "ret5",
+        "operator": ">",
+        "threshold": 0.0005,
+        "tier": "T0"
+      },
+      "name": "t0_ret5_>_0.0005",
+      "side": "open_buy",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 6,
+      "condition": {
+        "feature": "ret5",
+        "operator": ">",
+        "threshold": 0.0005,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 60.0,
+      "entry": {
+        "feature": "ret5",
+        "operator": ">",
+        "threshold": 0.0005,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "ret5",
+        "operator": ">",
+        "threshold": 0.0005,
+        "tier": "T0"
+      },
+      "name": "t0_ret5_>_0.0005",
+      "side": "open_buy",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 5,
+      "condition": {
+        "feature": "ret5",
+        "operator": ">",
+        "threshold": 0.0005,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "feature": "ret5",
+        "operator": ">",
+        "threshold": 0.0005,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "ret5",
+        "operator": ">",
+        "threshold": 0.0005,
+        "tier": "T0"
+      },
+      "name": "t0_ret5_>_0.0005",
+      "side": "open_sell",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 6,
+      "condition": {
+        "feature": "ret5",
+        "operator": ">",
+        "threshold": 0.0005,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 30.0,
+      "entry": {
+        "feature": "ret5",
+        "operator": ">",
+        "threshold": 0.0005,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "ret5",
+        "operator": ">",
+        "threshold": 0.0005,
+        "tier": "T0"
+      },
+      "name": "t0_ret5_>_0.0005",
+      "side": "open_sell",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 6,
+      "condition": {
+        "feature": "ret5",
+        "operator": ">",
+        "threshold": 0.0005,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 60.0,
+      "entry": {
+        "feature": "ret5",
+        "operator": ">",
+        "threshold": 0.0005,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "ret5",
+        "operator": ">",
+        "threshold": 0.0005,
+        "tier": "T0"
+      },
+      "name": "t0_ret5_>_0.0005",
+      "side": "open_sell",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 5,
+      "condition": {
+        "feature": "ret5",
+        "operator": "<",
+        "threshold": -0.0005,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "feature": "ret5",
+        "operator": "<",
+        "threshold": -0.0005,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "ret5",
+        "operator": "<",
+        "threshold": -0.0005,
+        "tier": "T0"
+      },
+      "name": "t0_ret5_<_-0.0005",
+      "side": "open_buy",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 6,
+      "condition": {
+        "feature": "ret5",
+        "operator": "<",
+        "threshold": -0.0005,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 30.0,
+      "entry": {
+        "feature": "ret5",
+        "operator": "<",
+        "threshold": -0.0005,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "ret5",
+        "operator": "<",
+        "threshold": -0.0005,
+        "tier": "T0"
+      },
+      "name": "t0_ret5_<_-0.0005",
+      "side": "open_buy",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 6,
+      "condition": {
+        "feature": "ret5",
+        "operator": "<",
+        "threshold": -0.0005,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 60.0,
+      "entry": {
+        "feature": "ret5",
+        "operator": "<",
+        "threshold": -0.0005,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "ret5",
+        "operator": "<",
+        "threshold": -0.0005,
+        "tier": "T0"
+      },
+      "name": "t0_ret5_<_-0.0005",
+      "side": "open_buy",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 5,
+      "condition": {
+        "feature": "ret5",
+        "operator": "<",
+        "threshold": -0.0005,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "feature": "ret5",
+        "operator": "<",
+        "threshold": -0.0005,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "ret5",
+        "operator": "<",
+        "threshold": -0.0005,
+        "tier": "T0"
+      },
+      "name": "t0_ret5_<_-0.0005",
+      "side": "open_sell",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 6,
+      "condition": {
+        "feature": "ret5",
+        "operator": "<",
+        "threshold": -0.0005,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 30.0,
+      "entry": {
+        "feature": "ret5",
+        "operator": "<",
+        "threshold": -0.0005,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "ret5",
+        "operator": "<",
+        "threshold": -0.0005,
+        "tier": "T0"
+      },
+      "name": "t0_ret5_<_-0.0005",
+      "side": "open_sell",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 6,
+      "condition": {
+        "feature": "ret5",
+        "operator": "<",
+        "threshold": -0.0005,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 60.0,
+      "entry": {
+        "feature": "ret5",
+        "operator": "<",
+        "threshold": -0.0005,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "ret5",
+        "operator": "<",
+        "threshold": -0.0005,
+        "tier": "T0"
+      },
+      "name": "t0_ret5_<_-0.0005",
+      "side": "open_sell",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 5,
+      "condition": {
+        "feature": "ret5",
+        "operator": "<",
+        "threshold": 0.0005,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "feature": "ret5",
+        "operator": "<",
+        "threshold": 0.0005,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "ret5",
+        "operator": "<",
+        "threshold": 0.0005,
+        "tier": "T0"
+      },
+      "name": "t0_ret5_<_0.0005",
+      "side": "open_buy",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 6,
+      "condition": {
+        "feature": "ret5",
+        "operator": "<",
+        "threshold": 0.0005,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 30.0,
+      "entry": {
+        "feature": "ret5",
+        "operator": "<",
+        "threshold": 0.0005,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "ret5",
+        "operator": "<",
+        "threshold": 0.0005,
+        "tier": "T0"
+      },
+      "name": "t0_ret5_<_0.0005",
+      "side": "open_buy",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 6,
+      "condition": {
+        "feature": "ret5",
+        "operator": "<",
+        "threshold": 0.0005,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 60.0,
+      "entry": {
+        "feature": "ret5",
+        "operator": "<",
+        "threshold": 0.0005,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "ret5",
+        "operator": "<",
+        "threshold": 0.0005,
+        "tier": "T0"
+      },
+      "name": "t0_ret5_<_0.0005",
+      "side": "open_buy",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 5,
+      "condition": {
+        "feature": "ret5",
+        "operator": "<",
+        "threshold": 0.0005,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "feature": "ret5",
+        "operator": "<",
+        "threshold": 0.0005,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "ret5",
+        "operator": "<",
+        "threshold": 0.0005,
+        "tier": "T0"
+      },
+      "name": "t0_ret5_<_0.0005",
+      "side": "open_sell",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 6,
+      "condition": {
+        "feature": "ret5",
+        "operator": "<",
+        "threshold": 0.0005,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 30.0,
+      "entry": {
+        "feature": "ret5",
+        "operator": "<",
+        "threshold": 0.0005,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "ret5",
+        "operator": "<",
+        "threshold": 0.0005,
+        "tier": "T0"
+      },
+      "name": "t0_ret5_<_0.0005",
+      "side": "open_sell",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 6,
+      "condition": {
+        "feature": "ret5",
+        "operator": "<",
+        "threshold": 0.0005,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 60.0,
+      "entry": {
+        "feature": "ret5",
+        "operator": "<",
+        "threshold": 0.0005,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "ret5",
+        "operator": "<",
+        "threshold": 0.0005,
+        "tier": "T0"
+      },
+      "name": "t0_ret5_<_0.0005",
+      "side": "open_sell",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 5,
+      "condition": {
+        "feature": "spread",
+        "operator": ">",
+        "threshold": 0.2,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "feature": "spread",
+        "operator": ">",
+        "threshold": 0.2,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "spread",
+        "operator": ">",
+        "threshold": 0.2,
+        "tier": "T0"
+      },
+      "name": "t0_spread_>_0.2",
+      "side": "open_buy",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 6,
+      "condition": {
+        "feature": "spread",
+        "operator": ">",
+        "threshold": 0.2,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 30.0,
+      "entry": {
+        "feature": "spread",
+        "operator": ">",
+        "threshold": 0.2,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "spread",
+        "operator": ">",
+        "threshold": 0.2,
+        "tier": "T0"
+      },
+      "name": "t0_spread_>_0.2",
+      "side": "open_buy",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 6,
+      "condition": {
+        "feature": "spread",
+        "operator": ">",
+        "threshold": 0.2,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 60.0,
+      "entry": {
+        "feature": "spread",
+        "operator": ">",
+        "threshold": 0.2,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "spread",
+        "operator": ">",
+        "threshold": 0.2,
+        "tier": "T0"
+      },
+      "name": "t0_spread_>_0.2",
+      "side": "open_buy",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 5,
+      "condition": {
+        "feature": "spread",
+        "operator": ">",
+        "threshold": 0.2,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "feature": "spread",
+        "operator": ">",
+        "threshold": 0.2,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "spread",
+        "operator": ">",
+        "threshold": 0.2,
+        "tier": "T0"
+      },
+      "name": "t0_spread_>_0.2",
+      "side": "open_sell",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 6,
+      "condition": {
+        "feature": "spread",
+        "operator": ">",
+        "threshold": 0.2,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 30.0,
+      "entry": {
+        "feature": "spread",
+        "operator": ">",
+        "threshold": 0.2,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "spread",
+        "operator": ">",
+        "threshold": 0.2,
+        "tier": "T0"
+      },
+      "name": "t0_spread_>_0.2",
+      "side": "open_sell",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 6,
+      "condition": {
+        "feature": "spread",
+        "operator": ">",
+        "threshold": 0.2,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 60.0,
+      "entry": {
+        "feature": "spread",
+        "operator": ">",
+        "threshold": 0.2,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "spread",
+        "operator": ">",
+        "threshold": 0.2,
+        "tier": "T0"
+      },
+      "name": "t0_spread_>_0.2",
+      "side": "open_sell",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 5,
+      "condition": {
+        "feature": "spread",
+        "operator": "<",
+        "threshold": 0.2,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "feature": "spread",
+        "operator": "<",
+        "threshold": 0.2,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "spread",
+        "operator": "<",
+        "threshold": 0.2,
+        "tier": "T0"
+      },
+      "name": "t0_spread_<_0.2",
+      "side": "open_buy",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 6,
+      "condition": {
+        "feature": "spread",
+        "operator": "<",
+        "threshold": 0.2,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 30.0,
+      "entry": {
+        "feature": "spread",
+        "operator": "<",
+        "threshold": 0.2,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "spread",
+        "operator": "<",
+        "threshold": 0.2,
+        "tier": "T0"
+      },
+      "name": "t0_spread_<_0.2",
+      "side": "open_buy",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 6,
+      "condition": {
+        "feature": "spread",
+        "operator": "<",
+        "threshold": 0.2,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 60.0,
+      "entry": {
+        "feature": "spread",
+        "operator": "<",
+        "threshold": 0.2,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "spread",
+        "operator": "<",
+        "threshold": 0.2,
+        "tier": "T0"
+      },
+      "name": "t0_spread_<_0.2",
+      "side": "open_buy",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 5,
+      "condition": {
+        "feature": "spread",
+        "operator": "<",
+        "threshold": 0.2,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "feature": "spread",
+        "operator": "<",
+        "threshold": 0.2,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "spread",
+        "operator": "<",
+        "threshold": 0.2,
+        "tier": "T0"
+      },
+      "name": "t0_spread_<_0.2",
+      "side": "open_sell",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 6,
+      "condition": {
+        "feature": "spread",
+        "operator": "<",
+        "threshold": 0.2,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 30.0,
+      "entry": {
+        "feature": "spread",
+        "operator": "<",
+        "threshold": 0.2,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "spread",
+        "operator": "<",
+        "threshold": 0.2,
+        "tier": "T0"
+      },
+      "name": "t0_spread_<_0.2",
+      "side": "open_sell",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 6,
+      "condition": {
+        "feature": "spread",
+        "operator": "<",
+        "threshold": 0.2,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 60.0,
+      "entry": {
+        "feature": "spread",
+        "operator": "<",
+        "threshold": 0.2,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "spread",
+        "operator": "<",
+        "threshold": 0.2,
+        "tier": "T0"
+      },
+      "name": "t0_spread_<_0.2",
+      "side": "open_sell",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 5,
+      "condition": {
+        "feature": "hour_utc",
+        "operator": ">",
+        "threshold": 2.9,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "feature": "hour_utc",
+        "operator": ">",
+        "threshold": 2.9,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "hour_utc",
+        "operator": ">",
+        "threshold": 2.9,
+        "tier": "T0"
+      },
+      "name": "t0_hour_utc_>_2.9",
+      "side": "open_buy",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 6,
+      "condition": {
+        "feature": "hour_utc",
+        "operator": ">",
+        "threshold": 2.9,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 30.0,
+      "entry": {
+        "feature": "hour_utc",
+        "operator": ">",
+        "threshold": 2.9,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "hour_utc",
+        "operator": ">",
+        "threshold": 2.9,
+        "tier": "T0"
+      },
+      "name": "t0_hour_utc_>_2.9",
+      "side": "open_buy",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 6,
+      "condition": {
+        "feature": "hour_utc",
+        "operator": ">",
+        "threshold": 2.9,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 60.0,
+      "entry": {
+        "feature": "hour_utc",
+        "operator": ">",
+        "threshold": 2.9,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "hour_utc",
+        "operator": ">",
+        "threshold": 2.9,
+        "tier": "T0"
+      },
+      "name": "t0_hour_utc_>_2.9",
+      "side": "open_buy",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 5,
+      "condition": {
+        "feature": "hour_utc",
+        "operator": ">",
+        "threshold": 2.9,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "feature": "hour_utc",
+        "operator": ">",
+        "threshold": 2.9,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "hour_utc",
+        "operator": ">",
+        "threshold": 2.9,
+        "tier": "T0"
+      },
+      "name": "t0_hour_utc_>_2.9",
+      "side": "open_sell",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 6,
+      "condition": {
+        "feature": "hour_utc",
+        "operator": ">",
+        "threshold": 2.9,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 30.0,
+      "entry": {
+        "feature": "hour_utc",
+        "operator": ">",
+        "threshold": 2.9,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "hour_utc",
+        "operator": ">",
+        "threshold": 2.9,
+        "tier": "T0"
+      },
+      "name": "t0_hour_utc_>_2.9",
+      "side": "open_sell",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 6,
+      "condition": {
+        "feature": "hour_utc",
+        "operator": ">",
+        "threshold": 2.9,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 60.0,
+      "entry": {
+        "feature": "hour_utc",
+        "operator": ">",
+        "threshold": 2.9,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "hour_utc",
+        "operator": ">",
+        "threshold": 2.9,
+        "tier": "T0"
+      },
+      "name": "t0_hour_utc_>_2.9",
+      "side": "open_sell",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 5,
+      "condition": {
+        "feature": "hour_utc",
+        "operator": ">",
+        "threshold": 6.949999999999999,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "feature": "hour_utc",
+        "operator": ">",
+        "threshold": 6.949999999999999,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "hour_utc",
+        "operator": ">",
+        "threshold": 6.949999999999999,
+        "tier": "T0"
+      },
+      "name": "t0_hour_utc_>_6.95",
+      "side": "open_buy",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 6,
+      "condition": {
+        "feature": "hour_utc",
+        "operator": ">",
+        "threshold": 6.949999999999999,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 30.0,
+      "entry": {
+        "feature": "hour_utc",
+        "operator": ">",
+        "threshold": 6.949999999999999,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "hour_utc",
+        "operator": ">",
+        "threshold": 6.949999999999999,
+        "tier": "T0"
+      },
+      "name": "t0_hour_utc_>_6.95",
+      "side": "open_buy",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 6,
+      "condition": {
+        "feature": "hour_utc",
+        "operator": ">",
+        "threshold": 6.949999999999999,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 60.0,
+      "entry": {
+        "feature": "hour_utc",
+        "operator": ">",
+        "threshold": 6.949999999999999,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "hour_utc",
+        "operator": ">",
+        "threshold": 6.949999999999999,
+        "tier": "T0"
+      },
+      "name": "t0_hour_utc_>_6.95",
+      "side": "open_buy",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 5,
+      "condition": {
+        "feature": "hour_utc",
+        "operator": ">",
+        "threshold": 6.949999999999999,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "feature": "hour_utc",
+        "operator": ">",
+        "threshold": 6.949999999999999,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "hour_utc",
+        "operator": ">",
+        "threshold": 6.949999999999999,
+        "tier": "T0"
+      },
+      "name": "t0_hour_utc_>_6.95",
+      "side": "open_sell",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 6,
+      "condition": {
+        "feature": "hour_utc",
+        "operator": ">",
+        "threshold": 6.949999999999999,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 30.0,
+      "entry": {
+        "feature": "hour_utc",
+        "operator": ">",
+        "threshold": 6.949999999999999,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "hour_utc",
+        "operator": ">",
+        "threshold": 6.949999999999999,
+        "tier": "T0"
+      },
+      "name": "t0_hour_utc_>_6.95",
+      "side": "open_sell",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 6,
+      "condition": {
+        "feature": "hour_utc",
+        "operator": ">",
+        "threshold": 6.949999999999999,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 60.0,
+      "entry": {
+        "feature": "hour_utc",
+        "operator": ">",
+        "threshold": 6.949999999999999,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "hour_utc",
+        "operator": ">",
+        "threshold": 6.949999999999999,
+        "tier": "T0"
+      },
+      "name": "t0_hour_utc_>_6.95",
+      "side": "open_sell",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 5,
+      "condition": {
+        "feature": "hour_utc",
+        "operator": ">",
+        "threshold": 10.999999999999998,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "feature": "hour_utc",
+        "operator": ">",
+        "threshold": 10.999999999999998,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "hour_utc",
+        "operator": ">",
+        "threshold": 10.999999999999998,
+        "tier": "T0"
+      },
+      "name": "t0_hour_utc_>_11",
+      "side": "open_buy",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 6,
+      "condition": {
+        "feature": "hour_utc",
+        "operator": ">",
+        "threshold": 10.999999999999998,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 30.0,
+      "entry": {
+        "feature": "hour_utc",
+        "operator": ">",
+        "threshold": 10.999999999999998,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "hour_utc",
+        "operator": ">",
+        "threshold": 10.999999999999998,
+        "tier": "T0"
+      },
+      "name": "t0_hour_utc_>_11",
+      "side": "open_buy",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 6,
+      "condition": {
+        "feature": "hour_utc",
+        "operator": ">",
+        "threshold": 10.999999999999998,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 60.0,
+      "entry": {
+        "feature": "hour_utc",
+        "operator": ">",
+        "threshold": 10.999999999999998,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "hour_utc",
+        "operator": ">",
+        "threshold": 10.999999999999998,
+        "tier": "T0"
+      },
+      "name": "t0_hour_utc_>_11",
+      "side": "open_buy",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 5,
+      "condition": {
+        "feature": "hour_utc",
+        "operator": ">",
+        "threshold": 10.999999999999998,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "feature": "hour_utc",
+        "operator": ">",
+        "threshold": 10.999999999999998,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "hour_utc",
+        "operator": ">",
+        "threshold": 10.999999999999998,
+        "tier": "T0"
+      },
+      "name": "t0_hour_utc_>_11",
+      "side": "open_sell",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 6,
+      "condition": {
+        "feature": "hour_utc",
+        "operator": ">",
+        "threshold": 10.999999999999998,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 30.0,
+      "entry": {
+        "feature": "hour_utc",
+        "operator": ">",
+        "threshold": 10.999999999999998,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "hour_utc",
+        "operator": ">",
+        "threshold": 10.999999999999998,
+        "tier": "T0"
+      },
+      "name": "t0_hour_utc_>_11",
+      "side": "open_sell",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 6,
+      "condition": {
+        "feature": "hour_utc",
+        "operator": ">",
+        "threshold": 10.999999999999998,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 60.0,
+      "entry": {
+        "feature": "hour_utc",
+        "operator": ">",
+        "threshold": 10.999999999999998,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "hour_utc",
+        "operator": ">",
+        "threshold": 10.999999999999998,
+        "tier": "T0"
+      },
+      "name": "t0_hour_utc_>_11",
+      "side": "open_sell",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 5,
+      "condition": {
+        "feature": "hour_utc",
+        "operator": ">",
+        "threshold": 15.049999999999999,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "feature": "hour_utc",
+        "operator": ">",
+        "threshold": 15.049999999999999,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "hour_utc",
+        "operator": ">",
+        "threshold": 15.049999999999999,
+        "tier": "T0"
+      },
+      "name": "t0_hour_utc_>_15.05",
+      "side": "open_buy",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 6,
+      "condition": {
+        "feature": "hour_utc",
+        "operator": ">",
+        "threshold": 15.049999999999999,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 30.0,
+      "entry": {
+        "feature": "hour_utc",
+        "operator": ">",
+        "threshold": 15.049999999999999,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "hour_utc",
+        "operator": ">",
+        "threshold": 15.049999999999999,
+        "tier": "T0"
+      },
+      "name": "t0_hour_utc_>_15.05",
+      "side": "open_buy",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 6,
+      "condition": {
+        "feature": "hour_utc",
+        "operator": ">",
+        "threshold": 15.049999999999999,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 60.0,
+      "entry": {
+        "feature": "hour_utc",
+        "operator": ">",
+        "threshold": 15.049999999999999,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "hour_utc",
+        "operator": ">",
+        "threshold": 15.049999999999999,
+        "tier": "T0"
+      },
+      "name": "t0_hour_utc_>_15.05",
+      "side": "open_buy",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 5,
+      "condition": {
+        "feature": "hour_utc",
+        "operator": ">",
+        "threshold": 15.049999999999999,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "feature": "hour_utc",
+        "operator": ">",
+        "threshold": 15.049999999999999,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "hour_utc",
+        "operator": ">",
+        "threshold": 15.049999999999999,
+        "tier": "T0"
+      },
+      "name": "t0_hour_utc_>_15.05",
+      "side": "open_sell",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 6,
+      "condition": {
+        "feature": "hour_utc",
+        "operator": ">",
+        "threshold": 15.049999999999999,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 30.0,
+      "entry": {
+        "feature": "hour_utc",
+        "operator": ">",
+        "threshold": 15.049999999999999,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "hour_utc",
+        "operator": ">",
+        "threshold": 15.049999999999999,
+        "tier": "T0"
+      },
+      "name": "t0_hour_utc_>_15.05",
+      "side": "open_sell",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 6,
+      "condition": {
+        "feature": "hour_utc",
+        "operator": ">",
+        "threshold": 15.049999999999999,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 60.0,
+      "entry": {
+        "feature": "hour_utc",
+        "operator": ">",
+        "threshold": 15.049999999999999,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "hour_utc",
+        "operator": ">",
+        "threshold": 15.049999999999999,
+        "tier": "T0"
+      },
+      "name": "t0_hour_utc_>_15.05",
+      "side": "open_sell",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 5,
+      "condition": {
+        "feature": "hour_utc",
+        "operator": ">",
+        "threshold": 19.099999999999998,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "feature": "hour_utc",
+        "operator": ">",
+        "threshold": 19.099999999999998,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "hour_utc",
+        "operator": ">",
+        "threshold": 19.099999999999998,
+        "tier": "T0"
+      },
+      "name": "t0_hour_utc_>_19.1",
+      "side": "open_buy",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 6,
+      "condition": {
+        "feature": "hour_utc",
+        "operator": ">",
+        "threshold": 19.099999999999998,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 30.0,
+      "entry": {
+        "feature": "hour_utc",
+        "operator": ">",
+        "threshold": 19.099999999999998,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "hour_utc",
+        "operator": ">",
+        "threshold": 19.099999999999998,
+        "tier": "T0"
+      },
+      "name": "t0_hour_utc_>_19.1",
+      "side": "open_buy",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 6,
+      "condition": {
+        "feature": "hour_utc",
+        "operator": ">",
+        "threshold": 19.099999999999998,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 60.0,
+      "entry": {
+        "feature": "hour_utc",
+        "operator": ">",
+        "threshold": 19.099999999999998,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "hour_utc",
+        "operator": ">",
+        "threshold": 19.099999999999998,
+        "tier": "T0"
+      },
+      "name": "t0_hour_utc_>_19.1",
+      "side": "open_buy",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 5,
+      "condition": {
+        "feature": "hour_utc",
+        "operator": ">",
+        "threshold": 19.099999999999998,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "feature": "hour_utc",
+        "operator": ">",
+        "threshold": 19.099999999999998,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "hour_utc",
+        "operator": ">",
+        "threshold": 19.099999999999998,
+        "tier": "T0"
+      },
+      "name": "t0_hour_utc_>_19.1",
+      "side": "open_sell",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 6,
+      "condition": {
+        "feature": "hour_utc",
+        "operator": ">",
+        "threshold": 19.099999999999998,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 30.0,
+      "entry": {
+        "feature": "hour_utc",
+        "operator": ">",
+        "threshold": 19.099999999999998,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "hour_utc",
+        "operator": ">",
+        "threshold": 19.099999999999998,
+        "tier": "T0"
+      },
+      "name": "t0_hour_utc_>_19.1",
+      "side": "open_sell",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 6,
+      "condition": {
+        "feature": "hour_utc",
+        "operator": ">",
+        "threshold": 19.099999999999998,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 60.0,
+      "entry": {
+        "feature": "hour_utc",
+        "operator": ">",
+        "threshold": 19.099999999999998,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "hour_utc",
+        "operator": ">",
+        "threshold": 19.099999999999998,
+        "tier": "T0"
+      },
+      "name": "t0_hour_utc_>_19.1",
+      "side": "open_sell",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 5,
+      "condition": {
+        "feature": "hour_utc",
+        "operator": "<",
+        "threshold": 2.9,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "feature": "hour_utc",
+        "operator": "<",
+        "threshold": 2.9,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "hour_utc",
+        "operator": "<",
+        "threshold": 2.9,
+        "tier": "T0"
+      },
+      "name": "t0_hour_utc_<_2.9",
+      "side": "open_buy",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 6,
+      "condition": {
+        "feature": "hour_utc",
+        "operator": "<",
+        "threshold": 2.9,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 30.0,
+      "entry": {
+        "feature": "hour_utc",
+        "operator": "<",
+        "threshold": 2.9,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "hour_utc",
+        "operator": "<",
+        "threshold": 2.9,
+        "tier": "T0"
+      },
+      "name": "t0_hour_utc_<_2.9",
+      "side": "open_buy",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 6,
+      "condition": {
+        "feature": "hour_utc",
+        "operator": "<",
+        "threshold": 2.9,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 60.0,
+      "entry": {
+        "feature": "hour_utc",
+        "operator": "<",
+        "threshold": 2.9,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "hour_utc",
+        "operator": "<",
+        "threshold": 2.9,
+        "tier": "T0"
+      },
+      "name": "t0_hour_utc_<_2.9",
+      "side": "open_buy",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 5,
+      "condition": {
+        "feature": "hour_utc",
+        "operator": "<",
+        "threshold": 2.9,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "feature": "hour_utc",
+        "operator": "<",
+        "threshold": 2.9,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "hour_utc",
+        "operator": "<",
+        "threshold": 2.9,
+        "tier": "T0"
+      },
+      "name": "t0_hour_utc_<_2.9",
+      "side": "open_sell",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 6,
+      "condition": {
+        "feature": "hour_utc",
+        "operator": "<",
+        "threshold": 2.9,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 30.0,
+      "entry": {
+        "feature": "hour_utc",
+        "operator": "<",
+        "threshold": 2.9,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "hour_utc",
+        "operator": "<",
+        "threshold": 2.9,
+        "tier": "T0"
+      },
+      "name": "t0_hour_utc_<_2.9",
+      "side": "open_sell",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 6,
+      "condition": {
+        "feature": "hour_utc",
+        "operator": "<",
+        "threshold": 2.9,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 60.0,
+      "entry": {
+        "feature": "hour_utc",
+        "operator": "<",
+        "threshold": 2.9,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "hour_utc",
+        "operator": "<",
+        "threshold": 2.9,
+        "tier": "T0"
+      },
+      "name": "t0_hour_utc_<_2.9",
+      "side": "open_sell",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 5,
+      "condition": {
+        "feature": "hour_utc",
+        "operator": "<",
+        "threshold": 6.949999999999999,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "feature": "hour_utc",
+        "operator": "<",
+        "threshold": 6.949999999999999,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "hour_utc",
+        "operator": "<",
+        "threshold": 6.949999999999999,
+        "tier": "T0"
+      },
+      "name": "t0_hour_utc_<_6.95",
+      "side": "open_buy",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 6,
+      "condition": {
+        "feature": "hour_utc",
+        "operator": "<",
+        "threshold": 6.949999999999999,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 30.0,
+      "entry": {
+        "feature": "hour_utc",
+        "operator": "<",
+        "threshold": 6.949999999999999,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "hour_utc",
+        "operator": "<",
+        "threshold": 6.949999999999999,
+        "tier": "T0"
+      },
+      "name": "t0_hour_utc_<_6.95",
+      "side": "open_buy",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 6,
+      "condition": {
+        "feature": "hour_utc",
+        "operator": "<",
+        "threshold": 6.949999999999999,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 60.0,
+      "entry": {
+        "feature": "hour_utc",
+        "operator": "<",
+        "threshold": 6.949999999999999,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "hour_utc",
+        "operator": "<",
+        "threshold": 6.949999999999999,
+        "tier": "T0"
+      },
+      "name": "t0_hour_utc_<_6.95",
+      "side": "open_buy",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 5,
+      "condition": {
+        "feature": "hour_utc",
+        "operator": "<",
+        "threshold": 6.949999999999999,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "feature": "hour_utc",
+        "operator": "<",
+        "threshold": 6.949999999999999,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "hour_utc",
+        "operator": "<",
+        "threshold": 6.949999999999999,
+        "tier": "T0"
+      },
+      "name": "t0_hour_utc_<_6.95",
+      "side": "open_sell",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 6,
+      "condition": {
+        "feature": "hour_utc",
+        "operator": "<",
+        "threshold": 6.949999999999999,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 30.0,
+      "entry": {
+        "feature": "hour_utc",
+        "operator": "<",
+        "threshold": 6.949999999999999,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "hour_utc",
+        "operator": "<",
+        "threshold": 6.949999999999999,
+        "tier": "T0"
+      },
+      "name": "t0_hour_utc_<_6.95",
+      "side": "open_sell",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 6,
+      "condition": {
+        "feature": "hour_utc",
+        "operator": "<",
+        "threshold": 6.949999999999999,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 60.0,
+      "entry": {
+        "feature": "hour_utc",
+        "operator": "<",
+        "threshold": 6.949999999999999,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "hour_utc",
+        "operator": "<",
+        "threshold": 6.949999999999999,
+        "tier": "T0"
+      },
+      "name": "t0_hour_utc_<_6.95",
+      "side": "open_sell",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 5,
+      "condition": {
+        "feature": "hour_utc",
+        "operator": "<",
+        "threshold": 10.999999999999998,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "feature": "hour_utc",
+        "operator": "<",
+        "threshold": 10.999999999999998,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "hour_utc",
+        "operator": "<",
+        "threshold": 10.999999999999998,
+        "tier": "T0"
+      },
+      "name": "t0_hour_utc_<_11",
+      "side": "open_buy",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 6,
+      "condition": {
+        "feature": "hour_utc",
+        "operator": "<",
+        "threshold": 10.999999999999998,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 30.0,
+      "entry": {
+        "feature": "hour_utc",
+        "operator": "<",
+        "threshold": 10.999999999999998,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "hour_utc",
+        "operator": "<",
+        "threshold": 10.999999999999998,
+        "tier": "T0"
+      },
+      "name": "t0_hour_utc_<_11",
+      "side": "open_buy",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 6,
+      "condition": {
+        "feature": "hour_utc",
+        "operator": "<",
+        "threshold": 10.999999999999998,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 60.0,
+      "entry": {
+        "feature": "hour_utc",
+        "operator": "<",
+        "threshold": 10.999999999999998,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "hour_utc",
+        "operator": "<",
+        "threshold": 10.999999999999998,
+        "tier": "T0"
+      },
+      "name": "t0_hour_utc_<_11",
+      "side": "open_buy",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 5,
+      "condition": {
+        "feature": "hour_utc",
+        "operator": "<",
+        "threshold": 10.999999999999998,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "feature": "hour_utc",
+        "operator": "<",
+        "threshold": 10.999999999999998,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "hour_utc",
+        "operator": "<",
+        "threshold": 10.999999999999998,
+        "tier": "T0"
+      },
+      "name": "t0_hour_utc_<_11",
+      "side": "open_sell",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 6,
+      "condition": {
+        "feature": "hour_utc",
+        "operator": "<",
+        "threshold": 10.999999999999998,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 30.0,
+      "entry": {
+        "feature": "hour_utc",
+        "operator": "<",
+        "threshold": 10.999999999999998,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "hour_utc",
+        "operator": "<",
+        "threshold": 10.999999999999998,
+        "tier": "T0"
+      },
+      "name": "t0_hour_utc_<_11",
+      "side": "open_sell",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 6,
+      "condition": {
+        "feature": "hour_utc",
+        "operator": "<",
+        "threshold": 10.999999999999998,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 60.0,
+      "entry": {
+        "feature": "hour_utc",
+        "operator": "<",
+        "threshold": 10.999999999999998,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "hour_utc",
+        "operator": "<",
+        "threshold": 10.999999999999998,
+        "tier": "T0"
+      },
+      "name": "t0_hour_utc_<_11",
+      "side": "open_sell",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 5,
+      "condition": {
+        "feature": "hour_utc",
+        "operator": "<",
+        "threshold": 15.049999999999999,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "feature": "hour_utc",
+        "operator": "<",
+        "threshold": 15.049999999999999,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "hour_utc",
+        "operator": "<",
+        "threshold": 15.049999999999999,
+        "tier": "T0"
+      },
+      "name": "t0_hour_utc_<_15.05",
+      "side": "open_buy",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 6,
+      "condition": {
+        "feature": "hour_utc",
+        "operator": "<",
+        "threshold": 15.049999999999999,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 30.0,
+      "entry": {
+        "feature": "hour_utc",
+        "operator": "<",
+        "threshold": 15.049999999999999,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "hour_utc",
+        "operator": "<",
+        "threshold": 15.049999999999999,
+        "tier": "T0"
+      },
+      "name": "t0_hour_utc_<_15.05",
+      "side": "open_buy",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 6,
+      "condition": {
+        "feature": "hour_utc",
+        "operator": "<",
+        "threshold": 15.049999999999999,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 60.0,
+      "entry": {
+        "feature": "hour_utc",
+        "operator": "<",
+        "threshold": 15.049999999999999,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "hour_utc",
+        "operator": "<",
+        "threshold": 15.049999999999999,
+        "tier": "T0"
+      },
+      "name": "t0_hour_utc_<_15.05",
+      "side": "open_buy",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 5,
+      "condition": {
+        "feature": "hour_utc",
+        "operator": "<",
+        "threshold": 15.049999999999999,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "feature": "hour_utc",
+        "operator": "<",
+        "threshold": 15.049999999999999,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "hour_utc",
+        "operator": "<",
+        "threshold": 15.049999999999999,
+        "tier": "T0"
+      },
+      "name": "t0_hour_utc_<_15.05",
+      "side": "open_sell",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 6,
+      "condition": {
+        "feature": "hour_utc",
+        "operator": "<",
+        "threshold": 15.049999999999999,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 30.0,
+      "entry": {
+        "feature": "hour_utc",
+        "operator": "<",
+        "threshold": 15.049999999999999,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "hour_utc",
+        "operator": "<",
+        "threshold": 15.049999999999999,
+        "tier": "T0"
+      },
+      "name": "t0_hour_utc_<_15.05",
+      "side": "open_sell",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 6,
+      "condition": {
+        "feature": "hour_utc",
+        "operator": "<",
+        "threshold": 15.049999999999999,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 60.0,
+      "entry": {
+        "feature": "hour_utc",
+        "operator": "<",
+        "threshold": 15.049999999999999,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "hour_utc",
+        "operator": "<",
+        "threshold": 15.049999999999999,
+        "tier": "T0"
+      },
+      "name": "t0_hour_utc_<_15.05",
+      "side": "open_sell",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 5,
+      "condition": {
+        "feature": "hour_utc",
+        "operator": "<",
+        "threshold": 19.099999999999998,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "feature": "hour_utc",
+        "operator": "<",
+        "threshold": 19.099999999999998,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "hour_utc",
+        "operator": "<",
+        "threshold": 19.099999999999998,
+        "tier": "T0"
+      },
+      "name": "t0_hour_utc_<_19.1",
+      "side": "open_buy",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 6,
+      "condition": {
+        "feature": "hour_utc",
+        "operator": "<",
+        "threshold": 19.099999999999998,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 30.0,
+      "entry": {
+        "feature": "hour_utc",
+        "operator": "<",
+        "threshold": 19.099999999999998,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "hour_utc",
+        "operator": "<",
+        "threshold": 19.099999999999998,
+        "tier": "T0"
+      },
+      "name": "t0_hour_utc_<_19.1",
+      "side": "open_buy",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 6,
+      "condition": {
+        "feature": "hour_utc",
+        "operator": "<",
+        "threshold": 19.099999999999998,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 60.0,
+      "entry": {
+        "feature": "hour_utc",
+        "operator": "<",
+        "threshold": 19.099999999999998,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "hour_utc",
+        "operator": "<",
+        "threshold": 19.099999999999998,
+        "tier": "T0"
+      },
+      "name": "t0_hour_utc_<_19.1",
+      "side": "open_buy",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 5,
+      "condition": {
+        "feature": "hour_utc",
+        "operator": "<",
+        "threshold": 19.099999999999998,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "feature": "hour_utc",
+        "operator": "<",
+        "threshold": 19.099999999999998,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "hour_utc",
+        "operator": "<",
+        "threshold": 19.099999999999998,
+        "tier": "T0"
+      },
+      "name": "t0_hour_utc_<_19.1",
+      "side": "open_sell",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 6,
+      "condition": {
+        "feature": "hour_utc",
+        "operator": "<",
+        "threshold": 19.099999999999998,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 30.0,
+      "entry": {
+        "feature": "hour_utc",
+        "operator": "<",
+        "threshold": 19.099999999999998,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "hour_utc",
+        "operator": "<",
+        "threshold": 19.099999999999998,
+        "tier": "T0"
+      },
+      "name": "t0_hour_utc_<_19.1",
+      "side": "open_sell",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 6,
+      "condition": {
+        "feature": "hour_utc",
+        "operator": "<",
+        "threshold": 19.099999999999998,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 60.0,
+      "entry": {
+        "feature": "hour_utc",
+        "operator": "<",
+        "threshold": 19.099999999999998,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "hour_utc",
+        "operator": "<",
+        "threshold": 19.099999999999998,
+        "tier": "T0"
+      },
+      "name": "t0_hour_utc_<_19.1",
+      "side": "open_sell",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 5,
+      "condition": {
+        "feature": "bar_ret5",
+        "operator": ">",
+        "threshold": -0.0003,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "feature": "bar_ret5",
+        "operator": ">",
+        "threshold": -0.0003,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "bar_ret5",
+        "operator": ">",
+        "threshold": -0.0003,
+        "tier": "T0"
+      },
+      "name": "t0_bar_ret5_>_-0.0003",
+      "side": "open_buy",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 6,
+      "condition": {
+        "feature": "bar_ret5",
+        "operator": ">",
+        "threshold": -0.0003,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 30.0,
+      "entry": {
+        "feature": "bar_ret5",
+        "operator": ">",
+        "threshold": -0.0003,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "bar_ret5",
+        "operator": ">",
+        "threshold": -0.0003,
+        "tier": "T0"
+      },
+      "name": "t0_bar_ret5_>_-0.0003",
+      "side": "open_buy",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 6,
+      "condition": {
+        "feature": "bar_ret5",
+        "operator": ">",
+        "threshold": -0.0003,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 60.0,
+      "entry": {
+        "feature": "bar_ret5",
+        "operator": ">",
+        "threshold": -0.0003,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "bar_ret5",
+        "operator": ">",
+        "threshold": -0.0003,
+        "tier": "T0"
+      },
+      "name": "t0_bar_ret5_>_-0.0003",
+      "side": "open_buy",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 5,
+      "condition": {
+        "feature": "bar_ret5",
+        "operator": ">",
+        "threshold": -0.0003,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "feature": "bar_ret5",
+        "operator": ">",
+        "threshold": -0.0003,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "bar_ret5",
+        "operator": ">",
+        "threshold": -0.0003,
+        "tier": "T0"
+      },
+      "name": "t0_bar_ret5_>_-0.0003",
+      "side": "open_sell",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 6,
+      "condition": {
+        "feature": "bar_ret5",
+        "operator": ">",
+        "threshold": -0.0003,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 30.0,
+      "entry": {
+        "feature": "bar_ret5",
+        "operator": ">",
+        "threshold": -0.0003,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "bar_ret5",
+        "operator": ">",
+        "threshold": -0.0003,
+        "tier": "T0"
+      },
+      "name": "t0_bar_ret5_>_-0.0003",
+      "side": "open_sell",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 6,
+      "condition": {
+        "feature": "bar_ret5",
+        "operator": ">",
+        "threshold": -0.0003,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 60.0,
+      "entry": {
+        "feature": "bar_ret5",
+        "operator": ">",
+        "threshold": -0.0003,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "bar_ret5",
+        "operator": ">",
+        "threshold": -0.0003,
+        "tier": "T0"
+      },
+      "name": "t0_bar_ret5_>_-0.0003",
+      "side": "open_sell",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 5,
+      "condition": {
+        "feature": "bar_ret5",
+        "operator": ">",
+        "threshold": 0.0003,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "feature": "bar_ret5",
+        "operator": ">",
+        "threshold": 0.0003,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "bar_ret5",
+        "operator": ">",
+        "threshold": 0.0003,
+        "tier": "T0"
+      },
+      "name": "t0_bar_ret5_>_0.0003",
+      "side": "open_buy",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 6,
+      "condition": {
+        "feature": "bar_ret5",
+        "operator": ">",
+        "threshold": 0.0003,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 30.0,
+      "entry": {
+        "feature": "bar_ret5",
+        "operator": ">",
+        "threshold": 0.0003,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "bar_ret5",
+        "operator": ">",
+        "threshold": 0.0003,
+        "tier": "T0"
+      },
+      "name": "t0_bar_ret5_>_0.0003",
+      "side": "open_buy",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 6,
+      "condition": {
+        "feature": "bar_ret5",
+        "operator": ">",
+        "threshold": 0.0003,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 60.0,
+      "entry": {
+        "feature": "bar_ret5",
+        "operator": ">",
+        "threshold": 0.0003,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "bar_ret5",
+        "operator": ">",
+        "threshold": 0.0003,
+        "tier": "T0"
+      },
+      "name": "t0_bar_ret5_>_0.0003",
+      "side": "open_buy",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 5,
+      "condition": {
+        "feature": "bar_ret5",
+        "operator": ">",
+        "threshold": 0.0003,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "feature": "bar_ret5",
+        "operator": ">",
+        "threshold": 0.0003,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "bar_ret5",
+        "operator": ">",
+        "threshold": 0.0003,
+        "tier": "T0"
+      },
+      "name": "t0_bar_ret5_>_0.0003",
+      "side": "open_sell",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 6,
+      "condition": {
+        "feature": "bar_ret5",
+        "operator": ">",
+        "threshold": 0.0003,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 30.0,
+      "entry": {
+        "feature": "bar_ret5",
+        "operator": ">",
+        "threshold": 0.0003,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "bar_ret5",
+        "operator": ">",
+        "threshold": 0.0003,
+        "tier": "T0"
+      },
+      "name": "t0_bar_ret5_>_0.0003",
+      "side": "open_sell",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 6,
+      "condition": {
+        "feature": "bar_ret5",
+        "operator": ">",
+        "threshold": 0.0003,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 60.0,
+      "entry": {
+        "feature": "bar_ret5",
+        "operator": ">",
+        "threshold": 0.0003,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "bar_ret5",
+        "operator": ">",
+        "threshold": 0.0003,
+        "tier": "T0"
+      },
+      "name": "t0_bar_ret5_>_0.0003",
+      "side": "open_sell",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 5,
+      "condition": {
+        "feature": "bar_ret5",
+        "operator": "<",
+        "threshold": -0.0003,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "feature": "bar_ret5",
+        "operator": "<",
+        "threshold": -0.0003,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "bar_ret5",
+        "operator": "<",
+        "threshold": -0.0003,
+        "tier": "T0"
+      },
+      "name": "t0_bar_ret5_<_-0.0003",
+      "side": "open_buy",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 6,
+      "condition": {
+        "feature": "bar_ret5",
+        "operator": "<",
+        "threshold": -0.0003,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 30.0,
+      "entry": {
+        "feature": "bar_ret5",
+        "operator": "<",
+        "threshold": -0.0003,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "bar_ret5",
+        "operator": "<",
+        "threshold": -0.0003,
+        "tier": "T0"
+      },
+      "name": "t0_bar_ret5_<_-0.0003",
+      "side": "open_buy",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 6,
+      "condition": {
+        "feature": "bar_ret5",
+        "operator": "<",
+        "threshold": -0.0003,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 60.0,
+      "entry": {
+        "feature": "bar_ret5",
+        "operator": "<",
+        "threshold": -0.0003,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "bar_ret5",
+        "operator": "<",
+        "threshold": -0.0003,
+        "tier": "T0"
+      },
+      "name": "t0_bar_ret5_<_-0.0003",
+      "side": "open_buy",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 5,
+      "condition": {
+        "feature": "bar_ret5",
+        "operator": "<",
+        "threshold": -0.0003,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "feature": "bar_ret5",
+        "operator": "<",
+        "threshold": -0.0003,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "bar_ret5",
+        "operator": "<",
+        "threshold": -0.0003,
+        "tier": "T0"
+      },
+      "name": "t0_bar_ret5_<_-0.0003",
+      "side": "open_sell",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 6,
+      "condition": {
+        "feature": "bar_ret5",
+        "operator": "<",
+        "threshold": -0.0003,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 30.0,
+      "entry": {
+        "feature": "bar_ret5",
+        "operator": "<",
+        "threshold": -0.0003,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "bar_ret5",
+        "operator": "<",
+        "threshold": -0.0003,
+        "tier": "T0"
+      },
+      "name": "t0_bar_ret5_<_-0.0003",
+      "side": "open_sell",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 6,
+      "condition": {
+        "feature": "bar_ret5",
+        "operator": "<",
+        "threshold": -0.0003,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 60.0,
+      "entry": {
+        "feature": "bar_ret5",
+        "operator": "<",
+        "threshold": -0.0003,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "bar_ret5",
+        "operator": "<",
+        "threshold": -0.0003,
+        "tier": "T0"
+      },
+      "name": "t0_bar_ret5_<_-0.0003",
+      "side": "open_sell",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 5,
+      "condition": {
+        "feature": "bar_ret5",
+        "operator": "<",
+        "threshold": 0.0003,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "feature": "bar_ret5",
+        "operator": "<",
+        "threshold": 0.0003,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "bar_ret5",
+        "operator": "<",
+        "threshold": 0.0003,
+        "tier": "T0"
+      },
+      "name": "t0_bar_ret5_<_0.0003",
+      "side": "open_buy",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 6,
+      "condition": {
+        "feature": "bar_ret5",
+        "operator": "<",
+        "threshold": 0.0003,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 30.0,
+      "entry": {
+        "feature": "bar_ret5",
+        "operator": "<",
+        "threshold": 0.0003,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "bar_ret5",
+        "operator": "<",
+        "threshold": 0.0003,
+        "tier": "T0"
+      },
+      "name": "t0_bar_ret5_<_0.0003",
+      "side": "open_buy",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 6,
+      "condition": {
+        "feature": "bar_ret5",
+        "operator": "<",
+        "threshold": 0.0003,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 60.0,
+      "entry": {
+        "feature": "bar_ret5",
+        "operator": "<",
+        "threshold": 0.0003,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "bar_ret5",
+        "operator": "<",
+        "threshold": 0.0003,
+        "tier": "T0"
+      },
+      "name": "t0_bar_ret5_<_0.0003",
+      "side": "open_buy",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 5,
+      "condition": {
+        "feature": "bar_ret5",
+        "operator": "<",
+        "threshold": 0.0003,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "feature": "bar_ret5",
+        "operator": "<",
+        "threshold": 0.0003,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "bar_ret5",
+        "operator": "<",
+        "threshold": 0.0003,
+        "tier": "T0"
+      },
+      "name": "t0_bar_ret5_<_0.0003",
+      "side": "open_sell",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 6,
+      "condition": {
+        "feature": "bar_ret5",
+        "operator": "<",
+        "threshold": 0.0003,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 30.0,
+      "entry": {
+        "feature": "bar_ret5",
+        "operator": "<",
+        "threshold": 0.0003,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "bar_ret5",
+        "operator": "<",
+        "threshold": 0.0003,
+        "tier": "T0"
+      },
+      "name": "t0_bar_ret5_<_0.0003",
+      "side": "open_sell",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 6,
+      "condition": {
+        "feature": "bar_ret5",
+        "operator": "<",
+        "threshold": 0.0003,
+        "type": "threshold"
+      },
+      "cooldown_seconds": 60.0,
+      "entry": {
+        "feature": "bar_ret5",
+        "operator": "<",
+        "threshold": 0.0003,
+        "type": "threshold"
+      },
+      "exit_rule": null,
+      "metadata": {
+        "feature": "bar_ret5",
+        "operator": "<",
+        "threshold": 0.0003,
+        "tier": "T0"
+      },
+      "name": "t0_bar_ret5_<_0.0003",
+      "side": "open_sell",
+      "state_transitions": {},
+      "volume": 0.01
+    },
+    {
+      "complexity": 12,
+      "condition": {
+        "children": [
+          {
+            "expected_state": 0,
+            "type": "state_condition"
+          },
+          {
+            "feature": "ret5",
+            "operator": ">",
+            "threshold": -0.0005,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "children": [
+          {
+            "expected_state": 0,
+            "type": "state_condition"
+          },
+          {
+            "feature": "ret5",
+            "operator": ">",
+            "threshold": -0.0005,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "exit_rule": {
+        "holding_seconds": 10.0,
+        "type": "time_exit"
+      },
+      "metadata": {
+        "feature": "ret5",
+        "num_states": 2,
+        "state_val": 0,
+        "tier": "FSM",
+        "transitions": {
+          "Buy": 1,
+          "Sell": 1
+        }
+      },
+      "name": "fsm_s0_ret5_>_-0.0005",
+      "side": "open_buy",
+      "state_transitions": {
+        "Buy": 1,
+        "Sell": 1
+      },
+      "volume": 0.01
+    },
+    {
+      "complexity": 12,
+      "condition": {
+        "children": [
+          {
+            "expected_state": 0,
+            "type": "state_condition"
+          },
+          {
+            "feature": "ret5",
+            "operator": ">",
+            "threshold": -0.0005,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "children": [
+          {
+            "expected_state": 0,
+            "type": "state_condition"
+          },
+          {
+            "feature": "ret5",
+            "operator": ">",
+            "threshold": -0.0005,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "exit_rule": {
+        "holding_seconds": 10.0,
+        "type": "time_exit"
+      },
+      "metadata": {
+        "feature": "ret5",
+        "num_states": 2,
+        "state_val": 0,
+        "tier": "FSM",
+        "transitions": {
+          "Buy": 1,
+          "Sell": 1
+        }
+      },
+      "name": "fsm_s0_ret5_>_-0.0005",
+      "side": "open_sell",
+      "state_transitions": {
+        "Buy": 1,
+        "Sell": 1
+      },
+      "volume": 0.01
+    },
+    {
+      "complexity": 12,
+      "condition": {
+        "children": [
+          {
+            "expected_state": 0,
+            "type": "state_condition"
+          },
+          {
+            "feature": "ret5",
+            "operator": ">",
+            "threshold": 0.0005,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "children": [
+          {
+            "expected_state": 0,
+            "type": "state_condition"
+          },
+          {
+            "feature": "ret5",
+            "operator": ">",
+            "threshold": 0.0005,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "exit_rule": {
+        "holding_seconds": 10.0,
+        "type": "time_exit"
+      },
+      "metadata": {
+        "feature": "ret5",
+        "num_states": 2,
+        "state_val": 0,
+        "tier": "FSM",
+        "transitions": {
+          "Buy": 1,
+          "Sell": 1
+        }
+      },
+      "name": "fsm_s0_ret5_>_0.0005",
+      "side": "open_buy",
+      "state_transitions": {
+        "Buy": 1,
+        "Sell": 1
+      },
+      "volume": 0.01
+    },
+    {
+      "complexity": 12,
+      "condition": {
+        "children": [
+          {
+            "expected_state": 0,
+            "type": "state_condition"
+          },
+          {
+            "feature": "ret5",
+            "operator": ">",
+            "threshold": 0.0005,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "children": [
+          {
+            "expected_state": 0,
+            "type": "state_condition"
+          },
+          {
+            "feature": "ret5",
+            "operator": ">",
+            "threshold": 0.0005,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "exit_rule": {
+        "holding_seconds": 10.0,
+        "type": "time_exit"
+      },
+      "metadata": {
+        "feature": "ret5",
+        "num_states": 2,
+        "state_val": 0,
+        "tier": "FSM",
+        "transitions": {
+          "Buy": 1,
+          "Sell": 1
+        }
+      },
+      "name": "fsm_s0_ret5_>_0.0005",
+      "side": "open_sell",
+      "state_transitions": {
+        "Buy": 1,
+        "Sell": 1
+      },
+      "volume": 0.01
+    },
+    {
+      "complexity": 12,
+      "condition": {
+        "children": [
+          {
+            "expected_state": 0,
+            "type": "state_condition"
+          },
+          {
+            "feature": "ret5",
+            "operator": "<",
+            "threshold": -0.0005,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "children": [
+          {
+            "expected_state": 0,
+            "type": "state_condition"
+          },
+          {
+            "feature": "ret5",
+            "operator": "<",
+            "threshold": -0.0005,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "exit_rule": {
+        "holding_seconds": 10.0,
+        "type": "time_exit"
+      },
+      "metadata": {
+        "feature": "ret5",
+        "num_states": 2,
+        "state_val": 0,
+        "tier": "FSM",
+        "transitions": {
+          "Buy": 1,
+          "Sell": 1
+        }
+      },
+      "name": "fsm_s0_ret5_<_-0.0005",
+      "side": "open_buy",
+      "state_transitions": {
+        "Buy": 1,
+        "Sell": 1
+      },
+      "volume": 0.01
+    },
+    {
+      "complexity": 12,
+      "condition": {
+        "children": [
+          {
+            "expected_state": 0,
+            "type": "state_condition"
+          },
+          {
+            "feature": "ret5",
+            "operator": "<",
+            "threshold": -0.0005,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "children": [
+          {
+            "expected_state": 0,
+            "type": "state_condition"
+          },
+          {
+            "feature": "ret5",
+            "operator": "<",
+            "threshold": -0.0005,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "exit_rule": {
+        "holding_seconds": 10.0,
+        "type": "time_exit"
+      },
+      "metadata": {
+        "feature": "ret5",
+        "num_states": 2,
+        "state_val": 0,
+        "tier": "FSM",
+        "transitions": {
+          "Buy": 1,
+          "Sell": 1
+        }
+      },
+      "name": "fsm_s0_ret5_<_-0.0005",
+      "side": "open_sell",
+      "state_transitions": {
+        "Buy": 1,
+        "Sell": 1
+      },
+      "volume": 0.01
+    },
+    {
+      "complexity": 12,
+      "condition": {
+        "children": [
+          {
+            "expected_state": 0,
+            "type": "state_condition"
+          },
+          {
+            "feature": "ret5",
+            "operator": "<",
+            "threshold": 0.0005,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "children": [
+          {
+            "expected_state": 0,
+            "type": "state_condition"
+          },
+          {
+            "feature": "ret5",
+            "operator": "<",
+            "threshold": 0.0005,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "exit_rule": {
+        "holding_seconds": 10.0,
+        "type": "time_exit"
+      },
+      "metadata": {
+        "feature": "ret5",
+        "num_states": 2,
+        "state_val": 0,
+        "tier": "FSM",
+        "transitions": {
+          "Buy": 1,
+          "Sell": 1
+        }
+      },
+      "name": "fsm_s0_ret5_<_0.0005",
+      "side": "open_buy",
+      "state_transitions": {
+        "Buy": 1,
+        "Sell": 1
+      },
+      "volume": 0.01
+    },
+    {
+      "complexity": 12,
+      "condition": {
+        "children": [
+          {
+            "expected_state": 0,
+            "type": "state_condition"
+          },
+          {
+            "feature": "ret5",
+            "operator": "<",
+            "threshold": 0.0005,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "children": [
+          {
+            "expected_state": 0,
+            "type": "state_condition"
+          },
+          {
+            "feature": "ret5",
+            "operator": "<",
+            "threshold": 0.0005,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "exit_rule": {
+        "holding_seconds": 10.0,
+        "type": "time_exit"
+      },
+      "metadata": {
+        "feature": "ret5",
+        "num_states": 2,
+        "state_val": 0,
+        "tier": "FSM",
+        "transitions": {
+          "Buy": 1,
+          "Sell": 1
+        }
+      },
+      "name": "fsm_s0_ret5_<_0.0005",
+      "side": "open_sell",
+      "state_transitions": {
+        "Buy": 1,
+        "Sell": 1
+      },
+      "volume": 0.01
+    },
+    {
+      "complexity": 12,
+      "condition": {
+        "children": [
+          {
+            "expected_state": 1,
+            "type": "state_condition"
+          },
+          {
+            "feature": "ret5",
+            "operator": ">",
+            "threshold": -0.0005,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "children": [
+          {
+            "expected_state": 1,
+            "type": "state_condition"
+          },
+          {
+            "feature": "ret5",
+            "operator": ">",
+            "threshold": -0.0005,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "exit_rule": {
+        "holding_seconds": 10.0,
+        "type": "time_exit"
+      },
+      "metadata": {
+        "feature": "ret5",
+        "num_states": 2,
+        "state_val": 1,
+        "tier": "FSM",
+        "transitions": {
+          "Buy": 0,
+          "Sell": 0
+        }
+      },
+      "name": "fsm_s1_ret5_>_-0.0005",
+      "side": "open_buy",
+      "state_transitions": {
+        "Buy": 0,
+        "Sell": 0
+      },
+      "volume": 0.01
+    },
+    {
+      "complexity": 12,
+      "condition": {
+        "children": [
+          {
+            "expected_state": 1,
+            "type": "state_condition"
+          },
+          {
+            "feature": "ret5",
+            "operator": ">",
+            "threshold": -0.0005,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "children": [
+          {
+            "expected_state": 1,
+            "type": "state_condition"
+          },
+          {
+            "feature": "ret5",
+            "operator": ">",
+            "threshold": -0.0005,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "exit_rule": {
+        "holding_seconds": 10.0,
+        "type": "time_exit"
+      },
+      "metadata": {
+        "feature": "ret5",
+        "num_states": 2,
+        "state_val": 1,
+        "tier": "FSM",
+        "transitions": {
+          "Buy": 0,
+          "Sell": 0
+        }
+      },
+      "name": "fsm_s1_ret5_>_-0.0005",
+      "side": "open_sell",
+      "state_transitions": {
+        "Buy": 0,
+        "Sell": 0
+      },
+      "volume": 0.01
+    },
+    {
+      "complexity": 12,
+      "condition": {
+        "children": [
+          {
+            "expected_state": 1,
+            "type": "state_condition"
+          },
+          {
+            "feature": "ret5",
+            "operator": ">",
+            "threshold": 0.0005,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "children": [
+          {
+            "expected_state": 1,
+            "type": "state_condition"
+          },
+          {
+            "feature": "ret5",
+            "operator": ">",
+            "threshold": 0.0005,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "exit_rule": {
+        "holding_seconds": 10.0,
+        "type": "time_exit"
+      },
+      "metadata": {
+        "feature": "ret5",
+        "num_states": 2,
+        "state_val": 1,
+        "tier": "FSM",
+        "transitions": {
+          "Buy": 0,
+          "Sell": 0
+        }
+      },
+      "name": "fsm_s1_ret5_>_0.0005",
+      "side": "open_buy",
+      "state_transitions": {
+        "Buy": 0,
+        "Sell": 0
+      },
+      "volume": 0.01
+    },
+    {
+      "complexity": 12,
+      "condition": {
+        "children": [
+          {
+            "expected_state": 1,
+            "type": "state_condition"
+          },
+          {
+            "feature": "ret5",
+            "operator": ">",
+            "threshold": 0.0005,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "children": [
+          {
+            "expected_state": 1,
+            "type": "state_condition"
+          },
+          {
+            "feature": "ret5",
+            "operator": ">",
+            "threshold": 0.0005,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "exit_rule": {
+        "holding_seconds": 10.0,
+        "type": "time_exit"
+      },
+      "metadata": {
+        "feature": "ret5",
+        "num_states": 2,
+        "state_val": 1,
+        "tier": "FSM",
+        "transitions": {
+          "Buy": 0,
+          "Sell": 0
+        }
+      },
+      "name": "fsm_s1_ret5_>_0.0005",
+      "side": "open_sell",
+      "state_transitions": {
+        "Buy": 0,
+        "Sell": 0
+      },
+      "volume": 0.01
+    },
+    {
+      "complexity": 12,
+      "condition": {
+        "children": [
+          {
+            "expected_state": 1,
+            "type": "state_condition"
+          },
+          {
+            "feature": "ret5",
+            "operator": "<",
+            "threshold": -0.0005,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "children": [
+          {
+            "expected_state": 1,
+            "type": "state_condition"
+          },
+          {
+            "feature": "ret5",
+            "operator": "<",
+            "threshold": -0.0005,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "exit_rule": {
+        "holding_seconds": 10.0,
+        "type": "time_exit"
+      },
+      "metadata": {
+        "feature": "ret5",
+        "num_states": 2,
+        "state_val": 1,
+        "tier": "FSM",
+        "transitions": {
+          "Buy": 0,
+          "Sell": 0
+        }
+      },
+      "name": "fsm_s1_ret5_<_-0.0005",
+      "side": "open_buy",
+      "state_transitions": {
+        "Buy": 0,
+        "Sell": 0
+      },
+      "volume": 0.01
+    },
+    {
+      "complexity": 12,
+      "condition": {
+        "children": [
+          {
+            "expected_state": 1,
+            "type": "state_condition"
+          },
+          {
+            "feature": "ret5",
+            "operator": "<",
+            "threshold": -0.0005,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "children": [
+          {
+            "expected_state": 1,
+            "type": "state_condition"
+          },
+          {
+            "feature": "ret5",
+            "operator": "<",
+            "threshold": -0.0005,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "exit_rule": {
+        "holding_seconds": 10.0,
+        "type": "time_exit"
+      },
+      "metadata": {
+        "feature": "ret5",
+        "num_states": 2,
+        "state_val": 1,
+        "tier": "FSM",
+        "transitions": {
+          "Buy": 0,
+          "Sell": 0
+        }
+      },
+      "name": "fsm_s1_ret5_<_-0.0005",
+      "side": "open_sell",
+      "state_transitions": {
+        "Buy": 0,
+        "Sell": 0
+      },
+      "volume": 0.01
+    },
+    {
+      "complexity": 12,
+      "condition": {
+        "children": [
+          {
+            "expected_state": 1,
+            "type": "state_condition"
+          },
+          {
+            "feature": "ret5",
+            "operator": "<",
+            "threshold": 0.0005,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "children": [
+          {
+            "expected_state": 1,
+            "type": "state_condition"
+          },
+          {
+            "feature": "ret5",
+            "operator": "<",
+            "threshold": 0.0005,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "exit_rule": {
+        "holding_seconds": 10.0,
+        "type": "time_exit"
+      },
+      "metadata": {
+        "feature": "ret5",
+        "num_states": 2,
+        "state_val": 1,
+        "tier": "FSM",
+        "transitions": {
+          "Buy": 0,
+          "Sell": 0
+        }
+      },
+      "name": "fsm_s1_ret5_<_0.0005",
+      "side": "open_buy",
+      "state_transitions": {
+        "Buy": 0,
+        "Sell": 0
+      },
+      "volume": 0.01
+    },
+    {
+      "complexity": 12,
+      "condition": {
+        "children": [
+          {
+            "expected_state": 1,
+            "type": "state_condition"
+          },
+          {
+            "feature": "ret5",
+            "operator": "<",
+            "threshold": 0.0005,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "children": [
+          {
+            "expected_state": 1,
+            "type": "state_condition"
+          },
+          {
+            "feature": "ret5",
+            "operator": "<",
+            "threshold": 0.0005,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "exit_rule": {
+        "holding_seconds": 10.0,
+        "type": "time_exit"
+      },
+      "metadata": {
+        "feature": "ret5",
+        "num_states": 2,
+        "state_val": 1,
+        "tier": "FSM",
+        "transitions": {
+          "Buy": 0,
+          "Sell": 0
+        }
+      },
+      "name": "fsm_s1_ret5_<_0.0005",
+      "side": "open_sell",
+      "state_transitions": {
+        "Buy": 0,
+        "Sell": 0
+      },
+      "volume": 0.01
+    },
+    {
+      "complexity": 12,
+      "condition": {
+        "children": [
+          {
+            "expected_state": 0,
+            "type": "state_condition"
+          },
+          {
+            "feature": "spread",
+            "operator": ">",
+            "threshold": 0.2,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "children": [
+          {
+            "expected_state": 0,
+            "type": "state_condition"
+          },
+          {
+            "feature": "spread",
+            "operator": ">",
+            "threshold": 0.2,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "exit_rule": {
+        "holding_seconds": 10.0,
+        "type": "time_exit"
+      },
+      "metadata": {
+        "feature": "spread",
+        "num_states": 2,
+        "state_val": 0,
+        "tier": "FSM",
+        "transitions": {
+          "Buy": 1,
+          "Sell": 1
+        }
+      },
+      "name": "fsm_s0_spread_>_0.2",
+      "side": "open_buy",
+      "state_transitions": {
+        "Buy": 1,
+        "Sell": 1
+      },
+      "volume": 0.01
+    },
+    {
+      "complexity": 12,
+      "condition": {
+        "children": [
+          {
+            "expected_state": 0,
+            "type": "state_condition"
+          },
+          {
+            "feature": "spread",
+            "operator": ">",
+            "threshold": 0.2,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "children": [
+          {
+            "expected_state": 0,
+            "type": "state_condition"
+          },
+          {
+            "feature": "spread",
+            "operator": ">",
+            "threshold": 0.2,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "exit_rule": {
+        "holding_seconds": 10.0,
+        "type": "time_exit"
+      },
+      "metadata": {
+        "feature": "spread",
+        "num_states": 2,
+        "state_val": 0,
+        "tier": "FSM",
+        "transitions": {
+          "Buy": 1,
+          "Sell": 1
+        }
+      },
+      "name": "fsm_s0_spread_>_0.2",
+      "side": "open_sell",
+      "state_transitions": {
+        "Buy": 1,
+        "Sell": 1
+      },
+      "volume": 0.01
+    },
+    {
+      "complexity": 12,
+      "condition": {
+        "children": [
+          {
+            "expected_state": 0,
+            "type": "state_condition"
+          },
+          {
+            "feature": "spread",
+            "operator": "<",
+            "threshold": 0.2,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "children": [
+          {
+            "expected_state": 0,
+            "type": "state_condition"
+          },
+          {
+            "feature": "spread",
+            "operator": "<",
+            "threshold": 0.2,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "exit_rule": {
+        "holding_seconds": 10.0,
+        "type": "time_exit"
+      },
+      "metadata": {
+        "feature": "spread",
+        "num_states": 2,
+        "state_val": 0,
+        "tier": "FSM",
+        "transitions": {
+          "Buy": 1,
+          "Sell": 1
+        }
+      },
+      "name": "fsm_s0_spread_<_0.2",
+      "side": "open_buy",
+      "state_transitions": {
+        "Buy": 1,
+        "Sell": 1
+      },
+      "volume": 0.01
+    },
+    {
+      "complexity": 12,
+      "condition": {
+        "children": [
+          {
+            "expected_state": 0,
+            "type": "state_condition"
+          },
+          {
+            "feature": "spread",
+            "operator": "<",
+            "threshold": 0.2,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "children": [
+          {
+            "expected_state": 0,
+            "type": "state_condition"
+          },
+          {
+            "feature": "spread",
+            "operator": "<",
+            "threshold": 0.2,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "exit_rule": {
+        "holding_seconds": 10.0,
+        "type": "time_exit"
+      },
+      "metadata": {
+        "feature": "spread",
+        "num_states": 2,
+        "state_val": 0,
+        "tier": "FSM",
+        "transitions": {
+          "Buy": 1,
+          "Sell": 1
+        }
+      },
+      "name": "fsm_s0_spread_<_0.2",
+      "side": "open_sell",
+      "state_transitions": {
+        "Buy": 1,
+        "Sell": 1
+      },
+      "volume": 0.01
+    },
+    {
+      "complexity": 12,
+      "condition": {
+        "children": [
+          {
+            "expected_state": 1,
+            "type": "state_condition"
+          },
+          {
+            "feature": "spread",
+            "operator": ">",
+            "threshold": 0.2,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "children": [
+          {
+            "expected_state": 1,
+            "type": "state_condition"
+          },
+          {
+            "feature": "spread",
+            "operator": ">",
+            "threshold": 0.2,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "exit_rule": {
+        "holding_seconds": 10.0,
+        "type": "time_exit"
+      },
+      "metadata": {
+        "feature": "spread",
+        "num_states": 2,
+        "state_val": 1,
+        "tier": "FSM",
+        "transitions": {
+          "Buy": 0,
+          "Sell": 0
+        }
+      },
+      "name": "fsm_s1_spread_>_0.2",
+      "side": "open_buy",
+      "state_transitions": {
+        "Buy": 0,
+        "Sell": 0
+      },
+      "volume": 0.01
+    },
+    {
+      "complexity": 12,
+      "condition": {
+        "children": [
+          {
+            "expected_state": 1,
+            "type": "state_condition"
+          },
+          {
+            "feature": "spread",
+            "operator": ">",
+            "threshold": 0.2,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "children": [
+          {
+            "expected_state": 1,
+            "type": "state_condition"
+          },
+          {
+            "feature": "spread",
+            "operator": ">",
+            "threshold": 0.2,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "exit_rule": {
+        "holding_seconds": 10.0,
+        "type": "time_exit"
+      },
+      "metadata": {
+        "feature": "spread",
+        "num_states": 2,
+        "state_val": 1,
+        "tier": "FSM",
+        "transitions": {
+          "Buy": 0,
+          "Sell": 0
+        }
+      },
+      "name": "fsm_s1_spread_>_0.2",
+      "side": "open_sell",
+      "state_transitions": {
+        "Buy": 0,
+        "Sell": 0
+      },
+      "volume": 0.01
+    },
+    {
+      "complexity": 12,
+      "condition": {
+        "children": [
+          {
+            "expected_state": 1,
+            "type": "state_condition"
+          },
+          {
+            "feature": "spread",
+            "operator": "<",
+            "threshold": 0.2,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "children": [
+          {
+            "expected_state": 1,
+            "type": "state_condition"
+          },
+          {
+            "feature": "spread",
+            "operator": "<",
+            "threshold": 0.2,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "exit_rule": {
+        "holding_seconds": 10.0,
+        "type": "time_exit"
+      },
+      "metadata": {
+        "feature": "spread",
+        "num_states": 2,
+        "state_val": 1,
+        "tier": "FSM",
+        "transitions": {
+          "Buy": 0,
+          "Sell": 0
+        }
+      },
+      "name": "fsm_s1_spread_<_0.2",
+      "side": "open_buy",
+      "state_transitions": {
+        "Buy": 0,
+        "Sell": 0
+      },
+      "volume": 0.01
+    },
+    {
+      "complexity": 12,
+      "condition": {
+        "children": [
+          {
+            "expected_state": 1,
+            "type": "state_condition"
+          },
+          {
+            "feature": "spread",
+            "operator": "<",
+            "threshold": 0.2,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "children": [
+          {
+            "expected_state": 1,
+            "type": "state_condition"
+          },
+          {
+            "feature": "spread",
+            "operator": "<",
+            "threshold": 0.2,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "exit_rule": {
+        "holding_seconds": 10.0,
+        "type": "time_exit"
+      },
+      "metadata": {
+        "feature": "spread",
+        "num_states": 2,
+        "state_val": 1,
+        "tier": "FSM",
+        "transitions": {
+          "Buy": 0,
+          "Sell": 0
+        }
+      },
+      "name": "fsm_s1_spread_<_0.2",
+      "side": "open_sell",
+      "state_transitions": {
+        "Buy": 0,
+        "Sell": 0
+      },
+      "volume": 0.01
+    },
+    {
+      "complexity": 12,
+      "condition": {
+        "children": [
+          {
+            "expected_state": 0,
+            "type": "state_condition"
+          },
+          {
+            "feature": "hour_utc",
+            "operator": ">",
+            "threshold": 2.9,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "children": [
+          {
+            "expected_state": 0,
+            "type": "state_condition"
+          },
+          {
+            "feature": "hour_utc",
+            "operator": ">",
+            "threshold": 2.9,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "exit_rule": {
+        "holding_seconds": 10.0,
+        "type": "time_exit"
+      },
+      "metadata": {
+        "feature": "hour_utc",
+        "num_states": 2,
+        "state_val": 0,
+        "tier": "FSM",
+        "transitions": {
+          "Buy": 1,
+          "Sell": 1
+        }
+      },
+      "name": "fsm_s0_hour_utc_>_2.9",
+      "side": "open_buy",
+      "state_transitions": {
+        "Buy": 1,
+        "Sell": 1
+      },
+      "volume": 0.01
+    },
+    {
+      "complexity": 12,
+      "condition": {
+        "children": [
+          {
+            "expected_state": 0,
+            "type": "state_condition"
+          },
+          {
+            "feature": "hour_utc",
+            "operator": ">",
+            "threshold": 2.9,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "children": [
+          {
+            "expected_state": 0,
+            "type": "state_condition"
+          },
+          {
+            "feature": "hour_utc",
+            "operator": ">",
+            "threshold": 2.9,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "exit_rule": {
+        "holding_seconds": 10.0,
+        "type": "time_exit"
+      },
+      "metadata": {
+        "feature": "hour_utc",
+        "num_states": 2,
+        "state_val": 0,
+        "tier": "FSM",
+        "transitions": {
+          "Buy": 1,
+          "Sell": 1
+        }
+      },
+      "name": "fsm_s0_hour_utc_>_2.9",
+      "side": "open_sell",
+      "state_transitions": {
+        "Buy": 1,
+        "Sell": 1
+      },
+      "volume": 0.01
+    },
+    {
+      "complexity": 12,
+      "condition": {
+        "children": [
+          {
+            "expected_state": 0,
+            "type": "state_condition"
+          },
+          {
+            "feature": "hour_utc",
+            "operator": ">",
+            "threshold": 8.3,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "children": [
+          {
+            "expected_state": 0,
+            "type": "state_condition"
+          },
+          {
+            "feature": "hour_utc",
+            "operator": ">",
+            "threshold": 8.3,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "exit_rule": {
+        "holding_seconds": 10.0,
+        "type": "time_exit"
+      },
+      "metadata": {
+        "feature": "hour_utc",
+        "num_states": 2,
+        "state_val": 0,
+        "tier": "FSM",
+        "transitions": {
+          "Buy": 1,
+          "Sell": 1
+        }
+      },
+      "name": "fsm_s0_hour_utc_>_8.3",
+      "side": "open_buy",
+      "state_transitions": {
+        "Buy": 1,
+        "Sell": 1
+      },
+      "volume": 0.01
+    },
+    {
+      "complexity": 12,
+      "condition": {
+        "children": [
+          {
+            "expected_state": 0,
+            "type": "state_condition"
+          },
+          {
+            "feature": "hour_utc",
+            "operator": ">",
+            "threshold": 8.3,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "children": [
+          {
+            "expected_state": 0,
+            "type": "state_condition"
+          },
+          {
+            "feature": "hour_utc",
+            "operator": ">",
+            "threshold": 8.3,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "exit_rule": {
+        "holding_seconds": 10.0,
+        "type": "time_exit"
+      },
+      "metadata": {
+        "feature": "hour_utc",
+        "num_states": 2,
+        "state_val": 0,
+        "tier": "FSM",
+        "transitions": {
+          "Buy": 1,
+          "Sell": 1
+        }
+      },
+      "name": "fsm_s0_hour_utc_>_8.3",
+      "side": "open_sell",
+      "state_transitions": {
+        "Buy": 1,
+        "Sell": 1
+      },
+      "volume": 0.01
+    },
+    {
+      "complexity": 12,
+      "condition": {
+        "children": [
+          {
+            "expected_state": 0,
+            "type": "state_condition"
+          },
+          {
+            "feature": "hour_utc",
+            "operator": ">",
+            "threshold": 13.700000000000001,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "children": [
+          {
+            "expected_state": 0,
+            "type": "state_condition"
+          },
+          {
+            "feature": "hour_utc",
+            "operator": ">",
+            "threshold": 13.700000000000001,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "exit_rule": {
+        "holding_seconds": 10.0,
+        "type": "time_exit"
+      },
+      "metadata": {
+        "feature": "hour_utc",
+        "num_states": 2,
+        "state_val": 0,
+        "tier": "FSM",
+        "transitions": {
+          "Buy": 1,
+          "Sell": 1
+        }
+      },
+      "name": "fsm_s0_hour_utc_>_13.7",
+      "side": "open_buy",
+      "state_transitions": {
+        "Buy": 1,
+        "Sell": 1
+      },
+      "volume": 0.01
+    },
+    {
+      "complexity": 12,
+      "condition": {
+        "children": [
+          {
+            "expected_state": 0,
+            "type": "state_condition"
+          },
+          {
+            "feature": "hour_utc",
+            "operator": ">",
+            "threshold": 13.700000000000001,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "children": [
+          {
+            "expected_state": 0,
+            "type": "state_condition"
+          },
+          {
+            "feature": "hour_utc",
+            "operator": ">",
+            "threshold": 13.700000000000001,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "exit_rule": {
+        "holding_seconds": 10.0,
+        "type": "time_exit"
+      },
+      "metadata": {
+        "feature": "hour_utc",
+        "num_states": 2,
+        "state_val": 0,
+        "tier": "FSM",
+        "transitions": {
+          "Buy": 1,
+          "Sell": 1
+        }
+      },
+      "name": "fsm_s0_hour_utc_>_13.7",
+      "side": "open_sell",
+      "state_transitions": {
+        "Buy": 1,
+        "Sell": 1
+      },
+      "volume": 0.01
+    },
+    {
+      "complexity": 12,
+      "condition": {
+        "children": [
+          {
+            "expected_state": 0,
+            "type": "state_condition"
+          },
+          {
+            "feature": "hour_utc",
+            "operator": ">",
+            "threshold": 19.099999999999998,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "children": [
+          {
+            "expected_state": 0,
+            "type": "state_condition"
+          },
+          {
+            "feature": "hour_utc",
+            "operator": ">",
+            "threshold": 19.099999999999998,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "exit_rule": {
+        "holding_seconds": 10.0,
+        "type": "time_exit"
+      },
+      "metadata": {
+        "feature": "hour_utc",
+        "num_states": 2,
+        "state_val": 0,
+        "tier": "FSM",
+        "transitions": {
+          "Buy": 1,
+          "Sell": 1
+        }
+      },
+      "name": "fsm_s0_hour_utc_>_19.1",
+      "side": "open_buy",
+      "state_transitions": {
+        "Buy": 1,
+        "Sell": 1
+      },
+      "volume": 0.01
+    },
+    {
+      "complexity": 12,
+      "condition": {
+        "children": [
+          {
+            "expected_state": 0,
+            "type": "state_condition"
+          },
+          {
+            "feature": "hour_utc",
+            "operator": ">",
+            "threshold": 19.099999999999998,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "children": [
+          {
+            "expected_state": 0,
+            "type": "state_condition"
+          },
+          {
+            "feature": "hour_utc",
+            "operator": ">",
+            "threshold": 19.099999999999998,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "exit_rule": {
+        "holding_seconds": 10.0,
+        "type": "time_exit"
+      },
+      "metadata": {
+        "feature": "hour_utc",
+        "num_states": 2,
+        "state_val": 0,
+        "tier": "FSM",
+        "transitions": {
+          "Buy": 1,
+          "Sell": 1
+        }
+      },
+      "name": "fsm_s0_hour_utc_>_19.1",
+      "side": "open_sell",
+      "state_transitions": {
+        "Buy": 1,
+        "Sell": 1
+      },
+      "volume": 0.01
+    },
+    {
+      "complexity": 12,
+      "condition": {
+        "children": [
+          {
+            "expected_state": 0,
+            "type": "state_condition"
+          },
+          {
+            "feature": "hour_utc",
+            "operator": "<",
+            "threshold": 2.9,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "children": [
+          {
+            "expected_state": 0,
+            "type": "state_condition"
+          },
+          {
+            "feature": "hour_utc",
+            "operator": "<",
+            "threshold": 2.9,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "exit_rule": {
+        "holding_seconds": 10.0,
+        "type": "time_exit"
+      },
+      "metadata": {
+        "feature": "hour_utc",
+        "num_states": 2,
+        "state_val": 0,
+        "tier": "FSM",
+        "transitions": {
+          "Buy": 1,
+          "Sell": 1
+        }
+      },
+      "name": "fsm_s0_hour_utc_<_2.9",
+      "side": "open_buy",
+      "state_transitions": {
+        "Buy": 1,
+        "Sell": 1
+      },
+      "volume": 0.01
+    },
+    {
+      "complexity": 12,
+      "condition": {
+        "children": [
+          {
+            "expected_state": 0,
+            "type": "state_condition"
+          },
+          {
+            "feature": "hour_utc",
+            "operator": "<",
+            "threshold": 2.9,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "children": [
+          {
+            "expected_state": 0,
+            "type": "state_condition"
+          },
+          {
+            "feature": "hour_utc",
+            "operator": "<",
+            "threshold": 2.9,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "exit_rule": {
+        "holding_seconds": 10.0,
+        "type": "time_exit"
+      },
+      "metadata": {
+        "feature": "hour_utc",
+        "num_states": 2,
+        "state_val": 0,
+        "tier": "FSM",
+        "transitions": {
+          "Buy": 1,
+          "Sell": 1
+        }
+      },
+      "name": "fsm_s0_hour_utc_<_2.9",
+      "side": "open_sell",
+      "state_transitions": {
+        "Buy": 1,
+        "Sell": 1
+      },
+      "volume": 0.01
+    },
+    {
+      "complexity": 12,
+      "condition": {
+        "children": [
+          {
+            "expected_state": 0,
+            "type": "state_condition"
+          },
+          {
+            "feature": "hour_utc",
+            "operator": "<",
+            "threshold": 8.3,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "children": [
+          {
+            "expected_state": 0,
+            "type": "state_condition"
+          },
+          {
+            "feature": "hour_utc",
+            "operator": "<",
+            "threshold": 8.3,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "exit_rule": {
+        "holding_seconds": 10.0,
+        "type": "time_exit"
+      },
+      "metadata": {
+        "feature": "hour_utc",
+        "num_states": 2,
+        "state_val": 0,
+        "tier": "FSM",
+        "transitions": {
+          "Buy": 1,
+          "Sell": 1
+        }
+      },
+      "name": "fsm_s0_hour_utc_<_8.3",
+      "side": "open_buy",
+      "state_transitions": {
+        "Buy": 1,
+        "Sell": 1
+      },
+      "volume": 0.01
+    },
+    {
+      "complexity": 12,
+      "condition": {
+        "children": [
+          {
+            "expected_state": 0,
+            "type": "state_condition"
+          },
+          {
+            "feature": "hour_utc",
+            "operator": "<",
+            "threshold": 8.3,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "children": [
+          {
+            "expected_state": 0,
+            "type": "state_condition"
+          },
+          {
+            "feature": "hour_utc",
+            "operator": "<",
+            "threshold": 8.3,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "exit_rule": {
+        "holding_seconds": 10.0,
+        "type": "time_exit"
+      },
+      "metadata": {
+        "feature": "hour_utc",
+        "num_states": 2,
+        "state_val": 0,
+        "tier": "FSM",
+        "transitions": {
+          "Buy": 1,
+          "Sell": 1
+        }
+      },
+      "name": "fsm_s0_hour_utc_<_8.3",
+      "side": "open_sell",
+      "state_transitions": {
+        "Buy": 1,
+        "Sell": 1
+      },
+      "volume": 0.01
+    },
+    {
+      "complexity": 12,
+      "condition": {
+        "children": [
+          {
+            "expected_state": 0,
+            "type": "state_condition"
+          },
+          {
+            "feature": "hour_utc",
+            "operator": "<",
+            "threshold": 13.700000000000001,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "children": [
+          {
+            "expected_state": 0,
+            "type": "state_condition"
+          },
+          {
+            "feature": "hour_utc",
+            "operator": "<",
+            "threshold": 13.700000000000001,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "exit_rule": {
+        "holding_seconds": 10.0,
+        "type": "time_exit"
+      },
+      "metadata": {
+        "feature": "hour_utc",
+        "num_states": 2,
+        "state_val": 0,
+        "tier": "FSM",
+        "transitions": {
+          "Buy": 1,
+          "Sell": 1
+        }
+      },
+      "name": "fsm_s0_hour_utc_<_13.7",
+      "side": "open_buy",
+      "state_transitions": {
+        "Buy": 1,
+        "Sell": 1
+      },
+      "volume": 0.01
+    },
+    {
+      "complexity": 12,
+      "condition": {
+        "children": [
+          {
+            "expected_state": 0,
+            "type": "state_condition"
+          },
+          {
+            "feature": "hour_utc",
+            "operator": "<",
+            "threshold": 13.700000000000001,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "children": [
+          {
+            "expected_state": 0,
+            "type": "state_condition"
+          },
+          {
+            "feature": "hour_utc",
+            "operator": "<",
+            "threshold": 13.700000000000001,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "exit_rule": {
+        "holding_seconds": 10.0,
+        "type": "time_exit"
+      },
+      "metadata": {
+        "feature": "hour_utc",
+        "num_states": 2,
+        "state_val": 0,
+        "tier": "FSM",
+        "transitions": {
+          "Buy": 1,
+          "Sell": 1
+        }
+      },
+      "name": "fsm_s0_hour_utc_<_13.7",
+      "side": "open_sell",
+      "state_transitions": {
+        "Buy": 1,
+        "Sell": 1
+      },
+      "volume": 0.01
+    },
+    {
+      "complexity": 12,
+      "condition": {
+        "children": [
+          {
+            "expected_state": 0,
+            "type": "state_condition"
+          },
+          {
+            "feature": "hour_utc",
+            "operator": "<",
+            "threshold": 19.099999999999998,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "children": [
+          {
+            "expected_state": 0,
+            "type": "state_condition"
+          },
+          {
+            "feature": "hour_utc",
+            "operator": "<",
+            "threshold": 19.099999999999998,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "exit_rule": {
+        "holding_seconds": 10.0,
+        "type": "time_exit"
+      },
+      "metadata": {
+        "feature": "hour_utc",
+        "num_states": 2,
+        "state_val": 0,
+        "tier": "FSM",
+        "transitions": {
+          "Buy": 1,
+          "Sell": 1
+        }
+      },
+      "name": "fsm_s0_hour_utc_<_19.1",
+      "side": "open_buy",
+      "state_transitions": {
+        "Buy": 1,
+        "Sell": 1
+      },
+      "volume": 0.01
+    },
+    {
+      "complexity": 12,
+      "condition": {
+        "children": [
+          {
+            "expected_state": 0,
+            "type": "state_condition"
+          },
+          {
+            "feature": "hour_utc",
+            "operator": "<",
+            "threshold": 19.099999999999998,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "children": [
+          {
+            "expected_state": 0,
+            "type": "state_condition"
+          },
+          {
+            "feature": "hour_utc",
+            "operator": "<",
+            "threshold": 19.099999999999998,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "exit_rule": {
+        "holding_seconds": 10.0,
+        "type": "time_exit"
+      },
+      "metadata": {
+        "feature": "hour_utc",
+        "num_states": 2,
+        "state_val": 0,
+        "tier": "FSM",
+        "transitions": {
+          "Buy": 1,
+          "Sell": 1
+        }
+      },
+      "name": "fsm_s0_hour_utc_<_19.1",
+      "side": "open_sell",
+      "state_transitions": {
+        "Buy": 1,
+        "Sell": 1
+      },
+      "volume": 0.01
+    },
+    {
+      "complexity": 12,
+      "condition": {
+        "children": [
+          {
+            "expected_state": 1,
+            "type": "state_condition"
+          },
+          {
+            "feature": "hour_utc",
+            "operator": ">",
+            "threshold": 2.9,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "children": [
+          {
+            "expected_state": 1,
+            "type": "state_condition"
+          },
+          {
+            "feature": "hour_utc",
+            "operator": ">",
+            "threshold": 2.9,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "exit_rule": {
+        "holding_seconds": 10.0,
+        "type": "time_exit"
+      },
+      "metadata": {
+        "feature": "hour_utc",
+        "num_states": 2,
+        "state_val": 1,
+        "tier": "FSM",
+        "transitions": {
+          "Buy": 0,
+          "Sell": 0
+        }
+      },
+      "name": "fsm_s1_hour_utc_>_2.9",
+      "side": "open_buy",
+      "state_transitions": {
+        "Buy": 0,
+        "Sell": 0
+      },
+      "volume": 0.01
+    },
+    {
+      "complexity": 12,
+      "condition": {
+        "children": [
+          {
+            "expected_state": 1,
+            "type": "state_condition"
+          },
+          {
+            "feature": "hour_utc",
+            "operator": ">",
+            "threshold": 2.9,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "children": [
+          {
+            "expected_state": 1,
+            "type": "state_condition"
+          },
+          {
+            "feature": "hour_utc",
+            "operator": ">",
+            "threshold": 2.9,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "exit_rule": {
+        "holding_seconds": 10.0,
+        "type": "time_exit"
+      },
+      "metadata": {
+        "feature": "hour_utc",
+        "num_states": 2,
+        "state_val": 1,
+        "tier": "FSM",
+        "transitions": {
+          "Buy": 0,
+          "Sell": 0
+        }
+      },
+      "name": "fsm_s1_hour_utc_>_2.9",
+      "side": "open_sell",
+      "state_transitions": {
+        "Buy": 0,
+        "Sell": 0
+      },
+      "volume": 0.01
+    },
+    {
+      "complexity": 12,
+      "condition": {
+        "children": [
+          {
+            "expected_state": 1,
+            "type": "state_condition"
+          },
+          {
+            "feature": "hour_utc",
+            "operator": ">",
+            "threshold": 8.3,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "children": [
+          {
+            "expected_state": 1,
+            "type": "state_condition"
+          },
+          {
+            "feature": "hour_utc",
+            "operator": ">",
+            "threshold": 8.3,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "exit_rule": {
+        "holding_seconds": 10.0,
+        "type": "time_exit"
+      },
+      "metadata": {
+        "feature": "hour_utc",
+        "num_states": 2,
+        "state_val": 1,
+        "tier": "FSM",
+        "transitions": {
+          "Buy": 0,
+          "Sell": 0
+        }
+      },
+      "name": "fsm_s1_hour_utc_>_8.3",
+      "side": "open_buy",
+      "state_transitions": {
+        "Buy": 0,
+        "Sell": 0
+      },
+      "volume": 0.01
+    },
+    {
+      "complexity": 12,
+      "condition": {
+        "children": [
+          {
+            "expected_state": 1,
+            "type": "state_condition"
+          },
+          {
+            "feature": "hour_utc",
+            "operator": ">",
+            "threshold": 8.3,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "children": [
+          {
+            "expected_state": 1,
+            "type": "state_condition"
+          },
+          {
+            "feature": "hour_utc",
+            "operator": ">",
+            "threshold": 8.3,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "exit_rule": {
+        "holding_seconds": 10.0,
+        "type": "time_exit"
+      },
+      "metadata": {
+        "feature": "hour_utc",
+        "num_states": 2,
+        "state_val": 1,
+        "tier": "FSM",
+        "transitions": {
+          "Buy": 0,
+          "Sell": 0
+        }
+      },
+      "name": "fsm_s1_hour_utc_>_8.3",
+      "side": "open_sell",
+      "state_transitions": {
+        "Buy": 0,
+        "Sell": 0
+      },
+      "volume": 0.01
+    },
+    {
+      "complexity": 12,
+      "condition": {
+        "children": [
+          {
+            "expected_state": 1,
+            "type": "state_condition"
+          },
+          {
+            "feature": "hour_utc",
+            "operator": ">",
+            "threshold": 13.700000000000001,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "children": [
+          {
+            "expected_state": 1,
+            "type": "state_condition"
+          },
+          {
+            "feature": "hour_utc",
+            "operator": ">",
+            "threshold": 13.700000000000001,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "exit_rule": {
+        "holding_seconds": 10.0,
+        "type": "time_exit"
+      },
+      "metadata": {
+        "feature": "hour_utc",
+        "num_states": 2,
+        "state_val": 1,
+        "tier": "FSM",
+        "transitions": {
+          "Buy": 0,
+          "Sell": 0
+        }
+      },
+      "name": "fsm_s1_hour_utc_>_13.7",
+      "side": "open_buy",
+      "state_transitions": {
+        "Buy": 0,
+        "Sell": 0
+      },
+      "volume": 0.01
+    },
+    {
+      "complexity": 12,
+      "condition": {
+        "children": [
+          {
+            "expected_state": 1,
+            "type": "state_condition"
+          },
+          {
+            "feature": "hour_utc",
+            "operator": ">",
+            "threshold": 13.700000000000001,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "children": [
+          {
+            "expected_state": 1,
+            "type": "state_condition"
+          },
+          {
+            "feature": "hour_utc",
+            "operator": ">",
+            "threshold": 13.700000000000001,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "exit_rule": {
+        "holding_seconds": 10.0,
+        "type": "time_exit"
+      },
+      "metadata": {
+        "feature": "hour_utc",
+        "num_states": 2,
+        "state_val": 1,
+        "tier": "FSM",
+        "transitions": {
+          "Buy": 0,
+          "Sell": 0
+        }
+      },
+      "name": "fsm_s1_hour_utc_>_13.7",
+      "side": "open_sell",
+      "state_transitions": {
+        "Buy": 0,
+        "Sell": 0
+      },
+      "volume": 0.01
+    },
+    {
+      "complexity": 12,
+      "condition": {
+        "children": [
+          {
+            "expected_state": 1,
+            "type": "state_condition"
+          },
+          {
+            "feature": "hour_utc",
+            "operator": ">",
+            "threshold": 19.099999999999998,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "children": [
+          {
+            "expected_state": 1,
+            "type": "state_condition"
+          },
+          {
+            "feature": "hour_utc",
+            "operator": ">",
+            "threshold": 19.099999999999998,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "exit_rule": {
+        "holding_seconds": 10.0,
+        "type": "time_exit"
+      },
+      "metadata": {
+        "feature": "hour_utc",
+        "num_states": 2,
+        "state_val": 1,
+        "tier": "FSM",
+        "transitions": {
+          "Buy": 0,
+          "Sell": 0
+        }
+      },
+      "name": "fsm_s1_hour_utc_>_19.1",
+      "side": "open_buy",
+      "state_transitions": {
+        "Buy": 0,
+        "Sell": 0
+      },
+      "volume": 0.01
+    },
+    {
+      "complexity": 12,
+      "condition": {
+        "children": [
+          {
+            "expected_state": 1,
+            "type": "state_condition"
+          },
+          {
+            "feature": "hour_utc",
+            "operator": ">",
+            "threshold": 19.099999999999998,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "children": [
+          {
+            "expected_state": 1,
+            "type": "state_condition"
+          },
+          {
+            "feature": "hour_utc",
+            "operator": ">",
+            "threshold": 19.099999999999998,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "exit_rule": {
+        "holding_seconds": 10.0,
+        "type": "time_exit"
+      },
+      "metadata": {
+        "feature": "hour_utc",
+        "num_states": 2,
+        "state_val": 1,
+        "tier": "FSM",
+        "transitions": {
+          "Buy": 0,
+          "Sell": 0
+        }
+      },
+      "name": "fsm_s1_hour_utc_>_19.1",
+      "side": "open_sell",
+      "state_transitions": {
+        "Buy": 0,
+        "Sell": 0
+      },
+      "volume": 0.01
+    },
+    {
+      "complexity": 12,
+      "condition": {
+        "children": [
+          {
+            "expected_state": 1,
+            "type": "state_condition"
+          },
+          {
+            "feature": "hour_utc",
+            "operator": "<",
+            "threshold": 2.9,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "children": [
+          {
+            "expected_state": 1,
+            "type": "state_condition"
+          },
+          {
+            "feature": "hour_utc",
+            "operator": "<",
+            "threshold": 2.9,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "exit_rule": {
+        "holding_seconds": 10.0,
+        "type": "time_exit"
+      },
+      "metadata": {
+        "feature": "hour_utc",
+        "num_states": 2,
+        "state_val": 1,
+        "tier": "FSM",
+        "transitions": {
+          "Buy": 0,
+          "Sell": 0
+        }
+      },
+      "name": "fsm_s1_hour_utc_<_2.9",
+      "side": "open_buy",
+      "state_transitions": {
+        "Buy": 0,
+        "Sell": 0
+      },
+      "volume": 0.01
+    },
+    {
+      "complexity": 12,
+      "condition": {
+        "children": [
+          {
+            "expected_state": 1,
+            "type": "state_condition"
+          },
+          {
+            "feature": "hour_utc",
+            "operator": "<",
+            "threshold": 2.9,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "children": [
+          {
+            "expected_state": 1,
+            "type": "state_condition"
+          },
+          {
+            "feature": "hour_utc",
+            "operator": "<",
+            "threshold": 2.9,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "exit_rule": {
+        "holding_seconds": 10.0,
+        "type": "time_exit"
+      },
+      "metadata": {
+        "feature": "hour_utc",
+        "num_states": 2,
+        "state_val": 1,
+        "tier": "FSM",
+        "transitions": {
+          "Buy": 0,
+          "Sell": 0
+        }
+      },
+      "name": "fsm_s1_hour_utc_<_2.9",
+      "side": "open_sell",
+      "state_transitions": {
+        "Buy": 0,
+        "Sell": 0
+      },
+      "volume": 0.01
+    },
+    {
+      "complexity": 12,
+      "condition": {
+        "children": [
+          {
+            "expected_state": 1,
+            "type": "state_condition"
+          },
+          {
+            "feature": "hour_utc",
+            "operator": "<",
+            "threshold": 8.3,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "children": [
+          {
+            "expected_state": 1,
+            "type": "state_condition"
+          },
+          {
+            "feature": "hour_utc",
+            "operator": "<",
+            "threshold": 8.3,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "exit_rule": {
+        "holding_seconds": 10.0,
+        "type": "time_exit"
+      },
+      "metadata": {
+        "feature": "hour_utc",
+        "num_states": 2,
+        "state_val": 1,
+        "tier": "FSM",
+        "transitions": {
+          "Buy": 0,
+          "Sell": 0
+        }
+      },
+      "name": "fsm_s1_hour_utc_<_8.3",
+      "side": "open_buy",
+      "state_transitions": {
+        "Buy": 0,
+        "Sell": 0
+      },
+      "volume": 0.01
+    },
+    {
+      "complexity": 12,
+      "condition": {
+        "children": [
+          {
+            "expected_state": 1,
+            "type": "state_condition"
+          },
+          {
+            "feature": "hour_utc",
+            "operator": "<",
+            "threshold": 8.3,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "children": [
+          {
+            "expected_state": 1,
+            "type": "state_condition"
+          },
+          {
+            "feature": "hour_utc",
+            "operator": "<",
+            "threshold": 8.3,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "exit_rule": {
+        "holding_seconds": 10.0,
+        "type": "time_exit"
+      },
+      "metadata": {
+        "feature": "hour_utc",
+        "num_states": 2,
+        "state_val": 1,
+        "tier": "FSM",
+        "transitions": {
+          "Buy": 0,
+          "Sell": 0
+        }
+      },
+      "name": "fsm_s1_hour_utc_<_8.3",
+      "side": "open_sell",
+      "state_transitions": {
+        "Buy": 0,
+        "Sell": 0
+      },
+      "volume": 0.01
+    },
+    {
+      "complexity": 12,
+      "condition": {
+        "children": [
+          {
+            "expected_state": 1,
+            "type": "state_condition"
+          },
+          {
+            "feature": "hour_utc",
+            "operator": "<",
+            "threshold": 13.700000000000001,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "children": [
+          {
+            "expected_state": 1,
+            "type": "state_condition"
+          },
+          {
+            "feature": "hour_utc",
+            "operator": "<",
+            "threshold": 13.700000000000001,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "exit_rule": {
+        "holding_seconds": 10.0,
+        "type": "time_exit"
+      },
+      "metadata": {
+        "feature": "hour_utc",
+        "num_states": 2,
+        "state_val": 1,
+        "tier": "FSM",
+        "transitions": {
+          "Buy": 0,
+          "Sell": 0
+        }
+      },
+      "name": "fsm_s1_hour_utc_<_13.7",
+      "side": "open_buy",
+      "state_transitions": {
+        "Buy": 0,
+        "Sell": 0
+      },
+      "volume": 0.01
+    },
+    {
+      "complexity": 12,
+      "condition": {
+        "children": [
+          {
+            "expected_state": 1,
+            "type": "state_condition"
+          },
+          {
+            "feature": "hour_utc",
+            "operator": "<",
+            "threshold": 13.700000000000001,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "children": [
+          {
+            "expected_state": 1,
+            "type": "state_condition"
+          },
+          {
+            "feature": "hour_utc",
+            "operator": "<",
+            "threshold": 13.700000000000001,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "exit_rule": {
+        "holding_seconds": 10.0,
+        "type": "time_exit"
+      },
+      "metadata": {
+        "feature": "hour_utc",
+        "num_states": 2,
+        "state_val": 1,
+        "tier": "FSM",
+        "transitions": {
+          "Buy": 0,
+          "Sell": 0
+        }
+      },
+      "name": "fsm_s1_hour_utc_<_13.7",
+      "side": "open_sell",
+      "state_transitions": {
+        "Buy": 0,
+        "Sell": 0
+      },
+      "volume": 0.01
+    },
+    {
+      "complexity": 12,
+      "condition": {
+        "children": [
+          {
+            "expected_state": 1,
+            "type": "state_condition"
+          },
+          {
+            "feature": "hour_utc",
+            "operator": "<",
+            "threshold": 19.099999999999998,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "children": [
+          {
+            "expected_state": 1,
+            "type": "state_condition"
+          },
+          {
+            "feature": "hour_utc",
+            "operator": "<",
+            "threshold": 19.099999999999998,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "exit_rule": {
+        "holding_seconds": 10.0,
+        "type": "time_exit"
+      },
+      "metadata": {
+        "feature": "hour_utc",
+        "num_states": 2,
+        "state_val": 1,
+        "tier": "FSM",
+        "transitions": {
+          "Buy": 0,
+          "Sell": 0
+        }
+      },
+      "name": "fsm_s1_hour_utc_<_19.1",
+      "side": "open_buy",
+      "state_transitions": {
+        "Buy": 0,
+        "Sell": 0
+      },
+      "volume": 0.01
+    },
+    {
+      "complexity": 12,
+      "condition": {
+        "children": [
+          {
+            "expected_state": 1,
+            "type": "state_condition"
+          },
+          {
+            "feature": "hour_utc",
+            "operator": "<",
+            "threshold": 19.099999999999998,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "children": [
+          {
+            "expected_state": 1,
+            "type": "state_condition"
+          },
+          {
+            "feature": "hour_utc",
+            "operator": "<",
+            "threshold": 19.099999999999998,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "exit_rule": {
+        "holding_seconds": 10.0,
+        "type": "time_exit"
+      },
+      "metadata": {
+        "feature": "hour_utc",
+        "num_states": 2,
+        "state_val": 1,
+        "tier": "FSM",
+        "transitions": {
+          "Buy": 0,
+          "Sell": 0
+        }
+      },
+      "name": "fsm_s1_hour_utc_<_19.1",
+      "side": "open_sell",
+      "state_transitions": {
+        "Buy": 0,
+        "Sell": 0
+      },
+      "volume": 0.01
+    },
+    {
+      "complexity": 12,
+      "condition": {
+        "children": [
+          {
+            "expected_state": 0,
+            "type": "state_condition"
+          },
+          {
+            "feature": "bar_ret5",
+            "operator": ">",
+            "threshold": -0.0003,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "children": [
+          {
+            "expected_state": 0,
+            "type": "state_condition"
+          },
+          {
+            "feature": "bar_ret5",
+            "operator": ">",
+            "threshold": -0.0003,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "exit_rule": {
+        "holding_seconds": 10.0,
+        "type": "time_exit"
+      },
+      "metadata": {
+        "feature": "bar_ret5",
+        "num_states": 2,
+        "state_val": 0,
+        "tier": "FSM",
+        "transitions": {
+          "Buy": 1,
+          "Sell": 1
+        }
+      },
+      "name": "fsm_s0_bar_ret5_>_-0.0003",
+      "side": "open_buy",
+      "state_transitions": {
+        "Buy": 1,
+        "Sell": 1
+      },
+      "volume": 0.01
+    },
+    {
+      "complexity": 12,
+      "condition": {
+        "children": [
+          {
+            "expected_state": 0,
+            "type": "state_condition"
+          },
+          {
+            "feature": "bar_ret5",
+            "operator": ">",
+            "threshold": -0.0003,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "children": [
+          {
+            "expected_state": 0,
+            "type": "state_condition"
+          },
+          {
+            "feature": "bar_ret5",
+            "operator": ">",
+            "threshold": -0.0003,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "exit_rule": {
+        "holding_seconds": 10.0,
+        "type": "time_exit"
+      },
+      "metadata": {
+        "feature": "bar_ret5",
+        "num_states": 2,
+        "state_val": 0,
+        "tier": "FSM",
+        "transitions": {
+          "Buy": 1,
+          "Sell": 1
+        }
+      },
+      "name": "fsm_s0_bar_ret5_>_-0.0003",
+      "side": "open_sell",
+      "state_transitions": {
+        "Buy": 1,
+        "Sell": 1
+      },
+      "volume": 0.01
+    },
+    {
+      "complexity": 12,
+      "condition": {
+        "children": [
+          {
+            "expected_state": 0,
+            "type": "state_condition"
+          },
+          {
+            "feature": "bar_ret5",
+            "operator": ">",
+            "threshold": 0.0003,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "children": [
+          {
+            "expected_state": 0,
+            "type": "state_condition"
+          },
+          {
+            "feature": "bar_ret5",
+            "operator": ">",
+            "threshold": 0.0003,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "exit_rule": {
+        "holding_seconds": 10.0,
+        "type": "time_exit"
+      },
+      "metadata": {
+        "feature": "bar_ret5",
+        "num_states": 2,
+        "state_val": 0,
+        "tier": "FSM",
+        "transitions": {
+          "Buy": 1,
+          "Sell": 1
+        }
+      },
+      "name": "fsm_s0_bar_ret5_>_0.0003",
+      "side": "open_buy",
+      "state_transitions": {
+        "Buy": 1,
+        "Sell": 1
+      },
+      "volume": 0.01
+    },
+    {
+      "complexity": 12,
+      "condition": {
+        "children": [
+          {
+            "expected_state": 0,
+            "type": "state_condition"
+          },
+          {
+            "feature": "bar_ret5",
+            "operator": ">",
+            "threshold": 0.0003,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "children": [
+          {
+            "expected_state": 0,
+            "type": "state_condition"
+          },
+          {
+            "feature": "bar_ret5",
+            "operator": ">",
+            "threshold": 0.0003,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "exit_rule": {
+        "holding_seconds": 10.0,
+        "type": "time_exit"
+      },
+      "metadata": {
+        "feature": "bar_ret5",
+        "num_states": 2,
+        "state_val": 0,
+        "tier": "FSM",
+        "transitions": {
+          "Buy": 1,
+          "Sell": 1
+        }
+      },
+      "name": "fsm_s0_bar_ret5_>_0.0003",
+      "side": "open_sell",
+      "state_transitions": {
+        "Buy": 1,
+        "Sell": 1
+      },
+      "volume": 0.01
+    },
+    {
+      "complexity": 12,
+      "condition": {
+        "children": [
+          {
+            "expected_state": 0,
+            "type": "state_condition"
+          },
+          {
+            "feature": "bar_ret5",
+            "operator": "<",
+            "threshold": -0.0003,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "children": [
+          {
+            "expected_state": 0,
+            "type": "state_condition"
+          },
+          {
+            "feature": "bar_ret5",
+            "operator": "<",
+            "threshold": -0.0003,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "exit_rule": {
+        "holding_seconds": 10.0,
+        "type": "time_exit"
+      },
+      "metadata": {
+        "feature": "bar_ret5",
+        "num_states": 2,
+        "state_val": 0,
+        "tier": "FSM",
+        "transitions": {
+          "Buy": 1,
+          "Sell": 1
+        }
+      },
+      "name": "fsm_s0_bar_ret5_<_-0.0003",
+      "side": "open_buy",
+      "state_transitions": {
+        "Buy": 1,
+        "Sell": 1
+      },
+      "volume": 0.01
+    },
+    {
+      "complexity": 12,
+      "condition": {
+        "children": [
+          {
+            "expected_state": 0,
+            "type": "state_condition"
+          },
+          {
+            "feature": "bar_ret5",
+            "operator": "<",
+            "threshold": -0.0003,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "children": [
+          {
+            "expected_state": 0,
+            "type": "state_condition"
+          },
+          {
+            "feature": "bar_ret5",
+            "operator": "<",
+            "threshold": -0.0003,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "exit_rule": {
+        "holding_seconds": 10.0,
+        "type": "time_exit"
+      },
+      "metadata": {
+        "feature": "bar_ret5",
+        "num_states": 2,
+        "state_val": 0,
+        "tier": "FSM",
+        "transitions": {
+          "Buy": 1,
+          "Sell": 1
+        }
+      },
+      "name": "fsm_s0_bar_ret5_<_-0.0003",
+      "side": "open_sell",
+      "state_transitions": {
+        "Buy": 1,
+        "Sell": 1
+      },
+      "volume": 0.01
+    },
+    {
+      "complexity": 12,
+      "condition": {
+        "children": [
+          {
+            "expected_state": 0,
+            "type": "state_condition"
+          },
+          {
+            "feature": "bar_ret5",
+            "operator": "<",
+            "threshold": 0.0003,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "children": [
+          {
+            "expected_state": 0,
+            "type": "state_condition"
+          },
+          {
+            "feature": "bar_ret5",
+            "operator": "<",
+            "threshold": 0.0003,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "exit_rule": {
+        "holding_seconds": 10.0,
+        "type": "time_exit"
+      },
+      "metadata": {
+        "feature": "bar_ret5",
+        "num_states": 2,
+        "state_val": 0,
+        "tier": "FSM",
+        "transitions": {
+          "Buy": 1,
+          "Sell": 1
+        }
+      },
+      "name": "fsm_s0_bar_ret5_<_0.0003",
+      "side": "open_buy",
+      "state_transitions": {
+        "Buy": 1,
+        "Sell": 1
+      },
+      "volume": 0.01
+    },
+    {
+      "complexity": 12,
+      "condition": {
+        "children": [
+          {
+            "expected_state": 0,
+            "type": "state_condition"
+          },
+          {
+            "feature": "bar_ret5",
+            "operator": "<",
+            "threshold": 0.0003,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "children": [
+          {
+            "expected_state": 0,
+            "type": "state_condition"
+          },
+          {
+            "feature": "bar_ret5",
+            "operator": "<",
+            "threshold": 0.0003,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "exit_rule": {
+        "holding_seconds": 10.0,
+        "type": "time_exit"
+      },
+      "metadata": {
+        "feature": "bar_ret5",
+        "num_states": 2,
+        "state_val": 0,
+        "tier": "FSM",
+        "transitions": {
+          "Buy": 1,
+          "Sell": 1
+        }
+      },
+      "name": "fsm_s0_bar_ret5_<_0.0003",
+      "side": "open_sell",
+      "state_transitions": {
+        "Buy": 1,
+        "Sell": 1
+      },
+      "volume": 0.01
+    },
+    {
+      "complexity": 12,
+      "condition": {
+        "children": [
+          {
+            "expected_state": 1,
+            "type": "state_condition"
+          },
+          {
+            "feature": "bar_ret5",
+            "operator": ">",
+            "threshold": -0.0003,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "children": [
+          {
+            "expected_state": 1,
+            "type": "state_condition"
+          },
+          {
+            "feature": "bar_ret5",
+            "operator": ">",
+            "threshold": -0.0003,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "exit_rule": {
+        "holding_seconds": 10.0,
+        "type": "time_exit"
+      },
+      "metadata": {
+        "feature": "bar_ret5",
+        "num_states": 2,
+        "state_val": 1,
+        "tier": "FSM",
+        "transitions": {
+          "Buy": 0,
+          "Sell": 0
+        }
+      },
+      "name": "fsm_s1_bar_ret5_>_-0.0003",
+      "side": "open_buy",
+      "state_transitions": {
+        "Buy": 0,
+        "Sell": 0
+      },
+      "volume": 0.01
+    },
+    {
+      "complexity": 12,
+      "condition": {
+        "children": [
+          {
+            "expected_state": 1,
+            "type": "state_condition"
+          },
+          {
+            "feature": "bar_ret5",
+            "operator": ">",
+            "threshold": -0.0003,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "children": [
+          {
+            "expected_state": 1,
+            "type": "state_condition"
+          },
+          {
+            "feature": "bar_ret5",
+            "operator": ">",
+            "threshold": -0.0003,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "exit_rule": {
+        "holding_seconds": 10.0,
+        "type": "time_exit"
+      },
+      "metadata": {
+        "feature": "bar_ret5",
+        "num_states": 2,
+        "state_val": 1,
+        "tier": "FSM",
+        "transitions": {
+          "Buy": 0,
+          "Sell": 0
+        }
+      },
+      "name": "fsm_s1_bar_ret5_>_-0.0003",
+      "side": "open_sell",
+      "state_transitions": {
+        "Buy": 0,
+        "Sell": 0
+      },
+      "volume": 0.01
+    },
+    {
+      "complexity": 12,
+      "condition": {
+        "children": [
+          {
+            "expected_state": 1,
+            "type": "state_condition"
+          },
+          {
+            "feature": "bar_ret5",
+            "operator": ">",
+            "threshold": 0.0003,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "children": [
+          {
+            "expected_state": 1,
+            "type": "state_condition"
+          },
+          {
+            "feature": "bar_ret5",
+            "operator": ">",
+            "threshold": 0.0003,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "exit_rule": {
+        "holding_seconds": 10.0,
+        "type": "time_exit"
+      },
+      "metadata": {
+        "feature": "bar_ret5",
+        "num_states": 2,
+        "state_val": 1,
+        "tier": "FSM",
+        "transitions": {
+          "Buy": 0,
+          "Sell": 0
+        }
+      },
+      "name": "fsm_s1_bar_ret5_>_0.0003",
+      "side": "open_buy",
+      "state_transitions": {
+        "Buy": 0,
+        "Sell": 0
+      },
+      "volume": 0.01
+    },
+    {
+      "complexity": 12,
+      "condition": {
+        "children": [
+          {
+            "expected_state": 1,
+            "type": "state_condition"
+          },
+          {
+            "feature": "bar_ret5",
+            "operator": ">",
+            "threshold": 0.0003,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "children": [
+          {
+            "expected_state": 1,
+            "type": "state_condition"
+          },
+          {
+            "feature": "bar_ret5",
+            "operator": ">",
+            "threshold": 0.0003,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "exit_rule": {
+        "holding_seconds": 10.0,
+        "type": "time_exit"
+      },
+      "metadata": {
+        "feature": "bar_ret5",
+        "num_states": 2,
+        "state_val": 1,
+        "tier": "FSM",
+        "transitions": {
+          "Buy": 0,
+          "Sell": 0
+        }
+      },
+      "name": "fsm_s1_bar_ret5_>_0.0003",
+      "side": "open_sell",
+      "state_transitions": {
+        "Buy": 0,
+        "Sell": 0
+      },
+      "volume": 0.01
+    },
+    {
+      "complexity": 12,
+      "condition": {
+        "children": [
+          {
+            "expected_state": 1,
+            "type": "state_condition"
+          },
+          {
+            "feature": "bar_ret5",
+            "operator": "<",
+            "threshold": -0.0003,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "children": [
+          {
+            "expected_state": 1,
+            "type": "state_condition"
+          },
+          {
+            "feature": "bar_ret5",
+            "operator": "<",
+            "threshold": -0.0003,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "exit_rule": {
+        "holding_seconds": 10.0,
+        "type": "time_exit"
+      },
+      "metadata": {
+        "feature": "bar_ret5",
+        "num_states": 2,
+        "state_val": 1,
+        "tier": "FSM",
+        "transitions": {
+          "Buy": 0,
+          "Sell": 0
+        }
+      },
+      "name": "fsm_s1_bar_ret5_<_-0.0003",
+      "side": "open_buy",
+      "state_transitions": {
+        "Buy": 0,
+        "Sell": 0
+      },
+      "volume": 0.01
+    },
+    {
+      "complexity": 12,
+      "condition": {
+        "children": [
+          {
+            "expected_state": 1,
+            "type": "state_condition"
+          },
+          {
+            "feature": "bar_ret5",
+            "operator": "<",
+            "threshold": -0.0003,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "children": [
+          {
+            "expected_state": 1,
+            "type": "state_condition"
+          },
+          {
+            "feature": "bar_ret5",
+            "operator": "<",
+            "threshold": -0.0003,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "exit_rule": {
+        "holding_seconds": 10.0,
+        "type": "time_exit"
+      },
+      "metadata": {
+        "feature": "bar_ret5",
+        "num_states": 2,
+        "state_val": 1,
+        "tier": "FSM",
+        "transitions": {
+          "Buy": 0,
+          "Sell": 0
+        }
+      },
+      "name": "fsm_s1_bar_ret5_<_-0.0003",
+      "side": "open_sell",
+      "state_transitions": {
+        "Buy": 0,
+        "Sell": 0
+      },
+      "volume": 0.01
+    },
+    {
+      "complexity": 12,
+      "condition": {
+        "children": [
+          {
+            "expected_state": 1,
+            "type": "state_condition"
+          },
+          {
+            "feature": "bar_ret5",
+            "operator": "<",
+            "threshold": 0.0003,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "children": [
+          {
+            "expected_state": 1,
+            "type": "state_condition"
+          },
+          {
+            "feature": "bar_ret5",
+            "operator": "<",
+            "threshold": 0.0003,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "exit_rule": {
+        "holding_seconds": 10.0,
+        "type": "time_exit"
+      },
+      "metadata": {
+        "feature": "bar_ret5",
+        "num_states": 2,
+        "state_val": 1,
+        "tier": "FSM",
+        "transitions": {
+          "Buy": 0,
+          "Sell": 0
+        }
+      },
+      "name": "fsm_s1_bar_ret5_<_0.0003",
+      "side": "open_buy",
+      "state_transitions": {
+        "Buy": 0,
+        "Sell": 0
+      },
+      "volume": 0.01
+    },
+    {
+      "complexity": 12,
+      "condition": {
+        "children": [
+          {
+            "expected_state": 1,
+            "type": "state_condition"
+          },
+          {
+            "feature": "bar_ret5",
+            "operator": "<",
+            "threshold": 0.0003,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "cooldown_seconds": 0.0,
+      "entry": {
+        "children": [
+          {
+            "expected_state": 1,
+            "type": "state_condition"
+          },
+          {
+            "feature": "bar_ret5",
+            "operator": "<",
+            "threshold": 0.0003,
+            "type": "threshold"
+          }
+        ],
+        "type": "and"
+      },
+      "exit_rule": {
+        "holding_seconds": 10.0,
+        "type": "time_exit"
+      },
+      "metadata": {
+        "feature": "bar_ret5",
+        "num_states": 2,
+        "state_val": 1,
+        "tier": "FSM",
+        "transitions": {
+          "Buy": 0,
+          "Sell": 0
+        }
+      },
+      "name": "fsm_s1_bar_ret5_<_0.0003",
+      "side": "open_sell",
+      "state_transitions": {
+        "Buy": 0,
+        "Sell": 0
+      },
+      "volume": 0.01
+    }
+  ],
+  "fsm_count": 72,
+  "t0_count": 120
+}

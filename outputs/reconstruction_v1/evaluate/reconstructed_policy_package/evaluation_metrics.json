@@ -1,0 +1,19 @@
+{
+  "candidate_id": "cand_0000",
+  "metrics": {
+    "candidate_complexity": 5,
+    "entry_error_loss": 0.9976190476190476,
+    "f1": 0.004750593824228029,
+    "fn": 419,
+    "fp": 0,
+    "known_opportunities": 420,
+    "observed": 420,
+    "precision": 1.0,
+    "predicted": 1,
+    "recall": 0.002380952380952381,
+    "tp": 1,
+    "unknown_opportunities": 0,
+    "unsupported_observed_epochs": 0,
+    "whole_ledger_epochs": 420
+  }
+}

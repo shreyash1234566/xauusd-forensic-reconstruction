@@ -1,0 +1,24 @@
+{
+  "forbidden_substitutions": [
+    "M1 interpolated feed",
+    "synthetic/modelled feed",
+    "bid-only M1 proxy"
+  ],
+  "ledger": {
+    "path": "data/raw/trades_raw.tsv",
+    "rows": 423,
+    "sha256": "3B22B24C5F7BEB2118FFEC613640A9AB1472C3D04E4503229D00771277E4B6BD"
+  },
+  "raw_ticks": {
+    "files": 2032,
+    "first": "xauusd_ticks_2025-09-25T11-00-00-000Z.json",
+    "glob": "xauusd_ticks_<ISO>.json",
+    "last": "xauusd_ticks_2026-09-18T11-00-00-000Z.json",
+    "path": "data/market/raw_ticks"
+  },
+  "reconciliation": {
+    "path": "outputs/market_reconstruction/phase7c_trade_reconciliation.csv",
+    "rows": 423
+  },
+  "status": "CANONICAL_LOCKED"
+}

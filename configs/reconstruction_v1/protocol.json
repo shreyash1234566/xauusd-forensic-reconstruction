@@ -1,0 +1,24 @@
+{
+  "protocol_version": "reconstruction_v1",
+  "status": "implementation_foundation",
+  "canonical_inputs": {
+    "ledger": "data/raw/trades_raw.tsv",
+    "phase7c_reconciliation": "outputs/market_reconstruction/phase7c_trade_reconciliation.csv",
+    "raw_tick_glob": "data/market/raw_ticks/xauusd_ticks_<ISO>.json"
+  },
+  "invariants": {
+    "record_count": 423,
+    "decision_epoch_count": 420,
+    "split_order_pairs": [["36168589", "36168590"], ["36227385", "36227388"], ["36335183", "36335196"]],
+    "strict_causality": "feature quote timestamp < decision boundary"
+  },
+  "prohibited": [
+    "modifying canonical ledger",
+    "replacing Phase 7C alignment with M1 interpolation",
+    "using ticket or target leakage as predictors",
+    "treating missing feature values as no-action labels",
+    "repairing candidate state from observed ledger during autonomous replay"
+  ],
+  "implemented_commands": ["audit", "coverage", "plan-acquisition"],
+  "planned_commands_require_benchmark_validation": ["prepare", "selftest", "benchmark", "search", "evaluate", "diagnose", "certify", "export"]
+}
