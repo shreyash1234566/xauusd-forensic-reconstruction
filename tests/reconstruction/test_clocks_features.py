@@ -7,7 +7,7 @@ from reverse_trade.reconstruction.features import causal_quote_window, feature_r
 def _quotes() -> pd.DataFrame:
     return pd.DataFrame({
         "timestamp_utc": pd.to_datetime([
-            "2026-01-01T00:00:00Z", "2026-01-01T00:00:05Z", "2026-01-01T00:00:10Z"
+        "2026-01-01T00:00:00Z", "2026-01-01T00:00:05Z", "2026-01-01T00:00:10Z"
         ], utc=True),
         "bid": [100.0, 101.0, 120.0],
         "ask": [101.0, 102.0, 121.0],
@@ -16,10 +16,14 @@ def _quotes() -> pd.DataFrame:
 
 def test_causal_window_excludes_boundary_and_future() -> None:
     boundary = pd.Timestamp("2026-01-01T00:00:10Z")
-    window = causal_quote_window(_quotes(), boundary, pd.Timedelta(seconds=20))
+    quotes = _quotes()
+    quotes.loc[0, "timestamp_utc"] = pd.Timestamp("2026-01-01T00:00:00Z")
+    quotes.loc[1, "timestamp_utc"] = pd.Timestamp("2026-01-01T00:00:09Z")
+    quotes.loc[2, "timestamp_utc"] = boundary
+    window = causal_quote_window(quotes, boundary, pd.Timedelta(seconds=10))
     assert window["timestamp_utc"].max() < boundary
     assert len(window) == 2
-    result = feature_return(_quotes(), boundary, pd.Timedelta(seconds=20))
+    result = feature_return(quotes, boundary, pd.Timedelta(seconds=10))
     assert result.status == "observed"
     assert result.maximum_input_time < boundary
 

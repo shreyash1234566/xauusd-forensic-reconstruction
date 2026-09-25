@@ -13,6 +13,7 @@ import numpy as np
 import pandas as pd
 
 from .policy_ast import Action, Policy, PolicyState
+from .observation import ObservationScenario
 
 
 @dataclass(frozen=True)
@@ -58,8 +59,9 @@ class ReplayEvent:
 class ReplayEngine:
     """Replay quotes and independent decision boundaries in stable order."""
 
-    def __init__(self, policy: Policy):
+    def __init__(self, policy: Policy, scenario: ObservationScenario | None = None):
         self.policy = policy
+        self.scenario = scenario or ObservationScenario("default_replay")
 
     @staticmethod
     def _quote_frame(quotes: Iterable[Quote]) -> pd.DataFrame:
@@ -74,7 +76,13 @@ class ReplayEngine:
             subset=["timestamp_utc"], keep="last"
         ).reset_index(drop=True)
 
-    def run(self, quotes: Iterable[Quote], decisions: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataFrame]:
+    def run(
+        self,
+        quotes: Iterable[Quote],
+        decisions: pd.DataFrame,
+        *,
+        record_trace: bool = True,
+    ) -> tuple[pd.DataFrame, pd.DataFrame]:
         """Run a policy using decision rows with a time and causal feature fields.
 
         Decisions require ``decision_time_utc``. All other columns become
@@ -124,21 +132,35 @@ class ReplayEngine:
                 last_quote = quote_records[index]
                 if state.pending_order_side is not None and state.position_side is None:
                     side = state.pending_order_side
-                    limit_price = state.pending_order_price or (last_quote.ask if side == "Buy" else last_quote.bid)
-                    should_fill = (last_quote.bid <= limit_price + 1e-9) if side == "Buy" else (last_quote.ask >= limit_price - 1e-9)
+                    due = pd.Timestamp(state.pending_order_due_time or state.pending_order_time)
+                    due = due.tz_localize("UTC") if due.tzinfo is None else due.tz_convert("UTC")
+                    is_market = state.pending_order_kind == "market"
+                    limit_price = state.pending_order_price
+                    executable = last_quote.ask if side == "Buy" else last_quote.bid
+                    # Market orders fill on the first quote at/after their due time.
+                    # Limits use the adverse executable side, never the midpoint.
+                    should_fill = time >= due and (
+                        is_market
+                        or (
+                            limit_price is not None
+                            and ((last_quote.ask <= limit_price + 1e-9) if side == "Buy" else (last_quote.bid >= limit_price - 1e-9))
+                        )
+                    )
                     if should_fill:
-                        trade = SimulatedTrade(len(trades), side, state.pending_order_volume, time, limit_price)
+                        fill_price = executable if is_market else float(limit_price)
+                        trade = SimulatedTrade(len(trades), side, state.pending_order_volume, time, fill_price)
                         trades.append(trade)
                         next_state_reg = self.policy.state_transitions.get(side, state.state_register)
                         state = PolicyState(
                             position_side=side,
                             position_volume=state.pending_order_volume,
-                            entry_price=limit_price,
+                            entry_price=fill_price,
                             entry_time=time,
-                            highest_price=limit_price,
+                            highest_price=fill_price,
                             state_register=next_state_reg,
                         )
-                        trace.append(ReplayEvent(event_index, time, "fill", before, Action.NONE.value, state, {"trade_id": trade.trade_id, "fill_price": limit_price, "side": side}))
+                        if record_trace:
+                            trace.append(ReplayEvent(event_index, time, "fill", before, Action.NONE.value, state, {"trade_id": trade.trade_id, "fill_price": fill_price, "side": side, "order_kind": "market" if is_market else "limit"}))
                         event_index += 1
                         before = state
                 if state.position_side == "Buy":
@@ -157,11 +179,16 @@ class ReplayEngine:
                     close = last_quote.bid if state.position_side == "Buy" else last_quote.ask
                     trades[-1] = replace(current, close_time_utc=time, close_price=close, close_reason=exit_reason)
                     cooldown = time + pd.Timedelta(seconds=self.policy.cooldown_seconds)
-                    state = PolicyState(cooldown_until=cooldown, state_register=state.state_register)
-                    trace.append(ReplayEvent(event_index, time, "exit", before, Action.CLOSE_ALL.value, state, {"bid": last_quote.bid, "ask": last_quote.ask, "fill_price": close, "reason": exit_reason, "trade_id": current.trade_id}))
+                    exit_state = self.policy.state_transitions.get(
+                        f"exit:{exit_reason}", self.policy.state_transitions.get("Exit", state.state_register)
+                    )
+                    state = PolicyState(cooldown_until=cooldown, state_register=exit_state)
+                    if record_trace:
+                        trace.append(ReplayEvent(event_index, time, "exit", before, Action.CLOSE_ALL.value, state, {"bid": last_quote.bid, "ask": last_quote.ask, "fill_price": close, "reason": exit_reason, "trade_id": current.trade_id}))
                     event_index += 1
                     before = state
-                trace.append(ReplayEvent(event_index, time, "quote", before, Action.NONE.value, state, {"bid": last_quote.bid, "ask": last_quote.ask}))
+                if record_trace:
+                    trace.append(ReplayEvent(event_index, time, "quote", before, Action.NONE.value, state, {"bid": last_quote.bid, "ask": last_quote.ask}))
             else:
                 features = {
                     column: (None if pd.isna(value) else float(value))
@@ -181,19 +208,33 @@ class ReplayEngine:
                 detail: dict[str, object] = {"reason": reason, "features": features}
                 if action in {Action.OPEN_BUY, Action.OPEN_SELL} and last_quote is not None:
                     side = "Buy" if action == Action.OPEN_BUY else "Sell"
-                    entry = last_quote.ask if side == "Buy" else last_quote.bid
-                    trade = SimulatedTrade(len(trades), side, self.policy.volume, time, entry)
-                    trades.append(trade)
-                    next_state_reg = self.policy.state_transitions.get(side, state.state_register)
-                    state = PolicyState(
-                        position_side=side,
-                        position_volume=self.policy.volume,
-                        entry_price=entry,
-                        entry_time=time,
-                        highest_price=entry,
-                        state_register=next_state_reg,
-                    )
-                    detail.update({"trade_id": trade.trade_id, "fill_price": entry, "side": side})
+                    quote_age = time - last_quote.timestamp_utc
+                    due = time + self.scenario.market_order_delay
+                    can_fill_now = self.scenario.market_order_delay == pd.Timedelta(0) and quote_age <= self.scenario.timestamp_tolerance
+                    if can_fill_now:
+                        entry = last_quote.ask if side == "Buy" else last_quote.bid
+                        trade = SimulatedTrade(len(trades), side, self.policy.volume, time, entry)
+                        trades.append(trade)
+                        next_state_reg = self.policy.state_transitions.get(side, state.state_register)
+                        state = PolicyState(
+                            position_side=side,
+                            position_volume=self.policy.volume,
+                            entry_price=entry,
+                            entry_time=time,
+                            highest_price=entry,
+                            state_register=next_state_reg,
+                        )
+                        detail.update({"trade_id": trade.trade_id, "fill_price": entry, "side": side, "execution": "fresh_quote"})
+                    else:
+                        state = replace(
+                            state,
+                            pending_order_side=side,
+                            pending_order_time=time,
+                            pending_order_volume=self.policy.volume,
+                            pending_order_kind="market",
+                            pending_order_due_time=due,
+                        )
+                        detail.update({"side": side, "execution": "queued_market", "due_time": due.isoformat(), "quote_age_seconds": quote_age.total_seconds()})
                 elif action == Action.PLACE_LIMIT and last_quote is not None:
                     side = "Buy"
                     limit_price = last_quote.ask
@@ -203,9 +244,12 @@ class ReplayEngine:
                         pending_order_price=limit_price,
                         pending_order_time=time,
                         pending_order_volume=self.policy.volume,
+                        pending_order_kind="limit",
+                        pending_order_due_time=time,
                     )
                     detail.update({"action": "place_limit", "limit_price": limit_price, "side": side})
-                trace.append(ReplayEvent(event_index, time, "decision", before, action.value, state, detail))
+                if record_trace:
+                    trace.append(ReplayEvent(event_index, time, "decision", before, action.value, state, detail))
             event_index += 1
         trade_columns = [
             "trade_id", "side", "volume", "open_time_utc", "open_price",

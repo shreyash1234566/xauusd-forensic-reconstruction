@@ -47,14 +47,23 @@ class SearchBudget:
 
 
 def threshold_grid(values: Iterable[float], maximum: int) -> list[float]:
+    if maximum < 1:
+        raise ValueError("maximum must be positive")
     finite = np.asarray([value for value in values if np.isfinite(value)], dtype=float)
     if not len(finite):
         return []
     unique = np.unique(finite)
-    if len(unique) <= maximum:
+    if len(unique) == 1:
         return unique.tolist()
-    quantiles = np.linspace(0.05, 0.95, maximum)
-    return np.unique(np.quantile(unique, quantiles)).tolist()
+    # For a memoryless threshold, all training classifications change only
+    # when the threshold crosses an observed feature value. Midpoints provide
+    # one representative from each realizable interval, unlike using the
+    # values themselves (which loses strict/non-strict boundary cases).
+    boundaries = unique[:-1] + (unique[1:] - unique[:-1]) / 2.0
+    if len(boundaries) <= maximum:
+        return boundaries.tolist()
+    indices = np.unique(np.linspace(0, len(boundaries) - 1, maximum).round().astype(int))
+    return boundaries[indices].tolist()
 
 
 def enumerate_t0_policies(

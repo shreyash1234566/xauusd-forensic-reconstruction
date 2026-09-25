@@ -159,7 +159,7 @@ def test_full_reconstruction_pipeline_end_to_end(synthetic_simulation_environmen
         assert "Zero divergence cases cataloged" in casebook_md
 
         placebo_md = generate_placebo_calibration_markdown([placebo_res])
-        assert "Placebo Sensitivity" in placebo_md
+        assert "Circular Time-Shift Stress Check" in placebo_md
 
         # Export package
         pkg_paths = export_reconstructed_policy_package(candidates[0], top_cand_eval, tmp_dir)

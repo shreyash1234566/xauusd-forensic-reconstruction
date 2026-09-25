@@ -32,6 +32,13 @@ def feature_return(quotes: pd.DataFrame, decision_time: pd.Timestamp, lookback: 
     window = causal_quote_window(quotes, decision_time, lookback)
     if len(window) < 2:
         return FeatureValue(None, "unknown_insufficient_quotes", None)
+    boundary = pd.Timestamp(decision_time)
+    boundary = boundary.tz_localize("UTC") if boundary.tzinfo is None else boundary.tz_convert("UTC")
+    stamps = pd.to_datetime(window["timestamp_utc"], utc=True)
+    if stamps.iloc[0] > boundary - lookback + pd.Timedelta(seconds=1):
+        return FeatureValue(None, "unknown_incomplete_lookback", None)
+    if stamps.iloc[-1] < boundary - pd.Timedelta(seconds=1):
+        return FeatureValue(None, "unknown_stale_last_quote", None)
     mid = (window["bid"].to_numpy(dtype=float) + window["ask"].to_numpy(dtype=float)) / 2.0
     if mid[0] <= 0 or not np.isfinite(mid).all():
         return FeatureValue(None, "unknown_invalid_quote", None)
@@ -43,6 +50,13 @@ def feature_tick_rate(quotes: pd.DataFrame, decision_time: pd.Timestamp, lookbac
     window = causal_quote_window(quotes, decision_time, lookback)
     if window.empty:
         return FeatureValue(None, "unknown_insufficient_quotes", None)
+    boundary = pd.Timestamp(decision_time)
+    boundary = boundary.tz_localize("UTC") if boundary.tzinfo is None else boundary.tz_convert("UTC")
+    stamps = pd.to_datetime(window["timestamp_utc"], utc=True)
+    if stamps.iloc[0] > boundary - lookback + pd.Timedelta(seconds=1):
+        return FeatureValue(None, "unknown_incomplete_lookback", None)
+    if stamps.iloc[-1] < boundary - pd.Timedelta(seconds=1):
+        return FeatureValue(None, "unknown_stale_last_quote", None)
     maximum = pd.to_datetime(window["timestamp_utc"].iloc[-1], utc=True)
     return FeatureValue(float(len(window) / lookback.total_seconds()), "observed", maximum)
 
@@ -52,6 +66,10 @@ def feature_spread(quotes: pd.DataFrame, decision_time: pd.Timestamp, lookback: 
     if window.empty:
         return FeatureValue(None, "unknown_insufficient_quotes", None)
     last = window.iloc[-1]
+    boundary = pd.Timestamp(decision_time)
+    boundary = boundary.tz_localize("UTC") if boundary.tzinfo is None else boundary.tz_convert("UTC")
+    if boundary - pd.Timestamp(last.timestamp_utc) > pd.Timedelta(seconds=1):
+        return FeatureValue(None, "unknown_stale_last_quote", None)
     value = float(last.ask) - float(last.bid)
     if value < 0 or not np.isfinite(value):
         return FeatureValue(None, "unknown_invalid_quote", None)
@@ -83,4 +101,3 @@ def build_feature_frame(quotes: pd.DataFrame, opportunities: Iterable[pd.Timesta
 
 # Aliases for cross-module compatibility
 build_causal_feature_frame = build_feature_frame
-

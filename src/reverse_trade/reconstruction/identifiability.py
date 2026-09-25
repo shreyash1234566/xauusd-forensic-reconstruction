@@ -91,33 +91,24 @@ def cluster_equivalence_classes(
     for ev in sorted_evals:
         placed = False
         preds_ev = ev.predictions
-        times_ev_sec = (
-            pd.to_datetime(preds_ev["open_time_utc" if "open_time_utc" in preds_ev.columns else "decision_time_utc"], utc=True).astype("int64").to_numpy() / 1e9
-            if not preds_ev.empty
-            else np.array([], dtype=float)
-        )
-
         for group in classes:
             rep = group[0]
             preds_rep = rep.predictions
-            times_rep_sec = (
-                pd.to_datetime(preds_rep["open_time_utc" if "open_time_utc" in preds_rep.columns else "decision_time_utc"], utc=True).astype("int64").to_numpy() / 1e9
-                if not preds_rep.empty
-                else np.array([], dtype=float)
+            left = preds_ev.rename(columns={"open_time_utc": "decision_time_utc"})
+            right = preds_rep.rename(columns={"open_time_utc": "decision_time_utc"})
+            _, match_summary = match_entries(
+                left,
+                right,
+                MatchConfig(
+                    entry_tolerance=pd.Timedelta(seconds=time_tolerance_seconds),
+                    require_side=True,
+                    require_volume=True,
+                ),
             )
-
-            # Check matching cardinality and timing distance
-            if len(times_ev_sec) == len(times_rep_sec):
-                if len(times_ev_sec) == 0:
-                    group.append(ev)
-                    placed = True
-                    break
-                # Pairwise difference
-                diffs = np.abs(times_ev_sec - times_rep_sec)
-                if np.all(diffs <= time_tolerance_seconds):
-                    group.append(ev)
-                    placed = True
-                    break
+            if match_summary["tp"] == len(left) == len(right):
+                group.append(ev)
+                placed = True
+                break
 
         if not placed:
             classes.append([ev])
@@ -223,7 +214,10 @@ def run_placebo_sensitivity_test(
     block_size_hours: int = 24,
     random_seed: int = 42,
 ) -> PlaceboTestResult:
-    """Evaluate candidate policy against block-resampled / permuted placebo nulls (Stage W)."""
+    """Run a circular-time-shift stress check, not a search-adjusted hypothesis test."""
+
+    if num_replications <= 0:
+        raise ValueError("num_replications must be positive")
 
     rng = np.random.default_rng(random_seed)
     real_f1 = float(candidate_eval.metrics.get("f1", 0.0))
@@ -277,10 +271,10 @@ def run_placebo_sensitivity_test(
     null_f1_arr = np.array(null_f1s)
     null_loss_arr = np.array(null_losses)
 
-    p_val_f1 = float(np.mean(null_f1_arr >= real_f1))
-    p_val_loss = float(np.mean(null_loss_arr <= real_loss))
-
-    is_sig = bool(p_val_f1 < 0.05 and real_f1 > float(np.mean(null_f1_arr)) + 2.0 * float(np.std(null_f1_arr) + 1e-6))
+    # Add-one tail fractions avoid reporting impossible zero Monte-Carlo
+    # probabilities. They remain descriptive because selection is not rerun.
+    p_val_f1 = float((1 + np.count_nonzero(null_f1_arr >= real_f1)) / (num_replications + 1))
+    p_val_loss = float((1 + np.count_nonzero(null_loss_arr <= real_loss)) / (num_replications + 1))
 
     return PlaceboTestResult(
         candidate_id=candidate_eval.candidate_id,
@@ -292,7 +286,7 @@ def run_placebo_sensitivity_test(
         p_value_f1=p_val_f1,
         p_value_loss=p_val_loss,
         replications=num_replications,
-        is_statistically_significant=is_sig,
+        is_statistically_significant=False,
     )
 
 
@@ -304,6 +298,9 @@ def determine_identifiability_verdict(
     supported_observed_epochs: int = 420,
 ) -> IdentifiabilitySummary:
     """Assign rigorous, mathematically audited reconstruction verdict (Stage Y)."""
+
+    if total_canonical_epochs < 0 or not 0 <= supported_observed_epochs <= total_canonical_epochs:
+        raise ValueError("supported_observed_epochs must lie within the canonical epoch count")
 
     unsupported = total_canonical_epochs - supported_observed_epochs
 
@@ -350,7 +347,16 @@ def determine_identifiability_verdict(
     if unsupported > supported_observed_epochs:
         verdict = ReconstructionVerdict.INSUFFICIENT_OBSERVATION
         explanation = f"Coverage gap: {unsupported} unsupported epochs exceed {supported_observed_epochs} supported epochs."
-    elif tp == supported_observed_epochs and fp == 0 and fn == 0:
+    elif (
+        tp == supported_observed_epochs
+        and fp == 0
+        and fn == 0
+        and int(top_eval.metrics.get("predicted", -1)) == supported_observed_epochs
+        and int(top_eval.metrics.get("unknown_opportunities", 1)) == 0
+        and int(top_eval.metrics.get("unsupported_observed_epochs", 1)) == 0
+        and ("direction_match" not in top_eval.matches or bool(top_eval.matches["direction_match"].fillna(False).all()))
+        and ("volume_error" not in top_eval.matches or bool(np.isclose(top_eval.matches["volume_error"].fillna(np.inf), 0.0).all()))
+    ):
         verdict = ReconstructionVerdict.EXACT_FINITE_HISTORY_COMPATIBILITY
         explanation = f"Exact match across all {supported_observed_epochs} supported epochs with zero false alarms and zero misses."
     elif len(equivalence_classes) >= 1 and equivalence_classes[0].size > 1 and top_f1 > 0.5:

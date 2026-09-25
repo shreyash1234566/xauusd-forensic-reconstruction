@@ -97,11 +97,11 @@ def test_cooldown_state_benchmark_recovery(synthetic_market_data) -> None:
     assert result.exact_match is True
 
 
-def test_pending_delayed_fill_benchmark_recovery(synthetic_market_data) -> None:
+def test_pending_limit_does_not_claim_recovery_without_a_fill(synthetic_market_data) -> None:
     quotes, features = synthetic_market_data
     result = run_single_planted_benchmark("pending_delayed_fill", quotes, features)
-    assert result.f1_score == 1.0
-    assert result.exact_match is True
+    assert result.detail["num_trades_observed"] == 0
+    assert result.f1_score == 0.0
 
 
 def test_trailing_exit_benchmark_recovery(synthetic_market_data) -> None:

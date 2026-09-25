@@ -107,7 +107,10 @@ def test_run_placebo_sensitivity_test(sample_evaluations):
 def test_determine_identifiability_verdict_exact(sample_evaluations):
     exact_eval = CandidateEvaluation(
         candidate_id="exact-01",
-        metrics={"f1": 1.0, "entry_error_loss": 0.0, "tp": 420, "fp": 0, "fn": 0},
+        metrics={
+            "f1": 1.0, "entry_error_loss": 0.0, "tp": 420, "fp": 0, "fn": 0,
+            "predicted": 420, "unknown_opportunities": 0, "unsupported_observed_epochs": 0,
+        },
         matches=sample_evaluations[0].matches,
         predictions=sample_evaluations[0].predictions,
         trace=sample_evaluations[0].trace,

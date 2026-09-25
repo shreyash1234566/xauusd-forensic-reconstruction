@@ -59,7 +59,7 @@ def generate_final_verdict_markdown(summary: IdentifiabilitySummary) -> str:
     lines.extend([
         "",
         "## 4. Methodological Invariants & Guarantees",
-        "- **Zero Lookahead Leakage:** Feature evaluations strictly guarantee $t_{\\text{quote}} < t_{\\text{decision}}$.",
+        "- **Causal feature helper:** Its quote-window function uses timestamps strictly before the decision boundary; this guarantee applies only when candidates are built through that helper.",
         "- **Independent Replay Simulation:** Replay engine executes autonomously without borrowing ledger state.",
         "- **Separation of Evidence:** Observed coverage is strictly separated from gap periods.",
     ])
@@ -114,25 +114,26 @@ def generate_placebo_calibration_markdown(placebo_results: Sequence[PlaceboTestR
     """Produce placebo and robustness calibration report (Stage W)."""
 
     lines = [
-        "# Placebo Sensitivity & Robustness Calibration Report",
+        "# Circular Time-Shift Stress Check",
         "",
-        "## 1. Placebo Block-Permutation Results",
+        "This is a descriptive stress check for a fixed candidate. Candidate search is not rerun, so the tail fractions are not search-adjusted p-values and do not establish statistical significance.",
         "",
-        "| Candidate ID | Real F1 | Real Loss | Null F1 Mean ± Std | Null Loss Mean | p-Value (F1) | Significant? |",
+        "## Circular-shift results",
+        "",
+        "| Candidate ID | Real F1 | Real Loss | Shifted F1 Mean ± Std | Shifted Loss Mean | Empirical F1 tail fraction |",
         "| :--- | :--- | :--- | :--- | :--- | :--- | :--- |",
     ]
 
     for p in placebo_results:
-        sig_mark = "**YES** (p < 0.05)" if p.is_statistically_significant else "NO"
         lines.append(
-            f"| `{p.candidate_id}` | {p.real_f1:.4f} | {p.real_entry_loss:.4f} | {p.null_f1_mean:.4f} ± {p.null_f1_std:.4f} | {p.null_entry_loss_mean:.4f} | {p.p_value_f1:.4f} | {sig_mark} |"
+            f"| `{p.candidate_id}` | {p.real_f1:.4f} | {p.real_entry_loss:.4f} | {p.null_f1_mean:.4f} ± {p.null_f1_std:.4f} | {p.null_entry_loss_mean:.4f} | {p.p_value_f1:.4f} |"
         )
 
     lines.extend([
         "",
-        "## 2. Statistical Interpretation",
-        "- The null distribution is generated via temporal block shifts across the continuous market path.",
-        "- A candidate is statistically significant only if real F1 exceeds null F1 distribution by >2 standard deviations ($p < 0.05$).",
+        "## Interpretation",
+        "- Observed event times were circularly shifted across their finite time span while candidate predictions were fixed.",
+        "- The add-one empirical tail fraction is descriptive. It is not a conventional p-value because the search and candidate selection were not repeated for each shift.",
     ])
 
     return "\n".join(lines) + "\n"

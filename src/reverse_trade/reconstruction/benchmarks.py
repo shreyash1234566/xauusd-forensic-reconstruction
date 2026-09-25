@@ -105,7 +105,7 @@ def planted_cooldown_state_policy() -> Policy:
         volume=0.01,
         cooldown_seconds=60.0,
         exit_rule=TimeExit(holding_seconds=5.0),
-        state_transitions={"Buy": 1},
+        state_transitions={"Buy": 1, "Exit": 0},
         name="planted_cooldown_state",
         metadata={"family": "cooldown_state", "in_grammar": True},
     )
@@ -145,7 +145,7 @@ def planted_regime_switching_policy() -> Policy:
         Action.OPEN_BUY,
         volume=0.01,
         exit_rule=TimeExit(holding_seconds=20.0),
-        state_transitions={"Buy": 1},
+        state_transitions={"Buy": 1, "Exit": 0},
         name="planted_regime_switching",
         metadata={"family": "regime_switching", "in_grammar": True},
     )
@@ -324,9 +324,6 @@ def run_single_planted_benchmark(
     )
     candidates = enumerate_t0_policies(feature_frame, features=features_to_search, budget=budget, exit_rule=planted_policy.exit_rule)
 
-    # Also evaluate the exact planted policy itself in the pool
-    candidates.append(planted_policy)
-
     evaluations = [
         evaluate_policy(f"{family}-{idx:04d}", cand, quote_list, feature_frame, observed_epochs)
         for idx, cand in enumerate(candidates)
@@ -337,7 +334,11 @@ def run_single_planted_benchmark(
     top_f1 = float(top["f1"]) if top is not None else 0.0
     top_loss = float(top["entry_error_loss"]) if top is not None else 1.0
     top_id = str(top["candidate_id"]) if top is not None else ""
-    recovered_cand = next((c for c in candidates if getattr(c, "name", "") == top_id or f"{family}-" in top_id), None)
+    try:
+        recovered_index = int(top_id.rsplit("-", 1)[1])
+        recovered_cand = candidates[recovered_index]
+    except (IndexError, ValueError):
+        recovered_cand = None
 
     exact = (top_f1 == 1.0 and top_loss == 0.0)
 

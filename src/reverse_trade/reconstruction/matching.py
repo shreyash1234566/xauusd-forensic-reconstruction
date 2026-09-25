@@ -12,8 +12,8 @@ from scipy.optimize import linear_sum_assignment
 @dataclass(frozen=True)
 class MatchConfig:
     entry_tolerance: pd.Timedelta = pd.Timedelta(seconds=120)
-    require_side: bool = False
-    require_volume: bool = False
+    require_side: bool = True
+    require_volume: bool = True
     volume_tolerance: float = 1e-12
 
 
@@ -25,6 +25,9 @@ def _time_column(frame: pd.DataFrame, preferred: str) -> str:
 
 def match_entries(observed: pd.DataFrame, predicted: pd.DataFrame, config: MatchConfig = MatchConfig()) -> tuple[pd.DataFrame, dict[str, float | int]]:
     """Maximum-cardinality, minimum-time-error match without greedy ambiguity."""
+
+    if config.entry_tolerance < pd.Timedelta(0):
+        raise ValueError("entry_tolerance cannot be negative")
 
     observed_time = _time_column(observed, "decision_time_utc")
     predicted_time = "open_time_utc" if "open_time_utc" in predicted.columns else _time_column(predicted, "decision_time_utc")

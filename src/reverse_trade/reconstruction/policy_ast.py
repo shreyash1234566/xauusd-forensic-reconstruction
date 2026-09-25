@@ -43,6 +43,8 @@ class PolicyState:
     pending_order_price: float | None = None
     pending_order_time: object | None = None
     pending_order_volume: float = 0.0
+    pending_order_kind: str | None = None
+    pending_order_due_time: object | None = None
 
 
 @dataclass(frozen=True)
@@ -177,6 +179,12 @@ class PersistsCondition:
     threshold: float
     periods: int = 2
 
+    def __post_init__(self) -> None:
+        if self.operator not in {">", "<"}:
+            raise ValueError("PersistsCondition operator must be '>' or '<'")
+        if self.periods < 1:
+            raise ValueError("PersistsCondition periods must be positive")
+
     def evaluate(self, features: Mapping[str, float | None], state: PolicyState) -> bool:
         current_val = features.get(self.feature)
         if current_val is None:
@@ -185,11 +193,14 @@ class PersistsCondition:
         if not passed:
             return False
         for p in range(1, self.periods):
-            hist_val = features.get(f"prev_{self.feature}_{p}") or features.get(f"prev_{self.feature}")
-            if hist_val is not None:
-                p_passed = (hist_val > self.threshold) if self.operator == ">" else (hist_val < self.threshold)
-                if not p_passed:
-                    return False
+            hist_val = features.get(f"prev_{self.feature}_{p}")
+            if hist_val is None and p == 1:
+                hist_val = features.get(f"prev_{self.feature}")
+            if hist_val is None:
+                return False
+            p_passed = (hist_val > self.threshold) if self.operator == ">" else (hist_val < self.threshold)
+            if not p_passed:
+                return False
         return True
 
     def to_dict(self) -> dict[str, Any]:
@@ -414,6 +425,8 @@ class Policy:
     def decide(self, features: Mapping[str, float | None], state: PolicyState, now: object) -> Action:
         if state.position_side is not None:
             return Action.NONE
+        if state.pending_order_side is not None:
+            return Action.NONE
         if state.cooldown_until is not None and now < state.cooldown_until:
             return Action.NONE
         return self.side if self.entry.evaluate(features, state) else Action.NONE
@@ -476,11 +489,11 @@ def condition_from_dict(data: Mapping[str, Any]) -> Condition:
             threshold=float(data["threshold"]),
         )
     elif ctype == "and":
-        return AndCondition([condition_from_dict(c) for c in data.get("clauses", [])])
+        return AndCondition(tuple(condition_from_dict(c) for c in data.get("children", data.get("clauses", []))))
     elif ctype == "or":
-        return OrCondition([condition_from_dict(c) for c in data.get("clauses", [])])
+        return OrCondition(tuple(condition_from_dict(c) for c in data.get("children", data.get("clauses", []))))
     elif ctype == "not":
-        return NotCondition(condition_from_dict(data["clause"]))
+        return NotCondition(condition_from_dict(data.get("child", data.get("clause"))))
     elif ctype == "crosses_above":
         return CrossesAboveCondition(
             feature=str(data["feature"]),
@@ -495,8 +508,10 @@ def condition_from_dict(data: Mapping[str, Any]) -> Condition:
         )
     elif ctype == "persists":
         return PersistsCondition(
-            condition=condition_from_dict(data["condition"]),
-            duration_seconds=float(data.get("duration_seconds", 1.0)),
+            feature=str(data["feature"]),
+            operator=str(data["operator"]),
+            threshold=float(data["threshold"]),
+            periods=int(data.get("periods", 2)),
         )
     elif ctype == "state_condition":
         return StateCondition(expected_state=int(data["expected_state"]))
@@ -525,7 +540,7 @@ def exit_rule_from_dict(data: Mapping[str, Any]) -> ExitRule:
             activation_distance=float(data.get("activation_distance", 0.0)),
         )
     elif etype == "composite_exit":
-        return CompositeExit([exit_rule_from_dict(e) for e in data.get("exits", [])])
+        return CompositeExit(tuple(exit_rule_from_dict(e) for e in data.get("exits", [])))
     else:
         raise ValueError(f"Unknown exit rule type: {etype}")
 
@@ -543,4 +558,3 @@ def calculate_mdl_code_length(policy: Policy) -> float:
     comp = policy.complexity()
     # Baseline ~ 64 bits + ~32 bits per complexity unit
     return float(64.0 + 32.0 * comp)
-

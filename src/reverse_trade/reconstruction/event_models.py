@@ -72,7 +72,7 @@ class B0HomogeneousPoissonModel:
 
 
 class FeatureLogisticIntensityModel:
-    """Logistic intensity model over designated feature sets."""
+    """Discrete-time Bernoulli event-hazard model over designated features."""
 
     def __init__(
         self,
@@ -91,20 +91,20 @@ class FeatureLogisticIntensityModel:
         self.fallback_prob_: float = 1e-5
 
     def _extract_matrix(self, features: pd.DataFrame) -> np.ndarray:
-        available = [f for f in self.feature_names if f in features.columns]
-        if not available:
-            return np.zeros((len(features), 1), dtype=float)
-        sub = features[available].copy()
-        for col in available:
-            sub[col] = pd.to_numeric(sub[col], errors="coerce").fillna(0.0)
-        return sub.to_numpy(dtype=float)
+        missing = sorted(set(self.feature_names).difference(features.columns))
+        if missing:
+            raise ValueError(f"Missing required model features: {missing}")
+        sub = features[self.feature_names].apply(pd.to_numeric, errors="coerce")
+        matrix = sub.to_numpy(dtype=float)
+        if not np.isfinite(matrix).all():
+            raise ValueError("Feature model received missing or nonfinite values; unknown support must not be encoded as zero")
+        return matrix
 
     def fit(self, features: pd.DataFrame, target: np.ndarray | pd.Series | str = "is_trade_entry") -> "FeatureLogisticIntensityModel":
         y = features[target].to_numpy(dtype=float) if isinstance(target, str) else np.asarray(target, dtype=float)
         self.fallback_prob_ = float(np.clip(np.mean(y), EPSILON, 1.0 - EPSILON)) if len(y) > 0 else 1e-5
 
-        # If all targets are identical or no features available, fallback
-        if len(np.unique(y)) <= 1 or not any(f in features.columns for f in self.feature_names):
+        if len(np.unique(y)) <= 1:
             self.is_fitted_ = False
             return self
 
@@ -183,9 +183,11 @@ class B4JointBarTickModel(FeatureLogisticIntensityModel):
 
 
 class B5HawkesSelfExcitingModel:
-    """B5: Hawkes self-exciting point process with base intensity and exponential history kernel.
+    """B5: Discrete-time self-exciting Bernoulli hazard baseline.
 
-    lambda(t) = mu(t) + alpha * sum_{t_i < t} exp(-beta * (t - t_i))
+    This is not a continuous-time Hawkes intensity. Given base event
+    probability p0 and exponentially decayed event history r, the combined
+    bin probability is 1 - (1-p0) exp(-alpha r).
     """
 
     def __init__(
@@ -210,7 +212,9 @@ class B5HawkesSelfExcitingModel:
         if n <= 1:
             return r
         for i in range(1, n):
-            dt = max(times_seconds[i] - times_seconds[i - 1], 0.0)
+            dt = times_seconds[i] - times_seconds[i - 1]
+            if dt < 0:
+                raise ValueError("Event model times must be sorted in ascending order")
             decay = np.exp(-beta * dt) if beta * dt < 700 else 0.0
             r[i] = decay * (r[i - 1] + (1.0 if events[i - 1] > 0.5 else 0.0))
         return r
@@ -229,8 +233,7 @@ class B5HawkesSelfExcitingModel:
             if alpha < 0 or beta <= 0.001:
                 return 1e12
             rec = self._compute_recursive_excitation(times_arr, y, beta)
-            lambda_t = base_p + alpha * rec
-            p = np.clip(lambda_t, EPSILON, 1.0 - EPSILON)
+            p = np.clip(1.0 - (1.0 - base_p) * np.exp(-alpha * rec), EPSILON, 1.0 - EPSILON)
             return -log_loss_to_log_likelihood(p, y)
 
         res = minimize(loss_fn, [self.alpha, self.beta], method="Nelder-Mead", options={"maxiter": 100})
@@ -246,7 +249,7 @@ class B5HawkesSelfExcitingModel:
         times_arr = np.asarray(times, dtype=float)
         events = np.zeros(len(features), dtype=float) if prior_events is None else np.asarray(prior_events, dtype=float)
         rec = self._compute_recursive_excitation(times_arr, events, self.beta)
-        p = base_p + self.alpha * rec
+        p = 1.0 - (1.0 - base_p) * np.exp(-self.alpha * rec)
         return np.clip(p, EPSILON, 1.0 - EPSILON)
 
     def log_likelihood(self, features: pd.DataFrame, target: np.ndarray | pd.Series | str = "is_trade_entry") -> float:
@@ -326,4 +329,3 @@ CausalTickModelB3 = B3CausalTickModel
 JointBarTickModelB4 = B4JointBarTickModel
 HawkesSelfExcitingB5 = B5HawkesSelfExcitingModel
 compute_bits_per_event = calculate_bits_per_event
-

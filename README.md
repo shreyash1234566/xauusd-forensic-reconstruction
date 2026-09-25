@@ -38,32 +38,38 @@ The data requirements needed to test actual entry and exit rules are in
 
 ## Algorithm Reconstruction Framework (Stages A through Z)
 
-The implementation for evidence-safe hidden-policy reconstruction is
-documented in `docs/ALGORITHM_RECONSTRUCTION_IMPLEMENTATION_PLAN_V1.md`.
-It preserves the canonical 423-record ledger ($N=423$, SHA-256: `3B22B24C5F7BEB2118FFEC613640A9AB1472C3D04E4503229D00771277E4B6BD`),
-the 420-epoch invariant, the Phase 7C reconciliation, and genuine raw XAUUSD ticks unchanged.
-
-To run the complete reconstruction pipeline:
+The implementation plan is documented in
+`docs/ALGORITHM_RECONSTRUCTION_IMPLEMENTATION_PLAN_V1.md`. Stages A-F lock the
+423-record ledger and Phase 7C evidence, acquire a separate full-span Dukascopy
+tick stream, and validate/hash both sources. The 2,032-file original archive
+under `data/market/raw_ticks/` and the Phase 7C reconciliation are preserved.
+The two feeds must not be blended. Run the saved full-public workflow with:
 
 ```powershell
-# 1. Audit canonical evidence & 420-epoch invariant
-python -m reverse_trade.reconstruction.cli audit --output outputs/reconstruction_v1/audit
-
-# 2. Build coverage inventory over genuine public raw tick stores
-python -m reverse_trade.reconstruction.cli coverage --output outputs/reconstruction_v1/coverage
-
-# 3. Generate missing-hour request manifest for gap coverage
-python -m reverse_trade.reconstruction.cli plan-acquisition --output outputs/reconstruction_v1/acquisition
-
-# 4. Execute the 12-family planted benchmark recovery suite (Stage N)
-python -m reverse_trade.reconstruction.cli benchmark --output outputs/reconstruction_v1/benchmark
-
-# 5. Fit B0-B5 statistical point-process baselines and log-likelihoods (Stage O)
-python -m reverse_trade.reconstruction.cli fit-baselines --output outputs/reconstruction_v1/baselines
-
-# 6. Multi-tier AST and state-machine synthesis search (Stages Q, R, S, T)
-python -m reverse_trade.reconstruction.cli search --output outputs/reconstruction_v1/search
-
-# 7. Run placebo tests, divergence casebook, and identifiability verdict (Stages U, V, W, X, Y, Z)
-python -m reverse_trade.reconstruction.cli evaluate --output outputs/reconstruction_v1/evaluate
+.\.venv\Scripts\python.exe -m reverse_trade.reconstruction.cli run --output outputs\reconstruction_v1\run_20260924_full_public --supplemental-ticks-dir data\market\supplemental_raw_ticks\dukascopy_full_20260924
 ```
+
+This executes A-F and records G-M and N-Z as blocked. A complete public market
+file inventory does not reveal the account's active/eligible periods or prove
+continuous observation, so it is not a complete point-process risk set.
+
+The later audited workflow has now executed through the final identifiability
+gate. The authoritative result is
+`outputs/reconstruction_v1/run_20260924_final/FINAL_RECONSTRUCTION_REPORT.md`:
+the hidden policy remains unidentified. Of 420 canonical entry epochs, 299 have
+the frozen causal feature support. A UTC split near 14:00 gained information in
+all four outer folds but earned only 31.08 bits against a 64-bit description
+cost, so it was rejected by MDL. Direction and exits were not identified.
+No executable reconstructed strategy is exported.
+
+Run the staged evidence and coverage audit:
+
+```powershell
+.\.venv\Scripts\python.exe -m reverse_trade.reconstruction.cli run --output outputs\reconstruction_v1\run_20260924
+```
+
+Earlier outputs under `outputs/reconstruction_v1/{baselines,benchmark,search,evaluate}`
+were produced by a prototype using fabricated market features or candidate
+timestamps copied from the trade list. They are invalid as strategy evidence.
+The runner records blocked stages explicitly and does not substitute M1
+interpolation or synthetic quotes for either genuine raw-tick source.

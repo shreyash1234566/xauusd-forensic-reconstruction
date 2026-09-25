@@ -1,10 +1,11 @@
 {
   "protocol_version": "reconstruction_v1",
-  "status": "implementation_foundation",
+  "status": "a_to_z_executed_unidentified_partial_behavioral_structure",
   "canonical_inputs": {
     "ledger": "data/raw/trades_raw.tsv",
     "phase7c_reconciliation": "outputs/market_reconstruction/phase7c_trade_reconciliation.csv",
-    "raw_tick_glob": "data/market/raw_ticks/xauusd_ticks_<ISO>.json"
+    "raw_tick_glob": "data/market/raw_ticks/xauusd_ticks_<ISO>.json",
+    "supplemental_dukascopy_glob": "data/market/supplemental_raw_ticks/dukascopy_full_20260924/xauusd_ticks_<ISO>.json"
   },
   "invariants": {
     "record_count": 423,
@@ -19,6 +20,8 @@
     "treating missing feature values as no-action labels",
     "repairing candidate state from observed ledger during autonomous replay"
   ],
-  "implemented_commands": ["audit", "coverage", "plan-acquisition"],
-  "planned_commands_require_benchmark_validation": ["prepare", "selftest", "benchmark", "search", "evaluate", "diagnose", "certify", "export"]
+  "implemented_commands": ["audit", "coverage", "plan-acquisition", "prepare", "run", "continue-gm", "benchmark", "fit-baselines", "search", "components", "evaluate"],
+  "final_verdict": "UNIDENTIFIED_PARTIAL_BEHAVIORAL_STRUCTURE",
+  "final_report": "outputs/reconstruction_v1/run_20260924_final/FINAL_RECONSTRUCTION_REPORT.md",
+  "gating_reason": "No entry candidate achieved positive out-of-sample MDL net bits; direction and exits were not identified, and 121 of 420 epochs lack the frozen causal feature support."
 }

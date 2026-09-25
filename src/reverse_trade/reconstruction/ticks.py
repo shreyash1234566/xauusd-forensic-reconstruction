@@ -53,6 +53,14 @@ def load_tick_hour(ticks_dir: Path, hour: pd.Timestamp, *, provider_id: str = "c
     })
     if (result.bid > result.ask).any() or (result.bid <= 0).any() or (result.ask <= 0).any():
         raise ValueError(f"Invalid bid/ask values in {path}")
+    hour_start = pd.Timestamp(hour)
+    hour_start = hour_start.tz_localize("UTC") if hour_start.tzinfo is None else hour_start.tz_convert("UTC")
+    hour_start = hour_start.floor("h")
+    if not result.timestamp_utc.ge(hour_start).all() or not result.timestamp_utc.lt(hour_start + pd.Timedelta(hours=1)).all():
+        raise ValueError(f"Tick timestamps fall outside the hour encoded by {path.name}")
+    duplicate_rows = result.loc[result.timestamp_utc.duplicated(keep=False)]
+    if not duplicate_rows.empty and duplicate_rows.groupby("timestamp_utc")[["bid", "ask"]].nunique().gt(1).any().any():
+        raise ValueError(f"Conflicting quotes share timestamps in {path}; source ordering is ambiguous")
     return result.sort_values("timestamp_utc", kind="mergesort").drop_duplicates("timestamp_utc", keep="last").reset_index(drop=True)
 
 

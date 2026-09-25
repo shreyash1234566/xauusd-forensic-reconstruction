@@ -9,6 +9,9 @@ def test_opportunities_mark_unknown_without_turning_it_into_negative() -> None:
     coverage = pd.DataFrame({
         "intended_hour_utc": pd.to_datetime(["2026-01-01T00:00:00Z"], utc=True),
         "support_status": ["observed"], "status": ["ok"],
+        "first_tick_utc": pd.to_datetime(["2026-01-01T00:00:00Z"], utc=True),
+        "last_tick_utc": pd.to_datetime(["2026-01-01T00:59:59Z"], utc=True),
+        "largest_interquote_gap_seconds": [5.0],
     })
     times = pd.to_datetime(["2026-01-01T00:00:10Z", "2026-01-01T01:00:10Z"], utc=True)
     opportunities = build_opportunities(times, coverage, lookback=pd.Timedelta(0))

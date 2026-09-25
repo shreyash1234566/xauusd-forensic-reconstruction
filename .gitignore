@@ -74,3 +74,9 @@ outputs/*/preview/
 outputs/strategy_reconstruction/phase10_11_risk_sets.json
 outputs/strategy_reconstruction/phase10_11_tick_features.parquet
 outputs/market_reconstruction/phase5_feature_table.csv.gz
+
+# Supplemental & Temporary Large Data (Reconstruction phase)
+data/market/supplemental_raw_ticks/
+outputs/reconstruction_v1/run_20260924_*/
+outputs/test_tmp_*/
+outputs/strategy_reconstruction/phase13_clock_offset/

@@ -1,33 +1,17 @@
 # Reconstruction v1 implementation status
 
-Generated during the first implementation milestone on 24 September 2026.
+Updated 24 September 2026 after the full public-tick acquisition and source audit.
 
-Implemented and tested:
+Stages A-C lock the canonical 423-record ledger, Phase 7C reconciliation, and fixed 420-epoch mapping. Stage D inventories expected calendar hours. Stage E acquired the complete 8,580-hour span from Dukascopy into a separate supplemental archive; Stage F hashed and validated both source archives. The original raw_ticks archive and Phase 7C reconciliation remain unchanged.
 
-- Canonical evidence audit with locked 423-record and 420-epoch invariants.
-- Phase 7C reconciliation loading without mutation of canonical sources.
-- Fixed three-pair decision-epoch construction.
-- Raw hourly tick-file coverage inventory with `observed` versus `unknown` status.
-- Label-independent supplemental-acquisition planning; this creates requests only and does not download market data.
-- Label-independent tick, timer, and completed-bar decision clocks.
-- Causal feature helpers that require quote timestamps before a decision boundary.
-- A compact serializable policy grammar for thresholds, conjunctions, size, cooldown, time exits, and price-distance exits.
-- Deterministic replay using candidate-generated position state and bid/ask fill conventions.
-- Maximum-cardinality, one-to-one entry matching.
-- Finite first-tier threshold enumeration, chronological-fold helpers, and planted threshold fixtures.
-- End-to-end planted T0 threshold recovery benchmark using the same replay, matching, and scoring paths as candidate evaluation.
-- Source-indexed raw-tick loader and complete-candidate evaluation interface; they preserve unknown coverage and do not perform a real-ledger search by themselves.
+The original raw-tick archive contains 2,032 named hourly files; 1,909 are nonempty and valid within the 8,580-hour ledger span. The separate Dukascopy stream contains one file for each of the 8,580 hours: 5,732 nonempty valid hours and 2,848 provider-empty hours, with no invalid or missing files. Its per-file SHA-256 and structural checks are recorded under `outputs/reconstruction_v1/run_20260924_audited/E_F/`. The two feeds must remain separate in modeling. Full account exposure still is not established: empty public hours are unknown/closed periods, nonempty file presence does not prove complete intrahour continuity, and account operation/eligibility is unavailable.
 
-Current outputs:
+The earlier baseline, benchmark, search, and evaluation commands used fabricated market features, candidate times copied from the trade list, or metadata labels instead of measured recovery. Those outputs are invalid as strategy evidence. The current full-public run executes A-F and explicitly blocks G-M and N-Z: observation/execution assumptions, independently generated opportunities, a complete causal feature panel, validated full replay, planted recovery, model selection, and evaluation are not yet wired into an end-to-end scientific runner.
 
-- `evidence/` confirms 423 canonical records and 420 decision epochs.
-- `coverage/` inventories 2,032 canonical hourly files: 1,913 observed and 119 unknown/invalid-or-empty support hours. This is a raw-file coverage fact, not a claim about original EA uptime.
+Still required before later stages can support a real reconstruction: market-session/availability assumptions; a label-independent opportunity panel and causal features; planted recovery without injecting the true policy into its candidate pool; correct multiple-position and order lifecycle replay; nested chronological selection; complete entry, direction, size, and exit evaluation; and search-adjusted placebo calibration.
 
-Not yet implemented:
+Stages G-M are now implemented and executed over a label-independent quote-clock case-control design. The saved panel contains 343,598 seeded controls and all 420 cases; 299 cases and 258,765 controls have the frozen causal feature support. Stage N passes non-degenerate planted recovery for the registered in-grammar families and correctly rejects stochastic/nonlinear fixtures. Stage O and P-Q complete chronological out-of-sample modeling and symbolic search. S-T complete conditional direction, size, and exit analysis.
 
-- Supplemental public-tick acquisition. It needs a chosen public source and a resumable downloader; canonical data will remain untouched.
-- Full-period normalized tick partitions and full opportunity panel.
-- Pending orders, trailing exits, regime-state synthesis, absolute intensity fitting, and full policy search/evaluation runners.
-- End-to-end planted-policy tournament and real-ledger candidate search.
+The authoritative final verdict is `UNIDENTIFIED_PARTIAL_BEHAVIORAL_STRUCTURE`, saved under `outputs/reconstruction_v1/run_20260924_final/`. The strongest timing rule gained 31.08 outer-test bits but cost 64 MDL bits, direction gained -0.0026 bits/trade, and exits were not identified. R was therefore not expanded, no complete U policy was assembled, and no executable reconstructed strategy was exported.
 
-The unimplemented items remain deliberately unavailable as commands. They must not be simulated with placeholder results or interpreted as completed strategy findings.
+No further account data is assumed or requested. Missing account availability remains unobservable; missing market/feature support remains unknown rather than a negative label.
