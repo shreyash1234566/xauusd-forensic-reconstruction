@@ -38,6 +38,22 @@ The data requirements needed to test actual entry and exit rules are in
 
 ## Algorithm Reconstruction Framework (Stages A through Z)
 
+The permanent scientific methodology is now
+`docs/CTPI_METHODOLOGY.md`. The active, right-sized next sequence is
+`docs/CTPI_IMMEDIATE_EXECUTION_PLAN.md`. CTPI governs evidentiary claims and the
+five permitted identifiability outcomes; the six-step plan governs immediate
+execution. The A-to-Z plan below remains the detailed engineering reference.
+
+Run the immediate CTPI sequence with:
+
+```powershell
+.\.venv\Scripts\python.exe scripts\ctpi_immediate_execution.py
+```
+
+Its reconciled evidence, raw-tick same-clock placebo, targeted planted recovery,
+availability diagnostic and five-outcome verdict are written under
+`outputs/ctpi_immediate/`.
+
 The implementation plan is documented in
 `docs/ALGORITHM_RECONSTRUCTION_IMPLEMENTATION_PLAN_V1.md`. Stages A-F lock the
 423-record ledger and Phase 7C evidence, acquire a separate full-span Dukascopy

@@ -1,0 +1,23 @@
+{
+  "strata": 50,
+  "observed_information_bits_vs_uniform_day": 2.3483642180630264,
+  "bits_per_event": 0.046967284361260526,
+  "one_sided_random_day_pvalue": 0.0035,
+  "real_mean_tick_rate_ratio": 1.3096982260374248,
+  "mean_of_stratum_placebo_means": 1.051448980720971,
+  "fraction_strata_real_above_placebo_mean": 0.46,
+  "median_real_within_stratum_percentile": 0.5277777777777778,
+  "median_stratum_information_bits": -0.004272483141458599,
+  "largest_absolute_stratum_contribution_bits": 1.5956686024299787,
+  "permutations": 19999,
+  "status": "complete",
+  "feature": "tick_rate_ratio",
+  "partition": "legacy lockbox; retrospective because this feature was already selected on it",
+  "matching": "same UTC hour/minute/second and weekday, different date, within lockbox date bounds",
+  "source": "genuine data/market/raw_ticks hourly JSON; causal 300-second pre-target window",
+  "minimum_alternative_days": 5,
+  "event_exclusion_seconds": 300,
+  "frozen_beta": 0.1127829888758675,
+  "gate_alpha": 0.05,
+  "gate": "SURVIVES_RETROSPECTIVE_PLACEBO"
+}

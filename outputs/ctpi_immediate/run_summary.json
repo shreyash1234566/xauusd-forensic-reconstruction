@@ -1,0 +1,37 @@
+{
+  "status": "complete",
+  "reconciliation": "VERIFIED",
+  "tick_rate_placebo_gate": "SURVIVES_RETROSPECTIVE_PLACEBO",
+  "planted_calibration": [
+    {
+      "scenario": "continuous_low_noise",
+      "replicates": 100,
+      "clock_family_recovery_rate": 1.0,
+      "clock_mdl_recovery_rate": 0.0,
+      "contrarian_family_recovery_rate": 1.0,
+      "exact_horizon_recovery_rate": 1.0,
+      "joint_family_recovery_rate": 1.0,
+      "joint_mdl_recovery_rate": 0.0,
+      "median_clock_bits_per_event": 0.39515536346619806,
+      "median_clock_mdl_net_bits": -37.52081822213182,
+      "median_direction_test_accuracy": 0.8995798319327731,
+      "median_direction_mdl_net_bits": 52.68148931204436
+    },
+    {
+      "scenario": "censored_execution_noise",
+      "replicates": 100,
+      "clock_family_recovery_rate": 1.0,
+      "clock_mdl_recovery_rate": 0.0,
+      "contrarian_family_recovery_rate": 1.0,
+      "exact_horizon_recovery_rate": 1.0,
+      "joint_family_recovery_rate": 1.0,
+      "joint_mdl_recovery_rate": 0.0,
+      "median_clock_bits_per_event": 0.3664657820549543,
+      "median_clock_mdl_net_bits": -39.571137748304025,
+      "median_direction_test_accuracy": 0.8660254050073638,
+      "median_direction_mdl_net_bits": 41.579258555395896
+    }
+  ],
+  "availability": "NO_STRONG_MAX_GAP_ANOMALY_UNDER_FROZEN_CLOCK_MODEL",
+  "final_verdict": "CTPI_PARTIAL_COMPONENTS_TICK_RATE_SURVIVES_RETROSPECTIVE_PLACEBO_NO_COMPLETE_POLICY"
+}

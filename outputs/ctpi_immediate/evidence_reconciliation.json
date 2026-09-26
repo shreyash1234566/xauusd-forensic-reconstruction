@@ -1,0 +1,65 @@
+{
+  "status": "VERIFIED",
+  "rerun_performed": true,
+  "exact_artifact_reproduction": true,
+  "changed_artifacts": [],
+  "missing_after_rerun": [],
+  "added_after_rerun": [],
+  "numeric_checks": {
+    "full_exposure_lockbox_bits_per_event_vs_constant": 0.3264804142926592,
+    "conditional_lockbox_bits_per_event_vs_uniform": 0.04582126111344443,
+    "tick_rate_ratio_lockbox_bits_per_event_vs_clock": 0.0559184752022202,
+    "tick_rate_ratio_holm_pvalue": 0.0448
+  },
+  "expected_checks": {
+    "clock_full_exposure_matches_reported": true,
+    "clock_conditional_matches_reported": true,
+    "tick_ratio_lockbox_matches_reported": true,
+    "tick_ratio_holm_matches_reported": true
+  },
+  "commands": [
+    {
+      "command": [
+        "E:\\reverse -traid\\.venv\\Scripts\\python.exe",
+        "E:\\reverse -traid\\scripts\\phase13_clock_offset_analysis.py"
+      ],
+      "returncode": 0,
+      "stdout_tail": "{\n  \"status\": \"complete\",\n  \"clock\": {\n    \"design\": [\n      \"tod_sin_1\",\n      \"tod_cos_1\",\n      \"tod_sin_2\",\n      \"tod_cos_2\",\n      \"tod_sin_3\",\n      \"tod_cos_3\",\n      \"tod_sin_4\",\n      \"tod_cos_4\",\n      \"tod_sin_5\",\n      \"tod_cos_5\",\n      \"tod_sin_6\",\n      \"tod_cos_6\",\n      \"dow_1\",\n      \"dow_2\",\n      \"dow_3\",\n      \"dow_4\",\n      \"dow_5\",\n      \"dow_6\"\n    ],\n    \"harmonics\": 6,\n    \"selected_alpha\": 0.0001,\n    \"alpha_selection\": [\n      {\n        \"alpha\": 0.0,\n        \"validation_log_likelihood\": -795.4095895216756\n      },\n      {\n        \"alpha\": 1e-05,\n        \"validation_log_likelihood\": -792.1591177143082\n      },\n      {\n        \"alpha\": 0.0001,\n        \"validation_log_likelihood\": -790.7283886563957\n      },\n      {\n        \"alpha\": 0.001,\n        \"validation_log_likelihood\": -795.2330395563087\n      },\n      {\n        \"alpha\": 0.01,\n        \"validation_log_likelihood\": -805.6964855747048\n      },\n      {\n        \"alpha\": 0.1,\n        \"validation_log_likelihood\": -808.2597617057557\n      },\n      {\n        \"alpha\": 1.0,\n        \"validation_log_likelihood\": -808.5466605964575\n      }\n    ],\n    \"intercept\": -7.046032859747358,\n    \"coefficients\": {\n      \"tod_sin_1\": 0.641710919262332,\n      \"tod_cos_1\": -1.0517113820618402,\n      \"tod_sin_2\": -0.04294071941756249,\n      \"tod_cos_2\": -0.23184481855954425,\n      \"tod_sin_3\": -0.15100184551185336,\n      \"tod_cos_3\": 0.03897603291716207,\n      \"tod_sin_4\": -0.03867572379783012,\n      \"tod_cos_4\": 0.17202741353549758,\n      \"tod_sin_5\": 0.0883920569439517,\n      \"tod_cos_5\": 0.010318160321217816,\n      \"tod_sin_6\": 0.043492657765417025,\n      \"tod_cos_6\": -0.006940505725731099,\n      \"dow_1\": -0.005175531839490425,\n      \"dow_2\": -0.06666362369703754,\n      \"dow_3\": 0.05369387159950729,\n      \"dow_4\": -0.08763706641318049,\n      \"dow_5\": -0.01293525564904342,\n      \"dow_6\": 0.0\n    },\n    \"discovery_minutes\": 248069,\n    \"discovery_events\": 317,\n    \"lockbox_minutes\": 95852,\n    \"lockbox_events\": 102,\n    \"full_exposure_lockbox_bits_per_event_vs_constant\": 0.3264804142926592,\n    \"fit_scope\": \"discovery only; every observed M1 minute across the full 24-hour market panel\",\n    \"discovery_conditional_bits_per_event_vs_uniform\": 0.08149041759383342,\n    \"lockbox_conditional_bits_per_event_vs_uniform\": 0.04582126111344443,\n    \"lockbox_conditional_randomization_pvalue\": 0.0149,\n    \"discovery_supported_risk_set_strata\": 274,\n    \"lockbox_supported_risk_set_strata\": 69,\n    \"risk_set_positivity_rule\": \"Market tests retain only legacy broad strata whose case UTC hour is within the control support 05:00-16:59.\"\n  },\n  \"feature_survivors\": [\n    \"tick_rate_ratio\"\n  ],\n  \"symbolic_search\": \"READY\"\n}\n",
+      "stderr_tail": ""
+    },
+    {
+      "command": [
+        "E:\\reverse -traid\\.venv\\Scripts\\python.exe",
+        "E:\\reverse -traid\\scripts\\phase13_symbolic_survivor_search.py"
+      ],
+      "returncode": 0,
+      "stdout_tail": "{\n  \"status\": \"retrospective_symbolic_diagnostics_complete\",\n  \"features_used\": [\n    \"tick_rate_ratio\"\n  ],\n  \"candidate_count\": 18,\n  \"frozen_cohort_count\": 18,\n  \"best_candidate\": {\n    \"candidate_id\": \"P13-0015\",\n    \"rule_json\": \"{\\\"feature\\\": \\\"tick_rate_ratio\\\", \\\"operator\\\": \\\"<\\\", \\\"threshold\\\": 1.2065472353421294, \\\"type\\\": \\\"threshold\\\"}\",\n    \"frozen_beta\": -0.5241013148953461,\n    \"inner_validation_bits_per_event\": 0.0620979823017176,\n    \"lockbox_reuse_bits_per_event_vs_clock\": 0.06645743207699079,\n    \"description_length_bits\": 12.247719541672799,\n    \"lockbox_reuse_net_mdl_bits\": -7.662156728360435,\n    \"confirmatory_acceptance_permitted\": false\n  },\n  \"confirmatory_policy_identified\": false,\n  \"reason\": \"The same lockbox selected the survivor features; reuse cannot provide an independent acceptance test.\",\n  \"direction_constraint\": \"direction must be contrarian to the causal 2-20 minute pre-entry return\"\n}\n",
+      "stderr_tail": ""
+    }
+  ],
+  "canonical_input_hashes": {
+    "data/raw/trades_raw.tsv": "3B22B24C5F7BEB2118FFEC613640A9AB1472C3D04E4503229D00771277E4B6BD",
+    "outputs/market_reconstruction/phase7c_trade_reconciliation.csv": "E747A2A4A27392399AE409D3788ABC2B595BEAFAF06D7E9179EBA6805F135DDB",
+    "outputs/strategy_reconstruction/phase10_11_decision_epoch_map.csv": "C19A0EA80DBA3FE04007BAE2E4CD7AD0072194DFB30FC7777A93F758B4224BB6",
+    "data/processed/decision_panel.parquet": "47C927E2B484723A752C66DE3E6A782559E5DE2ED591398DFD3ACC8A55C69C86"
+  },
+  "phase13_artifact_hashes": {
+    "outputs/strategy_reconstruction/phase13_clock_offset/clock_intensity_freeze.json": "0ABD586C0410D65167EF45C000F297FBE48DD2B7E6070F2A50BD8C32100EFC20",
+    "outputs/strategy_reconstruction/phase13_clock_offset/direction_constraint.json": "5E10B36D362D37478C5183EC7C2A4812ACC5A01D448A95AD5BFF798A0285229B",
+    "outputs/strategy_reconstruction/phase13_clock_offset/individual_market_feature_tests.csv": "77F22AC9690AEE9EF13A630F8D03D7C8C7ED199C5317241A0CE63E93AF1603E6",
+    "outputs/strategy_reconstruction/phase13_clock_offset/phase12_matching_audit.json": "31922B1905D6A05FB349EB66886785F5EB63EF0DD702F66B859E711B665F1878",
+    "outputs/strategy_reconstruction/phase13_clock_offset/PHASE13_REPORT.md": "B21D8A7CADEC9949D494773931A2C1E5067C396816942ADE094539CF484F0D39",
+    "outputs/strategy_reconstruction/phase13_clock_offset/run_summary.json": "A74935B399B1233ABF3E2B1C0007BF59C0E10A543D701DB9538B79FEB8EE61DA",
+    "outputs/strategy_reconstruction/phase13_clock_offset/symbolic_search_gate.json": "7380E186FAF0ABC40525DE1808C3B5311D5925ED4807723C0C332B550C59A439",
+    "outputs/strategy_reconstruction/phase13_clock_offset/symbolic_search_summary.json": "DF1024E00AB4C808CA93C0238D68D27AAE39F811C8D9A03FF06F9F2DAED3A38F",
+    "outputs/strategy_reconstruction/phase13_clock_offset/symbolic_survivor_candidates.csv": "E9570035835CE7E5FFC115BA2C9F66B0B40C00349FC22AAF1311A89C06C99213"
+  },
+  "external_same_clock_placebo_claim": {
+    "status": "UNVERIFIED_EXTERNAL_CLAIM",
+    "reason": "The pasted narrative did not provide a committed executable calculation and output bundle."
+  },
+  "reported_direction_p_0_0033": {
+    "status": "UNVERIFIED_EXTERNAL_CLAIM",
+    "reason": "No reproducible project artifact containing the reported calculation was located."
+  }
+}

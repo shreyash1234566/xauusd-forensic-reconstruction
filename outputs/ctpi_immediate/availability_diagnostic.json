@@ -1,0 +1,73 @@
+{
+  "status": "complete",
+  "observed_event_minutes": 420,
+  "evidence_interval_start_utc": "2025-09-25T16:32:00+00:00",
+  "evidence_interval_end_utc": "2026-09-18T03:25:00+00:00",
+  "clock_rescaled_max_gap_fraction": 0.010104110076373777,
+  "conditional_uniform_max_spacing_pvalue": 0.99965,
+  "simulations": 19999,
+  "assessment": "NO_STRONG_MAX_GAP_ANOMALY_UNDER_FROZEN_CLOCK_MODEL",
+  "identifiability_limit": "Absence of trades cannot distinguish account downtime from no signal. This diagnostic does not infer uptime.",
+  "top_gaps": [
+    {
+      "previous_event_utc": "2025-10-30 07:44:00+00:00",
+      "next_event_utc": "2025-11-03 16:38:00+00:00",
+      "calendar_gap_hours": 104.9,
+      "clock_rescaled_expected_events": 4.483148339982769
+    },
+    {
+      "previous_event_utc": "2026-03-18 14:30:00+00:00",
+      "next_event_utc": "2026-03-23 06:13:00+00:00",
+      "calendar_gap_hours": 111.71666666666667,
+      "clock_rescaled_expected_events": 4.180819042120078
+    },
+    {
+      "previous_event_utc": "2026-02-09 10:04:00+00:00",
+      "next_event_utc": "2026-02-11 15:40:00+00:00",
+      "calendar_gap_hours": 53.6,
+      "clock_rescaled_expected_events": 4.088754587080189
+    },
+    {
+      "previous_event_utc": "2025-11-12 08:19:00+00:00",
+      "next_event_utc": "2025-11-14 09:12:00+00:00",
+      "calendar_gap_hours": 48.88333333333333,
+      "clock_rescaled_expected_events": 3.677278114974321
+    },
+    {
+      "previous_event_utc": "2025-12-23 15:38:00+00:00",
+      "next_event_utc": "2025-12-29 04:11:00+00:00",
+      "calendar_gap_hours": 132.55,
+      "clock_rescaled_expected_events": 3.585760906060969
+    },
+    {
+      "previous_event_utc": "2026-01-20 07:00:00+00:00",
+      "next_event_utc": "2026-01-22 07:25:00+00:00",
+      "calendar_gap_hours": 48.416666666666664,
+      "clock_rescaled_expected_events": 3.5773957810023944
+    },
+    {
+      "previous_event_utc": "2025-11-27 09:02:00+00:00",
+      "next_event_utc": "2025-12-01 10:14:00+00:00",
+      "calendar_gap_hours": 97.2,
+      "clock_rescaled_expected_events": 3.5524061234398374
+    },
+    {
+      "previous_event_utc": "2026-02-18 03:30:00+00:00",
+      "next_event_utc": "2026-02-19 20:18:00+00:00",
+      "calendar_gap_hours": 40.8,
+      "clock_rescaled_expected_events": 3.4642356611758203
+    },
+    {
+      "previous_event_utc": "2025-11-10 09:22:00+00:00",
+      "next_event_utc": "2025-11-12 08:19:00+00:00",
+      "calendar_gap_hours": 46.95,
+      "clock_rescaled_expected_events": 3.391412153042353
+    },
+    {
+      "previous_event_utc": "2026-02-13 11:12:00+00:00",
+      "next_event_utc": "2026-02-17 10:21:00+00:00",
+      "calendar_gap_hours": 95.15,
+      "clock_rescaled_expected_events": 3.3660776493741196
+    }
+  ]
+}

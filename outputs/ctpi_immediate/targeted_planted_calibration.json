@@ -1,0 +1,37 @@
+{
+  "status": "complete",
+  "target": "420-event modest harmonic-clock plus return_5 contrarian direction family",
+  "candidate_direction_set": "contrarian/trend at completed 1, 5, 15 and 30 minute returns",
+  "clock_candidate": "six-harmonic time-of-day plus day-of-week Poisson model fitted from synthetic discovery exposure",
+  "retrospective_calibration_not_real_strategy_evidence": true,
+  "summaries": [
+    {
+      "scenario": "continuous_low_noise",
+      "replicates": 100,
+      "clock_family_recovery_rate": 1.0,
+      "clock_mdl_recovery_rate": 0.0,
+      "contrarian_family_recovery_rate": 1.0,
+      "exact_horizon_recovery_rate": 1.0,
+      "joint_family_recovery_rate": 1.0,
+      "joint_mdl_recovery_rate": 0.0,
+      "median_clock_bits_per_event": 0.39515536346619806,
+      "median_clock_mdl_net_bits": -37.52081822213182,
+      "median_direction_test_accuracy": 0.8995798319327731,
+      "median_direction_mdl_net_bits": 52.68148931204436
+    },
+    {
+      "scenario": "censored_execution_noise",
+      "replicates": 100,
+      "clock_family_recovery_rate": 1.0,
+      "clock_mdl_recovery_rate": 0.0,
+      "contrarian_family_recovery_rate": 1.0,
+      "exact_horizon_recovery_rate": 1.0,
+      "joint_family_recovery_rate": 1.0,
+      "joint_mdl_recovery_rate": 0.0,
+      "median_clock_bits_per_event": 0.3664657820549543,
+      "median_clock_mdl_net_bits": -39.571137748304025,
+      "median_direction_test_accuracy": 0.8660254050073638,
+      "median_direction_mdl_net_bits": 41.579258555395896
+    }
+  ]
+}
