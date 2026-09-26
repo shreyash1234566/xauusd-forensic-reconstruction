@@ -1,0 +1,135 @@
+{
+  "status": "complete",
+  "taxonomy": "EXIT_FROZEN_AFTER_PEAK_DISTANCE_FAILURE",
+  "decision": "Peak-distance hazard fails the declared absolute calibration gate. Freeze exit reconstruction on this ledger.",
+  "primary_specification": "peak_distance_calendar",
+  "acceptance_rule_frozen_before_execution": "lockbox time-rescaling KS p >= 0.05",
+  "lockbox_reuse_warning": "The chronological lockbox was opened by the prior exit analysis; this is a terminal diagnostic, not independent confirmation.",
+  "canonical_hashes": {
+    "data/raw/trades_raw.tsv": "3B22B24C5F7BEB2118FFEC613640A9AB1472C3D04E4503229D00771277E4B6BD",
+    "outputs/ctpi_exit_investigation/exit_risk_panel.parquet": "3003EA400F13B26F82796506FDBA19819CE26767F359813D5A20BDD162CE210F"
+  },
+  "design": {
+    "estimator": "piecewise-exponential Poisson counting-process hazard",
+    "exact_interval_exposure": true,
+    "discovery_trades": 296,
+    "lockbox_trades": 98,
+    "inner_discovery_cut_utc": "2026-04-16T08:12:05+00:00",
+    "primary_state_variable": "drawdown_from_mfe = MFE - unrealized_move",
+    "primary_functional_form": "five-knot quadratic quantile spline"
+  },
+  "models": {
+    "age_calendar": {
+      "selected_alpha": 0.01,
+      "regularization_selection": [
+        {
+          "alpha": 1e-06,
+          "validation_counting_process_log_likelihood": -564.8491428743007
+        },
+        {
+          "alpha": 0.0001,
+          "validation_counting_process_log_likelihood": -560.0479185953717
+        },
+        {
+          "alpha": 0.001,
+          "validation_counting_process_log_likelihood": -557.31881230358
+        },
+        {
+          "alpha": 0.01,
+          "validation_counting_process_log_likelihood": -555.7092851620059
+        },
+        {
+          "alpha": 0.1,
+          "validation_counting_process_log_likelihood": -556.2275586450731
+        },
+        {
+          "alpha": 1.0,
+          "validation_counting_process_log_likelihood": -556.3666640337904
+        }
+      ],
+      "lockbox_log_likelihood": -779.7320452078848,
+      "time_rescaling": {
+        "n_trades": 98,
+        "ks_statistic": 0.19952053035072448,
+        "ks_pvalue": 0.0006780677999806972,
+        "mean_transformed": 0.5984584431762136,
+        "gate": "FAIL"
+      }
+    },
+    "peak_distance_calendar": {
+      "selected_alpha": 1.0,
+      "regularization_selection": [
+        {
+          "alpha": 1e-06,
+          "validation_counting_process_log_likelihood": -567.9524451568773
+        },
+        {
+          "alpha": 0.0001,
+          "validation_counting_process_log_likelihood": -561.920428458968
+        },
+        {
+          "alpha": 0.001,
+          "validation_counting_process_log_likelihood": -558.9485203042524
+        },
+        {
+          "alpha": 0.01,
+          "validation_counting_process_log_likelihood": -556.6285378560206
+        },
+        {
+          "alpha": 0.1,
+          "validation_counting_process_log_likelihood": -556.3844492261999
+        },
+        {
+          "alpha": 1.0,
+          "validation_counting_process_log_likelihood": -556.3836928746913
+        }
+      ],
+      "lockbox_log_likelihood": -781.03825060015,
+      "time_rescaling": {
+        "n_trades": 98,
+        "ks_statistic": 0.16231937604919114,
+        "ks_pvalue": 0.01006445611447837,
+        "mean_transformed": 0.5736608330021096,
+        "gate": "FAIL"
+      }
+    },
+    "age_plus_peak_distance": {
+      "selected_alpha": 0.1,
+      "regularization_selection": [
+        {
+          "alpha": 1e-06,
+          "validation_counting_process_log_likelihood": -567.8670775027729
+        },
+        {
+          "alpha": 0.0001,
+          "validation_counting_process_log_likelihood": -563.7039125282874
+        },
+        {
+          "alpha": 0.001,
+          "validation_counting_process_log_likelihood": -559.7881587682621
+        },
+        {
+          "alpha": 0.01,
+          "validation_counting_process_log_likelihood": -556.6753042489603
+        },
+        {
+          "alpha": 0.1,
+          "validation_counting_process_log_likelihood": -556.3456420476075
+        },
+        {
+          "alpha": 1.0,
+          "validation_counting_process_log_likelihood": -556.3785470819118
+        }
+      ],
+      "lockbox_log_likelihood": -780.8467174920713,
+      "time_rescaling": {
+        "n_trades": 98,
+        "ks_statistic": 0.168020567912494,
+        "ks_pvalue": 0.006905159251960558,
+        "mean_transformed": 0.577930652849312,
+        "gate": "FAIL"
+      }
+    }
+  },
+  "primary_passed": false
+}
