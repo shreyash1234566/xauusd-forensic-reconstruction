@@ -3,22 +3,23 @@
   "taxonomy": {
     "clock_session_structure": "PARTIAL_COMPONENTS_IDENTIFIED",
     "tick_rate_ratio_beyond_clock": "PARTIAL_COMPONENTS_IDENTIFIED",
-    "contrarian_direction": "INSUFFICIENT_STATISTICAL_POWER",
+    "contrarian_direction": "PARTIAL_COMPONENTS_IDENTIFIED",
     "entry_mechanism": "INSUFFICIENT_STATISTICAL_POWER",
     "size_mechanism": "INSUFFICIENT_STATISTICAL_POWER",
     "exit_mechanism": "INSUFFICIENT_STATISTICAL_POWER",
     "complete_policy_within_current_search": "INSUFFICIENT_STATISTICAL_POWER",
     "unrestricted_original_source_policy": "STRUCTURALLY_NON_IDENTIFIABLE"
   },
-  "targeted_recoverability_calibrated_at_80_percent": true,
+  "targeted_family_detection_at_80_percent": true,
+  "targeted_mdl_acceptance_at_80_percent": false,
   "tick_rate_placebo_gate": "SURVIVES_RETROSPECTIVE_PLACEBO",
-  "direction_claim_status": "UNVERIFIED_EXTERNAL_CLAIM",
+  "direction_claim_status": "SURVIVES_SHIFTED_EVENT_PLACEBO",
   "availability_assessment": "NO_STRONG_MAX_GAP_ANOMALY_UNDER_FROZEN_CLOCK_MODEL",
   "independent_second_ledger": {
     "priority": "highest-value future positive confirmation",
     "availability": "UNAVAILABLE_BY_PROJECT_CONSTRAINT",
     "action": "not requested; not a prerequisite; do not synthesize a replacement"
   },
-  "final_verdict": "CTPI_PARTIAL_COMPONENTS_TICK_RATE_SURVIVES_RETROSPECTIVE_PLACEBO_NO_COMPLETE_POLICY",
+  "final_verdict": "CTPI_PARTIAL_COMPONENTS_CLOCK_TICK_RATE_DIRECTION_NO_COMPLETE_POLICY",
   "claim_boundary": "All positive results are retrospective. No untouched real-data lockbox remains."
 }

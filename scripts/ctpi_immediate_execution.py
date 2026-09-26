@@ -25,9 +25,11 @@ from sklearn.linear_model import PoissonRegressor
 try:
     from scripts.phase13_clock_offset_analysis import clock_design
     from scripts.tickfeat10 import TickStore, extract_tick_features_arrays
+    from scripts.ctpi_direction_placebo import run as run_direction_placebo
 except ModuleNotFoundError:  # Direct execution places scripts/ on sys.path.
     from phase13_clock_offset_analysis import clock_design
     from tickfeat10 import TickStore, extract_tick_features_arrays
+    from ctpi_direction_placebo import run as run_direction_placebo
 
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -530,14 +532,18 @@ def availability_gap_diagnostic(*, simulations: int = 19999) -> dict:
     return payload
 
 
-def issue_recoverability_report(reconciliation: dict, placebo: dict, calibration: dict, availability: dict) -> dict:
+def issue_recoverability_report(
+    reconciliation: dict, placebo: dict, direction: dict,
+    calibration: dict, availability: dict,
+) -> dict:
     placebo_survives = placebo["gate"] == "SURVIVES_RETROSPECTIVE_PLACEBO"
     calibration_by_name = {row["scenario"]: row for row in calibration["summaries"]}
     noisy = calibration_by_name["censored_execution_noise"]
     calibrated = noisy["joint_family_recovery_rate"] >= 0.80
     clock_outcome = "PARTIAL_COMPONENTS_IDENTIFIED" if reconciliation["status"] == "VERIFIED" else "INSUFFICIENT_STATISTICAL_POWER"
     tick_outcome = "PARTIAL_COMPONENTS_IDENTIFIED" if placebo_survives else "INSUFFICIENT_STATISTICAL_POWER"
-    direction_outcome = "INSUFFICIENT_STATISTICAL_POWER"
+    direction_survives = direction["gate"] == "SURVIVES_SHIFTED_EVENT_PLACEBO"
+    direction_outcome = "PARTIAL_COMPONENTS_IDENTIFIED" if direction_survives else "INSUFFICIENT_STATISTICAL_POWER"
     complete_outcome = "STRUCTURALLY_NON_IDENTIFIABLE"
     payload = {
         "status": "complete",
@@ -551,9 +557,12 @@ def issue_recoverability_report(reconciliation: dict, placebo: dict, calibration
             "complete_policy_within_current_search": "INSUFFICIENT_STATISTICAL_POWER",
             "unrestricted_original_source_policy": complete_outcome,
         },
-        "targeted_recoverability_calibrated_at_80_percent": calibrated,
+        "targeted_family_detection_at_80_percent": calibrated,
+        "targeted_mdl_acceptance_at_80_percent": bool(
+            noisy["joint_mdl_recovery_rate"] >= 0.80
+        ),
         "tick_rate_placebo_gate": placebo["gate"],
-        "direction_claim_status": "UNVERIFIED_EXTERNAL_CLAIM",
+        "direction_claim_status": direction["gate"],
         "availability_assessment": availability["assessment"],
         "independent_second_ledger": {
             "priority": "highest-value future positive confirmation",
@@ -561,9 +570,9 @@ def issue_recoverability_report(reconciliation: dict, placebo: dict, calibration
             "action": "not requested; not a prerequisite; do not synthesize a replacement",
         },
         "final_verdict": (
+            "CTPI_PARTIAL_COMPONENTS_CLOCK_TICK_RATE_DIRECTION_NO_COMPLETE_POLICY"
+            if placebo_survives and direction_survives else
             "CTPI_PARTIAL_COMPONENTS_ONLY_NO_COMPACT_ALGORITHM_IDENTIFIED"
-            if not placebo_survives else
-            "CTPI_PARTIAL_COMPONENTS_TICK_RATE_SURVIVES_RETROSPECTIVE_PLACEBO_NO_COMPLETE_POLICY"
         ),
         "claim_boundary": "All positive results are retrospective. No untouched real-data lockbox remains.",
     }
@@ -592,7 +601,9 @@ source program.
 - Exact artifact reproduction: **{reconciliation['exact_artifact_reproduction']}**.
 - External pasted placebo claim: **UNVERIFIED_EXTERNAL_CLAIM** until backed by
   executable artifacts.
-- Reported direction p=0.0033: **UNVERIFIED_EXTERNAL_CLAIM**.
+- Original reported direction p=0.0033: not accepted verbatim because its
+  calculation was absent, but the component now has an independent project
+  reproduction: **{direction['gate']}**.
 
 ## `tick_rate_ratio` same-clock random-day placebo
 
@@ -612,6 +623,18 @@ large maximum contribution show heterogeneous, concentrated evidence. This is
 provisional evidence for a weak intensity component, not a threshold mechanism
 or complete entry rule.
 
+## Contrarian direction shifted-event placebo
+
+- Eligible canonical epochs: **{direction['epochs_tested']} / 420**.
+- Max-statistic window: **{direction['max_stat_window_minutes']} minutes**.
+- Maximum contrarian strength: **{direction['max_observed_contrarian_strength']:.4f}** above chance.
+- Search-corrected shifted-event p-value: **{direction['max_stat_shifted_event_pvalue']:.6g}**.
+- Significant predeclared 2–20 minute windows: **{direction['short_windows_pointwise_significant']} / 7**.
+- Gate: **{direction['gate']}**.
+
+This is a reproducible directional association based only on completed M1 bars.
+It identifies neither when an entry occurs nor a unique direction formula.
+
 ## Targeted 420-event planted recovery
 
 | Scenario | Clock family | Clock after MDL | Contrarian family | Joint family |
@@ -626,6 +649,10 @@ was **{calibration_by_name['continuous_low_noise']['median_clock_mdl_net_bits']:
 without censoring and **{calibration_by_name['censored_execution_noise']['median_clock_mdl_net_bits']:.2f} bits**
 with censoring/execution noise. At this sample size, family detection is not
 unique program identification.
+
+**At N≈420, under the tested noise conditions and the project's current MDL
+specification, even the planted clock+direction mechanism failed the acceptance
+criterion; the gate lacks power for this mechanism class at this sample size.**
 
 ## Availability diagnostic
 
@@ -647,6 +674,9 @@ No compact complete entry/direction/size/exit algorithm is identified. A second
 untouched ledger remains the most valuable possible positive confirmation, but
 it is unavailable under the project constraint and is not requested. The
 project must not replace it with synthetic account evidence.
+
+The 420-epoch evidence base is now frozen for discovery. Further unregistered
+feature mining on these same trades is outside the CTPI plan.
 """
     (OUT / "CTPI_RECOVERABILITY_REPORT.md").write_text(report, encoding="utf-8")
     return payload
@@ -656,13 +686,15 @@ def run(*, rerun_phase13: bool = True, permutations: int = 19999, replicates: in
     OUT.mkdir(parents=True, exist_ok=True)
     reconciliation = reconcile_phase13(rerun=rerun_phase13)
     placebo = run_tick_rate_random_day_placebo(permutations=permutations)
+    direction = run_direction_placebo(permutations=2000)
     calibration = run_targeted_planted_calibration(replicates=replicates)
     availability = availability_gap_diagnostic(simulations=permutations)
-    verdict = issue_recoverability_report(reconciliation, placebo, calibration, availability)
+    verdict = issue_recoverability_report(reconciliation, placebo, direction, calibration, availability)
     summary = {
         "status": "complete",
         "reconciliation": reconciliation["status"],
         "tick_rate_placebo_gate": placebo["gate"],
+        "direction_placebo_gate": direction["gate"],
         "planted_calibration": calibration["summaries"],
         "availability": availability["assessment"],
         "final_verdict": verdict["final_verdict"],

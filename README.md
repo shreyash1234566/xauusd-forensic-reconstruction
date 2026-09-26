@@ -51,7 +51,7 @@ Run the immediate CTPI sequence with:
 ```
 
 Its reconciled evidence, raw-tick same-clock placebo, targeted planted recovery,
-availability diagnostic and five-outcome verdict are written under
+completed-bar direction placebo, availability diagnostic and five-outcome verdict are written under
 `outputs/ctpi_immediate/`.
 
 The implementation plan is documented in

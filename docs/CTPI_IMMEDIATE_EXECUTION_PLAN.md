@@ -8,6 +8,8 @@ Execution status: completed on 26 September 2026 by
 `scripts/ctpi_immediate_execution.py`. The authoritative result is
 `outputs/ctpi_immediate/CTPI_RECOVERABILITY_REPORT.md`; machine-readable
 component results and the complete evidence manifest are stored beside it.
+The final bounded direction task is implemented separately in
+`scripts/ctpi_direction_placebo.py` and is invoked by the main runner.
 
 This six-step sequence answers the immediate recoverability question without
 requiring the complete CTPI recovery phase diagram first. It is subordinate to

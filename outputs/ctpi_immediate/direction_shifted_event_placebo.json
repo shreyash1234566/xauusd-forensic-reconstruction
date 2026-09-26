@@ -1,0 +1,201 @@
+{
+  "status": "complete",
+  "method": "same UTC clock second and weekday on a different real trading date; labels fixed; max statistic across 15 predeclared windows",
+  "causal_contract": "Each return ends at the close of the M1 bar immediately before the entry minute.",
+  "source": "data/market/raw/xauusd_m1_utc_raw.csv (public Dukascopy bid M1; no interpolation)",
+  "epochs_available": 420,
+  "epochs_tested": 406,
+  "minimum_alternative_days": 5,
+  "event_exclusion_seconds": 300,
+  "windows_minutes": [
+    2,
+    3,
+    5,
+    8,
+    10,
+    15,
+    20,
+    30,
+    45,
+    60,
+    90,
+    120,
+    180,
+    240,
+    360
+  ],
+  "input_hashes": {
+    "data/raw/trades_raw.tsv": "3B22B24C5F7BEB2118FFEC613640A9AB1472C3D04E4503229D00771277E4B6BD",
+    "outputs/strategy_reconstruction/phase10_11_decision_epoch_map.csv": "C19A0EA80DBA3FE04007BAE2E4CD7AD0072194DFB30FC7777A93F758B4224BB6",
+    "data/market/raw/xauusd_m1_utc_raw.csv": "AACE3312452A87C0C81370C6FE668DCA81BCFA83C413A90A1A89BFA020EFCA1F"
+  },
+  "max_stat_window_minutes": 20,
+  "max_observed_contrarian_strength": 0.11481481481481481,
+  "max_stat_shifted_event_pvalue": 0.0004997501249375312,
+  "permutations": 2000,
+  "resolution_floor": 0.0004997501249375312,
+  "short_windows_pointwise_significant": 7,
+  "predeclared_short_windows": [
+    2,
+    3,
+    5,
+    8,
+    10,
+    15,
+    20
+  ],
+  "gate": "SURVIVES_SHIFTED_EVENT_PLACEBO",
+  "window_results": [
+    {
+      "window_minutes": 2,
+      "n_nonzero": 406,
+      "momentum_accuracy": 0.4088669950738916,
+      "contrarian_accuracy": 0.5911330049261083,
+      "contrarian_strength_over_chance": 0.09113300492610832,
+      "pointwise_placebo_pvalue": 0.0004997501249375312,
+      "null_strength_mean": -0.0022954090056743377,
+      "null_strength_q95": 0.03718585747463633
+    },
+    {
+      "window_minutes": 3,
+      "n_nonzero": 405,
+      "momentum_accuracy": 0.38765432098765434,
+      "contrarian_accuracy": 0.6123456790123456,
+      "contrarian_strength_over_chance": 0.1123456790123456,
+      "pointwise_placebo_pvalue": 0.0004997501249375312,
+      "null_strength_mean": 0.0035307156127866862,
+      "null_strength_q95": 0.04207920792079212
+    },
+    {
+      "window_minutes": 5,
+      "n_nonzero": 405,
+      "momentum_accuracy": 0.4024691358024691,
+      "contrarian_accuracy": 0.5975308641975309,
+      "contrarian_strength_over_chance": 0.09753086419753088,
+      "pointwise_placebo_pvalue": 0.0004997501249375312,
+      "null_strength_mean": 0.001834730960173672,
+      "null_strength_q95": 0.044334975369458185
+    },
+    {
+      "window_minutes": 8,
+      "n_nonzero": 406,
+      "momentum_accuracy": 0.41625615763546797,
+      "contrarian_accuracy": 0.583743842364532,
+      "contrarian_strength_over_chance": 0.08374384236453203,
+      "pointwise_placebo_pvalue": 0.0004997501249375312,
+      "null_strength_mean": 0.00015603016695087547,
+      "null_strength_q95": 0.040740740740740744
+    },
+    {
+      "window_minutes": 10,
+      "n_nonzero": 405,
+      "momentum_accuracy": 0.40987654320987654,
+      "contrarian_accuracy": 0.5901234567901235,
+      "contrarian_strength_over_chance": 0.09012345679012346,
+      "pointwise_placebo_pvalue": 0.0004997501249375312,
+      "null_strength_mean": 0.003733473648268963,
+      "null_strength_q95": 0.041871921182266014
+    },
+    {
+      "window_minutes": 15,
+      "n_nonzero": 406,
+      "momentum_accuracy": 0.4211822660098522,
+      "contrarian_accuracy": 0.5788177339901478,
+      "contrarian_strength_over_chance": 0.0788177339901478,
+      "pointwise_placebo_pvalue": 0.0009995002498750624,
+      "null_strength_mean": -0.0006060615259848376,
+      "null_strength_q95": 0.0383284680411117
+    },
+    {
+      "window_minutes": 20,
+      "n_nonzero": 405,
+      "momentum_accuracy": 0.3851851851851852,
+      "contrarian_accuracy": 0.6148148148148148,
+      "contrarian_strength_over_chance": 0.11481481481481481,
+      "pointwise_placebo_pvalue": 0.0004997501249375312,
+      "null_strength_mean": 0.0022909298133007446,
+      "null_strength_q95": 0.041871921182266014
+    },
+    {
+      "window_minutes": 30,
+      "n_nonzero": 406,
+      "momentum_accuracy": 0.45073891625615764,
+      "contrarian_accuracy": 0.5492610837438423,
+      "contrarian_strength_over_chance": 0.049261083743842304,
+      "pointwise_placebo_pvalue": 0.026986506746626688,
+      "null_strength_mean": 0.0019832490161967907,
+      "null_strength_q95": 0.041871921182266014
+    },
+    {
+      "window_minutes": 45,
+      "n_nonzero": 406,
+      "momentum_accuracy": 0.4482758620689655,
+      "contrarian_accuracy": 0.5517241379310345,
+      "contrarian_strength_over_chance": 0.051724137931034475,
+      "pointwise_placebo_pvalue": 0.01999000499750125,
+      "null_strength_mean": -0.001696347018682987,
+      "null_strength_q95": 0.03718585747463633
+    },
+    {
+      "window_minutes": 60,
+      "n_nonzero": 406,
+      "momentum_accuracy": 0.4482758620689655,
+      "contrarian_accuracy": 0.5517241379310345,
+      "contrarian_strength_over_chance": 0.051724137931034475,
+      "pointwise_placebo_pvalue": 0.02148925537231384,
+      "null_strength_mean": 0.0006689172707637452,
+      "null_strength_q95": 0.041871921182266014
+    },
+    {
+      "window_minutes": 90,
+      "n_nonzero": 406,
+      "momentum_accuracy": 0.4753694581280788,
+      "contrarian_accuracy": 0.5246305418719213,
+      "contrarian_strength_over_chance": 0.024630541871921263,
+      "pointwise_placebo_pvalue": 0.16391804097951024,
+      "null_strength_mean": -0.0006425403499141472,
+      "null_strength_q95": 0.039408866995073843
+    },
+    {
+      "window_minutes": 120,
+      "n_nonzero": 406,
+      "momentum_accuracy": 0.4802955665024631,
+      "contrarian_accuracy": 0.5197044334975369,
+      "contrarian_strength_over_chance": 0.019704433497536922,
+      "pointwise_placebo_pvalue": 0.1904047976011994,
+      "null_strength_mean": -0.0018846959011719485,
+      "null_strength_q95": 0.036945812807881784
+    },
+    {
+      "window_minutes": 180,
+      "n_nonzero": 406,
+      "momentum_accuracy": 0.4876847290640394,
+      "contrarian_accuracy": 0.5123152709359606,
+      "contrarian_strength_over_chance": 0.012315270935960632,
+      "pointwise_placebo_pvalue": 0.3613193403298351,
+      "null_strength_mean": 0.001888858796936069,
+      "null_strength_q95": 0.041871921182266014
+    },
+    {
+      "window_minutes": 240,
+      "n_nonzero": 406,
+      "momentum_accuracy": 0.4975369458128079,
+      "contrarian_accuracy": 0.5024630541871922,
+      "contrarian_strength_over_chance": 0.0024630541871921707,
+      "pointwise_placebo_pvalue": 0.38780609695152424,
+      "null_strength_mean": -0.005506373382275285,
+      "null_strength_q95": 0.034482758620689724
+    },
+    {
+      "window_minutes": 360,
+      "n_nonzero": 406,
+      "momentum_accuracy": 0.4975369458128079,
+      "contrarian_accuracy": 0.5024630541871922,
+      "contrarian_strength_over_chance": 0.0024630541871921707,
+      "pointwise_placebo_pvalue": 0.4102948525737131,
+      "null_strength_mean": -0.0044509608952137715,
+      "null_strength_q95": 0.036945812807881784
+    }
+  ],
+  "interpretation_limit": "A surviving direction association is a partial component, not an entry trigger or source-policy identity."
+}
