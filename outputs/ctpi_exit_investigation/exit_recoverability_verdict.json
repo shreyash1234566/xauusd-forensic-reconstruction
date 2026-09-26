@@ -1,0 +1,612 @@
+{
+  "status": "complete",
+  "taxonomy": "TESTED_EXIT_FEATURES_NOT_IDENTIFIED",
+  "decision": "No tested market-state exit feature survives the chronological lockbox gate beyond age and calendar.",
+  "canonical_hashes": {
+    "data/raw/trades_raw.tsv": "3B22B24C5F7BEB2118FFEC613640A9AB1472C3D04E4503229D00771277E4B6BD",
+    "outputs/market_reconstruction/phase7c_trade_reconciliation.csv": "E747A2A4A27392399AE409D3788ABC2B595BEAFAF06D7E9179EBA6805F135DDB"
+  },
+  "coverage": {
+    "canonical_trades": 423,
+    "included_trades": 394,
+    "excluded_trades": 29,
+    "status_counts": {
+      "INCLUDED": 394,
+      "EXCLUDED_MISSING_TICKS_OR_DURATION": 16,
+      "EXCLUDED_STALE_QUOTES": 13
+    }
+  },
+  "surviving_models": [],
+  "combined_time_rescaling": {
+    "n_trades": 98,
+    "ks_statistic": 0.20930544544618918,
+    "ks_pvalue": 0.00030344461424196127,
+    "mean_transformed": 0.6098573341913223,
+    "gate": "FAIL"
+  },
+  "model_metadata": {
+    "lockbox_start_utc": "2026-06-09T16:44:30+00:00",
+    "inner_discovery_cut_utc": "2026-04-16T08:12:05+00:00",
+    "discovery_trades": 296,
+    "lockbox_trades": 98,
+    "discovery_rows": 14643,
+    "lockbox_rows": 6631,
+    "grid_seconds": 15,
+    "baseline": {
+      "features": [
+        "log_age",
+        "age_hinge_3m",
+        "age_hinge_10m",
+        "age_hinge_30m",
+        "age_hinge_60m",
+        "side_buy",
+        "tod_sin_1",
+        "tod_cos_1",
+        "tod_sin_2",
+        "tod_cos_2",
+        "tod_sin_3",
+        "tod_cos_3",
+        "dow_1",
+        "dow_2",
+        "dow_3",
+        "dow_4"
+      ],
+      "selected_C": 0.001,
+      "regularization_selection": [
+        {
+          "C": 0.001,
+          "validation_log_likelihood": -355.2517894011682
+        },
+        {
+          "C": 0.01,
+          "validation_log_likelihood": -357.5463989943181
+        },
+        {
+          "C": 0.1,
+          "validation_log_likelihood": -359.7695093582197
+        },
+        {
+          "C": 1.0,
+          "validation_log_likelihood": -361.25500677024706
+        },
+        {
+          "C": 10.0,
+          "validation_log_likelihood": -361.7341509218146
+        }
+      ],
+      "lockbox_log_likelihood": -513.9374758060832,
+      "time_rescaling": {
+        "n_trades": 98,
+        "ks_statistic": 0.2223990240501742,
+        "ks_pvalue": 9.722097600302767e-05,
+        "mean_transformed": 0.6161191417835422,
+        "gate": "FAIL"
+      }
+    },
+    "models": {
+      "unrealized_move": {
+        "features": [
+          "log_age",
+          "age_hinge_3m",
+          "age_hinge_10m",
+          "age_hinge_30m",
+          "age_hinge_60m",
+          "side_buy",
+          "tod_sin_1",
+          "tod_cos_1",
+          "tod_sin_2",
+          "tod_cos_2",
+          "tod_sin_3",
+          "tod_cos_3",
+          "dow_1",
+          "dow_2",
+          "dow_3",
+          "dow_4",
+          "unrealized_move"
+        ],
+        "selected_C": 0.001,
+        "regularization_selection": [
+          {
+            "C": 0.001,
+            "validation_log_likelihood": -355.65886269860533
+          },
+          {
+            "C": 0.01,
+            "validation_log_likelihood": -358.536445570415
+          },
+          {
+            "C": 0.1,
+            "validation_log_likelihood": -360.8067992348973
+          },
+          {
+            "C": 1.0,
+            "validation_log_likelihood": -362.92875813158673
+          },
+          {
+            "C": 10.0,
+            "validation_log_likelihood": -363.72111689726654
+          }
+        ],
+        "time_rescaling": {
+          "n_trades": 98,
+          "ks_statistic": 0.2277143425622808,
+          "ks_pvalue": 6.0007473922789335e-05,
+          "mean_transformed": 0.6170823268939447,
+          "gate": "FAIL"
+        }
+      },
+      "mfe": {
+        "features": [
+          "log_age",
+          "age_hinge_3m",
+          "age_hinge_10m",
+          "age_hinge_30m",
+          "age_hinge_60m",
+          "side_buy",
+          "tod_sin_1",
+          "tod_cos_1",
+          "tod_sin_2",
+          "tod_cos_2",
+          "tod_sin_3",
+          "tod_cos_3",
+          "dow_1",
+          "dow_2",
+          "dow_3",
+          "dow_4",
+          "mfe"
+        ],
+        "selected_C": 0.001,
+        "regularization_selection": [
+          {
+            "C": 0.001,
+            "validation_log_likelihood": -355.73802747089724
+          },
+          {
+            "C": 0.01,
+            "validation_log_likelihood": -358.64970485819947
+          },
+          {
+            "C": 0.1,
+            "validation_log_likelihood": -360.82328840379733
+          },
+          {
+            "C": 1.0,
+            "validation_log_likelihood": -362.20069619642675
+          },
+          {
+            "C": 10.0,
+            "validation_log_likelihood": -362.8415168171431
+          }
+        ],
+        "time_rescaling": {
+          "n_trades": 98,
+          "ks_statistic": 0.22320080229780348,
+          "ks_pvalue": 9.046482651871985e-05,
+          "mean_transformed": 0.6167952944600282,
+          "gate": "FAIL"
+        }
+      },
+      "mae": {
+        "features": [
+          "log_age",
+          "age_hinge_3m",
+          "age_hinge_10m",
+          "age_hinge_30m",
+          "age_hinge_60m",
+          "side_buy",
+          "tod_sin_1",
+          "tod_cos_1",
+          "tod_sin_2",
+          "tod_cos_2",
+          "tod_sin_3",
+          "tod_cos_3",
+          "dow_1",
+          "dow_2",
+          "dow_3",
+          "dow_4",
+          "mae"
+        ],
+        "selected_C": 0.001,
+        "regularization_selection": [
+          {
+            "C": 0.001,
+            "validation_log_likelihood": -355.1734000176624
+          },
+          {
+            "C": 0.01,
+            "validation_log_likelihood": -357.7346457786647
+          },
+          {
+            "C": 0.1,
+            "validation_log_likelihood": -360.82191694148577
+          },
+          {
+            "C": 1.0,
+            "validation_log_likelihood": -363.6249635624382
+          },
+          {
+            "C": 10.0,
+            "validation_log_likelihood": -364.564887039287
+          }
+        ],
+        "time_rescaling": {
+          "n_trades": 98,
+          "ks_statistic": 0.21420962464158189,
+          "ks_pvalue": 0.00019978831299556,
+          "mean_transformed": 0.6108205913357184,
+          "gate": "FAIL"
+        }
+      },
+      "drawdown_from_mfe": {
+        "features": [
+          "log_age",
+          "age_hinge_3m",
+          "age_hinge_10m",
+          "age_hinge_30m",
+          "age_hinge_60m",
+          "side_buy",
+          "tod_sin_1",
+          "tod_cos_1",
+          "tod_sin_2",
+          "tod_cos_2",
+          "tod_sin_3",
+          "tod_cos_3",
+          "dow_1",
+          "dow_2",
+          "dow_3",
+          "dow_4",
+          "drawdown_from_mfe"
+        ],
+        "selected_C": 0.001,
+        "regularization_selection": [
+          {
+            "C": 0.001,
+            "validation_log_likelihood": -355.3262323199518
+          },
+          {
+            "C": 0.01,
+            "validation_log_likelihood": -356.95121171237696
+          },
+          {
+            "C": 0.1,
+            "validation_log_likelihood": -358.46649407150187
+          },
+          {
+            "C": 1.0,
+            "validation_log_likelihood": -360.3455141010244
+          },
+          {
+            "C": 10.0,
+            "validation_log_likelihood": -361.11398250979664
+          }
+        ],
+        "time_rescaling": {
+          "n_trades": 98,
+          "ks_statistic": 0.22302794155479344,
+          "ks_pvalue": 9.18826599726337e-05,
+          "mean_transformed": 0.6169354300864613,
+          "gate": "FAIL"
+        }
+      },
+      "momentum_30s": {
+        "features": [
+          "log_age",
+          "age_hinge_3m",
+          "age_hinge_10m",
+          "age_hinge_30m",
+          "age_hinge_60m",
+          "side_buy",
+          "tod_sin_1",
+          "tod_cos_1",
+          "tod_sin_2",
+          "tod_cos_2",
+          "tod_sin_3",
+          "tod_cos_3",
+          "dow_1",
+          "dow_2",
+          "dow_3",
+          "dow_4",
+          "momentum_30s"
+        ],
+        "selected_C": 0.001,
+        "regularization_selection": [
+          {
+            "C": 0.001,
+            "validation_log_likelihood": -355.3525111277453
+          },
+          {
+            "C": 0.01,
+            "validation_log_likelihood": -357.83749852247865
+          },
+          {
+            "C": 0.1,
+            "validation_log_likelihood": -360.1743503492663
+          },
+          {
+            "C": 1.0,
+            "validation_log_likelihood": -361.51992246662826
+          },
+          {
+            "C": 10.0,
+            "validation_log_likelihood": -361.9980012772901
+          }
+        ],
+        "time_rescaling": {
+          "n_trades": 98,
+          "ks_statistic": 0.22566434552172532,
+          "ks_pvalue": 7.238287038894168e-05,
+          "mean_transformed": 0.6163279913524952,
+          "gate": "FAIL"
+        }
+      },
+      "momentum_120s": {
+        "features": [
+          "log_age",
+          "age_hinge_3m",
+          "age_hinge_10m",
+          "age_hinge_30m",
+          "age_hinge_60m",
+          "side_buy",
+          "tod_sin_1",
+          "tod_cos_1",
+          "tod_sin_2",
+          "tod_cos_2",
+          "tod_sin_3",
+          "tod_cos_3",
+          "dow_1",
+          "dow_2",
+          "dow_3",
+          "dow_4",
+          "momentum_120s"
+        ],
+        "selected_C": 0.001,
+        "regularization_selection": [
+          {
+            "C": 0.001,
+            "validation_log_likelihood": -355.35659065594086
+          },
+          {
+            "C": 0.01,
+            "validation_log_likelihood": -357.6825096909033
+          },
+          {
+            "C": 0.1,
+            "validation_log_likelihood": -359.7597963895867
+          },
+          {
+            "C": 1.0,
+            "validation_log_likelihood": -361.14743802299165
+          },
+          {
+            "C": 10.0,
+            "validation_log_likelihood": -361.6049420755976
+          }
+        ],
+        "time_rescaling": {
+          "n_trades": 98,
+          "ks_statistic": 0.22163590589096205,
+          "ks_pvalue": 0.00010409342571044282,
+          "mean_transformed": 0.6160685543133604,
+          "gate": "FAIL"
+        }
+      },
+      "volatility_120s": {
+        "features": [
+          "log_age",
+          "age_hinge_3m",
+          "age_hinge_10m",
+          "age_hinge_30m",
+          "age_hinge_60m",
+          "side_buy",
+          "tod_sin_1",
+          "tod_cos_1",
+          "tod_sin_2",
+          "tod_cos_2",
+          "tod_sin_3",
+          "tod_cos_3",
+          "dow_1",
+          "dow_2",
+          "dow_3",
+          "dow_4",
+          "volatility_120s"
+        ],
+        "selected_C": 0.001,
+        "regularization_selection": [
+          {
+            "C": 0.001,
+            "validation_log_likelihood": -354.39586161660924
+          },
+          {
+            "C": 0.01,
+            "validation_log_likelihood": -356.67217978153644
+          },
+          {
+            "C": 0.1,
+            "validation_log_likelihood": -359.2369849765611
+          },
+          {
+            "C": 1.0,
+            "validation_log_likelihood": -360.0406707656741
+          },
+          {
+            "C": 10.0,
+            "validation_log_likelihood": -360.39541567019046
+          }
+        ],
+        "time_rescaling": {
+          "n_trades": 98,
+          "ks_statistic": 0.22797132580910442,
+          "ks_pvalue": 5.8606165219645685e-05,
+          "mean_transformed": 0.6150017587916581,
+          "gate": "FAIL"
+        }
+      },
+      "spread": {
+        "features": [
+          "log_age",
+          "age_hinge_3m",
+          "age_hinge_10m",
+          "age_hinge_30m",
+          "age_hinge_60m",
+          "side_buy",
+          "tod_sin_1",
+          "tod_cos_1",
+          "tod_sin_2",
+          "tod_cos_2",
+          "tod_sin_3",
+          "tod_cos_3",
+          "dow_1",
+          "dow_2",
+          "dow_3",
+          "dow_4",
+          "spread"
+        ],
+        "selected_C": 0.001,
+        "regularization_selection": [
+          {
+            "C": 0.001,
+            "validation_log_likelihood": -356.5390613018735
+          },
+          {
+            "C": 0.01,
+            "validation_log_likelihood": -359.89636479846945
+          },
+          {
+            "C": 0.1,
+            "validation_log_likelihood": -361.0620825856113
+          },
+          {
+            "C": 1.0,
+            "validation_log_likelihood": -361.54555768025057
+          },
+          {
+            "C": 10.0,
+            "validation_log_likelihood": -361.7238036138191
+          }
+        ],
+        "time_rescaling": {
+          "n_trades": 98,
+          "ks_statistic": 0.23370804913739007,
+          "ks_pvalue": 3.433346238962999e-05,
+          "mean_transformed": 0.6152116684938812,
+          "gate": "FAIL"
+        }
+      },
+      "tick_rate_15s": {
+        "features": [
+          "log_age",
+          "age_hinge_3m",
+          "age_hinge_10m",
+          "age_hinge_30m",
+          "age_hinge_60m",
+          "side_buy",
+          "tod_sin_1",
+          "tod_cos_1",
+          "tod_sin_2",
+          "tod_cos_2",
+          "tod_sin_3",
+          "tod_cos_3",
+          "dow_1",
+          "dow_2",
+          "dow_3",
+          "dow_4",
+          "tick_rate_15s"
+        ],
+        "selected_C": 0.001,
+        "regularization_selection": [
+          {
+            "C": 0.001,
+            "validation_log_likelihood": -353.36600116920147
+          },
+          {
+            "C": 0.01,
+            "validation_log_likelihood": -355.09592941288724
+          },
+          {
+            "C": 0.1,
+            "validation_log_likelihood": -358.14569501240965
+          },
+          {
+            "C": 1.0,
+            "validation_log_likelihood": -359.41551295039676
+          },
+          {
+            "C": 10.0,
+            "validation_log_likelihood": -360.0776380940779
+          }
+        ],
+        "time_rescaling": {
+          "n_trades": 98,
+          "ks_statistic": 0.22013266463363004,
+          "ks_pvalue": 0.00011899984641840573,
+          "mean_transformed": 0.6139068974265595,
+          "gate": "FAIL"
+        }
+      },
+      "combined_market_state": {
+        "features": [
+          "log_age",
+          "age_hinge_3m",
+          "age_hinge_10m",
+          "age_hinge_30m",
+          "age_hinge_60m",
+          "side_buy",
+          "tod_sin_1",
+          "tod_cos_1",
+          "tod_sin_2",
+          "tod_cos_2",
+          "tod_sin_3",
+          "tod_cos_3",
+          "dow_1",
+          "dow_2",
+          "dow_3",
+          "dow_4",
+          "unrealized_move",
+          "mfe",
+          "mae",
+          "drawdown_from_mfe",
+          "momentum_30s",
+          "momentum_120s",
+          "volatility_120s",
+          "spread",
+          "tick_rate_15s"
+        ],
+        "selected_C": 0.001,
+        "regularization_selection": [
+          {
+            "C": 0.001,
+            "validation_log_likelihood": -355.30566737762535
+          },
+          {
+            "C": 0.01,
+            "validation_log_likelihood": -360.01724437082015
+          },
+          {
+            "C": 0.1,
+            "validation_log_likelihood": -362.5661434587021
+          },
+          {
+            "C": 1.0,
+            "validation_log_likelihood": -363.3015700184455
+          },
+          {
+            "C": 10.0,
+            "validation_log_likelihood": -363.4759882569995
+          }
+        ],
+        "time_rescaling": {
+          "n_trades": 98,
+          "ks_statistic": 0.20930544544618918,
+          "ks_pvalue": 0.00030344461424196127,
+          "mean_transformed": 0.6098573341913223,
+          "gate": "FAIL"
+        }
+      }
+    }
+  },
+  "limitations": [
+    "Public raw XAUUSD ticks are not the original broker/account quote stream.",
+    "Orders, deals, stop/target modifications, costs, and hidden account state are unavailable.",
+    "A hazard association is not a unique deterministic exit algorithm."
+  ]
+}
