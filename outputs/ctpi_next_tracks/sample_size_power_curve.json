@@ -1,0 +1,87 @@
+{
+  "status": "complete",
+  "event_counts": [
+    800,
+    1600,
+    3200
+  ],
+  "replicates_per_cell": 100,
+  "noise_models": [
+    "continuous_low_noise",
+    "censored_execution_noise"
+  ],
+  "acceptance_definition": "clock net MDL > 0 and selected contrarian direction net MDL > 0",
+  "first_tested_n_with_at_least_80pct_joint_acceptance": {
+    "continuous_low_noise": 1600,
+    "censored_execution_noise": 1600
+  },
+  "scope_limit": "This is a grid result under the frozen planted mechanism and noise models, not a universal sample-size requirement.",
+  "summary": [
+    {
+      "event_count": 800,
+      "scenario": "censored_execution_noise",
+      "replicates": 100,
+      "clock_mdl_acceptance_rate": 0.32,
+      "direction_mdl_acceptance_rate": 1.0,
+      "joint_mdl_acceptance_rate": 0.32,
+      "median_clock_mdl_net_bits": -8.436469272211525,
+      "median_direction_mdl_net_bits": 85.48292071577251,
+      "median_direction_test_accuracy": 0.8686985299776803
+    },
+    {
+      "event_count": 800,
+      "scenario": "continuous_low_noise",
+      "replicates": 100,
+      "clock_mdl_acceptance_rate": 0.21,
+      "direction_mdl_acceptance_rate": 1.0,
+      "joint_mdl_acceptance_rate": 0.21,
+      "median_clock_mdl_net_bits": -10.64635693176242,
+      "median_direction_mdl_net_bits": 101.90351776445709,
+      "median_direction_test_accuracy": 0.8978734931599621
+    },
+    {
+      "event_count": 1600,
+      "scenario": "censored_execution_noise",
+      "replicates": 100,
+      "clock_mdl_acceptance_rate": 1.0,
+      "direction_mdl_acceptance_rate": 1.0,
+      "joint_mdl_acceptance_rate": 1.0,
+      "median_clock_mdl_net_bits": 64.9477121958872,
+      "median_direction_mdl_net_bits": 175.05104991724232,
+      "median_direction_test_accuracy": 0.8670995670995671
+    },
+    {
+      "event_count": 1600,
+      "scenario": "continuous_low_noise",
+      "replicates": 100,
+      "clock_mdl_acceptance_rate": 1.0,
+      "direction_mdl_acceptance_rate": 1.0,
+      "joint_mdl_acceptance_rate": 1.0,
+      "median_clock_mdl_net_bits": 65.75373841967794,
+      "median_direction_mdl_net_bits": 206.0868695503268,
+      "median_direction_test_accuracy": 0.8988744777701565
+    },
+    {
+      "event_count": 3200,
+      "scenario": "censored_execution_noise",
+      "replicates": 100,
+      "clock_mdl_acceptance_rate": 1.0,
+      "direction_mdl_acceptance_rate": 1.0,
+      "joint_mdl_acceptance_rate": 1.0,
+      "median_clock_mdl_net_bits": 214.2535659711719,
+      "median_direction_mdl_net_bits": 342.3658972304646,
+      "median_direction_test_accuracy": 0.865733964700818
+    },
+    {
+      "event_count": 3200,
+      "scenario": "continuous_low_noise",
+      "replicates": 100,
+      "clock_mdl_acceptance_rate": 1.0,
+      "direction_mdl_acceptance_rate": 1.0,
+      "joint_mdl_acceptance_rate": 1.0,
+      "median_clock_mdl_net_bits": 216.37561477857213,
+      "median_direction_mdl_net_bits": 418.2247394471823,
+      "median_direction_test_accuracy": 0.899877750611247
+    }
+  ]
+}

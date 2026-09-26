@@ -1,0 +1,156 @@
+{
+  "status": "complete",
+  "score": "frozen Phase13 harmonic clock eta + frozen beta * discovery-standardized tick_rate_ratio",
+  "signal_conversion": "single threshold chosen only on discovery to maximize exact entry F1",
+  "threshold": -5.656430255619645,
+  "threshold_discovery_fit": {
+    "discovery_f1": 0.01954397394136808,
+    "discovery_precision": 0.020202020202020204,
+    "discovery_recall": 0.01892744479495268,
+    "discovery_signals": 297
+  },
+  "direction": "contrarian to completed 20-minute public-feed M1 return",
+  "coverage_rule": "05:00-16:59 UTC and causal raw-tick coverage >= 0.99",
+  "metrics": {
+    "discovery": {
+      "tp": 6,
+      "fp": 291,
+      "fn": 311,
+      "tn": 154059,
+      "precision": 0.020202020202020204,
+      "recall": 0.01892744479495268,
+      "f1": 0.01954397394136808,
+      "cases": 317,
+      "controls": 154350,
+      "signals": 297,
+      "direction_accuracy_among_entry_tp": 0.5,
+      "entry_direction_joint": {
+        "tp": 3,
+        "fp": 294,
+        "fn": 314,
+        "precision": 0.010101010101010102,
+        "recall": 0.00946372239747634,
+        "f1": 0.00977198697068404
+      }
+    },
+    "buffer": {
+      "tp": 1,
+      "fp": 4,
+      "fn": 0,
+      "tn": 1427,
+      "precision": 0.2,
+      "recall": 1.0,
+      "f1": 0.33333333333333337,
+      "cases": 1,
+      "controls": 1431,
+      "signals": 5,
+      "direction_accuracy_among_entry_tp": 0.0,
+      "entry_direction_joint": {
+        "tp": 0,
+        "fp": 5,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      }
+    },
+    "lockbox": {
+      "tp": 0,
+      "fp": 94,
+      "fn": 102,
+      "tn": 49771,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "cases": 102,
+      "controls": 49865,
+      "signals": 94,
+      "direction_accuracy_among_entry_tp": null,
+      "entry_direction_joint": {
+        "tp": 0,
+        "fp": 94,
+        "fn": 102,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      }
+    },
+    "COMPLETE_LEDGER": {
+      "tp": 7,
+      "fp": 389,
+      "fn": 413,
+      "tn": 205257,
+      "precision": 0.017676767676767676,
+      "recall": 0.016666666666666666,
+      "f1": 0.017156862745098037,
+      "cases": 420,
+      "controls": 205646,
+      "signals": 396,
+      "direction_accuracy_among_entry_tp": 0.42857142857142855,
+      "entry_direction_joint": {
+        "tp": 3,
+        "fp": 393,
+        "fn": 417,
+        "precision": 0.007575757575757576,
+        "recall": 0.007142857142857143,
+        "f1": 0.007352941176470589
+      }
+    }
+  },
+  "phase12_m3_baseline": {
+    "discovery": {
+      "TP": 31,
+      "FN": 286,
+      "FP": 403,
+      "TN": 153947,
+      "precision": 0.07142857142857142,
+      "recall": 0.09779179810725552,
+      "f1": 0.08255659121171771,
+      "total_points": 154667,
+      "cases": 317,
+      "controls": 154350
+    },
+    "buffer": {
+      "TP": 0,
+      "FN": 1,
+      "FP": 5,
+      "TN": 1426,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "total_points": 1432,
+      "cases": 1,
+      "controls": 1431
+    },
+    "lockbox": {
+      "TP": 19,
+      "FN": 83,
+      "FP": 77,
+      "TN": 49788,
+      "precision": 0.19791666666666666,
+      "recall": 0.18627450980392157,
+      "f1": 0.19191919191919193,
+      "total_points": 49967,
+      "cases": 102,
+      "controls": 49865
+    },
+    "COMPLETE_LEDGER": {
+      "TP": 50,
+      "FN": 370,
+      "FP": 485,
+      "TN": 205161,
+      "precision": 0.09345794392523364,
+      "recall": 0.11904761904761904,
+      "f1": 0.10471204188481675,
+      "total_points": 206066,
+      "cases": 420,
+      "controls": 205646
+    }
+  },
+  "claim_limit": "This is a deterministic projection of validated components, not a discovered source trigger or complete lifecycle policy.",
+  "input_hashes": {
+    "data/processed/decision_panel.parquet": "47C927E2B484723A752C66DE3E6A782559E5DE2ED591398DFD3ACC8A55C69C86",
+    "outputs/strategy_reconstruction/phase13_clock_offset/clock_intensity_freeze.json": "0ABD586C0410D65167EF45C000F297FBE48DD2B7E6070F2A50BD8C32100EFC20",
+    "data/market/raw/xauusd_m1_utc_raw.csv": "AACE3312452A87C0C81370C6FE668DCA81BCFA83C413A90A1A89BFA020EFCA1F"
+  }
+}

@@ -54,6 +54,15 @@ Its reconciled evidence, raw-tick same-clock placebo, targeted planted recovery,
 completed-bar direction placebo, availability diagnostic and five-outcome verdict are written under
 `outputs/ctpi_immediate/`.
 
+After freezing that evidence base, run the bounded sample-size power curve and
+validated-component replay audit with:
+
+```powershell
+.\.venv\Scripts\python.exe scripts\ctpi_next_tracks.py
+```
+
+Those outputs are written under `outputs/ctpi_next_tracks/`.
+
 The implementation plan is documented in
 `docs/ALGORITHM_RECONSTRUCTION_IMPLEMENTATION_PLAN_V1.md`. Stages A-F lock the
 423-record ledger and Phase 7C evidence, acquire a separate full-span Dukascopy

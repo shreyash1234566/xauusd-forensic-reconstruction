@@ -1,0 +1,28 @@
+{
+  "status": "complete",
+  "first_tested_n_80pct_joint_mdl": {
+    "continuous_low_noise": 1600,
+    "censored_execution_noise": 1600
+  },
+  "complete_entry_metrics": {
+    "tp": 7,
+    "fp": 389,
+    "fn": 413,
+    "tn": 205257,
+    "precision": 0.017676767676767676,
+    "recall": 0.016666666666666666,
+    "f1": 0.017156862745098037,
+    "cases": 420,
+    "controls": 205646,
+    "signals": 396,
+    "direction_accuracy_among_entry_tp": 0.42857142857142855,
+    "entry_direction_joint": {
+      "tp": 3,
+      "fp": 393,
+      "fn": 417,
+      "precision": 0.007575757575757576,
+      "recall": 0.007142857142857143,
+      "f1": 0.007352941176470589
+    }
+  }
+}
