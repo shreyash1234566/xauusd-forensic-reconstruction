@@ -6,6 +6,8 @@ specific entry/exit strategy from selected closed trades alone.
 
 ## Deliverables
 
+- `docs/CTPI_TERMINAL_CLOSURE_REPORT.md` — authoritative final verdict,
+  evidence boundary, permanent reopening conditions and preserved framework.
 - `outputs/01a0bada-7e73-77c0-9b06-15db62fdf55d/reverse_engineering_report.md` — the complete A–T research report.
 - `outputs/01a0bada-7e73-77c0-9b06-15db62fdf55d/tables/` — proof log, hypothesis register, statistical tests, candidate ranking and reproducible intermediate tables.
 - `outputs/01a0bada-7e73-77c0-9b06-15db62fdf55d/reverse_trade_analysis.xlsx` — spreadsheet handoff with formulas and charts.
@@ -37,6 +39,10 @@ The data requirements needed to test actual entry and exit rules are in
 `docs/data_requirements.md`.
 
 ## Algorithm Reconstruction Framework (Stages A through Z)
+
+The investigation is now closed for data-driven discovery on the 423-trade
+ledger. The governing final result is `docs/CTPI_TERMINAL_CLOSURE_REPORT.md`.
+Do not run additional feature or functional-form searches on the frozen ledger.
 
 The permanent scientific methodology is now
 `docs/CTPI_METHODOLOGY.md`. The active, right-sized next sequence is
